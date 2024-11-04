@@ -5,6 +5,6 @@ This repository contains the code necessary to participate in workshop session 3
 
 ## Software requirements
 
-* *Oxygen* XML-editor (free trial version)
-* A modern web-browser (e.g. *Google Chrome*, *Mozilla Firefox*)
-* Code Editor *VS Code* with extension
+* Oxygen XML-editor ([free trial version](https://www.oxygenxml.com/xml_editor/register.html?p=editor))
+* A modern web-browser (e.g. [Google Chrome](https://www.google.com/chrome/), [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/))
+* Code Editor [VS Code](https://code.visualstudio.com/) with extension *Live Server*
