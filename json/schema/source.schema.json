@@ -1,0 +1,372 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://github.com/TyskeRobert/xslt-baerut/blob/main/json/schema/manuscript",
+    "title": "manuscript",
+    "description": "Transcription of a single manuscript or part of it",
+    "type": "object",
+    "properties": {
+        "date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Date stamp for the creation of the JSON file"
+        },
+        "sources": {
+            "type": "array",
+            "description": "The individual source documents",
+            "items": {
+                "title": "SOURCE",
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "description": "The source document's ID, also its file name without extension",
+                        "pattern": "^[\\w-]+$"
+                    },
+                    "header": {
+                        "$ref": "#/$defs/header"
+                    },
+                    "text": {
+                        "type": "array"
+                    }
+                },
+                "required": [
+                    "id",
+                    "header",
+                    "text"
+                ],
+                "additionalProperties": false
+            },
+            "minItems": 1
+        }
+    },
+    "required": [
+        "date",
+        "sources"
+    ],
+    "additionalProperties": false,
+    "$defs": {
+        "agent": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "affiliation": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "additionalProperties": false
+        },
+        "availability": {
+            "type": "object",
+            "properties": {
+                "licence": {
+                    "enum": [
+                        "CC-BY-SA 4.0"
+                    ]
+                },
+                "status": {
+                    "enum": [
+                        "free"
+                    ]
+                },
+                "url": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "licence",
+                "status",
+                "url"
+            ],
+            "additionalProperties": false
+        },
+        "country": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "enum": [
+                        "DK",
+                        "ICE",
+                        "IS",
+                        "SE"
+                    ]
+                },
+                "name": {
+                    "enum": [
+                        "Denmark",
+                        "Iceland"
+                    ]
+                }
+            },
+            "required": [
+                "name"
+            ],
+            "additionalProperties": false
+        },
+        "editionStmt": {
+            "type": "object",
+            "properties": {
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "number": {
+                    "type": "string",
+                    "pattern": "^\\d(\\.\\d){1,2}$"
+                }
+            },
+            "required": [
+                "date",
+                "number"
+            ],
+            "additionalProperties": false
+        },
+        "editorialDecl": {
+            "type": "object",
+            "properties": {
+                "interpretation": {
+                    "type": "object",
+                    "properties": {
+                        "lemma": {
+                            "enum": [
+                                "completely",
+                                "none"
+                            ]
+                        },
+                        "morph": {
+                            "enum": [
+                                "completely",
+                                "none",
+                                "partly"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "lemma",
+                        "morph"
+                    ],
+                    "additionalProperties": false
+                },
+                "normalization": {
+                    "type": "object",
+                    "properties": {
+                        "dipl": {
+                            "type": "boolean"
+                        },
+                        "facs": {
+                            "type": "boolean"
+                        },
+                        "norm": {
+                            "type": "boolean"
+                        }
+                    },
+                    "required": [
+                        "dipl",
+                        "facs",
+                        "norm"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "interpretation",
+                "normalization"
+            ],
+            "additionalProperties": false
+        },
+        "encodingDesc": {
+            "type": "object",
+            "properties": {
+                "editorialDecl": {
+                    "$ref": "#/$defs/editorialDecl"
+                }
+            },
+            "required": [
+                "editorialDecl"
+            ],
+            "additionalProperties": false
+        },
+        "fileDesc": {
+            "type": "object",
+            "properties": {
+                "editionStmt": {
+                    "$ref": "#/$defs/editionStmt"
+                },
+                "publicationStmt": {
+                    "$ref": "#/$defs/publicationStmt"
+                },
+                "sourceDesc": {
+                    "$ref": "#/$defs/sourceDesc"
+                },
+                "titleStmt": {
+                    "$ref": "#/$defs/titleStmt"
+                }
+            },
+            "required": [
+                "editionStmt",
+                "titleStmt"
+            ],
+            "additionalProperties": false
+        },
+        "header": {
+            "type": "object",
+            "properties": {
+                "encodingDesc": {
+                    "$ref": "#/$defs/encodingDesc"
+                },
+                "fileDesc": {
+                    "$ref": "#/$defs/fileDesc"
+                }
+            },
+            "required": [
+                "encodingDesc",
+                "fileDesc"
+            ],
+            "additionalProperties": false
+        },
+        "msDesc": {
+            "type": "object",
+            "properties": {
+                "msIdentifier": {
+                    "$ref": "#/$defs/msIdentifier"
+                }
+            },
+            "required": [
+                "msIdentifier"
+            ],
+            "additionalProperties": false
+        },
+        "msIdentifier": {
+            "type": "object",
+            "properties": {
+                "country": {
+                    "$ref": "#/$defs/country"
+                },
+                "idno": {
+                    "type": "string"
+                },
+                "msName": {
+                    "type": "string"
+                },
+                "repository": {
+                    "enum": [
+                        "Den Arnamagnæanske Samling",
+                        "Stofnun Árna Magnússonar",
+                        "Stofnun Árna Magnússonar í íslenskum fræðum",
+                        "The Arnamagnæan Collection",
+                        "The Arnamagnaean Collection, University of Copenhagen",
+                        "The Arnamagnæan Institute",
+                        "The Árni Magnússon Institute for Icelandic Studies, Reykjavík, Iceland"
+                    ]
+                },
+                "settlement": {
+                    "enum": [
+                        "Copenhagen",
+                        "Reykjavik",
+                        "Reykjavík"
+                    ]
+                }
+            },
+            "required": [
+                "country",
+                "idno",
+                "msName",
+                "repository",
+                "settlement"
+            ],
+            "additionalProperties": false
+        },
+        "publicationStmt": {
+            "type": "object",
+            "properties": {
+                "availability": {
+                    "$ref": "#/$defs/availability"
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "distributor": {
+                    "type": "string"
+                },
+                "idno": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "availability",
+                "distributor",
+                "idno"
+            ],
+            "additionalProperties": false
+        },
+        "responsibility": {
+            "type": "object",
+            "properties": {
+                "agents": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/agent"
+                    },
+                    "minItems": 1
+                },
+                "responsibilities": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "minItems": 1
+                }
+            },
+            "required": [
+                "agents",
+                "responsibilities"
+            ],
+            "additionalProperties": false
+        },
+        "sourceDesc": {
+            "type": "object",
+            "properties": {
+                "msDesc": {
+                    "$ref": "#/$defs/msDesc"
+                }
+            },
+            "required": [
+                "msDesc"
+            ],
+            "additionalProperties": false
+        },
+        "titleStmt": {
+            "type": "object",
+            "properties": {
+                "editors": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/agent"
+                    },
+                    "minItems": 1
+                },
+                "respStmt": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/responsibility"
+                    },
+                    "minimum": 0
+                },
+                "title": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "editors",
+                "respStmt",
+                "title"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
