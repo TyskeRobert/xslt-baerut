@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "https://github.com/TyskeRobert/xslt-baerut/blob/main/json/schema/manuscript",
-    "title": "manuscript",
+    "title": "source",
     "description": "Transcription of a single manuscript or part of it",
     "type": "object",
     "properties": {
@@ -10,38 +10,37 @@
             "format": "date-time",
             "description": "Date stamp for the creation of the JSON file"
         },
-        "sources": {
-            "type": "array",
-            "description": "The individual source documents",
-            "items": {
-                "title": "SOURCE",
-                "type": "object",
-                "properties": {
-                    "id": {
-                        "type": "string",
-                        "description": "The source document's ID, also its file name without extension",
-                        "pattern": "^[\\w-]+$"
-                    },
-                    "header": {
-                        "$ref": "#/$defs/header"
-                    },
-                    "text": {
-                        "type": "array"
-                    }
+        "source": {
+            "title": "SOURCE",
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "description": "The source document's ID, also its file name without extension",
+                    "pattern": "^[\\w-]+$"
                 },
-                "required": [
-                    "id",
-                    "header",
-                    "text"
-                ],
-                "additionalProperties": false
+                "header": {
+                    "$ref": "#/$defs/header"
+                },
+                "text": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/token"
+                    },
+                    "minItems": 1
+                }
             },
-            "minItems": 1
+            "required": [
+                "id",
+                "header",
+                "text"
+            ],
+            "additionalProperties": false
         }
     },
     "required": [
         "date",
-        "sources"
+        "source"
     ],
     "additionalProperties": false,
     "$defs": {
@@ -51,8 +50,11 @@
                 "name": {
                     "type": "string"
                 },
-                "affiliation": {
-                    "type": "string"
+                "affiliations": {
+                    "type": "array",
+                    "item": {
+                        "type": "string"
+                    }
                 }
             },
             "required": [
@@ -367,6 +369,106 @@
                 "title"
             ],
             "additionalProperties": false
+        },
+        "token": {
+            "type": "object",
+            "properties": {
+                "t": {
+                    "enum": [
+                        "div",
+                        "head"
+                    ]
+                }
+            },
+            "required": [
+                "t"
+            ],
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "div"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "n": {
+                                    "type": "string",
+                                    "pattern": "^\\d$"
+                                },
+                                "subtype": {
+                                    "type": "string",
+                                    "enum": [
+                                        ""
+                                    ]
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "chapter"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "n",
+                                "subtype",
+                                "type"
+                            ]
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "enum": [
+                                    "head"
+                                ]
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ]
+                    }
+                }
+            ]
         }
     }
 }
