@@ -376,11 +376,15 @@
                 "t": {
                     "enum": [
                         "add",
+                        "addName",
                         "app",
                         "cb",
+                        "country",
                         "del",
                         "div",
+                        "forename",
                         "gap",
+                        "geogName",
                         "handShift",
                         "head",
                         "hi",
@@ -388,11 +392,19 @@
                         "lb",
                         "lem",
                         "lg",
+                        "name",
+                        "num",
                         "p",
                         "pb",
                         "pc",
+                        "persName",
+                        "placeName",
+                        "q",
                         "rdg",
+                        "region",
+                        "roleName",
                         "seg",
+                        "settlement",
                         "sic",
                         "space",
                         "supplied",
@@ -487,6 +499,59 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "addName"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "full": {
+                                    "const": "yes"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "epithet",
+                                        "metronym",
+                                        "nickname",
+                                        "patronym"
+                                    ]
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "cb"
                             }
                         }
@@ -500,10 +565,11 @@
                             },
                             "n": {
                                 "type": "string",
-                                "pattern": "^[AB]$"
+                                "pattern": "^[abAB]$"
                             }
                         },
                         "required": [
+                            "ed",
                             "n"
                         ]
                     }
@@ -543,13 +609,16 @@
                                     "enum": [
                                         "erasure",
                                         "overstrike",
-                                        "subpunction"
+                                        "subpunction",
+                                        "underlined"
                                     ]
                                 },
                                 "type": {
                                     "type": "string",
                                     "enum": [
-                                        "overstrike"
+                                        "erasure",
+                                        "overstrike",
+                                        "subpunction"
                                     ]
                                 },
                                 "instant": {
@@ -609,8 +678,11 @@
                                         "chaapter",
                                         "chapter",
                                         "initial",
+                                        "Kristinréttr-hinn-eldri-Borgarþings",
                                         "Kristinréttr-hinn-eldri-Frostaþings",
+                                        "Kristinréttr-Jóns-erkibiskups",
                                         "Kristinréttr-Magnúss-Hákonarsonar",
+                                        "Kristinréttr-Sverris-konungs",
                                         "Landslǫg-Magnúss-Hákonarsonar",
                                         "law-manuscript",
                                         "Réttarbǿtr",
@@ -650,6 +722,50 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "forename"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "full": {
+                                    "const": "yes"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "gap"
                             }
                         }
@@ -660,7 +776,7 @@
                             "t": true,
                             "quantity": {
                                 "type": "string",
-                                "pattern": "^\\d$"
+                                "pattern": "^\\d{1,2}$"
                             },
                             "reason": {
                                 "type": "string",
@@ -672,11 +788,70 @@
                                 "type": "string",
                                 "enum": [
                                     "char",
-                                    "leaf"
+                                    "leaf",
+                                    "line",
+                                    "page"
                                 ]
                             },
                             "instant": {
                                 "const": "false"
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "geogName"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "fjord",
+                                        "lake",
+                                        "mountain",
+                                        "peninsula",
+                                        "ravine",
+                                        "river",
+                                        "spring",
+                                        "valley"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
                             }
                         }
                     }
@@ -779,6 +954,10 @@
                             "properties": {
                                 "t": true,
                                 "open": true,
+                                "n": {
+                                    "type": "string",
+                                    "pattern": "^\\d$"
+                                },
                                 "part": {
                                     "const": "N"
                                 }
@@ -810,7 +989,11 @@
                             },
                             "n": {
                                 "type": "string",
-                                "pattern": "^\\d{1,2}(oat)?$"
+                                "pattern": "^\\d{1,2}([rv ]|oat)?$"
+                            },
+                            "rend": {
+                                "type": "string",
+                                "pattern": "^\\d$"
                             }
                         }
                     }
@@ -847,7 +1030,16 @@
                                 "open": true,
                                 "n": {
                                     "type": "string",
-                                    "pattern": "^h?\\d{1,3}$"
+                                    "pattern": "^[Dh]?\\d{1,3}$"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "runhent"
+                                    ]
+                                },
+                                "xml:id": {
+                                    "type": "string" 
                                 },
                                 "org": {
                                     "const": "uniform"
@@ -870,6 +1062,97 @@
                                 "open": true
                             }
                         }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "name"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "artefact",
+                                        "clan",
+                                        "law",
+                                        "place",
+                                        "population",
+                                        "religious"
+                                    ]
+                                },
+                                "full": {
+                                    "const": "yes"
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "num"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "base": {
+                                "type": "string"
+                            },
+                            "dipl": {
+                                "type": "string"
+                            },
+                            "facs": {
+                                "type": "string"
+                            },
+                            "norm": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "base",
+                            "dipl",
+                            "facs",
+                            "norm"
+                        ]
                     }
                 },
                 {
@@ -967,10 +1250,105 @@
                             }
                         },
                         "required": [
+                            "base",
                             "dipl",
                             "facs",
                             "norm"
                         ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "persName"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "full": {
+                                    "const": "yes"
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "placeName"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "full": {
+                                    "const": "yes"
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
                     }
                 },
                 {
@@ -1030,6 +1408,58 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "roleName"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "legal",
+                                        "political",
+                                        "religious"
+                                    ]
+                                },
+                                "full": {
+                                    "const": "yes"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "seg"
                             }
                         }
@@ -1064,20 +1494,28 @@
                                         "line 1-7",
                                         "line 1-8",
                                         "line 2-8",
+                                        "line 3-6",
                                         "line 4-9",
                                         "line 4-10",
                                         "line 6-13",
+                                        "line 8-11",
                                         "line 11-14",
-                                        "line 11-16"
+                                        "line 11-16",
+                                        "line 22-26",
+                                        "page 56r-56v"
+                                    ]
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "enc",
+                                        "nb"
                                     ]
                                 },
                                 "part": {
                                     "const": "N"
                                 }
-                            },
-                            "required": [
-                                "rend"
-                            ]
+                            }
                         },
                         "else": {
                             "additionalProperties": false,
@@ -1255,10 +1693,7 @@
                                 "instant": {
                                     "const": "false"
                                 }
-                            },
-                            "required": [
-                                "reason"
-                            ]
+                            }
                         },
                         "else": {
                             "additionalProperties": false,
@@ -1316,8 +1751,12 @@
                             "t": {
                                 "enum": [
                                     "app",
+                                    "country",
                                     "head",
                                     "lem",
+                                    "q",
+                                    "region",
+                                    "settlement",
                                     "sic"
                                 ]
                             }
@@ -1373,6 +1812,7 @@
                 "mainscribe",
                 "margin-top",
                 "supralinear",
+                "yonger",
                 "younger",
                 "younger?"
             ]
