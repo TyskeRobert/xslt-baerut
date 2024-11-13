@@ -10,15 +10,15 @@
             "format": "date-time",
             "description": "Date stamp for the creation of the JSON file"
         },
+        "id": {
+            "type": "string",
+            "description": "The source document's ID, also its file name without extension",
+            "pattern": "^[\\w-]+$"
+        },
         "source": {
             "title": "SOURCE",
             "type": "object",
             "properties": {
-                "id": {
-                    "type": "string",
-                    "description": "The source document's ID, also its file name without extension",
-                    "pattern": "^[\\w-]+$"
-                },
                 "header": {
                     "$ref": "#/$defs/header"
                 },
@@ -31,7 +31,6 @@
                 }
             },
             "required": [
-                "id",
                 "header",
                 "text"
             ],
@@ -40,6 +39,7 @@
     },
     "required": [
         "date",
+        "id",
         "source"
     ],
     "additionalProperties": false,
@@ -52,7 +52,7 @@
                 },
                 "affiliations": {
                     "type": "array",
-                    "item": {
+                    "items": {
                         "type": "string"
                     }
                 }
@@ -375,8 +375,30 @@
             "properties": {
                 "t": {
                     "enum": [
+                        "add",
+                        "app",
+                        "cb",
+                        "del",
                         "div",
-                        "head"
+                        "gap",
+                        "handShift",
+                        "head",
+                        "hi",
+                        "l",
+                        "lb",
+                        "lem",
+                        "lg",
+                        "p",
+                        "pb",
+                        "pc",
+                        "rdg",
+                        "seg",
+                        "sic",
+                        "space",
+                        "supplied",
+                        "surplus",
+                        "unclear",
+                        "w"
                     ]
                 }
             },
@@ -388,12 +410,422 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "add"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "hand": {
+                                    "$ref": "#/$defs/handID"
+                                },
+                                "place": {
+                                    "type": "string",
+                                    "enum": [
+                                        "between columns",
+                                        "head",
+                                        "infralinear",
+                                        "inline",
+                                        "interlinear",
+                                        "left",
+                                        "line above",
+                                        "maragin-top",
+                                        "margi-top",
+                                        "margin",
+                                        "marginal",
+                                        "marginleft",
+                                        "margin-bot",
+                                        "margin-left",
+                                        "margin-right",
+                                        "margin-top",
+                                        "margin left",
+                                        "margin right",
+                                        "margin top",
+                                        "red",
+                                        "supralinear",
+                                        "younger"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                },
+                                "status": {
+                                    "const": "unremarkable"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "cb"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "ed": {
+                                "$ref": "#/$defs/edMarker"
+                            },
+                            "n": {
+                                "type": "string",
+                                "pattern": "^[AB]$"
+                            }
+                        },
+                        "required": [
+                            "n"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "del"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "rend": {
+                                    "type": "string",
+                                    "enum": [
+                                        "erasure",
+                                        "overstrike",
+                                        "subpunction"
+                                    ]
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "overstrike"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                },
+                                "status": {
+                                    "const": "unremarkable"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "div"
                             }
                         }
                     },
                     "then": {
                         "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "n": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "Bǿjarlǫg-Magnúss-Hákonarsonar",
+                                        "chaapter",
+                                        "chapter",
+                                        "initial",
+                                        "Kristinréttr-hinn-eldri-Frostaþings",
+                                        "Kristinréttr-Magnúss-Hákonarsonar",
+                                        "Landslǫg-Magnúss-Hákonarsonar",
+                                        "law-manuscript",
+                                        "Réttarbǿtr",
+                                        "saga",
+                                        "subchapter",
+                                        "Um-tíund",
+                                        "work"
+                                    ]
+                                },
+                                "subtype": {
+                                    "type": "string",
+                                    "enum": [
+                                        "not-yet-divided"
+                                    ]
+                                },
+                                "org": {
+                                    "const": "uniform"
+                                },
+                                "part": {
+                                    "const": "N"
+                                },
+                                "sample": {
+                                    "const": "complete"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "gap"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "quantity": {
+                                "type": "string",
+                                "pattern": "^\\d$"
+                            },
+                            "reason": {
+                                "type": "string",
+                                "enum": [
+                                    "missing"
+                                ]
+                            },
+                            "unit": {
+                                "type": "string",
+                                "enum": [
+                                    "char",
+                                    "leaf"
+                                ]
+                            },
+                            "instant": {
+                                "const": "false"
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "handShift"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "n": {
+                                "$ref": "#/$defs/handID"
+                            }
+                        },
+                        "required": [
+                            "n"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "hi"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "rend": {
+                                    "type": "string",
+                                    "enum": [
+                                        "red"
+                                    ]
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "l"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "part": {
+                                    "const": "N"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "lb"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "ed": {
+                                "$ref": "#/$defs/edMarker"
+                            },
+                            "n": {
+                                "type": "string",
+                                "pattern": "^\\d{1,2}(oat)?$"
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "lg"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
                             "open": {
                                 "type": "boolean"
                             }
@@ -415,25 +847,20 @@
                                 "open": true,
                                 "n": {
                                     "type": "string",
-                                    "pattern": "^\\d$"
+                                    "pattern": "^h?\\d{1,3}$"
                                 },
-                                "subtype": {
-                                    "type": "string",
-                                    "enum": [
-                                        ""
-                                    ]
+                                "org": {
+                                    "const": "uniform"
                                 },
-                                "type": {
-                                    "type": "string",
-                                    "enum": [
-                                        "chapter"
-                                    ]
+                                "part": {
+                                    "const": "N"
+                                },
+                                "sample": {
+                                    "const": "complete"
                                 }
                             },
                             "required": [
-                                "n",
-                                "subtype",
-                                "type"
+                                "n"
                             ]
                         },
                         "else": {
@@ -449,8 +876,449 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "p"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "part": {
+                                    "const": "N"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "pb"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "ed": {
+                                "$ref": "#/$defs/edMarker"
+                            },
+                            "n": {
+                                "type": "string",
+                                "pattern": "^\\d{1,3}[rv]?$"
+                            }
+                        },
+                        "required": [
+                            "n"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "pc"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "base": {
+                                "type": "string"
+                            },
+                            "dipl": {
+                                "type": "string"
+                            },
+                            "facs": {
+                                "type": "string"
+                            },
+                            "norm": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "dipl",
+                            "facs",
+                            "norm"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "rdg"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "wit": {
+                                    "type": "string",
+                                    "enum": [
+                                        "AM18",
+                                        "AM18b",
+                                        "AM28",
+                                        "AM36",
+                                        "AM38",
+                                        "AM70",
+                                        "not_stated"
+                                    ]
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "seg"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "rend": {
+                                    "type": "string",
+                                    "enum": [
+                                        "column right",
+                                        "line 1-6",
+                                        "line 1-7",
+                                        "line 1-8",
+                                        "line 2-8",
+                                        "line 4-9",
+                                        "line 4-10",
+                                        "line 6-13",
+                                        "line 11-14",
+                                        "line 11-16"
+                                    ]
+                                },
+                                "part": {
+                                    "const": "N"
+                                }
+                            },
+                            "required": [
+                                "rend"
+                            ]
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "space"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "quantity": {
+                                "type": "string",
+                                "pattern": "^\\d$"
+                            },
+                            "unit": {
+                                "type": "string",
                                 "enum": [
-                                    "head"
+                                    "line"
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "supplied"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "resp": {
+                                    "type": "string",
+                                    "enum": [
+                                        "editor"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            },
+                            "required": [
+                                "resp"
+                            ]
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "surplus"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "reason": {
+                                    "type": "string",
+                                    "enum": [
+                                        "dittography"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "unclear"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "reason": {
+                                    "type": "string",
+                                    "enum": [
+                                        "faded"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            },
+                            "required": [
+                                "reason"
+                            ]
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "w"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "base": {
+                                "type": "string"
+                            },
+                            "dipl": {
+                                "type": "string"
+                            },
+                            "facs": {
+                                "type": "string"
+                            },
+                            "lemma": {
+                                "type": "string"
+                            },
+                            "morph": {
+                                "type": "string"
+                            },
+                            "norm": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "base",
+                            "dipl",
+                            "facs",
+                            "lemma",
+                            "morph",
+                            "norm"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "enum": [
+                                    "app",
+                                    "head",
+                                    "lem",
+                                    "sic"
                                 ]
                             }
                         }
@@ -467,7 +1335,46 @@
                             "open"
                         ]
                     }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "enum": [
+                                ]
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true
+                        }
+                    }
                 }
+            ]
+        },
+        "edMarker": {
+            "type": "string",
+            "enum": [
+                "ms"
+            ]
+        },
+        "handID": {
+            "type": "string",
+            "enum": [
+                "",
+                "hand1",
+                "hand2",
+                "hand3",
+                "later",
+                "laterhand",
+                "laterscribe",
+                "mainscribe",
+                "margin-top",
+                "supralinear",
+                "younger",
+                "younger?"
             ]
         }
     }

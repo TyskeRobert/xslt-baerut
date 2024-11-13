@@ -9,6 +9,7 @@
     <xsl:template match="/">
         <xsl:map>
             <xsl:map-entry key="'date'" select="current-dateTime()"/>
+            <xsl:map-entry key="'id'" select="replace(base-uri(), '^.+/([\w-]+)\.xml$', '$1')"/>
             <xsl:map-entry key="'source'">
                 <xsl:map>
                     <xsl:apply-templates/>
