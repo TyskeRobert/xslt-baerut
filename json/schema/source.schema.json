@@ -377,14 +377,17 @@
                     "enum": [
                         "add",
                         "addName",
+                        "anchor",
                         "app",
                         "cb",
+                        "choice",
                         "country",
                         "del",
                         "div",
                         "forename",
                         "gap",
                         "geogName",
+                        "gloss",
                         "handShift",
                         "head",
                         "hi",
@@ -392,8 +395,10 @@
                         "lb",
                         "lem",
                         "lg",
+                        "milestone",
                         "name",
                         "num",
+                        "orig",
                         "p",
                         "pb",
                         "pc",
@@ -401,14 +406,17 @@
                         "placeName",
                         "q",
                         "rdg",
+                        "reg",
                         "region",
                         "roleName",
+                        "s",
                         "seg",
                         "settlement",
                         "sic",
                         "space",
                         "supplied",
                         "surplus",
+                        "title",
                         "unclear",
                         "w"
                     ]
@@ -455,6 +463,7 @@
                                     "type": "string",
                                     "enum": [
                                         "between columns",
+                                        "bottom",
                                         "head",
                                         "infralinear",
                                         "inline",
@@ -467,19 +476,39 @@
                                         "marginal",
                                         "marginleft",
                                         "margin-bot",
+                                        "margin-bot center",
+                                        "margin-bot right",
                                         "margin-left",
                                         "margin-right",
                                         "margin-top",
                                         "margin left",
                                         "margin right",
                                         "margin top",
+                                        "over",
                                         "red",
+                                        "right",
+                                        "right margin",
+                                        "sublinear",
                                         "supralinear",
+                                        "under",
                                         "younger"
                                     ]
                                 },
                                 "instant": {
                                     "const": "false"
+                                },
+                                "rend": {
+                                    "type": "string",
+                                    "enum": [
+                                        "left into empty space"
+                                    ]
+                                },
+                                "resp": {
+                                    "type": "string",
+                                    "enum": [
+                                        "later",
+                                        "yh"
+                                    ]
                                 },
                                 "status": {
                                     "const": "unremarkable"
@@ -552,6 +581,28 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "anchor"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "xml:id": {
+                                "type": "string",
+                                "pattern": "^an\\d{2}$"
+                            }
+                        },
+                        "required": [
+                            "xml:id"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "cb"
                             }
                         }
@@ -609,6 +660,7 @@
                                     "enum": [
                                         "erasure",
                                         "overstrike",
+                                        "red",
                                         "subpunction",
                                         "underlined"
                                     ]
@@ -674,9 +726,11 @@
                                 "type": {
                                     "type": "string",
                                     "enum": [
+                                        "book",
                                         "Bǿjarlǫg-Magnúss-Hákonarsonar",
                                         "chaapter",
                                         "chapter",
+                                        "cure",
                                         "initial",
                                         "Kristinréttr-hinn-eldri-Borgarþings",
                                         "Kristinréttr-hinn-eldri-Frostaþings",
@@ -685,16 +739,30 @@
                                         "Kristinréttr-Sverris-konungs",
                                         "Landslǫg-Magnúss-Hákonarsonar",
                                         "law-manuscript",
+                                        "major-part",
+                                        "major-section",
+                                        "miracula",
+                                        "part",
+                                        "prayer",
                                         "Réttarbǿtr",
+                                        "Réttarbǿtr-Eiríks-Magnússonar",
                                         "saga",
+                                        "sermon",
                                         "subchapter",
+                                        "text",
                                         "Um-tíund",
+                                        "vision",
+                                        "vita",
                                         "work"
                                     ]
                                 },
                                 "subtype": {
                                     "type": "string",
                                     "enum": [
+                                        "Alcuin",
+                                        "divided",
+                                        "homilies",
+                                        "liturgical",
                                         "not-yet-divided"
                                     ]
                                 },
@@ -774,6 +842,10 @@
                         "additionalProperties": false,
                         "properties": {
                             "t": true,
+                            "extent": {
+                                "type": "string",
+                                "pattern": "^\\d{1,2}$"
+                            },
                             "quantity": {
                                 "type": "string",
                                 "pattern": "^\\d{1,2}$"
@@ -781,15 +853,30 @@
                             "reason": {
                                 "type": "string",
                                 "enum": [
-                                    "missing"
+                                    "illegible",
+                                    "lost",
+                                    "missing",
+                                    "missing outer bifolium of quire 10",
+                                    "outer bifolium of quire 10 is missing",
+                                    "page illegible",
+                                    "space",
+                                    "space for heading",
+                                    "The gap left for a verse was never filled.",
+                                    "The poem Hǫfuðlausn is left out",
+                                    " space for heading"
                                 ]
                             },
                             "unit": {
                                 "type": "string",
                                 "enum": [
                                     "char",
+                                    "characters",
+                                    "cm",
+                                    "initial",
                                     "leaf",
                                     "line",
+                                    "lines",
+                                    "line_initial",
                                     "page"
                                 ]
                             },
@@ -871,10 +958,60 @@
                             "n": {
                                 "$ref": "#/$defs/handID"
                             }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "head"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
                         },
                         "required": [
-                            "n"
-                        ]
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "rend": {
+                                    "type": "string",
+                                    "enum": [
+                                        "added"
+                                    ]
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "utg"
+                                    ]
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
                     }
                 },
                 {
@@ -910,7 +1047,9 @@
                                 "rend": {
                                     "type": "string",
                                     "enum": [
-                                        "red"
+                                        "2-line initial",
+                                        "red",
+                                        "right margin"
                                     ]
                                 }
                             }
@@ -956,7 +1095,7 @@
                                 "open": true,
                                 "n": {
                                     "type": "string",
-                                    "pattern": "^\\d$"
+                                    "pattern": "^\\d{1,2}([\\.,]\\d{1,2})?$"
                                 },
                                 "part": {
                                     "const": "N"
@@ -989,7 +1128,7 @@
                             },
                             "n": {
                                 "type": "string",
-                                "pattern": "^\\d{1,2}([rv ]|oat)?$"
+                                "pattern": "^-?\\d{1,2}([rv ]|oat)?$"
                             },
                             "rend": {
                                 "type": "string",
@@ -1030,7 +1169,7 @@
                                 "open": true,
                                 "n": {
                                     "type": "string",
-                                    "pattern": "^[Dh]?\\d{1,3}$"
+                                    "pattern": "^[Dh]?\\d{1,3}(\\.\\d)?$"
                                 },
                                 "type": {
                                     "type": "string",
@@ -1050,10 +1189,7 @@
                                 "sample": {
                                     "const": "complete"
                                 }
-                            },
-                            "required": [
-                                "n"
-                            ]
+                            }
                         },
                         "else": {
                             "additionalProperties": false,
@@ -1062,6 +1198,42 @@
                                 "open": true
                             }
                         }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "milestone"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "n": {
+                                "type": "string",
+                                "pattern": "^\\d{6}$"
+                            },
+                            "unit": {
+                                "type": "string",
+                                "enum": [
+                                    "sentence",
+                                    "turn"
+                                ]
+                            },
+                            "rendition": {
+                                "type": "string",
+                                "enum": [
+                                    "closing-quote",
+                                    "opening-quote"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "unit"
+                        ]
                     }
                 },
                 {
@@ -1100,6 +1272,9 @@
                                         "artefact",
                                         "clan",
                                         "law",
+                                        "other",
+                                        "people",
+                                        "person",
                                         "place",
                                         "population",
                                         "religious"
@@ -1153,6 +1328,57 @@
                             "facs",
                             "norm"
                         ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "orig"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "rend": {
+                                    "type": "string",
+                                    "enum": [
+                                        "transposition-sign",
+                                        "transposition-signs"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "rend"
+                            ]
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
                     }
                 },
                 {
@@ -1408,6 +1634,63 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "reg"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "resp": {
+                                    "type": "string",
+                                    "enum": [
+                                        "mainscribe",
+                                        "scribe"
+                                    ]
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "transposition"
+                                    ]
+                                },
+                                "instant": {
+                                    "const": "false"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "roleName"
                             }
                         }
@@ -1460,6 +1743,58 @@
                     "if": {
                         "properties": {
                             "t": {
+                                "const": "s"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "n": {
+                                    "type": "string",
+                                    "pattern": "^\\d{6}$"
+                                },
+                                "xml:id": {
+                                    "type": "string",
+                                    "pattern": "^s\\d{1,4}$"
+                                },
+                                "part": {
+                                    "const": "N"
+                                }
+                            }
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
                                 "const": "seg"
                             }
                         }
@@ -1489,6 +1824,8 @@
                                 "rend": {
                                     "type": "string",
                                     "enum": [
+                                        "12-17",
+                                        "19-24",
                                         "column right",
                                         "line 1-6",
                                         "line 1-7",
@@ -1497,20 +1834,37 @@
                                         "line 3-6",
                                         "line 4-9",
                                         "line 4-10",
+                                        "line 6-11",
                                         "line 6-13",
+                                        "line 7-15",
                                         "line 8-11",
+                                        "line 10-17",
                                         "line 11-14",
                                         "line 11-16",
+                                        "line 13-18",
+                                        "line 20-25",
                                         "line 22-26",
-                                        "page 56r-56v"
+                                        "page 56r-56v",
+                                        "red"
                                     ]
                                 },
                                 "type": {
                                     "type": "string",
                                     "enum": [
+                                        "emended",
                                         "enc",
-                                        "nb"
+                                        "nb",
+                                        "note",
+                                        "oversettelsesgruppe",
+                                        "placedAtEndOfLine",
+                                        "speaker",
+                                        "suppressed",
+                                        "tobedeleted"
                                     ]
+                                },
+                                "xml:id": {
+                                    "type": "string",
+                                    "pattern": "^g\\d{1,2}$"
                                 },
                                 "part": {
                                     "const": "N"
@@ -1581,19 +1935,44 @@
                             "properties": {
                                 "t": true,
                                 "open": true,
+                                "reason": {
+                                    "type": "string",
+                                    "enum": [
+                                        "emendation",
+                                        "empty space",
+                                        "restoration"
+                                    ]
+                                },
                                 "resp": {
                                     "type": "string",
                                     "enum": [
-                                        "editor"
+                                        "editor",
+                                        "EOS",
+                                        "GI1931",
+                                        "GJ",
+                                        "IF",
+                                        "JH",
+                                        "JJ",
+                                        "JK",
+                                        "KGJ"
+                                    ]
+                                },
+                                "source": {
+                                    "type": "string",
+                                    "enum": [
+                                        "Alcuin-text"
+                                    ]
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "clarification"
                                     ]
                                 },
                                 "instant": {
                                     "const": "false"
                                 }
-                            },
-                            "required": [
-                                "resp"
-                            ]
+                            }
                         },
                         "else": {
                             "additionalProperties": false,
@@ -1637,13 +2016,25 @@
                                 "reason": {
                                     "type": "string",
                                     "enum": [
-                                        "dittography"
+                                        "dittography",
+                                        "incoherence",
+                                        "scribal error"
+                                    ]
+                                },
+                                "resp": {
+                                    "type": "string",
+                                    "enum": [
+                                        "GI1931",
+                                        "OEH"
                                     ]
                                 },
                                 "instant": {
                                     "const": "false"
                                 }
-                            }
+                            },
+                            "required": [
+                                "reason"
+                            ]
                         },
                         "else": {
                             "additionalProperties": false,
@@ -1687,7 +2078,14 @@
                                 "reason": {
                                     "type": "string",
                                     "enum": [
-                                        "faded"
+                                        "faded",
+                                        "worn"
+                                    ]
+                                },
+                                "resp": {
+                                    "type": "string",
+                                    "enum": [
+                                        "GI1931"
                                     ]
                                 },
                                 "instant": {
@@ -1751,13 +2149,15 @@
                             "t": {
                                 "enum": [
                                     "app",
+                                    "choice",
                                     "country",
-                                    "head",
+                                    "gloss",
                                     "lem",
                                     "q",
                                     "region",
                                     "settlement",
-                                    "sic"
+                                    "sic",
+                                    "title"
                                 ]
                             }
                         }
@@ -1796,21 +2196,33 @@
         "edMarker": {
             "type": "string",
             "enum": [
-                "ms"
+                "AM",
+                "FJ_utg",
+                "H-O",
+                "ms",
+                "utg GI1931",
+                "younger hand"
             ]
         },
         "handID": {
             "type": "string",
             "enum": [
                 "",
+                "B",
                 "hand1",
                 "hand2",
                 "hand3",
+                "inline",
+                "Jón Sigurðsson?",
                 "later",
                 "laterhand",
                 "laterscribe",
+                "later?",
                 "mainscribe",
                 "margin-top",
+                "scribe",
+                "somewhat youngerhand",
+                "somewhat youngerhand?",
                 "supralinear",
                 "yonger",
                 "younger",
