@@ -247,6 +247,9 @@
             "properties": {
                 "msIdentifier": {
                     "$ref": "#/$defs/msIdentifier"
+                },
+                "physDesc": {
+                    "$ref": "#/$defs/physDesc"
                 }
             },
             "required": [
@@ -318,6 +321,7 @@
                         "59.0327, 11.0258",
                         "59.1063, 5.8415",
                         "59.1762, 5.81367",
+                        "59.2289, 11.1902",
                         "59.411, 9.0563",
                         "59.423, 9.104",
                         "59.6147, 10.4592",
@@ -394,6 +398,56 @@
                 "msName",
                 "settlement"
             ],
+            "additionalProperties": false
+        },
+        "objectDesc": {
+            "type": "object",
+            "properties": {
+                "form": {
+                    "type": "string",
+                    "enum": [
+                        "",
+                        "beam",
+                        "bone",
+                        "charter",
+                        "church-graffiti",
+                        "codex",
+                        "commemorative-inscription",
+                        "fragment",
+                        "gravestone",
+                        "key",
+                        "manuscript",
+                        "memorial-stone",
+                        "metal",
+                        "neck-ring",
+                        "oblatjern",
+                        "plaster",
+                        "plate",
+                        "rock_face",
+                        "runestone",
+                        "stick",
+                        "stone",
+                        "stone_wall",
+                        "tree",
+                        "wall-inscription",
+                        "wood",
+                        "wooden-figure",
+                        "wooden_stick"
+                    ]
+                }
+            },
+            "required": [
+                "form"
+            ],
+            "additionalProperties": false
+        },
+        "physDesc": {
+            "type": "object",
+            "properties": {
+                "objectDesc": {
+                    "$ref": "#/$defs/objectDesc"
+                }
+            },
             "additionalProperties": false
         },
         "publicationStmt": {
@@ -543,6 +597,7 @@
                 "dan",
                 "isl",
                 "lat",
+                "nb",
                 "non",
                 "nor",
                 "swe"

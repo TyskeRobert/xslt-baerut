@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html>  
     <head>
+        <link rel="stylesheet" href="css/main.css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     </head> 
     <body>
-        <div id="page"></div>
+        <div>
+            <h1>Edition Viewer</h1>
+            <div id="navigator">
+                <button value="home" id="home-button">Home</button>
+                <button value="source">Source Viewer</button>
+                <button value="search">Search</button>
+                <button value="lexicon">Lexicon</button>
+            </div>
+            <div id="content">
+                <div id="home">
+                    <h2>Welcome</h2>
+                </div>
+                <div id="source">
+                    <h2>Source Viewer</h2>
+                    <label for="source-level-select">Focal Level:</label>
+                    <select id="source-level-select">
+                        <option value="facs">Facsimile</option>
+                        <option value="dipl">Diplomatic</option>
+                        <option value="norm">Normalized</option>
+                    </select>
+                    <button id="source-select-button">Select source</button>
+                    <div id="source-select">
+                        <h3>Manuscripts and manuscript fragments</h3>
+                        <ul id="source-select-manuscript"></ul>
+                        <h3>Charters</h3>
+                        <ul id="source-select-charter"></ul>
+                        <h3>Runic inscriptions</h3>
+                        <ul id="source-select-inscription"></ul>
+                    </div>
+                    <div id="source-display"></div>
+                </div>
+                <div id="search">
+                    <h2>Search</h2>
+                </div>
+                <div id="lexicon">
+                    <h2>Lexicon</h2>
+                </div>
+            </div>
+        </div>
         <script type="module" src="./js/main.js"></script>
     </body>
 </html>
