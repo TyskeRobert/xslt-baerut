@@ -4,6 +4,11 @@ json/data/*.json
 xml/corpus.xml
 xml/tei/*.xml
 
+# json schema
+json/schema/*.schema.json
+!json/schema/corpus.schema.json
+!json/schema/source.schema.json
+
 # xsl files
 xml/xsl/*.xsl
 !xml/xsl/corpus.xsl
