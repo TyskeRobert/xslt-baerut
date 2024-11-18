@@ -21,5 +21,9 @@ export async function loadCorpus() {
             .catch((error) => console.error(`Error loading source file ${ms}.json:`, error));
     }
 
+    for (const ms of result.sources) {
+        ms.source.pages = [];
+    }
+
     return result;
 }
