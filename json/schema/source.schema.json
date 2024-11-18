@@ -543,6 +543,7 @@
             "properties": {
                 "t": {
                     "enum": [
+                        "pc",
                         "w"
                     ]
                 }
@@ -551,6 +552,35 @@
                 "t"
             ],
             "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "pc"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "dipl": {
+                                "type": "string"
+                            },
+                            "facs": {
+                                "type": "string"
+                            },
+                            "norm": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "dipl",
+                            "facs",
+                            "norm"
+                        ]
+                    }
+                },
                 {
                     "if": {
                         "properties": {
