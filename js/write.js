@@ -14,31 +14,22 @@ export function writeSource(doc, page, level) {
 }
 
 function writeDipl(textArray) {
-    return `
-        <div>
-            ${textArray.map(token => writeTokenDipl(token)).join("")}
-        </div>
-    `;
+    return textArray.map(token => writeTokenDipl(token)).join("");
 }
 
 function writeFacsLine(textArray) {
     //const text = getFacsArray(textArray);
-    return `
-        <div>
-            ${textArray.map(token => writeTokenFacs(token)).join("")}
-        </div>
-    `;
+    return textArray.map(token => writeTokenFacs(token)).join("")
 }
 
 function writeFullText(doc, level) {
-    console.log(doc.source.text);
     switch (level) {
         case "facs":
-            return writeFacsLine(doc.source.text);
+            return `<div class="textBlock">${writeFacsLine(doc.source.text)}</div>`;
         case "dipl":
-            return writeDipl(doc.source.text);
+            return `<div class="textBlock">${writeDipl(doc.source.text)}</div>`;
         case "norm":
-            return writeNorm(doc.source.text);
+            return `<div class="textBlock">${writeNorm(doc.source.text)}</div>`;
     }
 }
 
@@ -64,11 +55,7 @@ function writeName(agent) {
 }
 
 function writeNorm(textArray) {
-    return `
-        <div>
-            ${textArray.map(token => writeTokenNorm(token)).join("")}
-        </div>
-    `;
+    return textArray.map(token => writeTokenNorm(token)).join("");
 }
 
 function writeSinglePage(doc, page, level) {
@@ -83,20 +70,26 @@ function writeSinglePage(doc, page, level) {
 }
 
 function writeTokenDipl(token) {
+    const word = token.dipl
+        .replace(/\[pc:(.*?):pc\]/g, "$1");
     switch (token.t) {
         case "pc":
-            return `<span class="dipl">${token.dipl}</span>`;
+            return `<span class="dipl">${word}</span>`;
+        case "num":
         case "w":
-            return ` <span class="dipl">${token.dipl}</span>`;
+            return ` <span class="dipl">${word}</span>`;
     }
 }
 
 function writeTokenFacs(token) {
     const space = token.t != "pc";
+    const word = token.facs
+        .replace(/\[pc:(.*?):pc\]/g, "$1");
     switch (token.t) {
+        case "num":
         case "pc":
         case "w":
-            return `${space ? " " : ""}<span class="facs">${token.facs}</span>`;
+            return `${space ? " " : ""}<span class="facs">${word}</span>`;
     }
 }
 
@@ -104,6 +97,7 @@ function writeTokenNorm(token) {
     switch (token.t) {
         case "pc":
             return `<span class="norm">${token.norm}</span>`;
+        case "num":
         case "w":
             return ` <span class="norm">${token.norm}</span>`;
     }
