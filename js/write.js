@@ -21,11 +21,20 @@ function writeDipl(textArray) {
     `;
 }
 
+function writeFacsLine(textArray) {
+    //const text = getFacsArray(textArray);
+    return `
+        <div>
+            ${textArray.map(token => writeTokenFacs(token)).join("")}
+        </div>
+    `;
+}
+
 function writeFullText(doc, level) {
     console.log(doc.source.text);
     switch (level) {
         case "facs":
-            return `<div>FACS TEXT</div`;
+            return writeFacsLine(doc.source.text);
         case "dipl":
             return writeDipl(doc.source.text);
         case "norm":
@@ -82,10 +91,19 @@ function writeTokenDipl(token) {
     }
 }
 
+function writeTokenFacs(token) {
+    const space = token.t != "pc";
+    switch (token.t) {
+        case "pc":
+        case "w":
+            return `${space ? " " : ""}<span class="facs">${token.facs}</span>`;
+    }
+}
+
 function writeTokenNorm(token) {
     switch (token.t) {
         case "pc":
-            return `<span class="norm">${token.dipl}</span>`;
+            return `<span class="norm">${token.norm}</span>`;
         case "w":
             return ` <span class="norm">${token.norm}</span>`;
     }
