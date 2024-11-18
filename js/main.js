@@ -36,6 +36,15 @@ $(document).ready(async function() {
         );
     });
 
+    $("#source-level-select").change(function() {
+        displayPage(
+            corpus,
+            $("#source").attr("name"),
+            $("#source-page-select").val(),
+            $(this).val()
+        );
+    });
+
     const corpus = await loadCorpus();
     populateMain(corpus);
     $("#navigator > button").attr("disabled", false);

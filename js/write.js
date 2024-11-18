@@ -29,7 +29,7 @@ function writeFullText(doc, level) {
         case "dipl":
             return writeDipl(doc.source.text);
         case "norm":
-            return `<div>NORM TEXT</div>`;
+            return writeNorm(doc.source.text);
     }
 }
 
@@ -54,6 +54,14 @@ function writeName(agent) {
     return result;
 }
 
+function writeNorm(textArray) {
+    return `
+        <div>
+            ${textArray.map(token => writeTokenNorm(token)).join("")}
+        </div>
+    `;
+}
+
 function writeSinglePage(doc, page, level) {
     switch (level) {
         case "facs":
@@ -67,7 +75,18 @@ function writeSinglePage(doc, page, level) {
 
 function writeTokenDipl(token) {
     switch (token.t) {
+        case "pc":
+            return `<span class="dipl">${token.dipl}</span>`;
         case "w":
             return ` <span class="dipl">${token.dipl}</span>`;
+    }
+}
+
+function writeTokenNorm(token) {
+    switch (token.t) {
+        case "pc":
+            return `<span class="norm">${token.dipl}</span>`;
+        case "w":
+            return ` <span class="norm">${token.norm}</span>`;
     }
 }

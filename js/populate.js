@@ -53,7 +53,7 @@ export function populateMain(corpus) {
     }
 }
 
-export function populatePageSelector(pages, selected) {
+export function populatePageSelector(pages) {
     const pageSelector = $("#source-page-select");
     pageSelector.html(`<option value="meta">Metadata</option>`);
     if (pages.length > 0) 
@@ -61,5 +61,4 @@ export function populatePageSelector(pages, selected) {
             pageSelector.append(`<option value="${p}">${p}</option>`)
         });
     else pageSelector.append(`<option value="text">Text</option>`);
-    pageSelector.val(selected);
 }
