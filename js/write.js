@@ -1,3 +1,5 @@
+import { getPage } from "./search.js";
+
 export function writeSource(doc, page, level) {
     const metadata = doc.source.header;
 
@@ -18,7 +20,6 @@ function writeDipl(textArray) {
 }
 
 function writeFacsLine(textArray) {
-    //const text = getFacsArray(textArray);
     return textArray.map(token => writeTokenFacs(token)).join("")
 }
 
@@ -59,46 +60,59 @@ function writeNorm(textArray) {
 }
 
 function writeSinglePage(doc, page, level) {
+    const pageArray = getPage(doc, page);
+    console.log(pageArray[9000]);
     switch (level) {
         case "facs":
-            return `<div>FACS PAGE ${page}</div`;
+            return `<div class="textBlock">${writeFacsLine(pageArray)}</div`;
         case "dipl":
-            return `<div>DIPL PAGE ${page}</div>`;
+            return `<div class="textBlock">${writeDipl(pageArray)}</div>`;
         case "norm":
-            return `<div>NORM PAGE ${page}</div>`;
+            return `<div class="textBlock">${writeNorm(pageArray)}</div>`;
     }
 }
 
 function writeTokenDipl(token) {
-    const word = token.dipl
-        .replace(/\[pc:(.*?):pc\]/g, "$1");
     switch (token.t) {
-        case "pc":
-            return `<span class="dipl">${word}</span>`;
         case "num":
+        case "pc":
         case "w":
-            return ` <span class="dipl">${word}</span>`;
+            const space = token.t != "pc";
+            const word = token.dipl
+                .replace(/\[pb n=(.*?)\]/, '<span class="break">$1</span>')
+                .replace(/\[pc:(.*?):pc\]/g, "$1");
+            return `${space ? " " : ""}<span class="dipl">${word}</span>`;
+        case "pb":
+            return ` <span class="break">${token.n}</span>`;
     }
 }
 
 function writeTokenFacs(token) {
-    const space = token.t != "pc";
-    const word = token.facs
-        .replace(/\[pc:(.*?):pc\]/g, "$1");
     switch (token.t) {
         case "num":
         case "pc":
         case "w":
+            const space = token.t != "pc";
+            const word = token.facs
+                .replace(/\[pb n=(.*?)\]/g, '<span class="break">$1</span>')
+                .replace(/\[pc:(.*?):pc\]/g, "$1");
             return `${space ? " " : ""}<span class="facs">${word}</span>`;
+        case "pb":
+            return ` <span class="break">${token.n}</span>`;
     }
 }
 
 function writeTokenNorm(token) {
     switch (token.t) {
         case "pc":
-            return `<span class="norm">${token.norm}</span>`;
         case "num":
         case "w":
-            return ` <span class="norm">${token.norm}</span>`;
+            const space = token.t != "pc";
+            const word = token.facs
+                .replace(/\[pb n=(.*?)\]/g, '<span class="break">$1</span>')
+                .replace(/\[pc:(.*?):pc\]/g, "$1");
+            return `${space ? " " : ""}<span class="norm">${word}</span>`;
+        case "pb":
+            return ` <span class="break">${token.n}</span>`;
     }
 }
