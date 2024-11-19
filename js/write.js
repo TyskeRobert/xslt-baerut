@@ -79,11 +79,15 @@ function writeTokenDipl(token) {
         case "w":
             const space = token.t != "pc";
             const word = token.dipl
-                .replace(/\[pb n=(.*?)\]/, '<span class="break">$1</span>')
+                .replace(/\[lb n=(.*?)\]/g, '<span class="break">$1</span>')
+                .replace(/\[[cp]b n=(.*?)\]/g, '<span class="break">$1.</span>')
                 .replace(/\[pc:(.*?):pc\]/g, "$1");
             return `${space ? " " : ""}<span class="dipl">${word}</span>`;
-        case "pb":
+        case "lb":
             return ` <span class="break">${token.n}</span>`;
+        case "cb":
+        case "pb":
+            return ` <span class="break">${token.n}.</span>`;
     }
 }
 
@@ -94,11 +98,15 @@ function writeTokenFacs(token) {
         case "w":
             const space = token.t != "pc";
             const word = token.facs
-                .replace(/\[pb n=(.*?)\]/g, '<span class="break">$1</span>')
+                .replace(/\[lb n=(.*?)\]/g, '<span class="break">$1</span>')
+                .replace(/\[[pb]b n=(.*?)\]/g, '<span class="break">$1.</span>')
                 .replace(/\[pc:(.*?):pc\]/g, "$1");
             return `${space ? " " : ""}<span class="facs">${word}</span>`;
-        case "pb":
+        case "lb":
             return ` <span class="break">${token.n}</span>`;
+        case "cb":
+        case "pb":
+            return ` <span class="break">${token.n}.</span>`;
     }
 }
 
@@ -108,11 +116,15 @@ function writeTokenNorm(token) {
         case "num":
         case "w":
             const space = token.t != "pc";
-            const word = token.facs
-                .replace(/\[pb n=(.*?)\]/g, '<span class="break">$1</span>')
+            const word = token.norm
+                .replace(/\[lb n=(.*?)\]/g, '<span class="break">$1</span>')
+                .replace(/\[[cp]b n=(.*?)\]/g, '<span class="break">$1.</span>')
                 .replace(/\[pc:(.*?):pc\]/g, "$1");
             return `${space ? " " : ""}<span class="norm">${word}</span>`;
-        case "pb":
+        case "lb":
             return ` <span class="break">${token.n}</span>`;
+        case "cb":
+        case "pb":
+            return ` <span class="break">${token.n}.</span>`;
     }
 }

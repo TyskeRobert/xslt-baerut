@@ -543,7 +543,10 @@
             "properties": {
                 "t": {
                     "enum": [
+                        "cb",
+                        "lb",
                         "num",
+                        "pb",
                         "pc",
                         "w"
                     ]
@@ -553,6 +556,50 @@
                 "t"
             ],
             "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "cb"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "n": {
+                                "type": "string",
+                                "pattern": "^[abAB]$"
+                            }
+                        },
+                        "required": [
+                            "n"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "lb"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "n": {
+                                "type": "string",
+                                "pattern": "^(-?\\d{1,3}([rv]|blinde|oat|oj)?|[A-D])?$"
+                            }
+                        },
+                        "required": [
+                            "n"
+                        ]
+                    }
+                },
                 {
                     "if": {
                         "properties": {
@@ -579,6 +626,28 @@
                             "dipl",
                             "facs",
                             "norm"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "pb"
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "n": {
+                                "type": "string",
+                                "pattern": "^(fol\\. )?\\d{1,3}[rv]?\\??$"
+                            }
+                        },
+                        "required": [
+                            "n"
                         ]
                     }
                 },
