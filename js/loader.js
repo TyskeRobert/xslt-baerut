@@ -48,7 +48,6 @@ export async function loadCorpus() {
             }
         }
     }
-    console.log(result.sources[0].source.text);
 
     return result;
 }

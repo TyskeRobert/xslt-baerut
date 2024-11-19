@@ -1,4 +1,7 @@
-import { getPage } from "./search.js";
+import { 
+    getPage, 
+    getPageObject 
+} from "./search.js";
 
 export function writeSource(doc, page, level) {
     const metadata = doc.source.header;
@@ -21,6 +24,24 @@ function writeDipl(textArray) {
 
 function writeFacsLine(textArray) {
     return textArray.map(token => writeTokenFacs(token)).join("")
+}
+
+function writeFacsPage(textArray, page) {
+    const pageObject = getPageObject(textArray, page);
+    let result = `<table class="facsPage"><tr>`;
+    for (const column of pageObject.columns) {
+        result += "<td><table>";
+        for (const line of column.lines) {
+            result += `
+                <tr>
+                    <td>${writeFacsLine(line.tokens)}</td>
+                </tr>
+            `;
+        }
+        result += "</table></td>"
+    }
+    result += "</tr></table>";
+    return result;
 }
 
 function writeFullText(doc, level) {
@@ -61,10 +82,9 @@ function writeNorm(textArray) {
 
 function writeSinglePage(doc, page, level) {
     const pageArray = getPage(doc, page);
-    console.log(pageArray[9000]);
     switch (level) {
         case "facs":
-            return `<div class="textBlock">${writeFacsLine(pageArray)}</div`;
+            return `<div class="textBlock">${writeFacsPage(pageArray, page)}</div`;
         case "dipl":
             return `<div class="textBlock">${writeDipl(pageArray)}</div>`;
         case "norm":
@@ -99,7 +119,7 @@ function writeTokenFacs(token) {
             const space = token.t != "pc";
             const word = token.facs
                 .replace(/\[lb n=(.*?)\]/g, '<span class="break">$1</span>')
-                .replace(/\[[pb]b n=(.*?)\]/g, '<span class="break">$1.</span>')
+                .replace(/\[[cp]b n=(.*?)\]/g, '<span class="break">$1.</span>')
                 .replace(/\[pc:(.*?):pc\]/g, "$1");
             return `${space ? " " : ""}<span class="facs">${word}</span>`;
         case "lb":
