@@ -65,6 +65,25 @@ function writeMetadata(m) {
     );
     result.append(editorLine);
 
+    console.log(m);
+    const editionLine = $("<tr></tr>");
+    editionLine.append("<th>Version:</th>");
+    const edition = m.fileDesc.editionStmt;
+    editionLine.append(`
+        <td><b>${edition.number}</b> (${edition.date})</td>
+    `);
+    result.append(editionLine);
+
+    const licenceLine = $("<tr></tr>");
+    licenceLine.append("<th>Licence:</th>");
+    const availability = m.fileDesc.publicationStmt.availability
+    licenceLine.append(`
+        <td>
+            <a href="${availability.url}" target="_blank">${availability.licence}</a>
+        </td>
+    `);
+    result.append(licenceLine);
+
     return result;
 }
 
