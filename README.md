@@ -112,13 +112,13 @@ JSON is immediately parseable by JavaScript (duh!).
 #### Pro XML
 XML allows for mixed-content elements
 ```xml
-<w>van<ex>n</ex>da malu<ex>m</ex></w>
+<w>ꝩan<ex>n</ex>da malu<ex>m</ex></w>
 ```
 vs
 ```json
 {
  "w": [
-  {"_text": "van"},
+  {"_text": "ꝩan"},
   {"ex": {"_text": "n"}},
   {"_text": "da malu"},
   {"ex": {"_text": "m"}},
@@ -129,7 +129,7 @@ or
 ```json
 {
  "w": {
-  "_text": "van[ex:n:ex]da malu[ex:m:ex]"
+  "_text": "ꝩan[ex:n:ex]da malu[ex:m:ex]"
  }
 }
 ```
@@ -137,7 +137,7 @@ or
 XML allows for self-defined, human-readable entities
 ```xml
 <!DOCTYPE TEI [
- <!ENTITY vins "&#xA768;">
+ <!ENTITY vins "&#xA769;">
 ]>
 <TEI>
 ...
@@ -149,7 +149,7 @@ vs
 ```json
 {
  "w": {
-  "_text": "\uA768an[ex:n:ex]da malu[ex:m:ex]"
+  "_text": "\uA769an[ex:n:ex]da malu[ex:m:ex]"
  }
 }
 ```
