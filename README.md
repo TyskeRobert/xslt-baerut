@@ -22,6 +22,13 @@ Clone the repository and open it with VS Code. Run *Go Live* to open it in your 
 
 #### Data types
 
+* String
+* Number
+* Boolean
+* Array (list)
+* Object (map)
+* ```null```
+
 ### JSON vs XML for text editions
 
 ### Synthesis
