@@ -19,6 +19,7 @@ Clone the repository and open it with VS Code. Run *Go Live* to open it in your 
 
 * **JSON**: **J**ava**S**cript **O**bject **N**otation
 * Text-based, self-describing format for storing and organizing data (like XML)
+* Restrictable with a schema language (like XML)
 
 #### Data types
 
@@ -110,11 +111,11 @@ vs
 JSON is immediately parseable by JavaScript (duh!).
 
 #### Pro XML
-XML allows for mixed-content elements
+XML allows for mixed-content elements: "ꝩan*n*da malu*m*":
 ```xml
 <w>ꝩan<ex>n</ex>da malu<ex>m</ex></w>
 ```
-vs
+vs very complex data structures:
 ```json
 {
  "w": [
@@ -125,7 +126,7 @@ vs
  ]
 }
 ```
-or
+or inline mark-up (which requires another standard and an appropriate parser):
 ```json
 {
  "w": {
@@ -155,3 +156,8 @@ vs
 ```
 
 ### Synthesis
+
+* Master files in XML
+* **Conversion to JSON in pre-production XSLT**
+* Inline mark-up for mixed content
+* JavaScript parses inline mark-up
