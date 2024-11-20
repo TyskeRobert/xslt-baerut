@@ -11,7 +11,7 @@
                 <button value="home" id="home-button">Home</button>
                 <button value="source">Source Viewer</button>
                 <button value="search">Search</button>
-                <button value="lexicon">Lexicon</button>
+                <button value="lexicon" style="display: none;">Lexicon</button>
             </div>
             <div id="content">
                 <div id="home">
@@ -44,6 +44,161 @@
                 </div>
                 <div id="search">
                     <h2>Search</h2>
+                    <div id="search-menu">
+                        <div>
+                            <input type="text" placeholder="Search by token ..."/>
+                        </div>
+                        <div>
+                            <label for="search-level-select">Focal level:</label>
+                            <select id="search-level-select">
+                                <option value="facs">Facsimile</option>
+                                <option value="dipl">Diplomatic</option>
+                                <option value="norm">Normalized</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Search by lemma ..."/>
+                        </div>
+                        <div>
+                            <label for="search-level-select">Part of speech:</label>
+                            <select id="search-pos-select">
+                                <option value="xAJ">adjective</option>
+                                <option value="xAP">apposition</option>
+                                <option value="xAQ">interrogative adverb</option>
+                                <option value="xAT">article</option>
+                                <option value="xAV">general adverb</option>
+                                <option value="xCC">conjunction</option>
+                                <option value="xCS">subjunction</option>
+                                <option value="xDD">demonstrative</option>
+                                <option value="xDP">possessive</option>
+                                <option value="xDQ">quantifier</option>
+                                <option value="xFW">foreign word</option>
+                                <option value="xIM">infinitive marker</option>
+                                <option value="xIT">interjection</option>
+                                <option value="xNA">cardinal numeral</option>
+                                <option value="xNC">common noun</option>
+                                <option value="xNO">ordinal numeral</option>
+                                <option value="xNP">proper name</option>
+                                <option value="xPD">pronoun/determiner</option>
+                                <option value="xPE">personal pronoun</option>
+                                <option value="xPI">indefinite pronoun</option>
+                                <option value="xPQ">interrogative pronoun</option>
+                                <option value="xRP">relative particle</option>
+                                <option value="xVB">verb</option>
+                                <option value="xUA">unassigned</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-inflClass-select">Inflectional class:</label>
+                            <select id="search-inflClass-select">
+                                <option value="iPP">peterito-present</option>
+                                <option value="iRD">reduplicating</option>
+                                <option value="iST">strong</option>
+                                <option value="iWK">weak</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-gender-select">Gender:</label>
+                            <select id="search-gender-select">
+                                <option value="gM">masculine</option>
+                                <option value="gF">feminine</option>
+                                <option value="gN">neuter</option>
+                                <option value="gMF">masculine/feminine</option>
+                                <option value="gMN">masculine/neuter</option>
+                                <option value="gFN">feminine/neuter</option>
+                                <option value="gMFN">masculine/feminine/neuter</option>
+                                <option value="gU">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-number-select">Number:</label>
+                            <select id="search-number-select">
+                                <option value="nS">singular</option>
+                                <option value="nP">plural</option>
+                                <option value="nD">dual</option>
+                                <option value="nU">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-case-select">Case:</label>
+                            <select id="search-case-select">
+                                <option value="cN">nominative</option>
+                                <option value="cG">genitive</option>
+                                <option value="cD">dative</option>
+                                <option value="cA">accusative</option>
+                                <option value="cU">unspecified</option>
+                                <option value="cAN">accusative/nominative</option>
+                                <option value="cAG">accusative/genitive</option>
+                                <option value="cAD">accusative/dative</option>
+                                <option value="cGD">genitive/dative</option>
+                                <option value="cO">oblique</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-definiteness-select">Case:</label>
+                            <select id="search-definiteness-select">
+                                <option value="sI">indefinite</option>
+                                <option value="sD">definite</option>
+                                <option value="su">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-grade-select">Grade:</label>
+                            <select id="search-grade-select">
+                                <option value="rP">positive</option>
+                                <option value="rC">comparative</option>
+                                <option value="rS">superlative</option>
+                                <option value="rU">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-person-select">Person:</label>
+                            <select id="search-person-select">
+                                <option value="p1">first</option>
+                                <option value="p2">second</option>
+                                <option value="p3">third</option>
+                                <option value="pU">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-tense-select">Tense:</label>
+                            <select id="search-tense-select">
+                                <option value="tPS">present</option>
+                                <option value="tPT">preterite</option>
+                                <option value="tU">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-mood-select">Mood:</label>
+                            <select id="search-mood-select">
+                                <option value="mIN">indicative</option>
+                                <option value="mSU">subjunctive</option>
+                                <option value="mIP">imperative</option>
+                                <option value="mU">unspecified</option>
+                                <option value="mINSU">indicative/subjunctive</option>
+                                <option value="mINIM">indicative/imperative</option>
+                                <option value="mSUIM">subjunctive/imperative</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-voice-select">Voice:</label>
+                            <select id="search-voice-select">
+                                <option value="vA">active</option>
+                                <option value="vR">reflexive</option>
+                                <option value="vP">passive</option>
+                                <option value="vU">unspecified</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="search-finiteness-select">Finiteness:</label>
+                            <select id="search-finiteness-select">
+                                <option value="fF">finite</option>
+                                <option value="fI">infinitive</option>
+                                <option value="fP">participle</option>
+                                <option value="fU">unspecified</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
                 <div id="lexicon">
                     <h2>Lexicon</h2>

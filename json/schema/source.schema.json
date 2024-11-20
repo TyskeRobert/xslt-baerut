@@ -544,8 +544,11 @@
                 "t": {
                     "enum": [
                         "cb",
+                        "div",
+                        "head",
                         "lb",
                         "num",
+                        "p",
                         "pb",
                         "pc",
                         "w"
@@ -576,6 +579,100 @@
                         "required": [
                             "n"
                         ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "const": "div"
+                            }
+                        }
+                    },
+                    "then": {
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
+                        ],
+                        "if": {
+                            "properties": {
+                                "open": {
+                                    "const": true
+                                }
+                            }
+                        },
+                        "then": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true,
+                                "n": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "string",
+                                    "enum": [
+                                        "",
+                                        "addition",
+                                        "bakpå",
+                                        "book",
+                                        "Bǿjarlǫg-Magnúss-Hákonarsonar",
+                                        "chaapter",
+                                        "chapter",
+                                        "cure",
+                                        "diplom",
+                                        "Farmannalǫg",
+                                        "fragment",
+                                        "frame",
+                                        "initial",
+                                        "Kristinréttr-hinn-eldri-Borgarþings",
+                                        "Kristinréttr-hinn-eldri-Frostaþings",
+                                        "Kristinréttr-Jóns-erkibiskups",
+                                        "Kristinréttr-Magnúss-Hákonarsonar",
+                                        "Kristinréttr-Sverris-konungs",
+                                        "Landslǫg-Magnúss-Hákonarsonar",
+                                        "law-manuscript",
+                                        "major-part",
+                                        "major-section",
+                                        "miracula",
+                                        "part",
+                                        "poem",
+                                        "prayer",
+                                        "prologue",
+                                        "prosechapter",
+                                        "Réttarbǿtr",
+                                        "Réttarbǿtr-Eiríks-Magnússonar",
+                                        "runic-inscription",
+                                        "saga",
+                                        "sermon",
+                                        "stanza",
+                                        "subchapter",
+                                        "text",
+                                        "transcript",
+                                        "Um-tíund",
+                                        "verso",
+                                        "vision",
+                                        "vita",
+                                        "work"
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "n"
+                            ]
+                        },
+                        "else": {
+                            "additionalProperties": false,
+                            "properties": {
+                                "t": true,
+                                "open": true
+                            }
+                        }
                     }
                 },
                 {
@@ -714,6 +811,30 @@
                             "lemma",
                             "morph",
                             "norm"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "t": {
+                                "enum": [
+                                    "head",
+                                    "p"
+                                ]
+                            }
+                        }
+                    },
+                    "then": {
+                        "additionalProperties": false,
+                        "properties": {
+                            "t": true,
+                            "open": {
+                                "type": "boolean"
+                            }
+                        },
+                        "required": [
+                            "open"
                         ]
                     }
                 }

@@ -86,10 +86,50 @@ function writeSinglePage(doc, page, level) {
         case "facs":
             return `<div class="textBlock">${writeFacsPage(pageArray, page)}</div`;
         case "dipl":
-            return `<div class="textBlock">${writeDipl(pageArray)}</div>`;
+            return `<div class="textBlock">${writeTextPage(pageArray, "dipl")}</div>`;
         case "norm":
-            return `<div class="textBlock">${writeNorm(pageArray)}</div>`;
+            return `<div class="textBlock">${writeTextPage(pageArray, "norm")}</div>`;
     }
+}
+
+function writeTag(tag) {
+    switch (tag.t) {
+        case "div":
+        case "p":
+            return tag.open ? `<${tag.t}>` : `</${tag.t}>`;
+        case "head":
+            return tag.open ? "<h4>" : "</h4>";
+    }
+}
+
+function writeTextPage(textArray, level) {
+    let result = "";
+    const openTags = [];
+    for (const token of textArray) switch (token.t) {
+        case "cb":
+        case "lb":
+        case "num":
+        case "pb":
+        case "pc":
+        case "w":
+            if (level == "dipl") 
+                result += writeTokenDipl(token);
+            else if (level == "norm")
+                result += writeTokenNorm(token);
+            break;
+        case "div":
+        case "head":
+        case "p":
+            if (token.open)
+                openTags.push(token);
+            else {
+                if (openTags.length > 0) openTags.pop();
+                else result = writeTag(token.openedBy) + result;
+            }
+            result += writeTag(token);
+            break;
+    }
+    return result;
 }
 
 function writeTokenDipl(token) {
