@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 462 : Trondheim, Trondheim, Trøndelag : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="person"> <!-- OEH 2021-03-23: Du kan føre opp begge utgjevarane som full <editor> -->
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 5, pp. 30–32</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName> <!-- OEH 2021-03-23: Det er tenkeleg at dei to høyrer til ulike institusjonar, så dette bør fyllast ut for kvar og ein -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katharina</forename>
+                            <forename>Sophie</forename>
+                            <surname>Kühnel</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd </forename> <!-- OEH 2021-03-23: Kvart fornamn i sitt eige element -->
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+            <edition n="0.9">Version 0.9<date when="2021-03-23">23 March 2021</date>.</edition> <!-- OEH 2021-03-20: Har sett versjonsnummeret til 0.9 og datoen til i dag -->
+            </editionStmt>
+            <extent n="5">5 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">V 30-32</idno>
+                <date when="2021-03-23">23 March 2021</date> <!-- OEH 2021-03-20: Har sett publiseringsdatoen til i dag -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.4296, 10.3953 </settlement>
+                        <idno>N 462</idno>
+                        <msName>N 462: Trondheim, Trondheim, Trøndelag</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="bone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>bone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1050" notAfter="1150">c. 1100</origDate></origin> <!-- OEH 2021-03-23: Vi følgjer NIyR V: 31 i å datere innskrifta til c. 1100. Litt betre enn c. 1100-1500 i Runor! -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook</title> 
+                    (version 4.0 beta), at <ref target="http://www.menota.org/handbook"> 
+                        http://www.menota.org/handbook</ref> as of <date>2021-03-14</date>.</p>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 30-32.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="partly">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the reading of the runes
+            </change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-03-23</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made a few changes to the header</change>
+           <change>
+                <date>2021-03-14</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made the first working draft of this file</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 462 ||  
+                    <hi rend="bold">Sted</hi>: Kongens gate, Trondheim, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1100<lb/> 
+                    <hi rend="bold">Materiale</hi>: Bein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR V: 30–32 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/b52600d3-7f51-4caf-80b0-7a45ec83c7e9" type="external">N 462</ref>
+                </head>
+                <p>Kammen er en av 57 som ble funnet ved utgravning av grunnen under den nye frimurerlosjeebygningen ved siden av Norges Banks bygning østlig i Kongens gate (NIyR V: 30).</p> <!-- OEH 2021-03-23: Kanskje seie noko om plasseringa av innskrifta på kammen. -->
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    
+ <!-- Dette er ei fin og presis koding, der du skil mellom bidraga til Magnus Olsen og Aslak Liestøl, men med tanke på at Magnus Olsen gjev si tilslutning til Aslak Liestøls lesing og begge to står som utgjevarar av bandet, trur eg at den kan forenklast, som eg har gjort nedanfor                   
+                    
+                    <w lemma="Liutger" me:msa="xNP gM nS cN sI"> 
+                        <choice>
+                            <me:facs>&lGE;&iGE;&uGE;&tYG;<unclear reason="weathered">**</unclear><unclear reason="weathered">&rGE;</unclear></me:facs>
+                            <me:dipl>liu<supplied type="restoration" resp="MagnusOlsen">t</supplied><supplied type="restoration" resp="MagnusOlsen">ge</supplied><supplied type="restoration" resp="AslakLiestøl">r</supplied></me:dipl>
+                            <me:norm>Lui<supplied>tger</supplied></me:norm>
+                        </choice>
+                    </w>
+ -->                   
+                    
+                    <w lemma="Liutger" me:msa="xNP gM nS cN sI"> 
+                        <choice>
+                            <me:facs>&lGE;&iGE;&uGE;&tYG;<unclear reason="weathered">**</unclear><unclear reason="weathered">&rGE;</unclear></me:facs>
+                            <me:dipl>liut<supplied type="restoration" resp="Magnus Olsen and Aslak Liestøl">ger</supplied></me:dipl>
+                            <me:norm>Luit<supplied type="restoration" resp="Magnus Olsen and Aslak Liestøl">ger</supplied></me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="ok" me:msa="xCC">
+                        <choice>
+                            <me:facs>&oYG;&uGE;&kYGst;</me:facs>
+                            <me:dipl>ouk</me:dipl>
+                            <me:norm>ok</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Jóhan" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&iGE;&oYG;&hYGL;&aYG;&nYG;</me:facs>
+                            <me:dipl>iohan</me:dipl>
+                            <me:norm>Jóhan</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="vera" me:msa="xVB fF nP p3 tPS mIN vR iST">
+                        <choice>
+                            <me:facs>&eMD;&rGE;&uGE;&sYGS;&kYGst;</me:facs>
+                            <me:dipl>erusk</me:dipl>
+                            <me:norm>erusk</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="vinr" me:msa="xNC gM nP cN sI">
+                        <choice>
+                            <me:facs>&uGE;&iGE;&nYG;&iGE;&rGE;</me:facs>
+                            <me:dipl>uinir</me:dipl>
+                            <me:norm>vinir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>				
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Liut[ge]r og Jóhan er venner med hverandre.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>Liut[ge]r and Jóhan are friends with each other.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head> <!-- OEH 2021-03-23: Flott kommentar! Eg har berre retta litt i språkføringa (som er god).-->
+                <p>Kammen er 10 cm lang og har 6 nagler av jern. Innskriften står på den ene siden, på den andre er to langsgående furer. Innskriften er ca. 5,5 cm lang og ca. 0,4 cm høy. På oversiden går den opp til kanten og er “nedentil innrammet av en dobbelt linje som mot endene forener seg til en enkelt” (NIyR V: 30). Begynnelsen er skadet ved forvitring; de tre første runene er leselige, den fjerde er skadet, men sikkert &tYG; <hi rend="bold">t</hi>, de to følgende runene er ikke klare og den syvende er skadet. Asklak Liestøl leser den sistnevnte som &rGE; <hi rend="bold">r</hi>. Resten av innskriften er tydelig. De fire første runene &lGE;&iGE;&uGE;&tYG; <hi rend="bold">liut</hi> viser at det må være et tysk personnavn, Liutger eller Liuthar. Begge to er tidlig kommet i bruk i dansk. Det andre navnet, Jóhan, er “både i Norge og på Island kommet i bruk alt i 11te årh.” (NIyR V: 31). Det er sannsynlig at Liut[ge]r (et fremmed navn) og Jóhan (et norsk navn) er to handelsvenner. Man kan se innskriften i sammenheng med N 438 Borgund, Ålesund, “Jón gav Heinrek [denne gjenstand]”, som tyder på en lignende bakgrunn (jf. NIyR V: 31).</p>
+                <p>Dateringen til c. 1100 er satt på bakgrunn av NIyR V: 31. Denne bygger bl.a. på den eldre refleksivformen <emph>erusk</emph>, hvor yngre innskrifter (og håndskrifter) har endelsene <emph>st</emph>- / <emph>zt</emph>- / <emph>z</emph>-.</p>
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <p><figure><graphic url="N462-A.jpg"></graphic></figure></p>
+                <caption>Fotografi av N 462. Gjengitt etter NIyR. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katharina Sophie Kühnel (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+                         
+        </back>
+    </text>
+</TEI>

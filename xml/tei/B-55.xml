@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>B 55 : Bryggen, Bergen, Vestland : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>James</forename>
+							<forename>E.</forename>
+							<surname>Knirk</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<!-- Check if there are any publication of the inscription -->
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9"><date when="2023-05-02">02 May 2023</date> </edition>
+			</editionStmt>
+			<extent n="3">3 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="RunicArchives">B 55</idno>
+				<date when="2022-05-24">24 May 2022</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Photo from Bryggens Museum, Bergen.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>60.3974, 5.32341</settlement>
+						<idno>B 55</idno>
+						<msName>B 55 : Bryggen, Bergen, Vestland</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="stick">
+							<supportDesc>
+								<support>
+									<p><material>wood or bone?</material>.</p>
+									<p/>
+								</support>
+								<condition/>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1200" notAfter="1332">before 1332</origDate></origin>
+						<!-- Dateringa må sjekkast med Elisbeth! -->
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Kept in Bryggens Museum.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021. Thde work with the catalogue continued in 2022.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the photo of the inscription.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-11-09</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Added a detailed photo of the inscription</change>
+			<change>
+				<date>2022-09-23</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor update</change>
+			<change>
+				<date>2022-05-24</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first draft of this file</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+				<head>
+					<hi rend="bold">Signum</hi>: B 55 || 
+					<hi rend="bold">Stad</hi>: Bryggen, Bergen, Vestland [Hordaland] || 
+					<hi rend="bold">Kart</hi>: På veg || 
+					<hi rend="bold">Datering</hi>: før 1332 <lb/> 
+					<hi rend="bold">Materiale</hi>: Tre || 
+					<hi rend="bold">Status</hi>: Bevart, no i Bryggens Museum || 
+					<hi rend="bold">Utgåve</hi>: Enno ikkje i NIyR || 
+					<hi rend="bold">SamNord</hi>: <ref target=" http://kulturarvsdata.se/uu/srdb/5e6d5845-a959-4043-a899-17894d34db3f" type="external">B 55</ref>
+				</head>
+			</div>
+			<div type="presentation">
+				<head>Omtale</head>
+				<p>Denne innskrifta står på ein pinne der det er ei teikning av mange skip, stamn etter stamn, og fleire med flagg. På pinnen er det også ei teikning av eit fullstendig skip. Teikninga av stamnane er brukt som eit stort relieff utvendig på nordveggen av Bryggen Museum i Bergen.</p>
+				<note type="explanation"><ref target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+			</div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+				<p>
+					<pb ed="ms" n="1r"/>
+					<lb ed="ms" n="1"/>
+					<w lemma="hér" me:msa="xAV">
+						<choice>
+							<me:facs>&hYGL;&eMD;&rGE;</me:facs>
+							<me:dipl>her</me:dipl>
+							<me:norm>Hér</me:norm>
+						</choice>
+					</w>
+					<pc type="runic">
+						<choice>
+							<me:facs>&middotPM;</me:facs>
+						</choice>
+					</pc>
+					<w lemma="fara" me:msa="xVB fF tPS mIN p3 nS vA">
+						<choice>
+							<me:facs>&fGEst;&aeMD;&rGE;&rGE;</me:facs>
+							<me:dipl>færr</me:dipl>
+							<me:norm>ferr</me:norm>
+						</choice>
+					</w>
+					<pc type="runic">
+						<choice>
+							<me:facs>&middotPM;</me:facs>
+						</choice>
+					</pc>
+					<w lemma="Hafdjarfr" me:msa="xNP gM nS cN sI">
+						<choice>
+							<!-- CORRECT: <me:facs>&hYGL;&fGEst;  fGEst&dMDdot;&iGE;&aeMD;&fGEst;&rGE;</me:facs> -->
+							
+						<me:facs>&hYGL;&aYG;&#xF538;&fGEst;&dMDdot;&iGE;&aeMD;&fGEst;&rGE;</me:facs>
+							
+							<!-- CORRECT: <me:dipl>h<seg type="lig">af</seg>diæfr</me:dipl> -->
+							
+							<me:dipl>ha&#xF538;fdiæfr</me:dipl>
+							<me:norm>Hafdjarfr</me:norm>
+						</choice>
+					</w>
+				</p>
+			</div>
+		</body>
+		<back>
+			<div type="translation" xml:lang="nor">
+				<head>Omsetjing til norsk</head>
+				<p>Her fer Havdjerv / den havdjerve.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+				<p>Here sails the seabold.</p>
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Det siste ordet i innskrifta kan oppfattast både som eit appellativ, “den havdjerve”, og som eit proprium, “Havdjerv”.</p>
+			</div>
+			<div type="dating" xml:lang="nor">
+				<head>Datering</head>
+				<p>På grunnlag av plasseringa i brannlaga kan innskrifta daterast til før 1332. Diftongen &iGE;&aeMD; <hi rend="bold">iæ</hi> for eldre <hi rend="bold">ja</hi> tyder på progressiv konsonantassimilasjon, som er kjent i trøndske og austlandske kjelder frå tidleg på 1200-talet, men i mindre grad i vestnorsk. Jf. Haugen 2018: 279.</p>
+			</div>
+
+			<div type="illustration">
+				<head>Illustrasjonar</head>
+				<figure>
+					<graphic url="B55-A.jpg"/>
+				</figure>
+				<caption>Fotografi av B 55, forside (med skipsstamnar) og bakside (med skipsteikning og runeinnskrift). Runeinnskrifta står heilt nederst til høgre. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<!-- Sjekk attribusjonen -->
+				<figure>
+					<graphic url="B55-B.jpg"/>
+				</figure>
+				<caption>Avteikning av B 55 ved Saskia J. Cowan (2022). Lisens: CC-BY-SA 4.0.</caption>
+				<figure>
+					<graphic url="B55-A-detalj.jpg"/>
+				</figure>
+				<caption>Detaljfotografi av B 55, runeinnskrifta på baksida. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<!-- Sjekk attribusjonen -->
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kjelder</head>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+				<bibl>Haugen, Odd Einar. 2018. “Høgmellomalderen (1050–1350)”. Kap. 4 i <title>Tidslinjer</title> (2018), bd. 4 av <title>Norsk språkhistorie</title> (2016–2018), red. av Helge Sandøy og Agnete Nesse. Oslo: Novus.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Odd Einar Haugen (Universitetet i Bergen, 2022)</p>
+				<note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+			</div>
+		</back>
+	</text>
+</TEI>

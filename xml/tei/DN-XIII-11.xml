@@ -1,0 +1,961 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns:me="http://www.menota.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title>DN 13:11 = RN 5:117 : 1338-05-19 : Re i Breim : a digital edition</title>
+    <editor role="institution">
+     <orgName>Språksamlingane</orgName>
+    </editor>
+    <respStmt>
+     <resp>Transcription</resp>
+     <name>Many persons employed by Gammelnorsk ordboksverk <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </respStmt>
+    <!-- <respStmt resp="annotation">
+     <resp>Lemmatisation and morphological annotation</resp>
+     <orgName type="institution">GNO <orgName type="affiliation">University of Oslo</orgName>
+     </orgName>
+    </respStmt> -->
+    <respStmt>
+     <resp>Digitisation and conversion to electronic form</resp>
+     <name>
+      <orgName type="affiliation">The Documentation Project</orgName>
+     </name>
+    </respStmt>
+
+    <respStmt>
+     <resp>Conversion to XML</resp>
+     <name>
+      <persName>
+       <forename>Christian-Emil</forename>
+       <surname>Smith</surname>
+       <surname>Ore</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </respStmt>
+
+    <respStmt>
+     <resp>Reorganisation and revising of the XML file</resp>
+     <name>
+      <persName>
+       <forename>Tone</forename>
+       <forename>Merete</forename>
+       <surname>Bruvik</surname>
+      </persName>
+      <orgName type="affiliation">University Library of Bergen</orgName>
+     </name>
+     <name>
+      <persName>
+       <forename>Odd</forename>
+       <forename>Einar</forename>
+       <surname>Haugen</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+
+    <respStmt resp="proofreading">
+     <resp>Proofreading of text</resp>
+     <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+     <name>
+      <persName>
+       <forename>Nomen</forename>
+       <surname>Nescio</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+
+    <!-- <respStmt resp="annotation">
+     <resp>Supplying of morphological annotation</resp> 
+     <name>
+      <persName>
+       <forename>Nomen</forename>
+       <surname>Nescio</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt> -->
+
+    <respStmt>
+     <resp>Project overview</resp>
+     <name>
+      <persName>
+       <forename>Odd</forename>
+       <forename>Einar</forename>
+       <surname>Haugen</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition n="1.0">First draft, <date when="2024-07-05">5 July 2024</date></edition>
+   </editionStmt>
+   <extent n="242">242 words</extent>
+   <publicationStmt>
+    <distributor>Medieval Nordic Text Archive</distributor>
+    <idno>t.b.a.</idno>
+    <date><date when="2024-07-05">5 July 2024</date></date>
+    <availability status="free">
+     <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl facs="no">t.b.a.</bibl>
+    <msDesc>
+     <msIdentifier>
+      <country key="NO">Norway</country>
+      <settlement>t.b.a</settlement>
+      <repository>t.b.a</repository>
+      <idno>DN 13:11</idno>
+      <altIdentifier>
+       <idno>RN 5:117</idno>
+      </altIdentifier>
+      <altIdentifier>
+       <idno>t.b.a.</idno>
+      </altIdentifier>
+      <msName>1338 May 19 : Re i Breim</msName>
+     </msIdentifier>
+     <msContents>
+      <msItem defective="false" class="origBrev">
+       <title type="uniform">Provsbrev</title>
+       <!-- OEH: Slik klassifisert i RN -->
+      </msItem>
+     </msContents>
+     <physDesc>
+      <objectDesc>
+       <supportDesc>
+        <support><p><material>Parchment</material></p></support>
+        <extent>t.b.a.</extent>
+       </supportDesc>
+      </objectDesc>
+      <handDesc hands="1">
+       <!-- OEH: Eg reknar med at det berre er ein skrivar -->
+       <handNote scribe="Unknown" scope="sole">Unknown scribe</handNote>
+      </handDesc>
+      <sealDesc>
+       <seal>
+        <p/>
+        <!-- OEH: Skal det stå noko om segl? -->
+       </seal>
+      </sealDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origPlace>Re i Breim</origPlace>
+       <origDate>1338 May 19</origDate>
+      </origin>
+     </history>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>This encoding follows the standard set out in <title>The Menota handbook</title> (version 3.0), at <ref target="http://www.menota.org/handbook.xml">http://www.menota.org/handbook.xml</ref> as of <date>2019-12-12</date>.</p>
+   </projectDesc>
+   <editorialDecl>
+    <correction status="high">
+     <p>This text has been transcribed directly from photographic colour facsimiles of the diploma.</p>
+    </correction>
+    <normalization me:level="dipl">
+     <p>This text has been encoded on a diplomatic level.</p>
+    </normalization>
+    <interpretation me:morphAnalyzed="none" me:lemmatized="none">
+     <p>No annotation yet</p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="nor">Norwegian</language>
+   </langUsage>
+   <handNotes>
+    <handNote xml:id="h1"/>
+   </handNotes>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>2024-05-05</date>
+    <name>
+     <persName>Odd Einar Haugen</persName>
+     <orgName type="affiliation">University of Bergen</orgName>
+    </name>: Made the first draft</change>
+  </revisionDesc>
+ </teiHeader>
+
+ <text xml:lang="nor">
+  <front>
+   <div type="abstracts">
+    <head><hi rend="bold">Stad</hi>: Re i Breim. <hi rend="bold">Dato</hi>: 19 May 1338. <hi rend="bold">Utgåve</hi>: DN 13:11</head>
+   </div>
+   <div source="DN">
+    <head>Frå <title>Diplomatarium Norvegicum</title></head>
+    <p><hi rend="bold">Samandrag</hi>: Fem Mænd kundgjöre, at der for Kongens Ombudsmænd <emph>Eilif Ormssön</emph> og <emph>Sigurd Gudbrandssön</emph> blev aflagt forskjellige Vidnesbyrd angaaende Retten for <emph>Bredemnes</emph> (Breums) og <emph>Jölsters</emph> Indbyggere til at have Adgang til Söen og at opbygge <emph>Nöst</emph> paa <emph>Sandene</emph> (i Gloppen) samt til Beite for sine Heste, medens Indbyggerne i <emph>Sanddals</emph> Fjerding (i Aalhus?) skulde have sin Adgang til Söen i <emph>Ladhammersvik</emph>.</p>
+    <p><hi rend="bold">Kjelde</hi>: Efter Orig. p. Perg. i norske Rigsarkiv (fra danske Geheimearkiv 1851). Alle 5 Segl mangle. Sigillatorisk forbundet med Vidisse af 29 Decbr. 1592, trykt nedenfor som b. 1ste, 2det og 6te Segl vedhænge.</p>
+   </div>
+   <div source="RN">
+    <head>Frå <title>Regesta Norvegica</title></head>
+    <p><hi rend="bold">Samandrag</hi>: Provsbrev fra Eiliv Ormsson og Si[gurd Gudbra]ndsson (kongens ombudsmenn), Eirik på Søreidet, Þij på Råd og Ivar på Kåle: De var samme dag på skipreidetinget på Re, da en rekke vitner – Torgrim Eindrideson, Eirik Abrahamsson, Eirik sau, Kolbein Abrahamsson, Ogmund Arneson og Olav Ogmundsson – forklarte, dels at Breims- og Jølster-mennene hadde adgang til sjøen ved Sandene og rett til naust.</p>
+    <p><hi rend="bold">Kjelde</hi>: NRA. (Seglforbundet med vidisse.)</p>
+    <p><hi rend="bold">Utgåve</hi>: DN I3:11.</p>
+   </div>
+   <!-- <div source="editor">
+    <head>Abstract by the editor</head>
+    <p>To be added</p>
+   </div> -->
+  </front>
+  <body>
+   <div type="text">
+    <pb n="1r" ed="ms"/>
+    <lb ed="ms" n="1"/>
+    <p>
+     <lb ed="DN" n="1"/>
+     <w><me:dipl>O<unclear>ll<ex>u</ex>m</unclear></me:dipl></w>
+     <w><me:dipl>mon<ex>n</ex>u<ex>m</ex></me:dipl></w>
+     <w><me:dipl>þeim</me:dipl></w>
+     <w><me:dipl>sem</me:dipl></w>
+     <supplied resp="GNO" rendition="first"><w><me:dipl>þetta</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>bref</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>sea</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>æda</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>høyra</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><lb ed="DN" n="2"/></supplied>
+     <w><me:dipl><supplied resp="GNO" rendition="last">se</supplied>nda</me:dipl></w>
+     <w><me:dipl>eilifvr</me:dipl></w>
+     <w><me:dipl>orms son</me:dipl></w>
+     <w><me:dipl>si<supplied resp="GNO" rendition="first">gurdr</supplied></me:dipl></w>
+     <lb ed="ms" n="2"/>
+     <w><me:dipl><supplied resp="GNO" rendition="last">Gudbra</supplied>nd son</me:dipl></w>
+     <w><me:dipl>eirikr</me:dipl></w>
+     <w><me:dipl>a</me:dipl></w>
+     <w><me:dipl>sy<supplied resp="GNO" rendition="first">draeidi</supplied></me:dipl></w>
+    <lb ed="DN" n="3"/>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>þij</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>a</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>Rod</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>Jwar</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="last"><w><me:dipl>a</me:dipl></w></supplied>
+     <w><me:dipl>kole</me:dipl></w>
+     <w><me:dipl>q<ex>uediu</ex></me:dipl></w>
+     <w><me:dipl>g<ex>uds</ex></me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>sína</me:dipl></w>
+     <w><me:dipl>mer</me:dipl></w>
+     <w><me:dipl>ger<unclear>om</unclear></me:dipl></w>
+     <supplied resp="GNO"><w><me:dipl>ydr</me:dipl></w></supplied>
+     <lb ed="ms" n="3"/>
+     <w><me:dipl><unclear>kunn</unclear>igt</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <lb ed="DN" n="4"/>
+     <w><me:dipl>þar</me:dipl></w>
+     <w><me:dipl>varo</me:dipl></w>
+     <w><me:dipl>mer</me:dipl></w>
+     <supplied resp="GNO" rendition="first"><w><me:dipl>j</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>hia</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>ok</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>høyrdum</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>a</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="last"><w><me:dipl>a</me:dipl></w></supplied>
+     <w><me:dipl>tysdaghen<ex>n</ex></me:dipl></w>
+     <w><me:dipl>j</me:dipl></w>
+     <w><me:dipl>gagndaghu<ex>m</ex></me:dipl></w>
+     <lb ed="DN" n="5"/>
+     <w><me:dipl>a</me:dipl></w>
+     <w><me:dipl>níttían<ex>n</ex><lb ed="ms" n="4"/>da</me:dipl></w>
+     <w><me:dipl>are</me:dipl></w>
+     <w><me:dipl>rikis</me:dipl></w>
+     <w><me:dipl>vaars</me:dipl></w>
+     <w><me:dipl>vyrdulegs</me:dipl></w>
+     <supplied resp="GNO" rendition="first"><w><me:dipl>herra</me:dipl></w></supplied>
+     <supplied resp="GNO" rendition="middle"><w><me:dipl>herra</me:dipl></w></supplied>
+     <w><me:dipl><supplied resp="GNO" rendition="last">Magn</supplied>us</me:dipl></w>
+     <w><me:dipl>m<ex>ed</ex></me:dipl></w>
+     <lb ed="DN" n="6"/>
+     <w><me:dipl>guds</me:dipl></w>
+     <w><me:dipl>mískun</me:dipl></w>
+     <w><me:dipl>noregss</me:dipl></w>
+     <w><me:dipl>sya</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>gota</me:dipl></w>
+     <lb ed="ms" n="5"/>
+     <w><me:dipl>k<ex>onu</ex>ngs</me:dipl></w>
+     <w><me:dipl>a</me:dipl></w>
+     <w><me:dipl>skipreidu</me:dipl></w>
+     <w><me:dipl>þíngínu</me:dipl></w>
+     <w><me:dipl>a</me:dipl></w>
+     <lb ed="DN" n="7"/>
+     <w><me:dipl>ree</me:dipl></w>
+     <w><me:dipl><unclear>er</unclear></me:dipl></w>
+     <w><me:dipl><unclear>þeir</unclear></me:dipl></w>
+     <w><me:dipl>toko</me:dipl></w>
+     <w><me:dipl>so</me:dipl></w>
+     <w><me:dipl>tíl</me:dipl></w>
+     <w><me:dipl>bokar</me:dipl></w>
+     <w><me:dipl>þo<unclear>r</unclear>grímr</me:dipl></w>
+     <w><me:dipl>eíndrída son<ex>n</ex></me:dipl></w>
+     <lb ed="ms" n="6"/>
+     <w><me:dipl>eírikr</me:dipl></w>
+     <w><me:dipl>abrams <lb ed="DN" n="8"/> son</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>suoro</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <w><me:dipl>fullan<ex>n</ex></me:dipl></w>
+     <w><me:dipl>eid</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <w><me:dipl>þa</me:dipl></w>
+     <w><me:dipl>siouar</me:dipl></w>
+     <w><me:dipl>sokn</me:dipl></w>
+     <w><me:dipl>att<unclear>e</unclear></me:dipl></w>
+     <w><me:dipl>b<unclear>r</unclear>eíde<ex>m</ex>nís</me:dipl></w>
+     <lb ed="DN" n="9"/>
+     <w><me:dipl>verír</me:dipl></w>
+     <lb ed="ms" n="7"/>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>iolmstar</me:dipl></w>
+     <w><me:dipl>verír</me:dipl></w>
+     <w><me:dipl>naust</me:dipl></w>
+     <w><me:dipl>tupt</me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <w><me:dipl>land</me:dipl></w>
+     <w><me:dipl>varn<unclear>a</unclear>r</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>on<ex>n</ex>ur</me:dipl></w>
+     <w><me:dipl>þar<lb ed="DN" n="10"/>venda</me:dipl></w>
+     <w><me:dipl>naust</me:dipl></w>
+     <w><me:dipl>ser</me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <w><me:dipl>up<lb ed="ms" n="8"/>sata</me:dipl></w>
+     <w><me:dipl>a</me:dipl></w>
+     <w><me:dipl>sondum</me:dipl></w>
+     <w><me:dipl>þa</me:dipl></w>
+     <w><me:dipl>gengo</me:dipl></w>
+     <w><me:dipl>on<ex>n</ex>ur</me:dipl></w>
+     <w><me:dipl>vithní</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <lb ed="DN" n="11"/>
+     <w><me:dipl>suoro</me:dipl></w>
+     <w><me:dipl>en</me:dipl></w>
+     <w><me:dipl>fullan</me:dipl></w>
+     <w><me:dipl>eid</me:dipl></w>
+     <w><me:dipl>eirikr</me:dipl></w>
+     <w><me:dipl>saudr</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>kolbeín</me:dipl></w>
+     <lb ed="ms" n="9"/>
+     <w><me:dipl>abraams son</me:dipl></w>
+     <w><me:dipl>ogmundr</me:dipl></w>
+     <lb ed="DN" n="12"/>
+     <w><me:dipl>arna son</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <w><me:dipl>þessar</me:dipl></w>
+     <w><me:dipl>tuptír</me:dipl></w>
+     <w><me:dipl>fyr nemdar</me:dipl></w>
+     <w><me:dipl>eiga</me:dipl></w>
+     <w><me:dipl>breide<ex>m</ex>ní</me:dipl></w>
+     <w><me:dipl>verír</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <lb ed="ms" n="10"/>
+     <lb ed="DN" n="13"/>
+     <w><me:dipl>jolmstar</me:dipl></w>
+     <w><me:dipl>verír</me:dipl></w>
+     <w><me:dipl>m<ex>ed</ex></me:dipl></w>
+     <w><me:dipl>tiodr</me:dipl></w>
+     <w><me:dipl>beítí</me:dipl></w>
+     <w><me:dipl>hestom</me:dipl></w>
+     <w><me:dipl>sínu<ex>m</ex></me:dipl></w>
+     <w><me:dipl>þar</me:dipl></w>
+     <w><me:dipl>a</me:dipl></w>
+     <w><me:dipl>sondu<ex>m</ex></me:dipl></w>
+     <w><me:dipl>ofan</me:dipl></w>
+     <lb ed="DN" n="14"/>
+     <w><me:dipl>undan</me:dipl></w>
+     <w><me:dipl>holens</me:dipl></w>
+     <w><me:dipl><unclear>v</unclear>ik</me:dipl></w>
+     <lb ed="ms" n="11"/>
+     <w><me:dipl>er</me:dipl></w>
+     <w><me:dipl>liggr</me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <w><me:dipl>brede<ex>m</ex>nis</me:dipl></w>
+     <w><me:dipl>skipreidu</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>iolmst<unclear>ar</unclear></me:dipl></w>
+     <lb ed="DN" n="15"/>
+     <w><me:dipl>skípreidu</me:dipl></w>
+     <w><me:dipl>suoro</me:dipl></w>
+     <w><me:dipl>þesser</me:dipl></w>
+     <w><me:dipl>an<ex>n</ex>an</me:dipl></w>
+     <w><me:dipl>almen<ex>n</ex>ing</me:dipl></w>
+     <lb ed="ms" n="12"/>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>siouar</me:dipl></w>
+     <w><me:dipl>sokn</me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <w><me:dipl>san<lb ed="DN" n="16"/>d<unclear>a</unclear>la</me:dipl></w>
+     <w><me:dipl>fiordongs</me:dipl></w>
+     <w><me:dipl>suoro</me:dipl></w>
+     <w><me:dipl>þeír</me:dipl></w>
+     <w><me:dipl>þar</me:dipl></w>
+     <w><me:dipl>fullan</me:dipl></w>
+     <w><me:dipl>eid</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <w><me:dipl>eirikr</me:dipl></w>
+     <w><me:dipl>abrams <lb ed="ms" n="13"/> son</me:dipl></w>
+     <lb ed="DN" n="17"/>
+     <w><me:dipl>olaf<unclear>v</unclear>r</me:dipl></w>
+     <w><me:dipl>ogmundar son</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <w><me:dipl>sand<unclear>a</unclear>la</me:dipl></w>
+     <w><me:dipl><unclear>fi</unclear>ordongr</me:dipl></w>
+     <w><me:dipl>atte</me:dipl></w>
+     <w><me:dipl>sæuar</me:dipl></w>
+     <w><me:dipl>sok</me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <w><me:dipl>uika</me:dipl></w>
+     <lb ed="DN" n="18"/>
+     <w><me:dipl>j</me:dipl></w>
+     <w><me:dipl>lad<lb ed="ms" n="14"/>ha<ex>m</ex>mars</me:dipl></w>
+     <w><me:dipl>vík</me:dipl></w>
+     <w><me:dipl>fírír</me:dipl></w>
+     <w><me:dipl>vttan<ex>n</ex></me:dipl></w>
+     <w><me:dipl>bruar</me:dipl></w>
+     <w><me:dipl>land</me:dipl></w>
+     <w><me:dipl><unclear>suo</unclear>ro</me:dipl></w>
+     <w><me:dipl>h<add place="over">u</add>arer</me:dipl></w>
+     <w><me:dipl>tueggia</me:dipl></w>
+     <w><me:dipl>sogn</me:dipl></w>
+     <lb ed="DN" n="19"/>
+     <w><me:dipl>fedra</me:dipl></w>
+     <w><me:dipl>sin<ex>n</ex>a</me:dipl></w>
+     <lb ed="ms" n="15"/>
+     <w><me:dipl>varo</me:dipl></w>
+     <w><me:dipl>þ<unclear>e</unclear>ssor</me:dipl></w>
+     <w><me:dipl>vithní</me:dipl></w>
+     <w><me:dipl>boren</me:dipl></w>
+     <w><me:dipl>fírír</me:dipl></w>
+     <w><me:dipl>fyr<ex>r</ex></me:dipl></w>
+     <w><me:dipl><unclear>nem</unclear>dum</me:dipl></w>
+     <w><me:dipl>eilíuí</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>si<lb ed="DN" n="20"/>gurdí</me:dipl></w>
+     <w><me:dipl>er</me:dipl></w>
+     <w><me:dipl>j</me:dipl></w>
+     <w><me:dipl>fullu</me:dipl></w>
+     <w><me:dipl>umbode</me:dipl></w>
+     <lb ed="ms" n="16"/>
+     <w><me:dipl>varo</me:dipl></w>
+     <w><me:dipl>af</me:dipl></w>
+     <w><me:dipl>k<ex>onu</ex>ngs</me:dipl></w>
+     <w><me:dipl>vegna</me:dipl></w>
+     <w><me:dipl>at</me:dipl></w>
+     <w><me:dipl>taka</me:dipl></w>
+     <w><me:dipl>allan</me:dipl></w>
+     <w><me:dipl>þ<unclear>a</unclear>n</me:dipl></w>
+     <lb ed="DN" n="21"/>
+     <w><me:dipl>vithnísburd</me:dipl></w>
+     <w><me:dipl>er</me:dipl></w>
+     <w><me:dipl>krunun<ex>n</ex>í</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>k<ex>onu</ex>ngdome<lb ed="ms" n="17"/>meno<ex>m</ex></me:dipl></w>
+     <w><me:dipl>h<unclear>ø</unclear>yrdí</me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>til</me:dipl></w>
+     <lb ed="DN" n="22"/>
+     <w><me:dipl>san<ex>n</ex><unclear>i</unclear>nda</me:dipl></w>
+     <w><me:dipl>her</me:dipl></w>
+     <w><me:dipl>um</me:dipl></w>
+     <w><me:dipl>setum</me:dipl></w>
+     <w><me:dipl>mer</me:dipl></w>
+     <w><me:dipl>var</me:dipl></w>
+     <w><me:dipl>ínsiglí</me:dipl></w>
+     <w><me:dipl>f<ex>irir</ex></me:dipl></w>
+     <w><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+     <w><me:dipl>bref</me:dipl></w>
+     <lb ed="ms" n="18"/>
+     <w><me:dipl>er</me:dipl></w>
+     <w><me:dipl>gort</me:dipl></w>
+     <lb ed="DN" n="23"/>
+     <w><me:dipl>var</me:dipl></w>
+     <w><me:dipl>deghí</me:dipl></w>
+     <w><me:dipl><ex>ok</ex></me:dipl></w>
+     <w><me:dipl>are</me:dipl></w>
+     <w><me:dipl>sem</me:dipl></w>
+     <w><me:dipl>fyr</me:dipl></w>
+     <w><me:dipl>segír</me:dipl></w>
+     <pc>.</pc>
+     <pb ed="ms" n="1v"/>
+     <note type="explanation">Eventuell tekst på baksida av diplomet er ikkje teken med.</note>
+    </p>
+
+   </div>
+   <div>
+    <head>Vidisse av diplomet frå 1592</head>
+    <p>
+     <pb ed="ms" n="2r"/>
+     <note type="explanation">[Vidissen opnar med ein rammetekst som fortel om bakgrunnen for avskrifta av det eldre dokumentet.]</note>
+     <!-- NB! Nummereringa av linjene er ikkje kontrollert mot dokumentet frå 1592! -->
+     <lb ed="ms" n="1"/>
+     <w>Bekienndis</w>
+     <w>wy</w>
+     <w>efftherschriiffne</w>
+     <w>Lauris Andersøn</w>
+     <w>paa</w>
+     <w>jndre</w>
+     <w>Huoge</w>
+     <pc>,</pc>
+     <w>Niells</w>
+     <lb ed="ms" n="2"/>
+     <w>Rewlffsønn</w>
+     <w>paa</w>
+     <w>yttre</w>
+     <w>Huoge</w>
+     <pc>,</pc>
+     <w>Anthonius</w>
+     <w>Ollsönn</w>
+     <w>paa</w>
+     <w>Tydstadt</w>
+     <pc>,</pc>
+     <w>Willhielm</w>
+     <w>paa</w>
+     <w>Hel-<lb ed="ms" n="3"/>gim</w>
+     <pc>,</pc>
+     <w>Knud</w>
+     <w>Søffrensøn</w>
+     <w>y</w>
+     <w>jndre</w>
+     <w>Ørdall</w>
+     <w>och</w>
+     <w>Niels</w>
+     <w>Andersønn</w>
+     <w>y</w>
+     <w>yttre</w>
+     <w>Ørdall</w>
+     <pc>,</pc>
+     <w>alle</w>
+     <lb ed="ms" n="4"/>
+     <w>eidsuorne</w>
+     <w>laugrettis</w>
+     <w>mend</w>
+     <w>y</w>
+     <w>Gloppenn</w>
+     <w>och</w>
+     <w>paa</w>
+     <w>Jølster</w>
+     <pc>,</pc>
+     <w>att</w>
+     <w>wy</w>
+     <w>haffue</w>
+     <w>hørtt</w>
+     <w>læsit</w>
+     <w>it </w>
+     <lb ed="ms" n="5"/>
+     <w>gammelt</w>
+     <w>pergementz</w>
+     <w>breff</w>
+     <pc>,</pc>
+     <w>liudendis</w>
+     <w>att</w>
+     <w>Breims</w>
+     <w>mend</w>
+     <w>och</w>
+     <w>Jølstre</w>
+     <w>mend</w>
+     <w>skulle</w>
+     <w>haffue</w>
+     <lb ed="ms" n="6"/>
+     <w>frij</w>
+     <w>siørog</w>
+     <w>ned</w>
+     <w>paa</w>
+     <w>Sandene</w>
+     <w>wdi</w>
+     <w>Gloppenn</w>
+     <w>dernest</w>
+     <w>och</w>
+     <w>att</w>
+     <w>de</w>
+     <w>skall</w>
+     <w>haffue</w>
+     <w>noust<lb ed="ms" n="7"/>tuffter</w>
+     <w>och</w>
+     <w>tiord</w>
+     <w>bede</w>
+     <w>tiill</w>
+     <w>deris</w>
+     <w>hester</w>
+     <w>fornedenn</w>
+     <w>op</w>
+     <w>wnder</w>
+     <w>Hollewigenn</w>
+     <pc>,</pc>
+     <w>och</w>
+     <w>iuder</w>
+     <lb ed="ms" n="8"/>
+     <w>for&nbsp;&nsup;&nbsp;&esup;</w>
+     <w>gamle</w>
+     <w>pergementz</w>
+     <w>breff</w>
+     <w>ord</w>
+     <w>fraa</w>
+     <w>ord</w>
+     <pc>,</pc>
+     <w>huilckit</w>
+     <w>Peder</w>
+     <w>Anbiørsønn</w>
+     <w>paa</w>
+     <w>Hettle</w>
+     <lb ed="ms" n="9"/>
+     <w>haffuer</w>
+     <w>ladet</w>
+     <w>fornye</w>
+     <w>paa</w>
+     <w>Breims</w>
+     <w>och</w>
+     <w>Jøllsters</w>
+     <w>mends</w>
+     <w>wegne</w>
+     <pc>,</pc>
+     <w>lige</w><w>som</w>
+     <w>her</w>
+     <w>efftherfölger</w>
+     <pc>,</pc>
+    </p>
+
+    <p>
+     <note type="explanation">[Her følgjer ei avskrift av originaldiplomet.]</note>
+     <lb ed="ms" n="10"/>
+     <lb ed="DN" n="1"/>
+     <w>Ollum</w>
+     <w>Monnum</w>
+     <w>þeim</w>
+     <w>sem</w>
+     <w>þetta</w>
+     <w>breff</w>
+     <w>sia</w>
+     <w>edra</w>
+     <w>höyra</w>
+     <lb ed="ms" n="11"/>
+     <w>senda</w>
+     <lb ed="DN" n="2"/>
+     <w>Eiliffwr</w>
+     <w>Ormssonn</w>
+     <pc>,</pc>
+     <w>Sighurder</w>
+     <w>gudbondesön</w>
+     <w>Eiricker</w>
+     <w>á</w>
+     <w>sydra</w>
+     <w>Eidi</w>
+     <pc>,</pc>
+     <lb ed="DN" n="3"/>
+     <w>þij</w>
+     <w>a</w>
+     <w>rod</w>
+     <w>Jwar</w>
+     <w>Kole</w>
+     <w>q<ex>uediu</ex></w>
+     <w>g<ex>uds</ex></w>
+     <lb ed="ms" n="12"/>
+     <w>och</w>
+     <w>sina</w>
+     <w>meir</w>
+     <w>gerom</w>
+     <w>yder</w>
+     <w>kunugt</w>
+     <pc>,</pc>
+     <w>at</w>
+     <lb ed="DN" n="4"/>
+     <w>þar</w>
+     <w>waro</w>
+     <w>meir</w>
+     <w>i</w>
+     <w>hia</w>
+     <w><ex>och</ex></w>
+     <w>höyrdum</w>
+     <w>á</w>
+     <pc>,</pc>
+     <w>a</w>
+     <w>Tysdagen</w>
+     <w>i</w>
+     <w>gang<lb ed="ms" n="13"/>daghum</w>
+     <w>á</w>
+     <lb ed="DN" n="5"/>
+     <w>nitianda</w>
+     <w>Are</w>
+     <w>rick<unclear>a</unclear>s</w>
+     <w>warss</w>
+     <w>wyrdulegs</w>
+     <w>herra</w>
+     <w>Magnus</w>
+     <w>medt</w>
+     <w>guds</w>
+     <lb ed="DN" n="6"/>
+     <w>miskun</w>
+     <pc>,</pc>
+     <w>Noregs</w>
+     <w>suea</w>
+     <lb ed="ms" n="14"/>
+     <w>och</w>
+     <w>gota</w>
+     <w>k<ex>onu</ex>ngs</w>
+     <w>a</w>
+     <w>skipreida</w>
+     <w>tingum</w>
+     <w>a</w>
+     <w>Re</w>
+     <pc>,</pc>
+     <lb ed="DN" n="7"/>
+     <w>er</w>
+     <w>þeir</w>
+     <w>tocko</w>
+     <w>so</w>
+     <w>tiill</w>
+     <w>bokar</w>
+     <w>þorgrim</w>
+     <w>Eindridasön</w>
+     <w>Eiricker</w>
+     <lb ed="ms" n="15"/>
+     <w>Abrams<lb ed="DN" n="8"/>sönn</w>
+     <w><ex>och</ex></w>
+     <w>suore</w>
+     <w>at</w>
+     <w>fullan</w>
+     <w>eid</w>
+     <w>at</w>
+     <w>þa</w>
+     <w>howar</w>
+     <w>soknn</w>
+     <w>atte</w>
+     <w>Bredems</w>
+     <w>verir</w>
+     <lb ed="DN" n="9"/>
+     <w><ex>och</ex></w>
+     <w>Jolmstör</w>
+     <w>werir</w>
+     <w>Noust</w>
+     <lb ed="ms" n="16"/>
+     <w>tupt</w>
+     <w>tiill</w>
+     <w>land</w>
+     <w>warnar</w>
+     <w><ex>och</ex></w>
+     <w>onnur</w>
+     <w>þar</w>
+     <w>vend<unclear>a</unclear></w>
+     <lb ed="DN" n="10"/>
+     <w>nauden</w>
+     <w>ser</w>
+     <w>vd</w>
+     <w>wpsæta</w>
+     <w>a</w>
+     <w>sondum</w>
+     <pc>,</pc>
+     <w>þa</w>
+     <w>gengo</w>
+     <w>onnur</w>
+     <lb ed="ms" n="17"/>
+     <w>withni</w>
+     <w><ex>och</ex></w>
+     <w>suoro</w>
+     <lb ed="DN" n="11"/>
+     <w>enn</w>
+     <w>fullan</w>
+     <w>eid</w>
+     <w>Eir<unclear>i</unclear>k<ex>e</ex>r</w>
+     <w>sandi</w>
+     <w>Kolbein</w>
+     <w>Abramssön</w>
+     <w>Ogmunder</w>
+     <w>Arna<lb ed="DN" n="12"/>sön</w>
+     <w>at</w>
+     <w>þessar</w>
+     <w>tuptir</w>
+     <lb ed="ms" n="18"/>
+     <w>fyrneffndar</w>
+     <w>eigia</w>
+     <w>Breide<ex>m</ex>ni</w>
+     <w>werir</w>
+     <w><ex>och</ex></w>
+     <w>Jolmstar</w>
+     <lb ed="DN" n="13"/>
+     <w>verir</w>
+     <w>met</w>
+     <w>tiorbeiti</w>
+     <w>hestum</w>
+     <w>sinum</w>
+     <w>þar</w>
+     <w>á</w>
+     <w>sondu</w>
+     <pc>,</pc>
+     <w>offan</w>
+     <lb ed="ms" n="19"/>
+     <w>wndan</w>
+     <w>holom<lb ed="DN" n="14"/>wick</w>
+     <w>er</w>
+     <w>ligger</w>
+     <w>tiill</w>
+     <w>Breidems</w>
+     <w>skipreidu</w>
+     <w><ex>och</ex></w>
+     <w>Jolmstra</w>
+     <w>Skipreidu</w>
+     <w>suore</w>
+     <lb ed="DN" n="15"/>
+     <w>þessar</w>
+     <w>almen<unclear>o</unclear>g</w>
+     <lb ed="ms" n="20"/>
+     <w><ex>och</ex></w>
+     <w>howar</w>
+     <w>sokn</w>
+     <w>tiill</w>
+     <w>sandala</w>
+     <w>fiordongs</w>
+     <pc>,</pc>
+     <w>suoro</w>
+     <w>þeir</w>
+     <lb ed="DN" n="16"/>
+     <w>þar</w>
+     <w>fullan</w>
+     <w>Eid</w>
+     <pc>,</pc>
+     <w>at</w>
+     <w>Eirickr</w>
+     <w>Abramssön</w>
+     <w>Olaffwr</w>
+     <lb ed="ms" n="21"/>
+     <w>ogmundarssön</w>
+     <w>att</w>
+     <lb ed="DN" n="17"/>
+     <w>sandala</w>
+     <w>Suidengi</w>
+     <w>atte</w>
+     <w>sewar</w>
+     <w>soknn</w>
+     <w>tiill</w>
+     <w>inka</w>
+     <w>y</w>
+     <w>Ladhamars</w>
+     <w>wik</w>
+     <lb ed="DN" n="18"/>
+     <w>firir</w>
+     <w>vtan</w>
+     <lb ed="ms" n="22"/>
+     <w>bruar</w>
+     <w>land</w>
+     <w>kiore</w>
+     <w>harer</w>
+     <w>oreggia</w>
+     <w>sogn</w>
+     <w>fodra</w>
+     <w>som</w>
+     <w>waro</w>
+     <lb ed="DN" n="19"/>
+     <w>þossor</w>
+     <w>withni</w>
+     <w>borenn</w>
+     <w>firir</w>
+     <w>fyrneffn<lb ed="ms" n="23"/>dum</w>
+     <w>Eiliui</w>
+     <w><ex>och</ex></w>
+     <w>Sigurdi</w>
+     <w>er</w>
+     <w>y</w>
+     <lb ed="DN" n="20"/>
+     <w>fullu</w>
+     <w>wmbode</w>
+     <w>waro</w>
+     <w>af</w>
+     <w>k<ex>onu</ex>ngs</w>
+     <w>werru</w>
+     <pc>,</pc>
+     <w>at</w>
+     <w>taka</w>
+     <w>allan</w>
+     <w>þan</w>
+     <w>with-<lb ed="ms" n="24"/>nis<lb ed="DN" n="21"/>burder</w>
+     <w>krunun</w>
+     <w>sæm</w>
+     <w>dannemend</w>
+     <w>spyrdi</w>
+     <w>tiill</w>
+     <pc>,</pc>
+     <w>ok</w>
+     <w>tiill</w>
+     <w>sannanda</w>
+     <w>her</w>
+     <lb ed="DN" n="22"/>
+     <w>wm</w>
+     <w>settum</w>
+     <w>meir</w>
+     <w>war</w>
+     <lb ed="ms" n="25"/>
+     <w>ingsigle</w>
+     <w>fir</w>
+     <w>þ<ex>e</ex>tta</w>
+     <w>breff</w>
+     <pc>,</pc>
+     <w>er</w>
+     <w>giortt</w>
+     <w>war</w>
+     <pc>,</pc>
+     <w>deghi</w>
+     <lb ed="DN" n="23"/>
+     <w><ex>och</ex></w>
+     <w>are</w>
+     <w>sem</w>
+     <w>fyr</w>
+     <w>segir</w>
+     <pc>,</pc>
+    </p>
+
+    <p>
+     <note type="explanation">[Her held rammeteksten fram og avsluttar vidissen.]</note>
+     <lb ed="ms" n="26"/>
+     <w>tiill</w>
+     <w>ydermere</w>
+     <w>wiissenn</w>
+     <w>och</w>
+     <w>bedre</w>
+     <w>forwaring</w>
+     <w>lader</w>
+     <w>wy</w>
+     <w>forne</w>
+     <w>mend</w>
+     <w>medtt</w>
+     <w>willie</w>
+     <lb ed="ms" n="27"/>
+     <w>och</w>
+     <w>widskab</w>
+     <pc>,</pc>
+     <w>henge</w>
+     <w>woris</w>
+     <w>jndsigler</w>
+     <w>her</w>
+     <w>nedenn</w>
+     <w>wnder</w>
+     <pc>,</pc>
+     <w>skriiffuit</w>
+     <w>paa</w>
+     <w>Hetle</w>
+     <w>thenn</w>
+     <lb ed="ms" n="28"/>
+     <w>29</w>
+     <pc>.</pc>
+     <w>Decemb</w>
+     <pc>:</pc>
+     <w>Anno</w>
+     <w>1592</w>
+     <pc>.</pc>
+    </p>
+   </div>
+
+  </body>
+ </text>
+</TEI>

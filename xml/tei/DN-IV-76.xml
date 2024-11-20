@@ -1,0 +1,2319 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns:me="http://www.menota.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <!-- Unngå bruk av nullteikn, ∅, i annotasjonen -->
+   <teiHeader> <!-- I headeren brukar vi engelsk, som elles i Menota-filene -->
+      <fileDesc>
+         <titleStmt>
+            <title>DN 4:76 = RN 3:473 : 1308 April 27 : Stavanger : a digital edition</title> <!-- PRIORITET 1. Sjekk at tittelen er korrekt. -->
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Transcription</resp>
+               <name>Many persons employed by Gammelnorsk ordboksverk <orgName type="affiliation">University of Oslo</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="annotation">
+               <resp>Lemmatisation and morphological annotation</resp>
+               <orgName type="institution">GNO <orgName type="affiliation">University of Oslo</orgName>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Digitisation and conversion to electronic form</resp>
+               <name>
+                  <orgName type="affiliation">The Documentation Project</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to XML</resp>
+               <name>
+                  <persName>
+                     <forename>Christian-Emil</forename>
+                     <surname>Smith</surname>
+                     <surname>Ore</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Oslo</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Tone</forename>
+                     <forename>Merete</forename>
+                     <surname>Bruvik</surname>
+                  </persName>
+                  <orgName type="affiliation">University Library of Bergen</orgName>
+               </name>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="annotation"> <!-- ### Her kjem namnet på den/dei som i 2022 har kontrollert annotasjonen og fylt ut manglande annotasjon -->
+               <resp>Supplying of morphological annotation</resp> 
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8">Version 0.8, <date when="2022-04-30">30 May 2022</date></edition> <!-- Her kjem nummer og dato for den siste versjonen av fila.  Datoen vil i prinsippet falle saman med siste <change> i <revisionDesc>, så vi kan vente med å leggje inn denne. -->
+         </editionStmt>
+         <extent n="254">254 words</extent> <!-- PRIORITET 12. Dette er talet på <w>-element i fila. Søk på “<w” og be om “Find all”. -->
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2022-05-30">30 May 2022</date> <!-- ### Dette er dato for første versjon, identisk med 0.8 ovanfor. Denne datoen blir uendra, medan datoen for <edition> ovanfor blir oppdatert for kvar ny versjon. -->
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no">t.b.a. </bibl> <!-- ### Vi legg inn “yes” og lenke til fotografisk faksimile etter kvart som vi skaffar det. -->
+            <msDesc>          
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement> <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository> <!-- Dette kan vi vente med -->
+                  <idno>DN 4:76</idno> <!-- PRIORITET 2. Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 3:473</idno></altIdentifier> <!-- PRIORITET 3. Kan visast slik i katalogen -->
+                  <msName>1308 April 27 : Stavanger</msName> <!-- PRIORITET 4. Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem defective="false" class="origBrev"> <!-- I første omgang inkluderer vi berre originalbrev, så denne verdien kan leggjast inn alt no. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="charter">
+                     <supportDesc>
+                        <support> <p><material>Parchment</material>.</p> </support> <!-- Kan vente. Dei eldste diploma er vel utan unntak på pergament. -->
+                        <extent>1 leaf</extent> <!-- Kan vente. Diploma er nesten alltid på berre eitt blad. -->
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal>
+                        <p>No seals</p> <!-- Dette kan vi vente med. -->
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin> 
+                     <origPlace>Stavanger</origPlace> <!-- PRIORITET 5. Som i <msName> ovanfor. -->
+                     <origDate notAfter="1308" notBefore="1308">1308 April 27</origDate> <!-- PRIORITET 6. Som i <msName> ovanfor. Berre årstalet eller årstalsspennet. -->
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <encodingDesc>       
+         <projectDesc>
+            <p>This encoding follows the standard set out in <title>The
+               Menota handbook</title> (version 3.0), at <ref target="http://www.menota.org/handbook.xml">
+                  http://www.menota.org/handbook.xml</ref> as of <date>2019-12-12</date>.</p> 
+         </projectDesc>
+         <editorialDecl>
+            <correction status="high">
+               <p>This text has been transcribed from a high-quality pencil transcription made by Gammelnorsk ordboksverk.</p>
+            </correction>
+            <normalization me:level="dipl norm">
+               <p>This text has been encoded on a diplomatic and normalised level.</p> <!-- Standard-tekst -->
+            </normalization>
+            <interpretation me:morphAnalyzed="partly" me:lemmatized="partly"> <!-- ### Så snart alle orda er annoterte, skiftar vi til “completely”. Ingen annotasjon = “none”. -->
+               <p>Partly / completely / not yet annotated for lemma and grammatical form.</p> <!-- Denne teksten må tilpassast verdiane “none”/“partly”/“completely” ovanfor. -->
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="dan">Danish</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc> <!-- PRIORITET 7 Her legg du inn dato og ditt namn for den første opprettinga av header -->
+         <change>
+            <date>2022-09-27</date>
+            <name><persName><forename>Olga</forename><surname>Kalinovskaia</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Proofreading of the text against Simensen’s edition in CCN (2002).
+         </change>
+         <change>
+            <date>2022-07-02</date>
+            <name><persName><forename>Olga</forename><surname>Kalinovskaia</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Made the first update of the teiHeader and front elements.
+         </change>
+         <change>
+            <date>2022-03-30</date>
+            <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   
+   <text xml:lang="nor"> <!-- Her slår vi fast at brevet er på norsk. Om det er innslag på latin, kodar vi desse opp med xml:lang="lat". -->
+      <front>
+         <div type="abstracts"><!-- No slår vi over på norsk! -->
+         <head><hi rend="bold">Dato</hi>: 27. april 1308 || <hi rend="bold">Stad</hi>: Stavanger</head>  <!-- PRIORITET 8. Som i <msName> ovanfor. Dato og stad er henta frå RN, som vi reknar som den sikraste kjelda. -->
+         <div source="DN">
+            <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 4, nr. 76</head> <!-- PRIORITET 9. Legg inn riktig band og nunmmer frå DN. -->
+            <p>Sigurd Lagmand paa Randar optager forskjellige Vidnesbyrd om, hvem som
+               havde oppebaaret og betalt Landskylden af 101/2 (Maanedsmatsbol) i Gaarden övre Barke.</p>
+         </div>
+         <div source="RN">
+            <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 473</head> <!-- PRIORITET 10. Legg inn riktig band og nunmmer frå RN. -->
+            <p>Provsbrev fra [Sigurd lagmann på Randa] 2 om vitnemål opptatt i kannikenes gård i Stavanger: Arne og Ogmund vitnet at deres far Øystein i 7 år hadde betalt landskyld for 10 1/2 [månedsmatsbol] i det øvre tunet (i œfrom husum) i Barka til Gunnar og Audun. Torkjell og Torleiv vitnet at de var til stede da kanniken Ingemund betalte Gunnar for Barka og kunngjorde for mange tilstedeværende at han hadde gitt full betaling, unntatt for det 1 1/2 [månedsmatsbol] som Gudrid på Fjelle eide, og at hverken Gunnar eller hans kone, som begge var til stede, sa imot. Endelig vitnet Arne og Torgils at de hadde betalt sira Ingemund landskyld av Barka for ett år, unntatt for det 1 1/2 månedsmatsbol som Gudrid eide. Arne hadde siden betalt Ingemund landskyld resten av hans levetid, og Gunnar hadde aldri klaget over at han ikke hadde fått full betaling (jfr nr 225-26 ).</p>
+               <p>Vitner: Sigurd, prest i Strand, sira Odd på Valle, Orm på Valle, Aslak Brattsson, Sæbjørn på Haslu og mange andre gode menn. Beseglet av utstederen og [de navngitte brevvitnen</p>
+            <p>Feildatert til 30. april i DN.</p>
+         </div>
+         <div source="CCN">
+            <head>Frå <title>Corpus Codicum Norvegicorum Medii Aevi</title>, Quatro Serie, bd. 10, nr. 60</head> <!-- PRIORITET 11. Legg inn riktig band og nunmmer frå CCN. Hugs å skilje mellom folio- og quarto-serie, dvs. fram til og med 1300 vs. 1301-1310.-->
+            <p>Samandrag blir lagt inn her.</p>
+         </div>
+         </div>
+      </front>
+      <body>
+    <div type="diplom">
+        <p> <!--lemmatisert mangler--> 
+       <pb n="1r" ed="ms"/> 
+       <lb n="1" ed="ms"/>
+       <lb n="1" ed="DN"/> 
+       <w lemma="allr" me:msa="xAJ nP gM cD rP sI" xml:id="w100">
+                    <choice>
+                       <me:dipl>Ollum</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Ǫllum</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="maðr" me:msa="xNC nP gM cD sI" xml:id="w200">
+                    <choice>
+                       <me:dipl>mo<ex>nnu</ex>m</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>mǫnnum</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="sá" me:msa="xDD nP gM cD" xml:id="w300">
+                    <choice>
+                       <me:dipl>þe<supplied resp="Simensen2002" reason="restoration"></supplied>im</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>þeim</me:norm>
+                    </choice>
+                  </w> 
+       <lb n="2" ed="ms"/> 
+       <w lemma="kveðja" me:msa="xNC nS gF cA sI" xml:id="w400">
+                    <choice>
+                       <me:dipl>Q<ex>ueðiu</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>kveðju</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="guð" me:msa="xNP" xml:id="w500">
+                    <choice>
+                       <me:dipl>G<ex>uðs</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Guðs</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ok" me:msa="xCC" xml:id="w600">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ok</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="sinn" me:msa="xPD nS gF cA" xml:id="w700">
+                    <choice>
+                       <me:dipl>sína</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>sína</me:norm>
+                    </choice>
+                  </w><pc xml:id="w800">
+                    <choice>
+                       <me:dipl>,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>.</me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="ér" me:msa="xPE cD" xml:id="w900">
+                    <choice>
+                       <me:dipl>yðr</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Yðr</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="vera" me:msa="xVB p3 tPS nS fF mSU vA" xml:id="w1000">
+                    <choice>
+                       <me:dipl>se</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>sé</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="kunnigr" me:msa="xAJ nS gN cN rP sI" xml:id="w1100">
+                    <choice>
+                       <me:dipl>ku<ex>n</ex>nígt</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>kunnigt</me:norm>
+                    </choice>
+                  </w><pc xml:id="w1200">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="at" me:msa="xCS" xml:id="w1300">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>at</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="þá" me:msa="xAV rU" xml:id="w1400">
+                    <choice>
+                       <me:dipl>þa</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>þá</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="er" me:msa="xCS" xml:id="w1500">
+                    <choice>
+                       <me:dipl>er</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>er</me:norm>
+                    </choice>
+                  </w> 
+       <lb n="3" ed="DN"/> 
+       <w lemma="líða" me:msa="xVB tPT nS fP vA gN cN sI" xml:id="w1600">
+                    <choice>
+                       <me:dipl>liðít</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>liðit</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="vera" me:msa="xVB p3 tPT nS fF mIN vA" xml:id="w1700">
+                    <choice>
+                       <me:dipl>var</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>var</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="frá" me:msa="xAP yD" xml:id="w1800">
+                    <choice>
+                       <me:dipl>fra</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>frá</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="burðr" me:msa="xNC nS gM cG sI" xml:id="w1900">
+                    <choice>
+                       <me:dipl>burðar</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>burðar</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="tíð" me:msa="xNC nS gF cD sI" xml:id="w2000">
+                    <choice>
+                       <me:dipl>tið</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>tíð</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="várr" me:msa="xPD nS gM cG" xml:id="w2100">
+                    <choice>
+                       <me:dipl>wars</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>várs</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="herra" me:msa="xNC nS gM cN sI" xml:id="w2200">
+                    <choice>
+                       <me:dipl>h<ex>er</ex>ra</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>herra</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="Jesus" me:msa="xNP nS gM cD sI" xml:id="w2300">
+                    <choice>
+                       <me:dipl><ex>iesu</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Jesu</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="Christus" me:msa="xNP nU gM cG sI" xml:id="w2400">
+                    <choice>
+                       <me:dipl><ex>christi</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Christi</me:norm>
+                    </choice>
+                  </w><pc xml:id="w2500">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="" me:msa="xEY" xml:id="w2600">
+                    <choice>
+                       <me:dipl>&mscap;</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>.m.</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="vetr" me:msa="xNC nP gM cG sI" xml:id="w2700">
+                    <choice>
+                       <me:dipl>vætt<ex>ra</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>vetra</me:norm>
+                    </choice>
+                  </w> 
+       <lb n="3" ed="ms"/> 
+       <w lemma="" me:msa="xEY" xml:id="w2800">
+                    <choice>
+                       <me:dipl>CCC</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>.ccc.</me:norm>
+                    </choice>
+                  </w><pc xml:id="w2900">
+                    <choice>
+                       <me:dipl>.,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="ok" me:msa="xCC" xml:id="w3000">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ok</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="" me:msa="xEY" xml:id="w3100">
+                    <choice>
+                       <me:dipl>vííí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>.viii.</me:norm>
+                    </choice>
+                  </w><pc xml:id="w3200">
+                    <choice>
+                       <me:dipl>.</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <lb n="4" ed="DN"/> 
+       <w lemma="vetr" me:msa="xNC nP gM cN sI" xml:id="w3300">
+                    <choice>
+                       <me:dipl>væt<ex>r</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>vetr</me:norm>
+                    </choice>
+                  </w><pc xml:id="w3400">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="á" me:msa="xAP" xml:id="w3500">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>á</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="níundi" me:msa="xAJ" xml:id="w3600">
+                    <choice>
+                       <me:dipl>Níunda</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>níunda</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ár" me:msa="xNC nS gN cD sI" xml:id="w3700">
+                    <choice>
+                       <me:dipl>are</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ári</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ríki" me:msa="xNC nS gN cG sI" xml:id="w3800">
+                    <choice>
+                       <me:dipl>rikis</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ríkis</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="minn" me:msa="xPD nS gM cG" xml:id="w3900">
+                    <choice>
+                       <me:dipl>míns</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>míns</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="virðuligr" me:msa="xAJ nS gM cG rP sI" xml:id="w4000">
+                    <choice>
+                       <me:dipl>vírðulegs</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>virðuligs</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="herra" me:msa="xNC nS gM cG sI" xml:id="w4100">
+                    <choice>
+                       <me:dipl>h<ex>er</ex>ra</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>herra</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="Hákon" me:msa="xNP nU gM cG sI" xml:id="w4200">
+                    <choice>
+                       <me:dipl>H<ex>akonar</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Hákonar</me:norm>
+                    </choice>
+                  </w><pc xml:id="w4300">
+                    <choice>
+                       <me:dipl>.</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>,</me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="Noregr" me:msa="xNP nS gM cG sI" xml:id="w4400">
+                    <choice>
+                       <me:dipl>Noregs</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Noregs</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="konungr" me:msa="xNC nS gM cG sI" xml:id="w4500">
+                    <choice>
+                       <me:dipl>kon<lb n="5" ed="DN"/><ex>on</ex>gs</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>kon|ungs</me:norm>
+                    </choice>
+                  </w>
+        
+       <w lemma="hinn" me:msa="xPD nS gM cG" xml:id="w4600">
+                    <choice>
+                       <me:dipl>híns</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>hins</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="kóróna" me:msa="xVB tPT nS fP vA gM cG sD" xml:id="w4700">
+                    <choice>
+                       <me:dipl>koronaða</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>kórónaða</me:norm>
+                    </choice>
+                  </w><pc xml:id="w4800">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>,</me:norm>
+                    </choice>
+                  </pc>
+       <lb n="5" ed="DN"/> 
+       <del rend="overstrike"><w lemma="at" me:msa="xCS" xml:id="w4900">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>at</me:norm>
+                    </choice>
+                  </w></del> 
+       <w lemma="á" me:msa="xAP" xml:id="w5000">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>á</me:norm>
+                    </choice>
+                  </w> 
+       <lb n="4" ed="ms"/> 
+       <w lemma="laugardagr" me:msa="xNC nS gM cA sD" xml:id="w5100">
+                    <choice>
+                       <me:dipl>laughar daghen</me:dipl>
+                       <me:facs>laug&hrdes;ar &drot;ag&hrdes;en</me:facs>
+                       <me:norm>laugardaginn</me:norm>
+                    </choice>
+                  </w> 
+        
+       <w lemma="nærri" me:msa="xAJ nS gM cA rS sD" xml:id="w5300">
+                    <choice>
+                       <me:dipl>nesta</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>nǽsta</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="fyrir" me:msa="xAP" xml:id="w5400">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>fyrir</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="krossmessa" me:msa="xNC nS gF cD sI" xml:id="w5500">
+                    <choice>
+                       <me:dipl>kross messo</me:dipl>
+                       <me:facs>kro&slong;&slong; me&slong;&slong;o</me:facs>
+                       <me:norm>krossmessu</me:norm>
+                    </choice>
+                  </w> 
+        
+       <w lemma="um" me:msa="xAP" xml:id="w5700">
+                    <choice>
+                       <me:dipl>vm</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>um</me:norm>
+                    </choice>
+                  </w> 
+       <lb n="6" ed="DN"/> 
+       <w lemma="vár" me:msa="xNC nS gN cA sD" xml:id="w5800">
+                    <choice>
+                       <me:dipl>váret</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>várit</me:norm>
+                    </choice>
+                  </w><pc xml:id="w5900">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>,</me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="taka" me:msa="xVB p1 tPT nS fF mIN vA" xml:id="w6000">
+                    <choice>
+                       <me:dipl>tok</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>tók</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ek" me:msa="xPE cN" xml:id="w6100">
+                    <choice>
+                       <me:dipl>ek</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ek</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="sjá" me:msa="xDD nS gM cA" xml:id="w6200">
+                    <choice>
+                       <me:dipl>þenna</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>þenna</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="vitbisburðr" me:msa="YYY xNC" xml:id="w6300">
+                    <choice>
+                       <me:dipl>vítnis burð</me:dipl>
+                       <me:facs>ví&trot;n&inodot;&slong; burð</me:facs>
+                       <me:norm>vitnisburð</me:norm>
+                    </choice>
+                  </w> 
+        
+       <w lemma="í" me:msa="xAP" xml:id="w6500">
+                    <choice>
+                       <me:dipl>i</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>í</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="kórsbrǿðragarðr" me:msa="YYY xNC" xml:id="w6600">
+                    <choice>
+                       <me:dipl>korsbrœðra garðe</me:dipl>
+                       <me:facs>ko&rrot;&slong;brœð&rrot;a garðe</me:facs>
+                       <me:norm>kórsbrǿðragarði</me:norm>
+                    </choice>
+                  </w> 
+        
+       <lb n="5" ed="ms"/> 
+       <w lemma="af" me:msa="xAP" xml:id="w6800">
+                    <choice>
+                       <me:dipl>af</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>af</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="arni" me:msa="xNP" xml:id="w6900">
+                    <choice>
+                       <me:dipl>arna</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Arna</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ok" me:msa="xCC" xml:id="w7000">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ok</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ǫgmundr" me:msa="xNP" xml:id="w7100">
+                    <choice>
+                       <me:dipl>og<lb n="7" ed="DN"/>munde</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Ǫg<lb n="7" ed="DN"/>mundi</me:norm>
+                    </choice>
+                  </w> <pc xml:id="w7200">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>,</me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="at" me:msa="xCS" xml:id="w7300">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>at</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="Eyvindr" me:msa="xNP" xml:id="w7400">
+                    <choice>
+                       <me:dipl>œyuíndr</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Eyvindr</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="faðir" me:msa="xNC" xml:id="w7500">
+                    <choice>
+                       <me:dipl>faðer</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>faðir</me:norm>
+                    </choice>
+                  </w>  
+       <w lemma="sá" me:msa="xDD" xml:id="w7600">
+                    <choice>
+                       <me:dipl>þ<ex>ei</ex>ra</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>þeira</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="lúka" me:msa="xVB" xml:id="w7700">
+                    <choice>
+                       <me:dipl>lauk</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>lauk</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="landsskyld" me:msa="xNC" xml:id="w7800">
+                    <choice>
+                       <me:dipl>landzskylldína</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>landsskyldina</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="Gunnarr" me:msa="xNP" xml:id="w7900">
+                    <choice>
+                       <me:dipl>gu<ex>n</ex>nare</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Gunnari</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="ok" me:msa="xCC" xml:id="w8000">
+                    <choice>
+                       <me:dipl>oc</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>ok</me:norm>
+                    </choice>
+                  </w> 
+           <w lemma="auðunn" me:msa="xNP" xml:id="w8100">
+                    <choice>
+                       <me:dipl>auð<lb n="8" ed="DN"/>une</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>Auð<lb n="8" ed="DN"/>uni</me:norm>
+                    </choice>
+                  </w>
+       <w lemma="af" me:msa="xAP" xml:id="w8200">
+                    <choice>
+                       <me:dipl>af</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>af</me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="halfr" me:msa="xAJ" xml:id="w8300">
+                    <choice>
+                       <me:dipl>halfs</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>halfs</me:norm>
+                    </choice>
+                  </w> 
+       <lb n="6" ed="ms"/> 
+       <w lemma="" me:msa="xEY" xml:id="w8400">
+                    <choice>
+                       <me:dipl>xi<pc>.</pc>&tsup;&asup;</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm>.xi.ª</me:norm>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w8500">
+                    <choice>
+                       <me:dipl>í</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w8600">
+                    <choice>
+                       <me:dipl>œfrom</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w8700">
+                    <choice>
+                       <me:dipl>husu<ex>m</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w8800">
+                    <choice>
+                       <me:dipl>i</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w8900">
+                    <choice>
+                       <me:dipl>barka</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9000">
+                    <choice>
+                       <me:dipl>vm</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9100">
+                    <choice>
+                       <me:dipl><pc>.</pc>ví&jacute;<pc>.</pc></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9200">
+                    <choice>
+                       <me:dipl>væt<ex>r</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w9300">
+                    <choice>
+                       <me:dipl>,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc>
+       <lb n="8" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9400">
+                    <choice>
+                       <me:dipl>jt<ex>em</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9500">
+                    <choice>
+                       <me:dipl>þ<ex>e</ex>tta</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9600">
+                    <choice>
+                       <me:dipl>vítní</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="9" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9700">
+                    <choice>
+                       <me:dipl>baro</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9800">
+                    <choice>
+                       <me:dipl>þ<ex>ei</ex>r</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w9900">
+                    <choice>
+                       <me:dipl>þorkell</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10000">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10100">
+                    <choice>
+                       <me:dipl>þorleif<ex>r</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w10200">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10300">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10400">
+                    <choice>
+                       <me:dipl>þeír</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10500">
+                    <choice>
+                       <me:dipl>varo</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="7" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10600">
+                    <choice>
+                       <me:dipl>þar</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10700">
+                    <choice>
+                       <me:dipl>ínní</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10800">
+                    <choice>
+                       <me:dipl>e<ex>r</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w10900">
+                    <choice>
+                       <me:dipl>jngímundr</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+           <w lemma="XXX" me:msa="YYY" xml:id="w11000">
+                    <choice>
+                       <me:dipl>kors<lb n="10" ed="DN"/>broðer</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+        
+       <w lemma="XXX" me:msa="YYY" xml:id="w11100">
+                    <choice>
+                       <me:dipl>greiddi</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w11200">
+                    <choice>
+                       <me:dipl>gu<ex>n</ex>nare</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w11300">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w11400">
+                    <choice>
+                       <me:dipl>aura</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w11500">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w11600">
+                    <choice>
+                       <me:dipl>barka</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w11700">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w11800">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w11900">
+                    <choice>
+                       <me:dipl>lystí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12000">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12100">
+                    <choice>
+                       <me:dipl>ock<ex>r</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12200">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12300">
+                    <choice>
+                       <me:dipl>marghu<ex>m</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="11" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12400">
+                    <choice>
+                       <me:dipl>aðru<ex>m</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="8" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12500">
+                    <choice>
+                       <me:dipl>goðom</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12600">
+                    <choice>
+                       <me:dipl>mo<ex>nnu</ex>m</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w12700">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12800">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w12900">
+                    <choice>
+                       <me:dipl>þa</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13000">
+                    <choice>
+                       <me:dipl>hafðe</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13100">
+                    <choice>
+                       <me:dipl>h<ex>a</ex>n</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13200">
+                    <choice>
+                       <me:dipl>loket</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13300">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <add place="supralinear"><w lemma="XXX" me:msa="YYY" xml:id="w13400">
+                    <choice>
+                       <me:dipl>barka</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+       <w lemma="XXX" me:msa="YYY" xml:id="w13500">
+                    <choice>
+                       <me:dipl>fyrsta</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w></add> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13600">
+                    <choice>
+                       <me:dipl>peníng</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="12" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13700">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13800">
+                    <choice>
+                       <me:dipl>siðazta</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w13900">
+                    <choice>
+                       <me:dipl>gu<ex>n</ex>nare</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14000">
+                    <choice>
+                       <me:dipl>i</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14100">
+                    <choice>
+                       <me:dipl>hændr</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w14200">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14300">
+                    <choice>
+                       <me:dipl>vttan</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14400">
+                    <choice>
+                       <me:dipl>eígí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14500">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14600">
+                    <choice>
+                       <me:dipl>halfs</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="9" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14700">
+                    <choice>
+                       <me:dipl>annars</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14800">
+                    <choice>
+                       <me:dipl>þat</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w14900">
+                    <choice>
+                       <me:dipl>sem</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+           <w lemma="XXX" me:msa="YYY" xml:id="w15000">
+                    <choice>
+                       <me:dipl>guð<lb n="13" ed="DN"/>rið</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+        
+       <w lemma="XXX" me:msa="YYY" xml:id="w15100">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15200">
+                    <choice>
+                       <me:dipl>fialle</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15300">
+                    <choice>
+                       <me:dipl>atte</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15400">
+                    <choice>
+                       <me:dipl>j</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w15500">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc>
+       <lb n="13" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15600">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15700">
+                    <choice>
+                       <me:dipl>her</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15800">
+                    <choice>
+                       <me:dipl>mællte</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w15900">
+                    <choice>
+                       <me:dipl>engan</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16000">
+                    <choice>
+                       <me:dipl>lut</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16100">
+                    <choice>
+                       <me:dipl>gu<ex>n</ex>nar</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16200">
+                    <choice>
+                       <me:dipl>í</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16300">
+                    <choice>
+                       <me:dipl>mote</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w16400">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16500">
+                    <choice>
+                       <me:dipl>ne</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16600">
+                    <choice>
+                       <me:dipl>hans</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="10" ed="ms"/> 
+       <lb n="14" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16700">
+                    <choice>
+                       <me:dipl>husprœyua</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w16800">
+                    <choice>
+                       <me:dipl>,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w16900">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17000">
+                    <choice>
+                       <me:dipl>varo</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17100">
+                    <choice>
+                       <me:dipl>þau</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17200">
+                    <choice>
+                       <me:dipl>þa</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17300">
+                    <choice>
+                       <me:dipl>bæðe</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17400">
+                    <choice>
+                       <me:dipl>ínní</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w17500">
+                    <choice>
+                       <me:dipl>,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17600">
+                    <choice>
+                       <me:dipl>jt<ex>em</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17700">
+                    <choice>
+                       <me:dipl>þ<ex>e</ex>tta</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17800">
+                    <choice>
+                       <me:dipl>vítní</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w17900">
+                    <choice>
+                       <me:dipl>baro</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18000">
+                    <choice>
+                       <me:dipl>þeír</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w18100">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18200">
+                    <choice>
+                       <me:dipl>arne</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="15" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18300">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18400">
+                    <choice>
+                       <me:dipl>þorgyls</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w18500">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18600">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18700">
+                    <choice>
+                       <me:dipl>þeír</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18800">
+                    <choice>
+                       <me:dipl>luku</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="11" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w18900">
+                    <choice>
+                       <me:dipl>landzskylld</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19000">
+                    <choice>
+                       <me:dipl>síra</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19100">
+                    <choice>
+                       <me:dipl>jngímunde</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19200">
+                    <choice>
+                       <me:dipl>vm</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19300">
+                    <choice>
+                       <me:dipl>eín</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19400">
+                    <choice>
+                       <me:dipl>árgang</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19500">
+                    <choice>
+                       <me:dipl>af</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="16" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19600">
+                    <choice>
+                       <me:dipl>barka</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w19700">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19800">
+                    <choice>
+                       <me:dipl>vttan</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w19900">
+                    <choice>
+                       <me:dipl>eígí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w20000">
+                    <choice>
+                       <me:dipl>.</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20100">
+                    <choice>
+                       <me:dipl>h<ex>alfs</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w20200">
+                    <choice>
+                       <me:dipl>.</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20300">
+                    <choice>
+                       <me:dipl>annars</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20400">
+                    <choice>
+                       <me:dipl>þat</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20500">
+                    <choice>
+                       <me:dipl>sem</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20600">
+                    <choice>
+                       <me:dipl>guðrið</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20700">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="12" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20800">
+                    <choice>
+                       <me:dipl>fialle</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w20900">
+                    <choice>
+                       <me:dipl>atte</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21000">
+                    <choice>
+                       <me:dipl>i</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w21100">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21200">
+                    <choice>
+                       <me:dipl>eft<ex>ir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21300">
+                    <choice>
+                       <me:dipl>þuí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="17" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21400">
+                    <choice>
+                       <me:dipl>sem</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21500">
+                    <choice>
+                       <me:dipl>gu<ex>n</ex>nar</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21600">
+                    <choice>
+                       <me:dipl>hafðe</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21700">
+                    <choice>
+                       <me:dipl>aðr</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21800">
+                    <choice>
+                       <me:dipl>tekít</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="17" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w21900">
+                    <choice>
+                       <me:dipl>tok</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22000">
+                    <choice>
+                       <me:dipl>jngímundr</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22100">
+                    <choice>
+                       <me:dipl>af</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22200">
+                    <choice>
+                       <me:dipl>m<ex>er</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22300">
+                    <choice>
+                       <me:dipl>arna</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22400">
+                    <choice>
+                       <me:dipl>íamfnan</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22500">
+                    <choice>
+                       <me:dipl>landz<lb n="18" ed="DN"/>skylld</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+       <lb n="13" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22600">
+                    <choice>
+                       <me:dipl>siðan</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w22700">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22800">
+                    <choice>
+                       <me:dipl>meðan</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w22900">
+                    <choice>
+                       <me:dipl>han</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23000">
+                    <choice>
+                       <me:dipl>lífði</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w23100">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23200">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23300">
+                    <choice>
+                       <me:dipl>alldre</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23400">
+                    <choice>
+                       <me:dipl>kærðe</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23500">
+                    <choice>
+                       <me:dipl>þa</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23600">
+                    <choice>
+                       <me:dipl>gu<ex>n</ex>nar</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23700">
+                    <choice>
+                       <me:dipl>at</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23800">
+                    <choice>
+                       <me:dipl>h<ex>a</ex>n</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w23900">
+                    <choice>
+                       <me:dipl>hafðe</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="19" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24000">
+                    <choice>
+                       <me:dipl>eígí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24100">
+                    <choice>
+                       <me:dipl>fulla</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24200">
+                    <choice>
+                       <me:dipl>aura</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24300">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24400">
+                    <choice>
+                       <me:dipl>barka</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w24500">
+                    <choice>
+                       <me:dipl>,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24600">
+                    <choice>
+                       <me:dipl>þessom</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="14" ed="ms"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24700">
+                    <choice>
+                       <me:dipl>mo<ex>nnu</ex>m</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w24800">
+                    <choice>
+                       <me:dipl>híav<ex>er</ex>andom</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w24900">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25000">
+                    <choice>
+                       <me:dipl>Sigurðe</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25100">
+                    <choice>
+                       <me:dipl>p<ex>re</ex>stí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="20" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25200">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25300">
+                    <choice>
+                       <me:dipl>strond,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25400">
+                    <choice>
+                       <me:dipl>síra</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25500">
+                    <choice>
+                       <me:dipl>odde</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25600">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25700">
+                    <choice>
+                       <me:dipl>wallum,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25800">
+                    <choice>
+                       <me:dipl>&oscap;rme</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w25900">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26000">
+                    <choice>
+                       <me:dipl>wallum,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26100">
+                    <choice>
+                       <me:dipl>aslake</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26200">
+                    <choice>
+                       <me:dipl>bratz</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26300">
+                    <choice>
+                       <me:dipl>syní,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26400">
+                    <choice>
+                       <me:dipl>sæ<lb n="21" ed="DN"/>bír</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+       <lb n="15" ed="ms"/>
+       <w lemma="XXX" me:msa="YYY" xml:id="w26500">
+                    <choice>
+                       <me:dipl>ní</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+       <w lemma="XXX" me:msa="YYY" xml:id="w26600">
+                    <choice>
+                       <me:dipl>a</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26700">
+                    <choice>
+                       <me:dipl>haslu</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w26800">
+                    <choice>
+                       <me:dipl>,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w26900">
+                    <choice>
+                       <me:dipl><ex>oc</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27000">
+                    <choice>
+                       <me:dipl>margum</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27100">
+                    <choice>
+                       <me:dipl>aðrum</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27200">
+                    <choice>
+                       <me:dipl>goðom</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27300">
+                    <choice>
+                       <me:dipl>mo<ex>nnu</ex>m</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w><pc xml:id="w27400">
+                    <choice>
+                       <me:dipl>,,</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </pc>
+       <lb n="21" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27500">
+                    <choice>
+                       <me:dipl>Oc</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27600">
+                    <choice>
+                       <me:dipl>til</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27700">
+                    <choice>
+                       <me:dipl>sanz</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27800">
+                    <choice>
+                       <me:dipl>vítnís</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="22" ed="DN"/> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w27900">
+                    <choice>
+                       <me:dipl>burðar</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28000">
+                    <choice>
+                       <me:dipl>settí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28100">
+                    <choice>
+                       <me:dipl>ek</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28200">
+                    <choice>
+                       <me:dipl>mít</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28300">
+                    <choice>
+                       <me:dipl>jnsíglí</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28400">
+                    <choice>
+                       <me:dipl>f<ex>irir</ex></me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28500">
+                    <choice>
+                       <me:dipl>þ<ex>e</ex>tta</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28600">
+                    <choice>
+                       <me:dipl>br<ex>e</ex>f</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <lb n="16" ed="ms"/> 
+       <gap quantity="1" unit="line"></gap> 
+       <pb n="1v" ed="ms"/>
+       <lb n="1" ed="ms"/>
+       <w lemma="XXX" me:msa="YYY" xml:id="w28700">
+                    <choice>
+                       <me:dipl>ffor</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w> 
+       <w lemma="XXX" me:msa="YYY" xml:id="w28800">
+                    <choice>
+                       <me:dipl>barka</me:dipl>
+                       <me:facs></me:facs>
+                       <me:norm></me:norm>
+                    </choice>
+                  </w>
+       </p>
+    </div>
+      </body>
+
+      <!-- <back>
+         <div type="metadata">
+            <list>
+               <item>
+                  <label>NUM</label>
+               </item>
+               <item>
+                  <label>DAT</label>	1308-04-27</item>
+               <item>
+                  <label>TID</label>
+               </item>
+               <item>
+                  <label>TRYKT1</label>
+               </item>
+               <item>
+                  <label>verk</label>	DN</item>
+               <item>
+                  <label>bind</label>	IV</item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>	76</item>
+               <item>
+                  <label>OVERS</label>
+               </item>
+               <item>
+                  <label>ARK</label>
+               </item>
+               <item>
+                  <label>ARKSIGN	</label>
+               </item>
+               <item>
+                  <label>AVSKR</label>
+               </item>
+               <item>
+                  <label>SPR</label>
+               </item>
+               <item>
+                  <label>LND</label>
+               </item>
+               <item>
+                  <label>OMR</label>
+               </item>
+               <item>
+                  <label>FYL</label>
+               </item>
+               <item>
+                  <label>HER</label>
+               </item>
+               <item>
+                  <label>STD</label>	Stavanger</item>
+               <item>
+                  <label>MIL</label>	L</item>
+               <item>
+                  <label>SKRIVER</label>
+               </item>
+               <item>
+                  <label>TYP</label>
+               </item>
+               <item>
+                  <label>AUT</label>
+               </item>
+            </list>
+         </div>
+         <div type="metadata_2">
+            <list>
+               <item>
+                  <label>SGL</label>
+               </item>
+               <item>
+                  <label>REM</label>
+               </item>
+               <item>
+                  <label>REMTXT</label>
+               </item>
+               <item>
+                  <label>SIGFORB</label>
+               </item>
+               <item>
+                  <label>BAK1</label>	for barka.</item>
+               <item>
+                  <label>NOTE1</label>
+               </item>
+               <item>
+                  <label>KOM1</label>
+               </item>
+               <item>
+                  <label>FOTO</label>
+               </item>
+            </list>
+         </div>
+      </back> -->
+   
+   </text>
+</TEI>

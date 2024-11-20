@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng"> 
+        <fileDesc>
+            <titleStmt>
+                <title>N 344 : Årdal church, Årdal, Vestlandet : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 126-134</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>MenotaBlitz technology developed by</resp>
+                    <name>
+                        <persName>Robert Kristof Paulsen</persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katrine</forename>
+                            <surname>Andresen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.8">First draft, generated with MenotaBlitz,
+                    <date when="2021-10-23">23 October 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="23">23 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 126-134</idno>
+                <date when="2021-10-29">29 October 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.0989, 7.4951</settlement>
+                        <idno>N 344</idno>
+                        <msName>N 344 : Årdal church, Årdal, Vestlandet</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="tree">
+                            <supportDesc>
+                                <support>
+                                    <p><material>tree</material>.</p>
+                                </support>
+                                <condition></condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1200" notAfter="1200">c. 1200</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                              <note type="lost">Extant. Now in Bergens Museum.</note> 
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 126-134.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, where the transcriptions on the first two levels have been generated with the help of MenotaBlitz technology, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+                    <p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-27</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Fixed lig elements.</change>
+            <change>
+                <date>2021-10-30</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added a back element.</change>
+            <change>
+                <date>2021-10-29</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the header and added a front element and morphological annotation.</change>
+            <change>
+                <date>2021-10-23</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Created the first draft as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref> "menotaFD"-style transcription.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 344 ||  
+                    <hi rend="bold">Stad</hi>: Årdal kyrkje, Årdal, Vestlandet ||
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || 
+                    <hi rend="bold">Datering</hi>: ca. 1200<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart, i Bergens Museum||
+                    <hi rend="bold">Utgåve</hi>: NIyR IV: 126-134 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/d2144bc9-0f73-42de-9637-5b7f22760e9d" type="external">N 344</ref> 
+                </head>
+                <p>Innskrifta står på ein furupinne med kvadratisk tverrsnitt. Han er ca. 40 cm lang og nesten 2 cm i firkant. Det var også ein bronsering på den eine enden av pinnen som er med på S. Bugges avteikning, men som no er bortkommen.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head> 
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="A"/><!-- SP 2022-02-27: Fixed ligs.-->
+                    
+                    <seg type="nb">
+                        <w lemma="Liggja" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&lGE;&iGE;&gMD;<seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs> 
+                                <me:dipl>lig<seg type="lig">e&#xF538;r</seg></me:dipl>
+                                <me:norm>Liggr</me:norm>
+                            </choice>
+                        </w>
+
+                        <w lemma="í" me:msa="xAP yD">
+                            <choice>
+                                <me:facs>&iGE;</me:facs>
+                                <me:dipl>i</me:dipl>
+                                <me:norm>í</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    
+                    <pc type="runic"> 
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    
+                    <seg type="nb">
+                        
+                        <w lemma="pallr" me:msa="xNC gM nS cD sI">
+                            <choice>
+                                <me:facs>&pMD;<seg type="lig">&aYG;&#xF538;&lGE;</seg><seg type="lig-initial">&eMD;&#xF53A;</seg></me:facs>
+                                <me:dipl>p<seg type="lig">al</seg><seg type="lig-initial">e&#xF53A;</seg></me:dipl>
+                                <me:norm>palli</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="lifa" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+                            <choice>
+                                <me:facs><seg type="lig-final">&#xF53B;&lGE;</seg>&iGE;&fGE;&iGE;&rGE;</me:facs>
+                                <me:dipl><seg type="lig-final">&#xF53B;l</seg>ifir</me:dipl>
+                                <me:norm>lifir</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="heimskliga" me:msa="xAV">
+                            <choice>
+                                <me:facs>&hYGL;&aeMD;&iGE;&mYGL;&sYGSdot;&lGE;&eMD;&hYGL;&aYG;</me:facs>
+                                <me:dipl>hæimsleha</me:dipl>
+                                <me:norm>heims<supplied reason="emendation" resp="editor">k</supplied>liga</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="hinn" me:msa="xDD gM nS cN">
+                            <choice>
+                                <me:facs>&hYGL;&iGE;<seg type="lig">&nYG;&#xF538;&nYG;</seg></me:facs>
+                                <me:dipl>hi<seg type="lig">n&#xF538;n</seg></me:dipl>
+                                <me:norm>hinn</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="er" me:msa="xCS yIN">
+                            <choice>
+                                <me:facs>&eMD;&rGE;</me:facs>
+                                <me:dipl>er</me:dipl>
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="beðr" me:msa="xNC gM nS cA sI">
+                            <choice>
+                                <me:facs>&bGE;&aeMD;&thGE;</me:facs>
+                                <me:dipl>bæþ</me:dipl>
+                                <me:norm>beð</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="undir" me:msa="xAP yD">
+                            <choice>
+                                <me:facs>&uGE;&nYG;&dMDdot;&iGE;&rGE;</me:facs>
+                                <me:dipl>undir</me:dipl>
+                                <me:norm>undir</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sik" me:msa="xPE p3 gU nU cD">
+                            <choice>
+                                <me:facs>&sYGSdot;&eMD;&rGE;</me:facs>
+                                <me:dipl>ser</me:dipl>
+                                <me:norm>sér</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="bleyta" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+                            <choice>
+                                <me:facs>&bGE;&eMD;&lGE;&eMD;&iGE;&tYG;&iGE;&rGE;</me:facs>
+                                <me:dipl>beleitir</me:dipl>
+                                <me:norm>bleytir</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="stundum" me:msa="xAV">
+                            <choice>
+                                <me:facs>&sYGSdot;&dMDdot;&uGE;&nYG;&dMDdot;&uGE;&mYGL;</me:facs>
+                                <me:dipl>sdundum</me:dipl>
+                                <me:norm>stundum</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    
+                    <lb ed="ms" n="B"/>
+                    
+                    <seg type="nb">
+                        <w lemma="Þar" me:msa="xAV">
+                            <choice>
+                                <me:facs>&thGE;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>þ<seg type="lig">a&#xF538;r</seg></me:dipl>
+                                <me:norm>Þar</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="munu" me:msa="xVB fF tPS mIN p3 nP vA iPP">
+                            <choice>
+                                <me:facs>&mYGL;&uGE;&nYG;&uGE;</me:facs>
+                                <me:dipl>munu</me:dipl>
+                                <me:norm>munu</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="maðkr" me:msa="xNC gM nP cN sI">
+                            <choice>
+                                <me:facs>&mYGL;&aYG;&tYG;&kYG;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>matk<seg type="lig">a&#xF538;r</seg></me:dipl>
+                                <me:norm>maðkar</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="margr" me:msa="xAJ rP gM nP cN sI">
+                            <choice>
+                                <me:facs>&mYGL;<seg type="lig">&aYG;&#xF538;&rGE;</seg>&hYGL;&eMD;&rGE;</me:facs>
+                                <me:dipl>m<seg type="lig">a&#xF538;r</seg>her</me:dipl>
+                                <me:norm>margir</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="gaufa" me:msa="xVB fI tPS vA iU">
+                            <choice>
+                                <me:facs>&gMD;<seg type="lig">&aYG;&#xF538;&uGE;</seg>&gMD;&aYG;</me:facs>
+                                <me:dipl>g<seg type="lig">a&#xF538;u</seg>ga</me:dipl>
+                                <me:norm>*gaufa</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="sem" me:msa="xCS yIN">
+                            <choice>
+                                <me:facs>&sYGSdot;&eMD;&mYGL;</me:facs>
+                                <me:dipl>sem</me:dipl>
+                                <me:norm>sem</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="á" me:msa="xAP yD">
+                            <choice>
+                                <me:facs>&aYG;</me:facs>
+                                <me:dipl>a</me:dipl>
+                                <me:norm>á</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="dúnn" me:msa="xNC gM nS cD sI">
+                            <choice>
+                                <me:facs>&dMDdot;&uGE;&nYG;&iGE;</me:facs>
+                                <me:dipl>duni</me:dipl>
+                                <me:norm>dúni</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="sofa" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&sYGSdot;&oeMD;&fGE;<seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>søf<seg type="lig">e&#xF538;r</seg></me:dipl>
+                                <me:norm>søfr</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="dóttir" me:msa="xNC gF nS cN sI">
+                            <choice>
+                                <me:facs>&dMDdot;&oYG;&tYG;<seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>dot<seg type="lig">e&#xF538;r</seg></me:dipl>
+                                <me:norm>dóttir</me:norm>
+                            </choice>
+                        </w>
+                        
+                        <w lemma="Atli" me:msa="xNP gM nS cG sI">
+                            <choice>
+                                <me:facs>&aYG;<seg type="lig">&tYG;&#xF539;&lGE;&lGE;</seg>&aYG;</me:facs>
+                                <me:dipl>a<seg type="lig">t&#xF539;ll</seg>a</me:dipl>
+                                <me:norm>Atla</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                </p>
+            </div>
+        </body>
+        
+        <back>	
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Ligg på benken, lever tåpeleg han som leiet under seg bløyter stundom. Der vil makkar mange myldra, kor på dun søv dotter til Atle.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>(He) lies on the bench, lives foolishly, he who the mat underneath him sometimes softens. There will many maggots swarm, where Atli's daughter sleeps on down.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar.</head>
+                <p>Innskrifta har metrisk utforming: Fire verslinjer i fornyrðislag. Innskrifta har tydeleg lesing, men tolking av dei to fyrste verslinjer i linje B er usikker. Her i omsetjinga er det gjeve tolking av Sophus Bugge frå 1899 som byggjer på sognsk spåkmateriale: Verbet <hi rend="cursive">*gaufa</hi> som elles ikkje er kjent i norrønt korpus, er tydt som "myldra" (jf. <hi rend="cursive">gauva, gaua</hi>). Innhaldsmessig verkar det å vera ei rimeleg tolking, og heile innskrifta kan interpreterast som nidvers. For andre tolkingar sjå NIyR, ss.126-134.</p>
+            </div>			
+            <div type="illustration">
+                <head>Illustrasjonar</head>
+                <!-- OEH: Vi prøve å få betre fotografi, og nøyer oss i første omgang med avteikninga frå Sophus Bugge
+                <figure><graphic url="N344-A.jpg"/></figure>
+                <caption>Bilete av N 344 av Aslak Liestøl. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 126.</caption>
+                <figure><graphic url="N344-Ba.jpg"/></figure>
+                <caption>Bilete av N 344, linje A, av Aslak Liestøl. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 129.</caption>
+                <figure><graphic url="N344-Bb.jpg"/></figure>
+                <caption>Bilete av N 344, linje B, av Aslak Liestøl. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 129.</caption> -->
+                <figure><graphic url="N344-C.jpg"/></figure>
+                <caption>Avteikning av N 344 ved Sophus Bugge. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 128.</caption>
+            </div>
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957)</bibl>
+                <bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katrine Andresen (Universitetet i Bergen, 2021)</p>
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

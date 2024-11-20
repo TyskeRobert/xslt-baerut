@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 273 : Grindheim church, Etne, Vestland : A digital edition </title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 7-11</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1.0">Version 1.1 <date when="2021-03-26">26 March 2021</date>.</edition>
+            </editionStmt>
+            <extent n="9">9 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 7-11</idno>
+                <date when="2021-02-21">21 February 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from the Runic Archives</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Grindheim</settlement>
+                        <idno>N 273</idno>
+                        <msName>N 273 : Grindheim church, Etne, Vestland</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0980" notAfter="1015">c. 980-1015</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">In situ</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 7-11.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-03-26">
+                <date>2021-03-26</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added comment and revised edition.
+            </change>
+            <change><date>2021-03-03</date> <name> <persName>Odd Einar Haugen</persName> <orgName type="affiliation">University of Bergen</orgName> </name>: Revised the header, and added a front and back element.
+            </change>
+            <change><date>2021-02-21</date> <name> <persName>Sebastian Pohland</persName> <orgName type="affiliation">University of Bergen</orgName> </name>: Made the first draft of this file
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 273 ||  
+                    <hi rend="bold">Sted</hi>: Grindheim kirke, Etne, Vestland || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 980–1015<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart på staden || 
+                    <hi rend="bold">Utgave</hi>: NIyR IV: 7–11 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/43cd93d6-fb0e-4ae9-b382-6474772e1a41" type="external">N 273</ref>
+                </head>
+                <p>Denne monumentale innskriften står på en runestein ved nordveggen av Grindheim kirke. Steinen er 330 cm høy, 65 cm bred og 26 cm tykk. Runene går på den ene smalsiden i en lengde på 307 cm, og runetegnene er 16 cm høye. De er forvitret, men det er likevel mulig å lese dem og å gi mening til innskriften. Jf. NIyR IV: 9.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r" />
+                    <lb ed="ms" n="1" />
+                    <pc type="runic">
+                        <choice>
+                            <me:facs><unclear reason="weathered">×</unclear></me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Þormóðr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs><unclear reason="weathered">&thGEcv;&oYG;</unclear>&rGE;&mYGL;&oYG;&thGE;&rGEcv;</me:facs>
+                            <me:dipl><supplied reason="restoration" resp="Oluf Rygh">þo</supplied>rmoþr</me:dipl>
+                            <me:norm><supplied reason="restoration" resp="Oluf Rygh">Þo</supplied>rmóðr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>  
+                        </choice>
+                    </pc>
+                    <w lemma="reisa" me:msa="xVB iWK nS p3 tPT mIN vA fF">
+                        <choice>
+                            <me:facs>&rGEcv;&aYG;&iGE;&sYGS;&tYG;&iGE;</me:facs>
+                            <me:dipl>raisti</me:dipl>
+                            <me:norm>reisti</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>  
+                        </choice>
+                    </pc>
+                    <w lemma="steinn" me:msa="xNC gM nS cA sI">
+                        <choice>
+                            <me:facs>&sYGS;&tYG;&aYG;&iGE;&nYG;</me:facs>
+                            <me:dipl>stain</me:dipl>
+                            <me:norm>stein</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>  
+                        </choice>
+                    </pc>
+                    <w lemma="sjá" me:msa="xDD gM nS cA">
+                        <choice>
+                            <me:facs>&thGEcv;<unclear reason="weathered">&eMD;</unclear>&nYG;&aYG;</me:facs>
+                            <me:dipl>þ<supplied reason="emendation" resp="Oluf Rygh">a</supplied>na</me:dipl>
+                            <me:norm>þenna</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>  
+                        </choice>
+                    </pc>
+                    <w lemma="eftir" me:msa="xAP yA">
+                        <choice>
+                            <me:facs>&aYG;&kYG;&tYG;&iGE;&rGE;</me:facs>
+                            <me:dipl>aftir</me:dipl>
+                            <me:norm>eftir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Þormóðr" me:msa="xNP gM nS cA sI">
+                        <choice>
+                            <me:facs>&thGEcv;&oYG;&rGE;&mYGL;&oYG;&thGE;</me:facs>
+                            <me:dipl>þormoþ</me:dipl>
+                            <me:norm>Þormóð</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="svíða" me:msa="xVB fP tPS vA gM nS cA sI iST">
+                        <choice>
+                            <me:facs>&sYGS;&uGE;&iGE;&thGEcv;&aYG;&nYG;&tOR;&aYG;</me:facs>
+                            <me:dipl>suiþanta</me:dipl>
+                            <me:norm>svíðanda</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="faðir" me:msa="xNC gM nS cA sI">
+                        <choice>
+                            <me:facs><unclear reason="weathered">&fGE;</unclear>&oYG;&thGE;&uGE;&rGEcv;</me:facs>
+                            <me:dipl><unclear reason="weathered">f</unclear>oþur</me:dipl>
+                            <me:norm>fǫður</me:norm>
+                        </choice>
+                    </w>
+                    <lb ed="ms" n="2" />
+                    <w lemma="sinn" me:msa="xDP gM nS cA">
+                        <choice>
+                            <me:facs>&sYGS;&iGE;&nYG;</me:facs>
+                            <me:dipl>sin</me:dipl>
+                            <me:norm>sinn</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <me:facs>×</me:facs>
+                        <me:norm>.</me:norm>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Tormod reiste denne steinen til minne om Tormod Svieren, sin far.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Þormóðr raised this stone in memory of Þormóðr the Stinging/(Earth-)Scorcher, his father.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Innskriften er ikke i en godt lesbar tilstand. Bøylen i første runen er svært utydeleg, &aYG; i &rGEcv;&aYG;&iGE;&sYGS;&tYG;&iGE; og &sYGS;&tYG;&aYG;&iGE;&nYG; kan også være &aeMD;. Rygh synes at runen i &thGE;<unclear reason="weathered">&eMD;</unclear>&nYG;&aYG; kan leses både &eMD; og &aYG;, Liestøl synes det er &aYG;, Olsen legger til at &iGE; også er mulig. &kYG; i &aYG;&kYG;&tYG;&iGE;&rGE; er godt leselig, men er sannsynlig feilskrevet, fordi “aktir” gir ikke mening, mens “aftir” er en sideform av “eftir”. &fGE; i <unclear reason="weathered">&fGE;</unclear>&oYG;&thGE;&uGE;&rGEcv; er litt uklar, men det er sannsynlig fordi plassen på denne siden av steinen tok slutt. </p> <!-- OEH 2021-04-07: Litt språkleg finpussing -->
+            </div>
+            
+            <div type="illustration"> <!-- OEH 2021-04-07: Litt justering av oppsettet, la inn lenke til runesteinen -->
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N273-A.jpg"/></figure>
+                <caption>Fotografi av N 273. Fra Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N273-B.jpg"/></figure>
+                <caption>Avtegning av N 273 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>

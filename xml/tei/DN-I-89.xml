@@ -1,0 +1,862 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title>DN 1:89 = RN 2:978 : 1299 [around May 15] : [Shetland] : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name>Many persons employed by Gammelnorsk ordboksverk <orgName type="affiliation">University of Oslo</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="annotation">
+               <resp>Lemmatisation and morphological annotation</resp>
+               <orgName type="institution">GNO <orgName type="affiliation">University of Oslo</orgName>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Digitisation and conversion to electronic form</resp>
+               <name>
+                  <orgName type="affiliation">The Documentation Project</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to XML</resp>
+               <name>
+                  <persName>
+                     <forename>Christian-Emil</forename>
+                     <surname>Smith</surname>
+                     <surname>Ore</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Oslo</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Tone</forename>
+                     <forename>Merete</forename>
+                     <surname>Bruvik</surname>
+                  </persName>
+                  <orgName type="affiliation">University Library of Bergen</orgName>
+               </name>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading">
+               <resp>Proofreading of text</resp>
+               <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="annotation">
+               <!-- ### Her kjem namnet på den/dei som i 2022 har kontrollert annotasjonen og fylt ut manglande annotasjon -->
+               <resp>Supplying of morphological annotation</resp>
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.8">Version 0.8, <date when="2023-11-21">21 November 2023</date></edition>
+         </editionStmt>
+         <extent n="346">346 words</extent>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-11-15">15 Nov 2023</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="yes">Photos published with permission from the National Archives (digitalarkivet).</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement>
+                  <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository>
+                  <!-- Dette kan vi vente med -->
+                  <idno>DN 1:89</idno>
+                  <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier>
+                     <idno>RN 2:978</idno>
+                  </altIdentifier>
+                  <msName>1299 [around May 15] : [Shetland]</msName>
+                  <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="origBrev" defective="false">
+                     <title type="uniform">t.b.a.</title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="charter">
+                     <supportDesc>
+                        <support>
+                           <p><material>Parchment</material>.</p>
+                        </support>
+                        <extent>1 leaf</extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal>
+                        <p>7 seals, of which 3 are partially preserved</p>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>[Shetland]</origPlace>
+                     <origDate notBefore="1299" notAfter="1299">1299 [around May 15]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This encoding follows the standard set out in <title>The Menota handbook</title> (version 3.0), at <ref target="http://www.menota.org/handbook.xml"> http://www.menota.org/handbook.xml</ref> as of <date>2019-12-12</date>.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction status="high">
+               <p>This text has been transcribed from a high-quality pencil transcription made by Gammelnorsk ordboksverk.</p>
+            </correction>
+            <normalization me:level="dipl">
+               <p>This text has been encoded on a diplomatic level.</p>
+               <!-- Standard-tekst -->
+            </normalization>
+            <interpretation me:lemmatized="none" me:morphAnalyzed="none">
+               <p>This charter has not yet been annotated.</p>
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="dan">Danish</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2023-11-15</date>
+            <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Built a new header and “front” element</change>
+         <change>
+            <date>2021-10-09</date>
+            <name>
+               <persName><forename>Fartein </forename><surname>Øverland</surname></persName>
+            </name><orgName>Universitetet i Bergen</orgName>: Korrektur og rettelser av lemmatisering </change>
+         <change><date>2021-09-09</date>
+            <name><persName><forename>Tone Merete </forename><surname>Bruvik</surname></persName></name><orgName>Universitetsbiblioteket i Bergen</orgName>: Konvertering til TEI Menota påbegynt </change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text xml:lang="nor">
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: rundt 15. mai 1299 || <hi rend="bold">Stad</hi>: [Shetland]</head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er etter alt å døme utferda på Shetland. <title>Regesta Norvegica</title> bd. 2, nr. 978 viser til P.A. Munch, som opplyser at lagtinget på Shetland vart avvikla “ved Hallvardsmesse-Tid” (NFH IV:2 s 277 n 1 ). Hallvardsmesse er 15. mai.</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 1, nr. 89</head>
+               <p>Hjaltlands Lagthingsmænd bekræfte de Vidnesbyrd, Hr. Thorvald Thoressön förte paa Lagthinget om Ragnhild Simunsdatters Ordvexel med ham i Hertugens Gaard paa Papey, angaaende Skat af Öen m. v.</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd 2, nr. 978</head>
+               <p>Provsbrev (rannzaks bref), utf av lagtingsmennene på Shetland til bruk for deira herre, hertug [Håkon Magnusson]: Stadfester dei vitnemål herr Torvald Toresson har ført, gjennom vitna Ivar bonde på Eiði, Harald i Borgarfirði, Svein prest og Halvdan på Brúarsætri om ei trette mellom Torvald og Ragnhild Simonsdotter i hertug [Håkons] gard i Papa Stour den 13. og 14. april. Diskusjonen galdt særleg landskylda av Bragaster, og under samtalane hadde Ragnhild kalla Torvald for hertugens Judas. Lagtingsmennene slår fast landskyldtaksten av Papa Stour. Sidan Torvald og andre vil avlegge nektingseid for hertugen, er dette brevet utf.</p>
+               <p>Da lagtingsseglet ikkje var for handa, er brevet besegla av herr Eirik Unge, Gregorius Benediktsson, Ivar Sperra, Magnus Hognesson, Erlend Geirmundsson, Gunne på Gnípum og Erlend Alfeit.</p> 
+            </div>
+            <div source="CCN">
+               <head>Frå <title>Corpus Codicum Norvegicorum Medii Aevi</title>, Folio Serie, bd. 2, nr. 66</head>
+               <p>Lagtingsmennene på Hjaltland (Shetland) bekrefter de vitnesbyrd herr Torvald Toresson førte på lagtinget om ordvekslingen mellom ham og Ragnhild Simonsdatter i hertug Håkons gard på Papøy (Papa) angående skatt av øya m.m.</p>
+            </div>
+         </div>
+      </front>
+
+      <body>
+         <div type="diplom">
+            <p>
+               <pb n="1r" ed="ms"/>
+               <lb n="1" ed="ms"/>
+               <lb n="1" ed="DN"/>
+               <w me:msa="xAJ nP gU cD rP sI" lemma="allr" xml:id="w100"><me:dipl>Allu<ex>m</ex></me:dipl></w>
+               <w me:msa="xPD nP gU cD" lemma="sá" xml:id="w200"><me:dipl>þeim</me:dipl></w>
+               <w me:msa="xNC nP gM cD sI" lemma="maðr" xml:id="w300"><me:dipl>m<ex>annu</ex>m</me:dipl></w>
+               <w me:msa="xCS" lemma="sem" xml:id="w400"><me:dipl>sem</me:dipl></w>
+               <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w500"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+               <w me:msa="xNC nS gN cA sI" lemma="bréf" xml:id="w600"><me:dipl>bref</me:dipl></w>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="siá" xml:id="w700"><me:dipl>sia</me:dipl></w>
+               <w me:msa="xCC" lemma="eða" xml:id="w800"><me:dipl>eða</me:dipl></w>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="høyra" xml:id="w900"><me:dipl>heyra</me:dipl></w>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="senda" xml:id="w1000"><me:dipl>senda</me:dipl></w>
+               <w me:msa="xAJ nP gM cN rP sI" lemma="allr" xml:id="w1100"><me:dipl>allir</me:dipl></w>
+               <lb n="2" ed="DN"/>
+               <w me:msa="xNC nP gM cN sI" lemma="logþingismaðr" xml:id="w1200"><me:dipl>logðingismenn</me:dipl></w>
+               <w me:msa="xAP yD" lemma="af" xml:id="w1300"><me:dipl>af</me:dipl></w>
+               <w me:msa="xNP nU gN cD sI" lemma="Hialtland" xml:id="w1400"><me:dipl>hiatlandi</me:dipl></w><pc xml:id="w1500">.</pc>
+               <w me:msa="xNC nS gF cA sI" lemma="kveðia" xml:id="w1600"><me:dipl>Q<ex>ueðiu</ex></me:dipl></w><pc xml:id="w1700">.</pc>
+               <w me:msa="xNC nS gM cG sI" lemma="guð" xml:id="w1800"><me:dipl>G<ex>uðs</ex></me:dipl></w><pc xml:id="w1900">.</pc>
+               <w me:msa="xCC" lemma="ok" xml:id="w2000"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xPD nS gF cA" lemma="sinn" xml:id="w2100"><me:dipl>sina</me:dipl></w>
+               <lb n="2" ed="ms"/>
+               <w me:msa="xPD nS gN cN" lemma="sá" xml:id="w2200"><me:dipl>þat</me:dipl></w>
+               <w me:msa="xVB p3 nS tPS mSU fF vA" lemma="vera" xml:id="w2300"><me:dipl>se</me:dipl></w>
+               <w me:msa="xPD nU gU cD" lemma="ér" xml:id="w2400"><me:dipl>yðr</me:dipl></w>
+               <w me:msa="xAJ nS gN cN rP sI" lemma="kunnigr" xml:id="w2500"><me:dipl>kun<ex>n</ex>ikt</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w2600"><me:dipl>at</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w2700"><me:dipl>a</me:dipl></w>
+               <lb n="3" ed="DN"/>
+               <w me:msa="xPD nS gN cD" lemma="sá" xml:id="w2800"><me:dipl>þui</me:dipl></w>
+               <w me:msa="xNC nS gN cD sI" lemma="ár" xml:id="w2900"><me:dipl>are</me:dipl></w>
+               <w me:msa="xCS" lemma="er" xml:id="w3000"><me:dipl>er</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cN sI" lemma="líða" xml:id="w3100"><me:dipl>liðit</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="vera" xml:id="w3200"><me:dipl>uar</me:dipl></w>
+               <supplied></supplied>
+               <w me:msa="xNC nS gM cD sI" lemma="burðr" xml:id="w3300"><me:dipl>burd</me:dipl></w>
+               <w me:msa="xPD nS gM cG" lemma="várr" xml:id="w3400"><me:dipl>uars</me:dipl></w>
+               <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w3500"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cG sI" lemma="Iesus" xml:id="w3600"><me:dipl>ih̅u</me:dipl></w>
+               <w me:msa="xNP nU gM cG sI" lemma="Christus" xml:id="w3700"><me:dipl>xp̅i</me:dipl></w><pc xml:id="w3800">.</pc>
+               <num xml:id="w3900"><w me:msa="xNU nS gM cB sU" lemma="millesimus" xml:id="w4000"><me:dipl>.M<hi rend="superscript">o</hi>.</me:dipl></w></num>
+               <num xml:id="w4100"><w me:msa="xNU nS gM cB sU" lemma="ducentesimus" xml:id="w4200"><me:dipl>cc<hi rend="superscript">o</hi>.</me:dipl></w></num>
+               <num xml:id="w4300"><w me:msa="xNU nS gM cB sU" lemma="nonagesimus" xml:id="w4400"><me:dipl>xc<hi rend="superscript">o</hi>.</me:dipl></w></num>
+               <w me:msa="xCC" lemma="ok" xml:id="w4500"><me:dipl><ex>ok</ex></me:dipl></w>
+               <lb n="4" ed="DN"/>
+               <num xml:id="w4600"><w me:msa="xNU nS gM cB sU" lemma="nonus" xml:id="w4700"><me:dipl>ix<hi rend="superscript">o</hi>.</me:dipl></w></num>
+               <w me:msa="xNC nS gM cN sI" lemma="vetr" xml:id="w4800"><me:dipl>uetr</me:dipl></w>
+
+               <lb n="4" ed="DN"/>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="láta" xml:id="w4900"><me:dipl>let</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w5000"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="þorvaldr" xml:id="w5100"><me:dipl>þor<lb n="3" ed="ms"/>ualldr</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="þórissunr" xml:id="w5200"><me:dipl>þoris s<ex>on</ex></me:dipl></w>
+               <w me:msa="xVB fI tPS vA" lemma="bera" xml:id="w5300"><me:dipl>bera</me:dipl></w>
+               <w me:msa="xNC nS gN cA sI" lemma="vitni" xml:id="w5400"><me:dipl>uitni</me:dipl></w>
+               <w me:msa="xAP yA" lemma="fyrir" xml:id="w5500"><me:dipl>f<ex>yr</ex></me:dipl></w>
+               <w me:msa="xPD nU gU cA" lemma="vér" xml:id="w5600"><me:dipl>oss</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w5700"><me:dipl>a</me:dipl></w>
+               <w me:msa="xNC nS gN cD sI" lemma="logþing" xml:id="w5800"><me:dipl>logþingi</me:dipl></w><pc xml:id="w5900">.</pc>
+               <w me:msa="xNC nP gN cA sI" lemma="orð" xml:id="w6000"><me:dipl>orð</me:dipl></w>
+               <lb n="5" ed="DN"/>
+               <w me:msa="xPD nP gN cA" lemma="sá" xml:id="w6100"><me:dipl>þau</me:dipl></w>
+               <w me:msa="xCS" lemma="sem" xml:id="w6200"><me:dipl>sem</me:dipl></w>
+               <w me:msa="xNP nU gF cN sI" lemma="Ragnhildr" xml:id="w6300"><me:dipl>ragnhilldr</me:dipl></w>
+               <w me:msa="xNP nU gF cN sI" lemma="Símonardóttir" xml:id="w6400"><me:dipl>simunar d<ex>ottir</ex></me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="hafa" xml:id="w6500"><me:dipl>hafði</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cA sI" lemma="tala" xml:id="w6600"><me:dipl>talat</me:dipl></w><pc xml:id="w6700">.</pc>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="bera" xml:id="w6800"><me:dipl>baro</me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w6900"><me:dipl>þ<ex>ei</ex>r</me:dipl></w>
+               <w me:msa="xAV rU" lemma="svá" xml:id="w7000"><me:dipl>sua</me:dipl></w>
+               <w me:msa="xNC nS gN cA sI" lemma="vitni" xml:id="w7100"><me:dipl>uit<lb n="4" ed="ms"/>ni</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Ívarr" xml:id="w7200"><me:dipl>Juar</me:dipl></w>
+               <lb n="6" ed="DN"/>
+               <w me:msa="xNC nS gM cN sI" lemma="bóndi" xml:id="w7300"><me:dipl>bondi</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w7400"><me:dipl>aeiði</me:dipl></w>
+               <w me:msa="xCC" lemma="ok" xml:id="w7500"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Haraldr" xml:id="w7600"><me:dipl>haralldr</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w7700"><me:dipl>iborgarfirði</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w7800"><me:dipl>at</me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w7900"><me:dipl>þ<ex>ei</ex>r</me:dipl></w>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="vera" xml:id="w8000"><me:dipl>uoro</me:dipl></w>
+               <w me:msa="xAP yD" lemma="hiá" xml:id="w8100"><me:dipl>hia</me:dipl></w>
+               <w me:msa="xPD nS gN cD" lemma="sá" xml:id="w8200"><me:dipl>þui</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w8300"><me:dipl>istofvni</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w8400"><me:dipl>ahertogabœnvm</me:dipl></w>
+               <lb n="7" ed="DN"/>
+               <w me:msa="xAP yD" lemma="í" xml:id="w8500"><me:dipl>ipapey</me:dipl></w>
+               <w me:msa="xNC nS gM cA sD" lemma="mánadagr" xml:id="w8600"><me:dipl>manadagenn</me:dipl></w>
+               <lb n="5" ed="ms"/>
+               <w me:msa="xAP yD" lemma="í" xml:id="w8700"><me:dipl>idymbildaga uiku</me:dipl></w>
+
+               <lb n="7" ed="DN"/>
+               <w me:msa="xCS" lemma="er" xml:id="w8800"><me:dipl>er</me:dipl></w>
+               <w me:msa="xNP nU gF cN sI" lemma="Ragnhildr" xml:id="w8900"><me:dipl>Ragnhilldr</me:dipl></w>
+               <lb n="8" ed="DN"/>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="taka" xml:id="w9000"><me:dipl>tok</me:dipl></w>
+               <w me:msa="xAV rU" lemma="svá" xml:id="w9100"><me:dipl>sua</me:dipl></w>
+               <w me:msa="xAP yG" lemma="til" xml:id="w9200"><me:dipl>til</me:dipl></w>
+               <w me:msa="xNC nP gN cG sI" lemma="orð" xml:id="w9300"><me:dipl>orða</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w9400"><me:dipl>at</me:dipl></w>
+               <w me:msa="xNP nU gN cN sI" lemma="Brekkasætr" xml:id="w9500"><me:dipl>breka sætr</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="vera" xml:id="w9600"><me:dipl>uar</me:dipl></w>
+               <w me:msa="xPD nS gN cN | xAV" lemma="engi" xml:id="w9700"><me:dipl>ecki</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w9800"><me:dipl>ileigu</me:dipl></w>
+               <w me:msa="xAP yD" lemma="með" xml:id="w9900"><me:dipl>m<ex>eð</ex></me:dipl></w>
+               <w me:msa="xNC nS gF cD sI" lemma="skattiorð" xml:id="w10000"><me:dipl>skat jorðu</me:dipl></w>
+               <w me:msa="xAV rU" lemma="uppi" xml:id="w10100"><me:dipl>upi</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w10200"><me:dipl>ihu<lb n="6" ed="ms"/>si</me:dipl></w>
+               <lb n="9" ed="DN"/>
+               <w me:msa="xCC" lemma="ok" xml:id="w10300"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xNC nS gM cN sD" lemma="hertogi" xml:id="w10400"><me:dipl>hertogin</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="skulu" xml:id="w10500"><me:dipl>skylldi</me:dipl></w>
+               <w me:msa="xVB fI tPS vA" lemma="taka" xml:id="w10600"><me:dipl>taka</me:dipl></w>
+               <w me:msa="xAJ nS gF cA rP sI" lemma="fullr" xml:id="w10700"><me:dipl>fulla</me:dipl></w>
+               <w me:msa="xNC nS gF cA sI" lemma="leiga" xml:id="w10800"><me:dipl>leigo</me:dipl></w>
+               <w me:msa="xAV rU" lemma="þó" xml:id="w10900"><me:dipl>þot</me:dipl></w>
+               <w me:msa="xNP nU gN cN sI" lemma="Brekkasætr" xml:id="w11000"><me:dipl>breka sætr</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mSU fF vA" lemma="vera" xml:id="w11100"><me:dipl>uæri</me:dipl></w>
+               <w me:msa="xPD nS gN cN | xAV" lemma="engi" xml:id="w11200"><me:dipl>ecki</me:dipl></w>
+               <w me:msa="xAP | xAV" lemma="með" xml:id="w11300"><me:dipl>með</me:dipl></w>
+
+               <lb n="10" ed="DN"/>
+               <w me:msa="xCC" lemma="en" xml:id="w11400"><me:dipl>en</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Þorvaldr" xml:id="w11500"><me:dipl>þorualldr</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="segia" xml:id="w11600"><me:dipl>sagði</me:dipl></w><pc xml:id="w11700">.</pc>
+               <w me:msa="xAV rU" lemma="hér" xml:id="w11800"><me:dipl>h<ex>er</ex></me:dipl></w>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="hafa" xml:id="w11900"><me:dipl>hafa</me:dipl></w>
+               <w me:msa="xAV rU" lemma="svá" xml:id="w12000"><me:dipl>sua</me:dipl></w>
+               <w me:msa="xAJ nP gM cN rP sI" lemma="margr" xml:id="w12100"><me:dipl>marg<ex>ir</ex></me:dipl></w>
+               <lb n="7" ed="ms"/>
+               <w me:msa="xAJ nP gM cN rP sI" lemma="góðr" xml:id="w12200"><me:dipl>goðir</me:dipl></w>
+               <w me:msa="xNC nP gM cN sI" lemma="maðr" xml:id="w12300"><me:dipl>men<ex>n</ex></me:dipl></w>
+               <w me:msa="xAP | xAV" lemma="um" xml:id="w12400"><me:dipl>um</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cA sI" lemma="véla" xml:id="w12500"><me:dipl>uellt</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="sem" xml:id="w12600"><me:dipl>se<ex>m</ex></me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="vera" xml:id="w12700"><me:dipl>var</me:dipl></w>
+               <lb n="11" ed="DN"/>
+               <w me:msa="xNP nU gM cN sI" lemma="þorkell" xml:id="w12800"><me:dipl>þorkell</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w12900"><me:dipl>inesi</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w13000"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="‹-›ríkr" xml:id="w13100"><me:dipl>Eirikr</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Sigurðr" xml:id="w13200"><me:dipl>Sigurðr</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="erkidiákn" xml:id="w13300"><me:dipl>erkidiakn</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w13400"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Eindriði" xml:id="w13500"><me:dipl>Eindriði</me:dipl></w>
+               <w me:msa="xCC" lemma="ok" xml:id="w13600"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xAJ nP gM cN rP sI" lemma="margr" xml:id="w13700"><me:dipl>marg<ex>ir</ex></me:dipl></w>
+               <lb n="12" ed="DN"/>
+               <w me:msa="xPD nP gM cN" lemma="annarr" xml:id="w13800"><me:dipl>aðr<ex>ir</ex></me:dipl></w>
+               <w me:msa="xVB nP tPS fP vA gM cN sI" lemma="duga" xml:id="w13900"><me:dipl>dugan<lb n="8" ed="ms"/>di</me:dipl></w>
+               <w me:msa="xNC nP gM cN sI" lemma="maðr" xml:id="w14000"><me:dipl>m<ex>enn</ex></me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w14100"><me:dipl>þ<ex>ei</ex>r</me:dipl></w>
+               <w me:msa="xCS" lemma="er" xml:id="w14200"><me:dipl>er</me:dipl></w>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="hafa" xml:id="w14300"><me:dipl>hafðo</me:dipl></w>
+               <w me:msa="xNC nS gN cA sI" lemma="umboð" xml:id="w14400"><me:dipl>umboð</me:dipl></w>
+               <w me:msa="xPD nS gM cG" lemma="minn" xml:id="w14500"><me:dipl>mins</me:dipl></w>
+               <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w14600"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNC nS gM cG sD" lemma="hertogi" xml:id="w14700"><me:dipl>hertogans</me:dipl></w>
+               <w me:msa="xPD nS gF cA" lemma="hvílíkr" xml:id="w14800"><me:dipl>huilika</me:dipl></w>
+               <lb n="13" ed="DN"/>
+               <w me:msa="xNC nS gF cA sI" lemma="landskyld" xml:id="w14900"><me:dipl>landskylld</me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w15000"><me:dipl>þ<ex>ei</ex>r</me:dipl></w>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="taka" xml:id="w15100"><me:dipl>toko</me:dipl></w>
+               <w me:msa="xPD nU gU cD" lemma="hann" xml:id="w15200"><me:dipl>h<ex>ano</ex>m</me:dipl></w>
+               <w me:msa="xAP yG" lemma="til" xml:id="w15300"><me:dipl>til</me:dipl></w>
+               <w me:msa="xNC nP gF cG sI" lemma="hond" xml:id="w15400"><me:dipl>handa</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w15500"><me:dipl>i</me:dipl></w>
+               <w me:msa="xNP nU gF cD sI" lemma="Papøy" xml:id="w15600"><me:dipl>papey</me:dipl></w><pc xml:id="w15700">.</pc>
+               <w me:msa="xAP yD" lemma="fyrir" xml:id="w15800"><me:dipl>f<ex>yr</ex></me:dipl></w>
+               <w me:msa="xPD nU gU cD" lemma="ek" xml:id="w15900"><me:dipl>m<ex>er</ex></me:dipl></w>
+
+               <lb n="13" ed="DN"/>
+               <w me:msa="xNP nU gF cN sI" lemma="Ragnhildr" xml:id="w16000"><me:dipl>Ragn<lb n="9" ed="ms"/>hilldr</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="svara" xml:id="w16100"><me:dipl>suaraði</me:dipl></w><pc xml:id="w16200">.</pc>
+               <lb n="14" ed="DN"/>
+               <w me:msa="xPD nU gU cN" lemma="ek" xml:id="w16300"><me:dipl>ek</me:dipl></w>
+               <w me:msa="xVB p1 nS tPT mIN fF vA" lemma="œmta" xml:id="w16400"><me:dipl>œnti</me:dipl></w>
+               <w me:msa="xPD nS gN cA | xAV" lemma="engi" xml:id="w16500"><me:dipl>ecki</me:dipl></w>
+               <w me:msa="xNP nU gM cD sI" lemma="Eindriði" xml:id="w16600"><me:dipl>Eindriða</me:dipl></w>
+               <w me:msa="xAJ nS gM cD rP sI" lemma="œrinn" xml:id="w16700"><me:dipl>œrum</me:dipl></w><pc xml:id="w16800">.</pc>
+               <w me:msa="xCS yIN" lemma="er" xml:id="w16900"><me:dipl>er</me:dipl></w>
+               <w me:msa="xPD nU gU cN" lemma="hann" xml:id="w17000"><me:dipl>h<ex>ann</ex></me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="laupa" xml:id="w17100"><me:dipl>líop</me:dipl></w>
+               <w me:msa="xAV rU" lemma="austan" xml:id="w17200"><me:dipl>ustan</me:dipl></w>
+               <w me:msa="xAP yD" lemma="ór" xml:id="w17300"><me:dipl>or</me:dipl></w>
+               <w me:msa="xNP nU gM cD sI" lemma="Noregr" xml:id="w17400"><me:dipl>noregi</me:dipl></w>
+               <w me:msa="xCC" lemma="ok" xml:id="w17500"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xVB p1 nS tPT mIN fF vA" lemma="vita" xml:id="w17600"><me:dipl>uissi</me:dipl></w>
+               <lb n="15" ed="DN"/>
+               <w me:msa="xAV rU" lemma="aldri" xml:id="w17700"><me:dipl>alldri</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cA sI" lemma="fagna" xml:id="w17800"><me:dipl>fagnat</me:dipl></w><pc xml:id="w17900">.</pc>
+               <w me:msa="xCC" lemma="en" xml:id="w18000"><me:dipl>en</me:dipl></w>
+               <w me:msa="xPD nU gU cN" lemma="ér" xml:id="w18100"><me:dipl>þer</me:dipl></w>
+               <w me:msa="xAJ nP gM cN rP sI" lemma="allr" xml:id="w18200"><me:dipl>allir</me:dipl></w>
+               <w me:msa="xCS" lemma="sem" xml:id="w18300"><me:dipl>se<ex>m</ex></me:dipl></w>
+               <w me:msa="xVB p2 nP tPT mIN fF vA" lemma="vita" xml:id="w18400"><me:dipl>uissuð</me:dipl></w>
+               <lb n="10" ed="ms"/>
+               <w me:msa="xAV rU" lemma="þá" xml:id="w18500"><me:dipl>þa</me:dipl></w>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="hafa" xml:id="w18600"><me:dipl>hafa</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cA sI" lemma="svíkia" xml:id="w18700"><me:dipl>suikit</me:dipl></w>
+               <w me:msa="xNC nS gM cA sD" lemma="hertogi" xml:id="w18800"><me:dipl>hertogan<ex>n</ex></me:dipl></w>
+
+               <lb n="15" ed="DN"/>
+               <w me:msa="xCC" lemma="en" xml:id="w18900"><me:dipl>en</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Sveinn" xml:id="w19000"><me:dipl>suein<ex>n</ex></me:dipl></w>
+               <lb n="16" ed="DN"/>
+               <add place="above">
+                  <w me:msa="xNC nS gM cN sI" lemma="prestr" xml:id="w19100"><me:dipl>prestr</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w19200"><me:dipl><ex>ok</ex></me:dipl></w>
+                  <w me:msa="xNP nU gM cN sI" lemma="Halfdan" xml:id="w19300"><me:dipl>halfdan</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w19400"><me:dipl>abruarsætri</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="bera" xml:id="w19500"><me:dipl>baro</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="svá" xml:id="w19600"><me:dipl>s<ex>ua</ex></me:dipl></w></add>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w19700"><me:dipl>at</me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w19800"><me:dipl>þ<ex>ei</ex>r</me:dipl></w>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="vera" xml:id="w19900"><me:dipl>uoro</me:dipl></w>
+               <w me:msa="xAP yD" lemma="hiá" xml:id="w20000"><me:dipl>hia</me:dipl></w>
+               <w me:msa="xPD nS gN cD" lemma="sá" xml:id="w20100"><me:dipl>þui</me:dipl></w>
+               <w me:msa="xAP yA" lemma="um" xml:id="w20200"><me:dipl>ummorgonen</me:dipl></w>
+               <lb n="17" ed="DN"/>
+               <w me:msa="xAP | xAV" lemma="eptir" xml:id="w20300"><me:dipl>eft<ex>ir</ex></me:dipl></w>
+               <w me:msa="xAP yA" lemma="á" xml:id="w20400"><me:dipl>atysdagenn</me:dipl></w>
+               <w me:msa="xAV rU" lemma="úti" xml:id="w20500"><me:dipl>uti</me:dipl></w>
+               <lb n="11" ed="ms"/>
+               <w me:msa="xAP yD" lemma="í" xml:id="w20600"><me:dipl>ituninu</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w20700"><me:dipl>afyrsagdum</me:dipl></w>
+               <w me:msa="xNC nS gM cD sI" lemma="bœr" xml:id="w20800"><me:dipl>bœ</me:dipl></w>
+               <w me:msa="xCS" lemma="er" xml:id="w20900"><me:dipl>er</me:dipl></w>
+               <w me:msa="xNP nU gF cN sI" lemma="Ragnhildr" xml:id="w21000"><me:dipl>Ragnhilldr</me:dipl></w>
+               <lb n="18" ed="DN"/>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="segia" xml:id="w21100"><me:dipl>sagði</me:dipl></w>
+               <w me:msa="xAV rU" lemma="svá" xml:id="w21200"><me:dipl>sua</me:dipl></w>
+               <w me:msa="xAP yG" lemma="til" xml:id="w21300"><me:dipl>til</me:dipl></w>
+               <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w21400"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cG sI" lemma="Þorvaldr" xml:id="w21500"><me:dipl>þorualldar</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w21600"><me:dipl>at</me:dipl></w>
+               <w me:msa="YYY" lemma="XXX" xml:id="w21700"><me:dipl>þu</me:dipl></w>
+               <w me:msa="xVB p2 nS tPS mIN fF vA" lemma="skulu" xml:id="w21800"><me:dipl>skallt</me:dipl></w>
+               <w me:msa="xPD nS gN cN | xAV" lemma="engi" xml:id="w21900"><me:dipl>ecki</me:dipl></w>
+               <w me:msa="xVB fI tPS vA" lemma="vera" xml:id="w22000"><me:dipl>uera</me:dipl></w>
+               <w me:msa="xPD nS gM cN" lemma="minn" xml:id="w22100"><me:dipl>min<ex>n</ex></me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Iudas" xml:id="w22200"><me:dipl>iudás</me:dipl></w><pc xml:id="w22300">.</pc>
+               <lb n="12" ed="ms"/>
+               <w me:msa="xAV rU" lemma="þó" xml:id="w22400"><me:dipl>þot</me:dipl></w>
+               <lb n="19" ed="DN"/>
+               <w me:msa="YYY" lemma="XXX" xml:id="w22500"><me:dipl>þu</me:dipl></w>
+               <w me:msa="xVB p2 nS tPS mSU fF vA" lemma="vera" xml:id="w22600"><me:dipl>ser</me:dipl></w>
+               <w me:msa="xNC nS gM cG sD" lemma="hertogi" xml:id="w22700"><me:dipl>hertogans</me:dipl></w>
+
+               <lb n="19" ed="DN"/>
+               <w me:msa="xCC" lemma="ok" xml:id="w22800"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xPD nP gN cA" lemma="siá" xml:id="w22900"><me:dipl>þessi</me:dipl></w>
+               <w me:msa="xNC nP gN cA sI" lemma="orð" xml:id="w23000"><me:dipl>orð</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="vitna" xml:id="w23100"><me:dipl>uitnadi</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w23200"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Þorvaldr" xml:id="w23300"><me:dipl>þorualldr</me:dipl></w>
+               <w me:msa="xAP yA" lemma="á" xml:id="w23400"><me:dipl>aalla</me:dipl></w>
+               <w me:msa="xPD nP gM cA" lemma="sá" xml:id="w23500"><me:dipl>þa</me:dipl></w>
+               <w me:msa="xCS" lemma="sem" xml:id="w23600"><me:dipl>sem</me:dipl></w>
+               <w me:msa="xAV rU" lemma="nær" xml:id="w23700"><me:dipl>nær</me:dipl></w>
+               <lb n="20" ed="DN"/>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="vera" xml:id="w23800"><me:dipl>uoro</me:dipl></w><pc xml:id="w23900">.</pc>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="prófa" xml:id="w24000"><me:dipl>P<ex>ro</ex>faz</me:dipl></w>
+               <w me:msa="xAV rU" lemma="ok" xml:id="w24100"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xAV rU" lemma="aldri" xml:id="w24200"><me:dipl>alldri</me:dipl></w>
+               <w me:msa="xAJ nP gM cN rC sI" lemma="meiri" xml:id="w24300"><me:dipl>meiri</me:dipl></w>
+               <w me:msa="YYY" lemma="XXX" xml:id="w24400"><me:dipl>uerð</me:dipl></w>
+               <w me:msa="xNC nP gM cN sI" lemma="øyrir" xml:id="w24500"><me:dipl>av<lb n="13" ed="ms"/>rar</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w24600"><me:dipl>a</me:dipl></w>
+               <w me:msa="xAJ nS gF cD rP sI" lemma="allr" xml:id="w24700"><me:dipl>allri</me:dipl></w>
+               <w me:msa="xNP nU gF cD sI" lemma="Papøy" xml:id="w24800"><me:dipl>papey</me:dipl></w>
+               <w me:msa="xCC" lemma="en" xml:id="w24900"><me:dipl>en</me:dipl></w>
+               <w me:msa="xAV rU" lemma="svá" xml:id="w25000"><me:dipl>sua</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="sem" xml:id="w25100"><me:dipl>sem</me:dipl></w>
+               <w me:msa="xAV rU" lemma="iafnan" xml:id="w25200"><me:dipl>iafnan</me:dipl></w>
+               <lb n="21" ed="DN"/>
+               <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="hafa" xml:id="w25300"><me:dipl>hef<ex>ir</ex></me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cA sI" lemma="ganga" xml:id="w25400"><me:dipl>geng<ex>it</ex></me:dipl></w>
+               <w me:msa="xAP yD" lemma="at" xml:id="w25500"><me:dipl>at</me:dipl></w>
+               <w me:msa="xNC nS gF cD sI" lemma="fyrnd" xml:id="w25600"><me:dipl>fyrnd</me:dipl></w><pc xml:id="w25700">.</pc>
+               <w me:msa="xNC nS gF cD sI" lemma="mork" xml:id="w25800"><me:dipl>mork</me:dipl></w>
+               <w me:msa="xNC nS gN cG sI" lemma="gull" xml:id="w25900"><me:dipl>gullz</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gF cD sI" lemma="brenna" xml:id="w26000"><me:dipl>brendri</me:dipl></w>
+               <w me:msa="xAP yD" lemma="með" xml:id="w26100"><me:dipl>með</me:dipl></w>
+               <w me:msa="xNC nS gF cD sI" lemma="veltuiorð" xml:id="w26200"><me:dipl>uelltu iorðu</me:dipl></w>
+               <w me:msa="xPD nS gN cN" lemma="hverr" xml:id="w26300"><me:dipl>hu<ex>er</ex>t</me:dipl></w>
+               <w me:msa="xNC nS gN cN sI" lemma="peningsland" xml:id="w26400"><me:dipl>p<ex>eni</ex>ngs <lb n="14" ed="ms"/>
+                     <lb n="22" ed="DN"/> l<ex>an</ex>d</me:dipl></w>
+
+               <lb n="22" ed="DN"/>
+               <w me:msa="xCC" lemma="en" xml:id="w26500"><me:dipl>en</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w26600"><me:dipl>ilandskylld</me:dipl></w>
+               <w me:msa="xAJ nS gM cG rP sI" lemma="halfr" xml:id="w26700"><me:dipl>halfs</me:dipl></w>
+               <num xml:id="w26800"><w me:msa="xNU nS gM cG sI" lemma="annarr" xml:id="w26900"><me:dipl>an<ex>n</ex>ars</me:dipl></w></num>
+               <w me:msa="xNC nS gM cG sI" lemma="mælir" xml:id="w27000"><me:dipl>mælis</me:dipl></w>
+               <w me:msa="xNC nS gN cN sI" lemma="verð" xml:id="w27100"><me:dipl>u<ex>er</ex>ð</me:dipl></w>
+               <w me:msa="xAP yD" lemma="af" xml:id="w27200"><me:dipl>af</me:dipl></w>
+               <w me:msa="xPD nS gF cD" lemma="hverr" xml:id="w27300"><me:dipl>hu<ex>er</ex>ri</me:dipl></w>
+               <w me:msa="xNC nS gF cD sI" lemma="mork" xml:id="w27400"><me:dipl>mork</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gF cD sI" lemma="brenna" xml:id="w27500"><me:dipl>brendri</me:dipl></w>
+               <lb n="23" ed="DN"/>
+               <w me:msa="xCC" lemma="ok" xml:id="w27600"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="vera" xml:id="w27700"><me:dipl>er</me:dipl></w>
+               <w me:msa="xAV rU" lemma="þá" xml:id="w27800"><me:dipl>þa</me:dipl></w>
+               <num xml:id="w27900"><w me:msa="xNU nP gN cN sI" lemma="tveir" xml:id="w28000"><me:dipl>ij</me:dipl></w></num>
+               <w me:msa="xNC nP gN cN sI" lemma="sáld" xml:id="w28100"><me:dipl>salld</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w28200"><me:dipl>ahueriv</me:dipl></w>
+               <w me:msa="xNC nS gN cD sI" lemma="peningsland" xml:id="w28300"><me:dipl>p<ex>eni</ex>ngs landi</me:dipl></w><pc xml:id="w28400">.</pc>
+               <w me:msa="xAV rU" lemma="nú" xml:id="w28500"><me:dipl>Nu</me:dipl></w>
+               <lb n="15" ed="ms"/>
+               <w me:msa="xAP yD" lemma="af" xml:id="w28600"><me:dipl>af</me:dipl></w>
+               <w me:msa="xPD nS gN cD" lemma="sá" xml:id="w28700"><me:dipl>þui</me:dipl></w>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w28800"><me:dipl>at</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w28900"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Þorvaldr" xml:id="w29000"><me:dipl>þorvalldr</me:dipl></w>
+               <lb n="24" ed="DN"/>
+               <w me:msa="xCC" lemma="ok" xml:id="w29100"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w29200"><me:dipl>þ<ex>ei</ex>r</me:dipl></w>
+               <w me:msa="xAJ nP gM cN rC sI" lemma="fleiri" xml:id="w29300"><me:dipl>fleiri</me:dipl></w>
+               <w me:msa="xCS" lemma="sem" xml:id="w29400"><me:dipl>sem</me:dipl></w>
+               <w me:msa="xPD nU gU cN" lemma="hon" xml:id="w29500"><me:dipl>hon</me:dipl></w>
+               <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="hafa" xml:id="w29600"><me:dipl>hafði</me:dipl></w>
+               <w me:msa="xAP | xAV" lemma="til" xml:id="w29700"><me:dipl>til</me:dipl></w>
+               <w me:msa="xVB nS tPT fP vA gN cA sI" lemma="tala" xml:id="w29800"><me:dipl>talat</me:dipl></w><pc xml:id="w29900">.</pc>
+               <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="vilia" xml:id="w30000"><me:dipl>uilia</me:dipl></w>
+               <w me:msa="xVB fI tPS vA" lemma="ganga" xml:id="w30100"><me:dipl>ganga</me:dipl></w>
+               <w me:msa="xAJ nS gF cD rP sI" lemma="logligr" xml:id="w30200"><me:dipl>logligri</me:dipl></w>
+               <w me:msa="xNC nS gF cD sI" lemma="dul" xml:id="w30300"><me:dipl>dul</me:dipl></w>
+               <w me:msa="xAP yD" lemma="fyrir" xml:id="w30400"><me:dipl>f<ex>irir</ex></me:dipl></w>
+               <w me:msa="xAJ nS gM cD rP sI" lemma="sialfr" xml:id="w30500"><me:dipl>sialf<lb n="25" ed="DN"/>u<ex>m</ex></me:dipl></w>
+               <w me:msa="xNC nS gM cD sD" lemma="hertogi" xml:id="w30600"><me:dipl>hertoga<lb n="16" ed="ms"/>num</me:dipl></w>
+
+               <lb n="25" ed="DN"/>
+               <w me:msa="xAV rU" lemma="þá" xml:id="w30700"><me:dipl>þa</me:dipl></w>
+               <w me:msa="xVB p1 nP tPT mIN fF vA" lemma="gefa" xml:id="w30800"><me:dipl>gafvm</me:dipl></w>
+               <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w30900"><me:dipl>u<ex>er</ex></me:dipl></w>
+               <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w31000"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+               <w me:msa="xNC nS gN cA sI" lemma="rannsaksbréf" xml:id="w31100"><me:dipl>rannzaks bref</me:dipl></w>
+               <w me:msa="xAP yG" lemma="til" xml:id="w31200"><me:dipl>til</me:dipl></w>
+               <w me:msa="YYY" lemma="XXX" xml:id="w31300"><me:dipl>uars</me:dipl></w>
+               <w me:msa="xAJ nS gM cG rP sI" lemma="virðuligr" xml:id="w31400"><me:dipl>virðulegs</me:dipl></w>
+               <lb n="26" ed="DN"/>
+               <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w31500"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNC nS gM cG sD" lemma="hertogi" xml:id="w31600"><me:dipl>hertogans</me:dipl></w>
+               <w me:msa="xAP yA" lemma="um" xml:id="w31700"><me:dipl>um</me:dipl></w>
+               <w me:msa="xAJ nP gN cA rP sI" lemma="fyrrsagðr" xml:id="w31800"><me:dipl>fyr sogd</me:dipl></w>
+               <w me:msa="xNC nP gN cA sI" lemma="málefni" xml:id="w31900"><me:dipl>malefni</me:dipl></w>
+
+               <lb n="26" ed="DN"/>
+               <w me:msa="xCC" lemma="ok" xml:id="w32000"><me:dipl><ex>ok</ex></me:dipl></w>
+               <w me:msa="xPD nS gN cD" lemma="sá" xml:id="w32100"><me:dipl>þui</me:dipl></w>
+               <lb n="17" ed="ms"/>
+               <w me:msa="xCS yIN" lemma="at" xml:id="w32200"><me:dipl>at</me:dipl></w>
+               <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w32300"><me:dipl>uer</me:dipl></w>
+               <w me:msa="xVB p1 nP tPT mIN fF vA" lemma="hafa" xml:id="w32400"><me:dipl>hofdu<ex>m</ex></me:dipl></w>
+               <w me:msa="xAV rU" lemma="eigi" xml:id="w32500"><me:dipl>eig<ex>i</ex></me:dipl></w>
+               <w me:msa="xNC nS gN cA sI" lemma="logþingisinnsigli" xml:id="w32600"><me:dipl>log<lb n="27" ed="DN"/>þin<ex>n</ex>gis insigli</me:dipl></w>
+               <w me:msa="xAV rU" lemma="þá" xml:id="w32700"><me:dipl>þa</me:dipl></w>
+               <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="setia" xml:id="w32800"><me:dipl>settu</me:dipl></w>
+               <w me:msa="xPD nP gM cN" lemma="siá" xml:id="w32900"><me:dipl>þessir</me:dipl></w>
+               <w me:msa="xAP yD" lemma="af" xml:id="w33000"><me:dipl>af</me:dipl></w>
+               <w me:msa="xPD nP gU cD" lemma="várr" xml:id="w33100"><me:dipl>uaru<ex>m</ex></me:dipl></w>
+               <w me:msa="xNC nP gM cD sI" lemma="kumpánn" xml:id="w33200"><me:dipl>ku<ex>m</ex>panu<ex>m</ex></me:dipl></w>
+               <w me:msa="xPD nP gN cA" lemma="sinn" xml:id="w33300"><me:dipl>sin</me:dipl></w>
+               <w me:msa="xNC nP gN cA sI" lemma="innsigli" xml:id="w33400"><me:dipl>insigli</me:dipl></w>
+               <w me:msa="xAP yA" lemma="fyrir" xml:id="w33500"><me:dipl>fyr</me:dipl></w>
+               <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w33600"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+               <lb n="28" ed="DN"/>
+               <w me:msa="xNC nS gN cA sI" lemma="bréf" xml:id="w33700"><me:dipl>bref</me:dipl></w>
+               <w me:msa="xAP yG" lemma="til" xml:id="w33800"><me:dipl>til</me:dipl></w>
+               <w me:msa="xAJ nS gM cG rP sI" lemma="sannr" xml:id="w33900"><me:dipl>san<ex>n</ex>z</me:dipl></w>
+               <w me:msa="xNC nS gM cG sI" lemma="vitnisburðr" xml:id="w34000"><me:dipl>uit<lb n="18" ed="ms"/>nis burdar</me:dipl></w><pc xml:id="w34100">.</pc>
+               <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w34200"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Eiríkr" xml:id="w34300"><me:dipl>Eirikr</me:dipl></w>
+               <w me:msa="xAJ nS gM cN rP sD" lemma="ungr" xml:id="w34400"><me:dipl>ungi</me:dipl></w><pc xml:id="w34500">.</pc>
+               <w me:msa="xNP nU gM cN sI" lemma="Gregorius" xml:id="w34600"><me:dipl>Gregori<ex>us</ex></me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Benediktsunr" xml:id="w34700"><me:dipl>b<ex>e</ex>n<ex>e</ex>dictz s<ex>on</ex></me:dipl></w>
+               <lb n="29" ed="DN"/>
+               <w me:msa="xNP nU gM cN sI" lemma="Ívarr" xml:id="w34800"><me:dipl>Juar</me:dipl></w>
+               <w me:msa="xNC nS gF cN sI" lemma="sperra" xml:id="w34900"><me:dipl>sp<ex>er</ex>ra</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Magnús" xml:id="w35000"><me:dipl>Magn<ex>us</ex></me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Hognasunr" xml:id="w35100"><me:dipl>hogna s<ex>on</ex></me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Erlendr" xml:id="w35200"><me:dipl>Erlendr</me:dipl></w>
+               <w me:msa="xNP nU gM cN sI" lemma="Geirmundarsunr" xml:id="w35300"><me:dipl>geirmundar s<ex>on</ex></me:dipl></w>
+               <lb n="19" ed="ms"/>
+               <w me:msa="xNP nU gM cN sI" lemma="Gunni" xml:id="w35400"><me:dipl>gun<ex>n</ex>i</me:dipl></w>
+               <w me:msa="xAP yD" lemma="á" xml:id="w35500"><me:dipl>agnipum</me:dipl></w><pc xml:id="w35600">.</pc>
+               <lb n="30" ed="DN"/>
+               <w me:msa="xNP nU gM cN sI" lemma="Erlendr" xml:id="w35700"><me:dipl>Erlendr</me:dipl></w>
+               <w me:msa="xAJ nS gM cN rP sI" lemma="allfeitr" xml:id="w35800"><me:dipl>alfeitr</me:dipl></w>
+               <pc xml:id="w35900">.</pc>
+            </p>
+         </div>
+         
+         <div type="verso">
+            <p>
+               <pb n="1v" ed="ms"/>
+               <lb n="1" ed="ms"/>
+               <w me:msa="xAP yA" lemma="um" xml:id="w36000"><me:dipl>om</me:dipl></w>
+               <w me:msa="xNP nU gN cA sI" lemma="Brekkasætr" xml:id="w36100"><me:dipl>brecke <lb n="2" ed="ms"/> sætter</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w36200"><me:dipl>i</me:dipl></w>
+               <w me:msa="xNP nU gF cD sI" lemma="Papøy" xml:id="w36300"><me:dipl>papæye</me:dipl></w>
+               <pb n="1v" ed="ms"/>
+               <lb n="1" ed="ms"/>
+               <w me:msa="YYY" lemma="XXX" xml:id="w36400"><me:dipl>Breff</me:dipl></w>
+               <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w36500"><me:dipl>herra</me:dipl></w>
+               <w me:msa="xNP nU gM cG sI" lemma="Þorvaldr" xml:id="w36600"><me:dipl>torwall</me:dipl></w>
+               <w me:msa="xNP nU gM cG sI" lemma="þórissunr" xml:id="w36700"><me:dipl>toressonar</me:dipl></w>
+               <w me:msa="xNC nS gM cN sI" lemma="vitnisburðr" xml:id="w36800"><me:dipl>vitnisburdh</me:dipl></w>
+               <w me:msa="xAP yA" lemma="um" xml:id="w36900"><me:dipl>om</me:dipl></w>
+               <w me:msa="xNC nP gF cA sI" lemma="iorð" xml:id="w37000"><me:dipl>jardher</me:dipl></w>
+               <w me:msa="xAP yD" lemma="í" xml:id="w37100"><me:dipl>í</me:dipl></w>
+               <w me:msa="xNP nU gN cD sI" lemma="Hialtland" xml:id="w37200"><me:dipl>hietland</me:dipl></w>
+            </p>
+         </div>
+      </body>
+      
+      
+<!--      <back>
+         <div type="metadata">
+            <list>
+               <item>
+                  <label>NUM</label>
+               </item>
+               <item>
+                  <label>DAT</label>*1299-08-50</item>
+               <item>
+                  <label>TID</label>a (3) ›ui are er li∂it uar (fra) burd uars herra i§hu x§pi. .Mso/s. ccso/s. xcso/s. ok (4) ixso/s. uetr.</item>
+               <item>
+                  <label>TRYKT1</label>
+               </item>
+               <item>
+                  <label>verk</label>DN</item>
+               <item>
+                  <label>bind</label>I</item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>89</item>
+               <item>
+                  <label>TRYKT2</label>
+               </item>
+               <item>
+                  <label>verk</label>Thorkelin</item>
+               <item>
+                  <label>bind</label>II</item>
+               <item>
+                  <label>side</label>267</item>
+               <item>
+                  <label>nr</label>
+               </item>
+               <item>
+                  <label>TRYKT3</label>
+               </item>
+               <item>
+                  <label>verk</label>DiplOrcHialt</item>
+               <item>
+                  <label>bind</label>I</item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>25?</item>
+               <item>
+                  <label>TRYKT4</label>
+               </item>
+               <item>
+                  <label>verk</label>Palæografisk Atlas</item>
+               <item>
+                  <label>bind</label>
+               </item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>52</item>
+               <item>
+                  <label>TRYKT5</label>
+               </item>
+               <item>
+                  <label>verk</label>Svensson: Nordisk paleografi</item>
+               <item>
+                  <label>bind</label>
+               </item>
+               <item>
+                  <label>side</label>220-223</item>
+               <item>
+                  <label>nr</label>
+               </item>
+               <item>
+                  <label>komm</label>Delvis gjengitt i faks m/transkripsjon og kommentar her</item>
+               <item>
+                  <label>TRYKT6</label>
+               </item>
+               <item>
+                  <label>verk</label>Old-Lore Series</item>
+               <item>
+                  <label>bind</label>VII</item>
+               <item>
+                  <label>side</label>38</item>
+               <item>
+                  <label>nr</label>
+               </item>
+               <item>
+                  <label>TRYKT7</label>
+               </item>
+               <item>
+                  <label>verk</label>CCN fol ser II</item>
+               <item>
+                  <label>bind</label>
+               </item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>66</item>
+               <item>
+                  <label>komm</label>Med faks og oversettelse</item>
+               <item>
+                  <label>HENV1</label>
+               </item>
+               <item>
+                  <label>verk</label>RN</item>
+               <item>
+                  <label>bind</label>II</item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>978</item>
+               <item>
+                  <label>HENV2</label>
+               </item>
+               <item>
+                  <label>verk</label>Hægstad: Vestnorske maalføre fyre 1350.</item>
+               <item>
+                  <label>bind</label>Innleiing</item>
+               <item>
+                  <label>side</label>Passim.</item>
+               <item>
+                  <label>nr</label>
+               </item>
+               <item>
+                  <label>HENV3</label>
+               </item>
+               <item>
+                  <label>verk</label>P.A. Munch: Det norske folks historie</item>
+               <item>
+                  <label>bind</label>IV:2</item>
+               <item>
+                  <label>side</label>277</item>
+               <item>
+                  <label>nr</label>
+               </item>
+               <item>
+                  <label>OVERS</label>
+               </item>
+               <item>
+                  <label>verk</label>CCN fol ser II</item>
+               <item>
+                  <label>bind</label>
+               </item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label>66</item>
+               <item>
+                  <label>ARK</label>Kbh</item>
+               <item>
+                  <label>ARKSIGN</label>AM 100,3a</item>
+               <item>
+                  <label>ARKKOMM</label>Orig på perg.</item>
+               <item>
+                  <label>AVSKR</label>
+               </item>
+               <item>
+                  <label>SPR</label>
+               </item>
+               <item>
+                  <label>LND</label>
+               </item>
+               <item>
+                  <label>OMR</label>Sh</item>
+               <item>
+                  <label>FYL</label>
+               </item>
+               <item>
+                  <label>HER</label>
+               </item>
+               <item>
+                  <label>STD</label>Shetland</item>
+               <item>
+                  <label>MIL</label>L</item>
+               <item>
+                  <label>SKRIVER</label>
+               </item>
+               <item>
+                  <label>TYP</label>Provsbrev</item>
+               <item>
+                  <label>AUT</label>
+               </item>
+               <item>
+                  <label>INGRESS</label>Lagtingsmennene på Hjaltland (Shetland) bekrefter de vitnesbyrd herr Torvald Toresson førte på lagtinget om ordvekslingen mellom ham og Ragnhild Simonsdatter i hertug Håkons gard på Papøy (Papa) angående skatt av øya m.m.</item>
+            </list>
+         </div>
+         <div type="metadata_2">
+            <list>
+               <item>
+                  <label>SGL</label>Brevet har 8 huller i plica, men har visst ikke hatt mer enn 7 segl. Av disse er delvis bevart nr 1 herra Eir’kr ungi (NSigV nr 15), nr 6 Gunni á Gnipum (NSigV nr 16) og nr 7 Erlendr alfeitr (NSigV nr 17). for de øvrige er det bare seglreimer tilbake.</item>
+               <item>
+                  <label>REM</label>Reimene 1-4 er beskrevne, de inneholder bruddstykker av brevet *1295-05-50.</item>
+               <item>
+                  <label>REMTXT</label>
+               </item>
+               <item>
+                  <label>SIGFORB</label>
+               </item>
+               <item>
+                  <label>BAK1</label>[Bakpå (fra 14. årh?):] om brecke / sætter i papæye</item>
+               <item>
+                  <label>BAK2</label>[Bakpå (fra 15. årh?):] Breff herra torwall toressonar vitnisburdh om jardher ’ hietland.</item>
+               <item>
+                  <label>FNOTE</label>IND=1</item>
+               <item>
+                  <label>KOM1</label>
+               </item>
+               <item>
+                  <label>FOTO1</label>UiO/INL</item>
+               <item>
+                  <label>FOTO2</label>UiB</item>
+               <item>
+                  <label>FOTO3</label>UNIT</item>
+               <item>
+                  <label>FOTO4</label>UB Tromsø</item>
+               <item>
+                  <label>FOTO5</label>NRA</item>
+            </list>
+         </div>
+      </back> -->
+      
+   </text>
+</TEI>

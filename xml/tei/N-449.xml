@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 449 : Kuli, Smøla, Møre og Romsdal : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Alsak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 280–286</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Hallvard</forename>
+                            <forename>Trygge</forename>
+                            <surname>Storvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-08-31">31 August 2021</date>.</edition>
+            </editionStmt>
+            <extent n="14">14 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 280–286</idno>
+                <date when="2018-02-13">13 February 2018</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawing from the Runic Archives in Oslo.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.2966, 8.08814</settlement>
+                        <idno>N 449</idno>
+                        <msName>N 449 : Kuli, Smøla kommune, Møre og Romsdal</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="0980" notAfter="1100">c. 1050-1100</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 282–283.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-28</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Commented suggested change as part of QA work.
+            </change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-03-15</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the header, and added a front and a back element</change>
+            <change>
+                <date>2021-01-24</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first, extended version of this file for the runic course in the spring term of 2021</change>
+            <change>
+                <date>2018-02-13</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file and had it published in the test archive of Menota</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 449 ||  
+                    <hi rend="bold">Sted</hi>: Kuli, Smøla, Møre og Romsdal  || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1050–1100 <lb/>
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR IV: 280–286 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/7b653a26-f2d8-49bb-8502-0ba2b8da5adc" type="external">N 449</ref>
+                </head>
+                <p>Denne bautasteinen fra øya Kuli i Smøla kommune vitner om den første kjente bruk av navnet <hi rend="italic">Norge</hi> på norrønt. Jf. NIyR IV: 280–286.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&crosPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Þórir" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&thGEcv;&uGE;&rGEcv;&iGE;&rGEcv;&twodotPM;</me:facs>
+                            <me:dipl>þurir:</me:dipl>
+                            <me:norm>Þórir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="ok" me:msa="xCC">
+                        <choice>
+                            <me:facs>&aYG;&uGE;&kYGst;</me:facs>
+                            <me:dipl>auk</me:dipl>
+                            <me:norm>ok</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Hallvarðr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&hYGL;&aYG;&lGE;<unclear reason="weathered">&uGE;</unclear>&aYG;&rGEcv;&thGE;&rGEcv;</me:facs>
+                            <me:dipl>hal:<unclear reason="weathered">u</unclear>rarþr</me:dipl>
+                            <me:norm>Hallvarðr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="reisa" me:msa="xVB fF tPT mIN p3 nP vA iWK">
+                        <choice>
+                            <me:facs>&rGEcv;&hYGL;&iGE;<unclear reason="weathered">&sYGS;</unclear><unclear reason="weathered">&tYG;</unclear><unclear reason="weathered">&uGE;</unclear></me:facs>
+                            <me:dipl>rai<unclear reason="weathered">s</unclear><unclear reason="weathered">t</unclear><unclear reason="weathered">u</unclear>:</me:dipl>
+                            <me:norm>reistu</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="stein" me:msa="xNC gM nS cA sI">
+                        <choice>
+                            <me:facs>&sYGS;&tYG;&aYG;&iGE;&nYG;&twodotPM;</me:facs>
+                            <me:dipl>stain:</me:dipl>
+                            <me:norm>stein</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="þenna" me:msa="xDD gM nS cA">
+                        <choice>
+                            <me:facs>&thGEcv;&iGE;&nYG;&sYGS;<unclear reason="weathered">&iGE;</unclear>&middot;</me:facs>
+                            <me:dipl>þins<unclear reason="weathered">i</unclear>:</me:dipl>
+                            <me:norm>þenna</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="eftir" me:msa="xAP yA"> <!-- SP 2022-02-28: When accepting the reading mentioned below, it seems like the form of the AP used here is likely "aft", thus the u and r should probably be removed. -->
+                        <choice>
+                            <me:facs>&aYG;&fGEst;&tYG;&uGE;<unclear reason="weathered">&rGE;</unclear></me:facs>
+                            <me:dipl>aftu<unclear reason="weathered">r</unclear></me:dipl>
+                            <me:norm>efti<supplied type="restoration">r</supplied></me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="Úlfljótr" me:msa="xNP gM nS cA sI"> <!-- Olga: for meg ser det ut som Sebastian har rett og jeg brukte lemma han foreslo -->
+                        <choice> <!-- SP 2022-02-28: The newly provided photography of the (newly) colored stone seems to read these runes as &uGE;&lGE;&fGE;&lGE;&iGE;&uGE;&tYG; (Ulfliut / Úlf-ljótr.) -->
+                            <me:facs> . . . </me:facs>
+                            <me:dipl> . . . </me:dipl>
+                            <me:norm> . . . </me:norm>
+                        </choice>
+                    </w>
+                    <lb ed="ms" n="2"/>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&crosPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="tolf" me:msa="xNA">
+                        <choice>
+                            <me:facs>&crosPM;&tYG;&uGE;&aYG;&lGE;&fGEst;</me:facs>
+                            <me:dipl>tualf</me:dipl>
+                            <me:norm>Tolf</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="vetr" me:msa="xNC gM nS cA sI">
+                        <choice>
+                            <me:facs>&uGE;&iGE;&nYG;&tYG;&rGEcv;</me:facs>
+                            <me:dipl>uintr</me:dipl>
+                            <me:norm>vetr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="hafa" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+                        <choice>
+                            <me:facs>&hYGL;&aYG;<unclear reason="weathered">&thGEcv;</unclear><unclear reason="weathered">&fGEst;</unclear>&iGE;</me:facs>
+                            <me:dipl>haf<unclear reason="weathered">þ</unclear><unclear reason="weathered">i</unclear></me:dipl>
+                            <me:norm>hafði</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="kristindómr" me:msa="xNC gM nS cN sI">
+                        <choice>
+                            <me:facs><unclear reason="weathered">&kYGst;</unclear>&rGEcv;<unclear reason="weathered">&iGE;</unclear><unclear reason="weathered">&sYGS;</unclear><unclear reason="weathered">&tYG;</unclear><unclear reason="weathered">&iGE;</unclear><unclear reason="weathered">&nYG;</unclear> <pc type="runic">&twodotPM;</pc> <unclear reason="weathered">&tYG;</unclear>&uGE;&mYGLst;&rGEcv;</me:facs>
+                            <me:dipl><unclear reason="weathered">k</unclear>r<unclear reason="weathered">i</unclear><unclear reason="weathered">s</unclear><unclear reason="weathered">t</unclear><unclear reason="weathered">i</unclear><unclear reason="weathered">n</unclear> <unclear reason="weathered">t</unclear>umr</me:dipl>
+                            <me:norm>kristindómr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="vera" me:msa="xVB fP tPT vA gN nS cA sI iST">
+                        <choice>
+                            <me:facs><unclear reason="weathered">&uGE;</unclear>&iGE;&rGEcv;&iGE;<unclear reason="weathered">&tYG;</unclear>&middotPM;</me:facs>
+                            <me:dipl><unclear reason="weathered">u</unclear>iri<unclear reason="weathered">t</unclear></me:dipl>
+                            <me:norm>verit</me:norm>
+                        </choice>
+                    </w>
+                    <seg type="nb">
+                        <w lemma="í" me:msa="xAP yD">
+                            <choice>
+                                <me:facs><unclear reason="weathered">&iGE;</unclear></me:facs>
+                                <me:dipl><unclear reason="weathered">i</unclear></me:dipl>
+                                <me:norm>í</me:norm>
+                            </choice>
+                        </w>
+                    <w lemma="Nóregr" me:msa="xNP gM nS cD sI">
+                        <choice>
+                            <me:facs>&nYG;<unclear reason="weathered">&uGE;</unclear>&rGEcv;&iGE;&kYGst;&iGE;</me:facs>
+                            <me:dipl>n<unclear reason="weathered">u</unclear>riki</me:dipl>
+                            <me:norm>Nóregi</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>				
+            </div>
+        </body>
+        <back>
+            
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Tore og Hallvard reiste denne steinen etter [Ulfjot]. Tolv vintre hadde kristendommen vært i Norge.</p>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Þórir and Hallvarðr raised this stone in memory of |Ulfljótr]. Christianity had been twelve winters in Norway.</p>	
+            </div>
+            
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Kuli-steinen har vært inngående diskutert siden Aslak Liestøl gjenoppdaget innskriften i 1956 (jf. NIyR IV: 281). Se bl.a. Koht (1958), Hallan (1959), Birkeli (1961), Hagland (1991 og 1998), Seim (2013) og Knirk (2017).</p>
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N449-A.jpg"/></figure>
+                <caption>Fotografi av N 449 (liggende format). Fra Vitenskapsmuseet, Seksjon for arkeologi og kulturhistorie, Trondheim. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N449-B.jpg"/></figure>
+                <caption>Avtegning av N 449 (liggende format). Fra Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+                
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <p>NB! Foreløpige innførsler. Se flere referanser i Knirk (2017, 98).</p>
+                <bibl>Hallan, Nils 1959. Årbok indtil år 1700. Orkanger.</bibl>
+                <bibl>Birkeli, Fridtjov. 1960. “Den eldste norske kristendomshistorie og Kulisteinen.” <title>Teologi og Kirke</title>.</bibl>
+                <bibl>Hagland, Jan Ragnar. 1991. “Kulisteinen - endå ein gong.”</bibl>
+                <bibl>Hagland, Jan Ragnar. 1998. “Innskrifta på Kuløy: Ei nylesing ved hjelp av Jan O. H. Swantessons mikrokarteringsteknologi.”</bibl>
+                <bibl>Knirk, James E. 2017. “Kuli-steinen og landsnamnet <hi rend="italic">Noreg</hi>.” <title>Namn og Nemne</title> 34, 93–98.</bibl>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+                <bibl>Seim, Karin Fjellhammer. 2013. “Runologi.” Kap. 3 i <title>Handbok i norrøn filologi</title>, utg. Odd Einar Haugen, 128–193. Bergen: Fagbokforlaget.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Hallvard Trygge Storvik (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på en rekke publiserte ressurser, som oppført i kildelisten ovenfor. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>  
+         
+        </back>
+    </text>
+</TEI>

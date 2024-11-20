@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng"> 
+		<fileDesc>
+			<titleStmt>
+				<title>N 422 : Hennøy, Bremanger, Vestlandet : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 4, pp. 230-233</resp>
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>MenotaBlitz technology developed by</resp>
+					<name>
+						<persName>Robert Kristof Paulsen</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Katrine</forename>
+							<surname>Andresen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.8">First draft, generated with MenotaBlitz,
+					<date when="2021-10-23">23 October 2021</date>
+				</edition>
+			</editionStmt>
+			<extent n="19">19 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">IV 230-233</idno>
+				<date when="2021-10-29">29 October 2021</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>61.8115, 5.22511</settlement>
+						<idno>N 422</idno>
+						<msName>N 422 : Hennøy, Bremanger, Vestlandet</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="stone">
+							<supportDesc>
+								<support>
+									<p><material>stone</material>.</p>
+								</support>
+								<condition></condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1100" notAfter="1500">c. 1100-1500</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="lost">Extant. Now at the same place where it was discovered.</note> 
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 230-233.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, where the transcriptions on the first two levels have been generated with the help of MenotaBlitz technology, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-11</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-28</date>
+				<name>Sebastian Pohland</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor changes as part of QA work.
+			</change>
+			<change>
+				<date>2021-10-31</date>
+				<name>Katrine Andresen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Added a back element.</change>
+			<change>
+				<date>2021-10-29</date>
+				<name>Katrine Andresen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Updated the header and added a front element and morphological annotation.</change>
+			<change>
+				<date>2021-10-23</date>
+				<name>Katrine Andresen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Created the first draft as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref> "menotaFD"-style transcription.</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+				<head><hi rend="bold">Signum</hi>: N 422 ||  
+					<hi rend="bold">Stad</hi>: Hennøy, Bremanger, Vestlandet ||
+					<hi rend="bold">Kart</hi>: Lenke kjem her || 
+					<hi rend="bold">Datering</hi>: ca. 1150–1500<lb/> 
+					<hi rend="bold">Materiale</hi>: Stein || 
+					<hi rend="bold">Status</hi>: Bevart på staden||
+					<hi rend="bold">Utgåve</hi>: NIyR IV: 230-233 || 
+					<hi rend="bold">SamNord</hi>: <ref
+						target="http://kulturarvsdata.se/uu/srdb/64e2c988-85bb-427e-b095-f9f9a0587edd" type="external">N 422</ref> 
+				</head>
+				<p>I 1935 blei det oppdaga ein stein med runeinnskrifter ved Hennøy. Steinen er no kløyvd i to, men var opphaveleg heil, ca. ein meter tjukk og ca. to meter brei. Innskriftene finst på begge lutar, og N422, fordelt på tre linjer, står uskada av knekken på ein av dei. Runene er 2,5-3,5 cm høge, og linje A er 25 cm lang.</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+			</div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskrifta</head> 
+				<p>
+					<pb ed="ms" n="1r"/> <!-- SP 2022-02-28: Fixed ligs.-->
+					<lb ed="ms" n="A"/>
+					
+					<w lemma="Hér" me:msa="xAV">
+						<choice>
+							<me:facs>&hYGL;&eMD;&rGE;</me:facs>
+							<me:dipl>her</me:dipl>
+							<me:norm>Hér</me:norm>
+						</choice>
+					</w>
+
+					<pc type="runic"> 
+						<choice>
+							<me:facs>&twodotPM;</me:facs>
+						</choice>
+					</pc>
+					
+					<w lemma="liggja" me:msa="xVB fF tPT mIN p3 nP vA iST">
+						<choice>
+							<me:facs>&lGE;&aYG;&gMD;&oYG;</me:facs>
+							<me:dipl>lago</me:dipl>
+							<me:norm>lágu</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="sá" me:msa="xDD gM nP cN">
+						<choice>
+							<me:facs>&thGE;&eMD;&iGE;&rGE;</me:facs>
+							<me:dipl>þeir</me:dipl>
+							<me:norm>þeir</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="maðr" me:msa="xNC gM nP cN sI">
+						<choice>
+							<me:facs>&mYGL;&eMD;&nYG;</me:facs>
+							<me:dipl>men</me:dipl>
+							<me:norm>menn</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="er" me:msa="xCS yIN">
+						<choice>
+							<me:facs>&eMD;&rGE;</me:facs>
+							<me:dipl>er</me:dipl>
+							<me:norm>er</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="koma" me:msa="xVB fF tPT mIN p3 nP vA iST">
+						<choice>
+							<me:facs>&kYG;&oYG;&mYGL;<add place="inline">&oYG;</add></me:facs>
+							<me:dipl>kom<add place="inline">o</add></me:dipl>
+							<me:norm>kómu</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="af" me:msa="xAP yD">
+						<choice>
+							<me:facs>&aYG;&fGE;</me:facs>
+							<me:dipl>af</me:dipl>
+							<me:norm>af</me:norm>
+						</choice>
+					</w>
+					
+					<lb ed="ms" n="B"/>
+					
+					<w lemma="Risaland" me:msa="xNP gN nS cD sI">
+						<choice>
+							<me:facs>&rGE;&iGE;&sYGSdot;&aYG; <add place="infralinear">&lGE;<unclear reason="faded">&aYG;</unclear>&dMDdot;&eMD;</add></me:facs>
+							<me:dipl>risa <add place="infralinear">l<supplied reason="restoration">a</supplied>de</add></me:dipl>
+							<me:norm>Risal<supplied reason="restoration">a</supplied>ndi</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="með" me:msa="xAP yD">
+						<choice>
+							<me:facs>&mYGL;&eMD;&thGE;</me:facs>
+							<me:dipl>meþ</me:dipl>
+							<me:norm>með</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="hlaða" me:msa="xVB fP tPT vA gN nS cD sI iST">
+						<choice>
+							<me:facs>&lGE;<seg type="lig">&oYG;&#xF538;&thGE;</seg>&nYG;&uGE;</me:facs>
+							<me:dipl>l<seg type="lig">o&#xF538;þ</seg>nu</me:dipl>
+							<me:norm>hlǫðnu</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="skip" me:msa="xNC gN nS cD sI">
+						<choice>
+							<me:facs>&sYGSdot;&kYG;&iGE;&pMDopen;&iGE;</me:facs>
+							<me:dipl>skipi</me:dipl>
+							<me:norm>skipi</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="af" me:msa="xAP yD">
+						<choice>
+							<me:facs>&aYG;&fGE;</me:facs>
+							<me:dipl>af</me:dipl>
+							<me:norm>af</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="gull" me:msa="xNC gN nS cD sI">
+						<choice>
+							<me:facs>&gMD;&uGE;&lGE;&lGE;&iGE;</me:facs>
+							<me:dipl>gulli</me:dipl>
+							<me:norm>gulli</me:norm>
+						</choice>
+					</w>
+					
+					<lb ed="ms" n="C"/>
+					
+					<w lemma="ok" me:msa="xCC">
+						<choice>
+							<me:facs><seg type="lig">&oYG;&#xF538;&kYG;</seg></me:facs>
+							<me:dipl><seg type="lig">o&#xF538;k</seg></me:dipl>
+							<me:norm>ok</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="sá" me:msa="xDD gN nS cN">
+						<choice>
+							<me:facs>&thGE;&eMD;&tYG;</me:facs>
+							<me:dipl>þet</me:dipl>
+							<me:norm>þat</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+						<choice>
+							<me:facs>&eMD;&rGE;</me:facs>
+							<me:dipl>er</me:dipl>
+							<me:norm>er</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="í" me:msa="xAP yD">
+						<choice>
+							<me:facs>&iGE;</me:facs>
+							<me:dipl>i</me:dipl>
+							<me:norm>í</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="þessi" me:msa="xDD gM nS cD">
+						<choice>
+							<me:facs>&thGE;&eMD;&sYGSdot;&uGE;&mYGL;</me:facs>
+							<me:dipl>þesum</me:dipl>
+							<me:norm>þessum</me:norm>
+						</choice>
+					</w>
+
+					<w lemma="steinn" me:msa="xNC gM nS cD sI">
+						<choice>
+							<me:facs>&sYGSdot;&tYG;&eMD;&iGE;&nYG;&iGE;</me:facs>
+							<me:dipl>steini</me:dipl>
+							<me:norm>steini</me:norm>
+						</choice>
+					</w>
+					
+				</p>
+			</div>
+		</body>
+		
+		<back>	
+			<div type="translation" xml:lang="nor">
+				<head>Omsetjing til norsk</head>
+				<p>Her låg dei menn som kom frå Risaland med skipet lasta med gull. Og det (gullet) er i denne steinen.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+				<p>Here lie the men who came from Risaland with ships laden with gold. And that is in this stone.</p>	
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar.</head>
+				<p>Innskrifta  har tydeleg lesing sjølv om eit par runer har veikna. <hi rend="bold">&lGE;&aYG;&dMDdot;&eMD;</hi> <hi rend="bold">lade</hi> som står under linje B er seinare tilføying. Siste rune i ordet <hi rend="bold">&kYG;&oYG;&mYGL;&oYG;</hi> <hi rend="bold">komo</hi> er mykje veikare enn dei andre og er difor også rekna å vera sett til seinare.</p>
+				<p>Ordskilje speglar av litterær skrivemåte, likevel er <hi rend="bold">men</hi> og <hi rend="bold">þesum</hi> skrivne med enkel konsonant. Ordforma <hi rend="bold">þet</hi> for <hi rend="cursive">þet</hi> ("det") kan visa hen til austlandsk opphav, men det er vanskeleg å hevda at ristaren kom frå Austlandet på grunnlag av berre eit ord.</p>
+				<p>Innhaldsmessig finn innskrifta parallellar i <hi rend="cursive">Ǫrvar Odds saga</hi>, for nærare forklaring sjå NIyR: 232-233.</p>
+			</div>			
+			<div type="illustration">
+				<head>Illustrasjonar</head>
+				<figure><graphic url="N422-A.jpg"/></figure>
+				<caption>Fotografi av N 422 av Aslak Liestøl. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 231.</caption>
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kjelder</head>
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957)</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Katrine Andresen (Universitetet i Bergen, 2021)</p>
+				<note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+				
+			</div>
+		</back>
+	</text>
+</TEI>

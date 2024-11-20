@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 430 : Hjelmeset, Anda, Vestland : A digital edition</title>
+                <editor role="person"> <!-- OEH 2021-04-16: Trur vi skal bruke eit fullt <editor>-element på kvar av dei to utgjevarane; i prinsippet kan dei ha hatt ulike institusjonstilknytingar -->
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person"> 
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 246-248</resp>
+                    <name> <!-- OEH 2021-04-16: Like eins her -->
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                        <name>
+                            <persName>
+                                <forename>Aslak</forename>
+                                <surname>Liestøl</surname>
+                            </persName>
+                            <orgName type="affiliation">University of Oslo</orgName>
+                        </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katharina</forename>
+                            <forename>Sophie</forename>
+                            <surname>Kühnel</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-04-10">10 April 2021</date>.</edition> <!-- OEH 2021-04-16: Vi set versjonsnummeret til 0.9, og aukar til 1.0 når illustrasjonen/ane er på plass -->
+            </editionStmt>
+            <extent n="6">6 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 246-248</idno>
+                <date when="2021-04-10">10 April 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Images from NIyR IV.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.8299, 6.10519</settlement>
+                        <idno>N 430</idno>
+                        <msName>N 430: Hjelmeset, Anda, Vestland</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1200" notAfter="1300">c. 1200-1300</origDate></origin> <!-- OEH 2021-04-16: Her trur eg vi skal gje dateringa i reine tal, og då må “1200-talet” førast opp som 1200-1299 (slik som du har gjort) eller 1200-1300, som er i samsvar med ONPs generelle stil og Runors “1100-1500”). Men lenger nede kan det stå “1200-tallet”. -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">In situ</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook</title>
+                    (version 4.0 beta), at <ref target="http://www.menota.org/handbook">
+                        http://www.menota.org/handbook</ref> as of <date>2021-03-14</date>.</p>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 246-248.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>  
+                <date>2021-04-16</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made some minor corrections of the language</change>
+            <change>
+                <date>2021-04-10</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: added images</change>
+            <change>
+                <date>2021-03-29</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made the first working draft of this file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 430 ||  
+                    <hi rend="bold">Sted</hi>: Hjelmeset, Anda, Vestland || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1100–1200<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart på staden || 
+                    <hi rend="bold">Utgave</hi>: NIyR IV: 246–248 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/da0523ac-52d6-44e6-af61-36ded3d8e11e" type="external">N 430</ref>
+                </head>
+                <p>Innskriften har en høyde på mellom 4,5 og 6,5 cm og en lengde på ca. 34 cm. Den finnes på en flyttblokk fra istiden som ligger “på den ytterste spiss - Anda - av det nes som skiller Gloppefjorden fra Utfjorden, hovedfjorden i Nordfjord” (NIyR IV: 246).</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                        <pb ed="ms" n="1r"/>
+                        <lb ed="ms" n="1"/>
+                        <w lemma="hér" me:msa="xAV">
+                                <choice>
+                                    <me:facs>&hYGL;<supplied reason="restoration" resp="HåkonHamre">&eMD;&rGE;</supplied></me:facs>
+                                    <me:dipl>h<supplied reason="restoration" resp="HåkonHamre">er</supplied></me:dipl>
+                                    <me:norm>H<supplied reason="restoration" resp="HåkonHamre">ér</supplied></me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                                <choice>
+                                    <me:facs><supplied reason="restoration" resp="HåkonHamre">&eMD;</supplied>&rGE;</me:facs>
+                                    <me:dipl><supplied reason="restoration" resp="HåkonHamre">e</supplied>r</me:dipl>
+                                    <me:norm><supplied reason="restoration" resp="HåkonHamre">e</supplied>r</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="gull" me:msa="xNC gN nS cN sI">
+                                <choice>
+                                    <me:facs>&gMDst;&uGE;&lGE;&lGE;</me:facs>
+                                    <me:dipl>gull</me:dipl>
+                                    <me:norm>gull</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="ok" me:msa="xCC">
+                                <choice>
+                                    <me:facs><seg type="lig">&oYG;&#xF538;&kYGst;</seg></me:facs>
+                                    <me:dipl><seg type="lig">o&#xF538;k</seg></me:dipl>
+                                    <me:norm>ok</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="villur" me:msa="xNC gF nP cN sI">
+                                <choice>
+                                    <me:facs>&uGE;&iGE;&lGE;&uGE;&rGE;</me:facs>
+                                    <me:dipl>uilur</me:dipl>
+                                    <me:norm>villur</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="undir" me:msa="xVP">
+                                <choice>
+                                    <me:facs>&uGE;&nYG;<supplied reason="restoration" resp="HåkonHamre">&dMDdot;&iGE;</supplied>&rGE;</me:facs>
+                                    <me:dipl>un<supplied reason="restoration" resp="HåkonHamre">di</supplied>r</me:dipl>
+                                    <me:norm>un<supplied reason="restoration" resp="HåkonHamre">di</supplied>r</me:norm>
+                                </choice>
+                            </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Her er gull og hekseri under.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Hereunder are gold and enchantment.</p>
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Liestøl bemerker at man kan ikke si noe sikkert om punkteringen av runene, fordi innskriften er forvitret. Der er ingen skilletegn mellom runene, men mellomrom, så ordskillene er tydelig markert. Påfallende er ordet &uGE;&iGE;&lGE;&uGE;&rGE; <hi rend="bold">villur</hi> ‘hekseri’, flertall av norrønt <hi rend="italic">villa</hi> f., som oftest anvendes abstrakt. Det er mulig at innskriftens “gull ok villur” er en form for <hi rend="italic">hendiadys</hi>, dvs. hvor en sammenstilling av et adjektiv og et substantiv blir uttrykt gjennom to substantiv forbundet av en konjunksjon. Dermed kan ‘gull og hekseri’ tolkes som ‘forhekset gull’. Slik sett ligger det en slags advarsel i innskriften, at når man prøver å finne gull som ligger skjult der, kan man oppleve noe hekseri.</p> <!-- OEH 2021-04-16: Trur nok at termen “hendiadys” må forklarast, så det har eg prøvd meg på her. -->
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N430-A.jpg"/></figure>
+                <caption>Fotografi og avtegning av N 430. Gjengitt etter NIyR IV: plansje XIV, fig. 2. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katharina Sophie Kühnel (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+       
+        </back>
+    </text>
+</TEI>

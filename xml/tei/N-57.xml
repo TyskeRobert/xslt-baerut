@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 57 : Ringebu stave church, Ringebu, Innlandet : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 1, pp. 114-118</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Vlasova</surname>
+                            <surname>Våtvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9.1">Version 0.9.1 <date when="2021-04-07">07 March 2021</date>.</edition> <!-- OEH 2021-04-07: Oppdatert med dagens dato -->
+            </editionStmt>
+            <extent n="8">8 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">I 114–118</idno>
+                <date when="2021-03-18">18 March 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawing from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.5073, 10.1728</settlement>
+                        <idno>N 57</idno>
+                        <msName>N 57 : Ringebu stave church, Ringebu, Innlandet</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p><material>wood</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1220" notAfter="1400">c. 1220-1400</origDate></origin> <!-- OEH 2021-04-07: Sjå nytt avsnitt i kommentaren nedanfor -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 1, pp. 114–118.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-08</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-26</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Correction in word 2 as part of QA process for transcriptional levels..
+            </change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-04-07</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the dating, revised the comments and illustration sections and added a new section on links and literature</change>
+            <change>
+                <date>2021-03-18</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the header, the front and back elements to the text and the body of the text.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 57 ||  
+                    <hi rend="bold">Sted</hi>: Ringebu stavkirke, Ringebu, Innlandet || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>:  ca. 1220–1400<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR I: 114–118 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/b544f876-ba69-47fc-9ccc-18a83fa063fe" type="external">N 57</ref>
+                </head>
+                <p> Denne innskriften er ristet på en planke innvendig i kirkens søndre vegg mellom de to midterste søyler i høyre skip, det vil si andre og tredje søyle fra vest, på femte planke fra andre søyle. Innskriften går langs hæyre plankekant ovenfra og nedover, med runetoppene vendt innover mot koret, og slutter ca. 120 cm over det nåværende gulvet. Alle runene utenom en er venderuner, og innskriften er ristet inn og skal leses fra høyre til venstre. Her er den imidlertid transkribert som om den var skrevet i normal skriftsretning. Jf. NIyR I: 114–118.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    
+                    <pc type="runic"> <!-- OEH 2021-04-07: Eg har flytta prikketeiknet fram i eit eige pc-element -->
+                        <choice>
+                            <me:facs>&tridotsupw;</me:facs>
+                            <me:dipl>&tridotsupw;</me:dipl>
+                            <me:norm>&tridotsupw;</me:norm>
+                        </choice>
+                    </pc>                   
+                    <seg type="nb">
+                        <w lemma="hér" me:msa="xAV">
+                            <choice>
+                                <me:facs>&hYGL;&eMD;&rGE;</me:facs>
+                                <me:dipl>her</me:dipl>
+                                <me:norm>Hér</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vera" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&uGE;&nYG;&rGE;</me:facs>                                                        <!-- SP 2022-02-26: A facsimile should reflect the inscription as written. While this is clearly a mistake from the carver, the facsimile needs to reflect that error. Added supplied tags for the correction in dipl and norm. -->
+                                <me:dipl>u<supplied reason="emendation" resp="Magnus Olsen">a</supplied>r</me:dipl>
+                                <me:norm>v<supplied reason="emendation" resp="Magnus Olsen">a</supplied>r</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="hann" me:msa="xPE p3 gM nS cN">
+                            <choice>
+                                <me:facs>&hYGL;<seg type="lig">&aYG;&#xF538;&nYG;</seg></me:facs>
+                                <me:dipl>h<seg type="lig">a&#xF538;n</seg></me:dipl>
+                                <me:norm>hann</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:norm>,</me:norm>
+                            </choice>
+                        </pc>
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs><seg type="lig">&oYG;&#xF538;&kYG;</seg></me:facs>
+                                <me:dipl><seg type="lig">o&#xF538;k</seg></me:dipl>
+                                <me:norm>ok</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="heðan" me:msa="xAV">
+                            <choice>
+                                <me:facs>&hYGL;&eMD;&thGE;&aYG;&nYG;</me:facs>
+                                <me:dipl>heþan</me:dipl>
+                                <me:norm>heðan</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="fara" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs><seg type="lig"><surplus reason="excess">&aYG;&#xF538;</surplus>&fGE;</seg><seg type="lig">&oYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>f<seg type="lig">o&#xF538;r</seg></me:dipl>
+                                <me:norm>fór</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="hann" me:msa="xPE p3 gM nS cN">
+                            <choice>
+                                <me:facs><add place="supralinear">&hYGL;</add>&aYG;&nYG;</me:facs>
+                                <me:dipl>han</me:dipl>
+                                <me:norm>hann</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="út" me:msa="xAV">
+                            <choice>
+                                <me:facs>&uGE;<supplied reason="emendation" resp="Magnus Olsen" source="NIyR">&tYG;</supplied></me:facs>
+                                <me:dipl>u<supplied reason="emendation" resp="Magnus Olsen" source="NIyR">t</supplied></me:dipl>
+                                <me:norm>út</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+                       
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head> 
+                <p>Her var han og herfra fór han ut.</p>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk</head>
+                <p>Here he was and from here he travelled out.</p>
+            </div>
+            
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p> En rune i innskriften er ikke venderune, og har samme form som i vanlig skriftretning: en a-rune som står på femte plass fra begynnelsen av innskriften. I tillegg kan f-runen som står på femtende plass se ut som en binderune med runene a og f, men argumenteres av Magnus Olsen til å være en feilristring som kunne skyldes altfor stor kraft tilført kniven da den øverste kvisten av f-runen skulle ristes. Dette støttes videre av at de a-runene som ellers er oppført i innskriften har en vesentlig kortere kvist, som også er plassert lenger ned på staven enn det vi kan se i dette tilfellet. Jf. NIyR I: 114–118.</p>
+                <p>Det er lite i selve innskriften som kan gi en god datering. Men ettersom Ringebu stavkirke trolig ble bygd ca. 1220, har vi en bakre grense å forholde oss til. Dersom innskriften viser til en pilegrimsreise, en “útferð”, er den trolig ikke yngre enn ca. 1400, selv om det riktig nok finnes dokumenter som vitner om pilegrimsreiser så seint som på slutten av 1300-tallet, f.eks. et veibrev fra Fron (1. februar 1390) og et testament fra Oslo (20. april 1390). Vi vet midlertid at det er bevart få norske runeinnskrifter etter ca. 1400, og har derfor falt ned på en nokså vid datering, ca. 1220–1400, på historisk grunnlag. De to brevene er gjengitt på denne nettsiden: <ref                 target="https://www.khm.uio.no/besok-oss/historisk-museum/utstillingsarkiv/pilegrimsspor/middelalderens-pilegrimer/reisen/" type="external">Tre norske dokumenter fra middelalderen</ref> (et stykke ned på siden).</p>                 
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <p><figure><graphic url="N57-B.jpg"/></figure></p>
+                <caption>Fotografi av N 57 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <p><figure><graphic url="N57-A.jpg"/></figure></p>
+                <caption>Avtegning av N 57. Gjengitt etter NIyR I: 114. Lisens: CC-BY-SA 4.0.</caption>
+                <p><figure><graphic url="N57-A-flipped.jpg"/></figure></p>
+                <caption>Avtegning av N 57. Gjengitt speilvendt, slik at runene kan leses i sin normale skriftretning.</caption>
+            </div>
+
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Koding og morfologisk annotasjon</head>
+                <p>Anna Vlasova Våtvik</p>
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene. </note>
+            </div>
+
+        </back>
+    </text>
+</TEI>
+

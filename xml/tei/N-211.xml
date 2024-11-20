@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>N 211 : Søgne, Kristiansand, Agder : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 3, pp. 100–103</resp>
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Olga</forename>
+							<surname>Kalinovskaia</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-03-19">19 March 2021</date>.</edition>
+			</editionStmt>
+			<extent n="7">7 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">III 100–103</idno>
+				<date when="2021-03-19">19 February 2021</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>58.0908, 7.8397</settlement>
+						<idno>N 211</idno>
+						<msName>N 211 : Søgne, Kristiansand, Agder</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="memorial-stone">
+							<supportDesc>
+								<support>
+									<p><material>stone</material>.</p>
+									<p>According to NIyR, the stone's type is gneiss.</p>
+								</support>
+								<condition>Partially damaged</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="0980" notAfter="1015">c. 980-1015</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Extant. The stone is still located at the original place.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 3, pp. 100–103.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-11</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-27</date>
+				<name>Sebastian Pohland</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor comment as part of QA work.</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+			<change>
+				<date>2021-10-30</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and added lemmatisation</change>
+			<change>
+				<date>2021-08-31</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+			<change>
+				<date>2021-03-19</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some minor changes to the header</change>
+			<change>
+				<date>2021-03-18</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+                  <div type="abstracts">
+                  	<head>
+                  		<hi rend="bold">Signum</hi>: N 211 ||  
+                  		<hi rend="bold">Sted</hi>: Søgne, Kristiansand, Agder || 
+                  		<hi rend="bold">Kart</hi>: Lenke kommer her || 
+                  		<hi rend="bold">Datering</hi>: ca. 980–1015<lb/> 
+                  		<hi rend="bold">Materiale</hi>: Stein || 
+                  		<hi rend="bold">Status</hi>: Bevart på stedet|| 
+                  		<hi rend="bold">Utgave</hi>: NIyR III: 100–103
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/f286b7a6-94a5-4d3a-8609-2daf6078c884" type="external">N 211</ref>
+                  	</head>
+                  	<p>Denne steinen fra Søgne gamle prestegård i Søgne kommune (nå innlemmet i Kristiansand kommune), som nå er landbruksskole (gård nr. 1), har en runeinnskrift ristet av en mann til minne om sin sønn. Steinarten er gneis, runesteinen er ca. 2 m høy, 80 cm bred og 10-11 cm tykk. I 1811 ble steinen nevnt i et notat av Nicolai Wergeland. Han skrev: «Den skal forhen have staaet paa Kirkegaarde; men er bleven flyttet derfra af en Præst; maaskee er det denne Præsts Navn, som staar paa Bagsiden af Stenen, og maaskee er den bleven flyttet i det der anførte Aar 1715… Paa Bagsiden staar – – PH | 1715 | EQ | GH.» Innskriften var dokumentert for første gang i 1821 i avtegning og publisert i 1826 av Jens Edvard Kraft, men med en feilaktig tolkning. Innskriften ble tolket på nytt av Sophus Bugge i 1870, og hans tolkning har blitt stående. Innskriften er nå temmelig utydelig, men Bugges lesning sammen med Aslak Liestøls tolkning må være sikker. If. NIyR III: 100-103.</p>
+                  	<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+				<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1" rend="2"/>
+							<w lemma="Eyvindr" me:msa="xNP gM nS cN sI"> 
+									<choice>
+										<me:facs>&aYG;&uGE;&iGE;&nYG;&tYG;&rGE;</me:facs>
+										<me:dipl>auintr</me:dipl>
+										<me:norm>Eyvindr</me:norm>
+									</choice>
+								</w>
+						
+						<pc type="runic">
+								<choice>
+									<me:facs>&twodotPM;</me:facs>
+								</choice>
+							</pc>
+								
+							<w lemma="reisa" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+									<choice>
+										<me:facs>&rGE;&iGE;&sYGScrc;&tYG;&iGE;</me:facs>
+										<me:dipl>risti</me:dipl>
+										<me:norm>reisti</me:norm>
+									</choice>
+								</w>
+						
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+								
+							<w lemma="steinn" me:msa="xNC gM nS cA sI">
+									<choice>
+										<me:facs>&sYGScrc;&tYG;&iGE;&nYG;</me:facs>
+										<me:dipl>stin</me:dipl>
+										<me:norm>stein</me:norm>
+									</choice>
+								</w>
+								
+						<pc type="runic">
+								<choice>
+									<me:facs>&twodotPM;</me:facs>
+								</choice>
+							</pc>	
+								
+							<w lemma="sjá" me:msa="xDD gM cA nS">
+									<choice>
+										<me:facs>&thGE;&iGE;&nYG;&aYG;</me:facs>
+										<me:dipl>þina</me:dipl>
+										<me:norm>þenna</me:norm>
+									</choice>
+								</w>	
+								
+						<lb ed="ms" n="2" rend="1"/>
+							<w lemma="eftir" me:msa="xAP yA">
+									<choice>
+										<me:facs>&aYG;&fGE;&tYG;&iGE;&rGE;</me:facs>
+										<me:dipl>aftir</me:dipl>
+										<me:norm>eftir</me:norm>
+									</choice>
+								</w>
+							
+						<pc type="runic">
+								<choice>
+									<me:facs>&twodotPM;</me:facs>
+								</choice>
+							</pc>
+						
+							<w lemma="Gunnvaldr" me:msa="xNP gM nS cA sI">
+								<choice>
+									<me:facs>&kYG;&uGE;&nYG;&uGE;&nYG;&aYG;&tYG;</me:facs>
+									<me:dipl>kunuat</me:dipl>
+									<me:norm>Gunnvald</me:norm>
+								</choice>
+							</w>
+						
+						<pc type="runic">
+								<choice>
+									<me:facs>&twodotPM;</me:facs>
+									<me:norm>,</me:norm>
+								</choice>
+							</pc>
+						
+							<w lemma="sonr" me:msa="xNC gM nS cA sI">
+									<choice>
+										<me:facs>&sYGSdot;&uGE;&nYG;</me:facs> <!-- SP 2022-02-27: for regularities sake, the last sYGSdot runes should probably be replaced to be sYGScrc -->
+										<me:dipl>sun</me:dipl>
+										<me:norm>son</me:norm>
+									</choice>
+								</w>
+						
+							<w lemma="sinn" me:msa="xDP gM nS cA">
+									<choice>
+										<me:facs>&sYGSdot;&nYG;</me:facs>
+										<me:dipl>sn</me:dipl>
+										<me:norm>sinn</me:norm>
+									</choice>
+								</w>
+					
+					<pc type="runic">
+						<choice>
+							<me:norm>.</me:norm>
+						</choice>
+					</pc>
+					</p>				
+			</div>
+		</body>
+		<back>
+
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Øyvind reiste denne steinen etter Gunnvald, sin sønn.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p>Eyvindr raised this stone in memory of Gunnhvatr/Gunnvaldr, his son.</p>	
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Det annet personnavn kan tolkes på to måter, som Gunnvaldr og Gunn(h)vatr. Det synes mest enkelt og naturlig å oppfatte <hi rend="bold">kunuat</hi> som Gunn(h)vat, akkusativ av Gunn(h)vatr. Det er visstnok et veldig sjeldent navn, men dette navnet treffer vi i innskrifter og diplomer på Agder og Jæren. Men det kan også være tale om mannsnavnet Gunnvaldr, som var mye mer populært. Ofte lot man &tYG; <hi rend="bold">(d)</hi> være ubetegnet foran &lGE; <hi rend="bold">(l)</hi>. Faktum at den korte <hi rend="bold">s</hi>-runen har sirkel istedenfor punkt, kan ikke tjene som et pålitelig tidsmerke. If. NIyR III: 100-103.</p>
+				<p>Se også omtalen på Wikipedia: <ref
+					target="https://nn.wikipedia.org/wiki/S%C3%B8gnesteinen" type="external">Søgnesteinen</ref></p>
+			</div>
+
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<figure><graphic url="N211-A.jpg"/></figure>
+				<caption>Fotografi av N 211. Gjengitt etter NIyR III: 102. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N211-B.jpg"/></figure>
+				<caption>Avtegning av N 211 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2008041600054" type="external">Bd. 1</ref> (1941), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2011110908131" type="external">bd. 2</ref> (1951), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2016010508032" type="external">bd. 3</ref> (1954), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604065" type="external">bd. 5</ref> (1960), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014021748073" type="external">bd. 6:1</ref> (1980), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014052708113" type="external">bd. 6:2</ref> (1990), <ref  target="https://folk.ntnu.no/ivar/filer/Hagland1997-Trondheimsruner.pdf" type="external">bd. 7</ref> (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig bare for norske IP-adresser (utenom bd. 7).</bibl>
+				<bibl>“Søgnesteinen.” Artikkel i den norske <title>Wikipedia</title>, <ref
+					target="https://nn.wikipedia.org/wiki/S%C3%B8gnesteinen" type="external">https://nn.wikipedia.org/wiki/S%C3%B8gnesteinen</ref>. Lesen 18. mars 2021.</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utviklet ved Uppsala universitet siden 1980-talet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Olga Kalinovskaia (Universitetet i Bergen, 2021)</p>
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+			</div>
+		</back>
+	</text>
+</TEI>

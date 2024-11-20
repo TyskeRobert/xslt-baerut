@@ -1,0 +1,997 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng">
+      <fileDesc>
+         <titleStmt>
+            <title>DN 4:67 = RN 3:354 : [after 1306 Aug 5] : [Stavanger] : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingene</orgName>
+            </editor>
+            <respStmt>
+               <resp>Transcription</resp>
+               <name>Many persons employed by Gammelnorsk ordboksverk <orgName type="affiliation">University of Oslo</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="annotation">
+               <resp>Lemmatisation and morphological annotation</resp>
+               <orgName type="institution">GNO <orgName type="affiliation">University of Oslo</orgName>
+               </orgName>
+            </respStmt>
+            <respStmt>
+               <resp>Digitisation and conversion to electronic form</resp>
+               <name>
+                  <orgName type="affiliation">The Documentation Project</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to XML</resp>
+               <name>
+                  <persName>
+                     <forename>Christian-Emil</forename>
+                     <surname>Smith</surname>
+                     <surname>Ore</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Oslo</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Tone</forename>
+                     <forename>Merete</forename>
+                     <surname>Bruvik</surname>
+                  </persName>
+                  <orgName type="affiliation">University Library of Bergen</orgName>
+               </name>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading">
+               <resp>Proofreading of text</resp>
+               <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="annotation">
+               <!-- ### Her kjem namnet på den/dei som i 2022 har kontrollert annotasjonen og fylt ut manglande annotasjon -->
+               <resp>Supplying of morphological annotation</resp>
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.8.2">Version 0.8.2, <date when="2024-11-09">9 November 2023</date></edition>
+         </editionStmt>
+         <extent n="555" exclude="non-Norwegian">555 words</extent>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-11-16">16 November 2023</date>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no">t.b.a. </bibl>
+            <!-- ### Vi legg inn “yes” og lenke til fotografisk faksimile etter kvart som vi skaffar det. -->
+            <msDesc>
+               <msIdentifier>
+                  <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement>
+                  <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository>
+                  <!-- Dette kan vi vente med -->
+                  <idno>DN 4:67</idno>
+                  <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier>
+                     <idno>RN 3:354</idno>
+                  </altIdentifier>
+                  <msName>[after 1306 Aug 5] : [Stavanger]</msName>
+                  <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="vidimus" defective="false">
+                     <!-- Her kan vi leggje inn kategorien “vidimus”. -->
+                     <title type="uniform">t.b.a.</title>
+                     <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="charter">
+                     <supportDesc>
+                        <support>
+                           <p><material>Parchment</material>.</p>
+                        </support>
+                        <extent>1 leaf</extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <seal>
+                        <p>No seals</p>
+                     </seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>[Stavanger]</origPlace>
+                     <origDate notBefore="1306-08-05">[after 1306 Aug 5]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This encoding follows the standard set out in <title>The Menota handbook</title> (version 3.0), at <ref target="http://www.menota.org/handbook.xml"> http://www.menota.org/handbook.xml</ref> as of <date>2019-12-12</date>.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction status="high">
+               <p>This text has been transcribed from a high-quality pencil transcription made by Gammelnorsk ordboksverk.</p>
+            </correction>
+            <normalization me:level="dipl">
+               <p>This text has been encoded on a diplomatic level.</p>
+            </normalization>
+            <interpretation me:lemmatized="partly" me:morphAnalyzed="partly">
+               <!-- ### Så snart alle orda er annoterte, skiftar vi til “completely”. Ingen annotasjon = “none”. -->
+               <p>Partly / completely / not yet annotated for lemma and grammatical form.</p>
+               <!-- Denne teksten må tilpassast verdiane “none”/“partly”/“completely” ovanfor. -->
+            </interpretation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2023-11-09</date>
+            <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Built the file by combining DN 4:67, DN 4:65, DN 4:63, and added a front element </change>
+         
+         <change>
+            <date>2022-03-30</date>
+            <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota </change>
+      </revisionDesc>
+   </teiHeader>
+   
+   
+   <text>
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: [etter 5. august 1306] || <hi rend="bold">Stad</hi>: [Stavanger]. </head>
+            <!-- ### Dato og stad er henta frå RN, som vi reknar som den sikraste kjelda. -->
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er ein vidisse, dvs. eit dokument som inneheld ei avskrift (transkript) av eit eldre dokument, i dette tilfellet av to eldre dokument. Det første av desse dokumenta, <ref type="internal" target="DN_bind_04_brevnr_063">DN 4:63</ref> vart utferda i Sand i Ryfylke 15. mai 1306, men er no tapt. Det andre dokumentet, <ref type="internal" target="DN_bind_04_brevnr_065">DN 4:65</ref> vart utferda i Konghelle 5. august same år, og det er også tapt.</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 4, nr. 67</head>
+               <p>Tre Prester og Orm paa Vold udstede Vidisse af Sigurd Lagmands og Kong Haakons Breve, foreg. No. 63 og 65.</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 354</head>
+               <p>Vidisse av nr 330 og 353, utstedt av Gunnar, prest i Pålsstuken, Sigurd, prest i Strand, Gudbrand prest og Orm på Valle.</p>
+            </div>
+            <div source="CCN">
+               <head>Frå <title>Corpus Codicum Norvegicorum Medii Aevi</title>, Quarto Series, bd. 10, nr. 41</head>
+               <p>Tre prestar og Orm på Vadla ferdar ut vidisse av (1) Sigurd lagmanns dom og (2) kong Håkon 5. Magnussons stadfestingsbrev om korsbrørne i Stavangers rett til fisket ved Faxstaðir i Suldal.</p>
+            </div>
+         </div>
+      </front>
+
+      <body>
+         <div type="diplom">
+            <div n="1" type="frame">
+               <p>
+                  <pb n="1r" ed="ms"/>
+                  <note type="explanation">[Vidissen opnar med ein rammetekst som fortel om bakgrunnen for avskrifta av det første av dei to dokumenta.]</note>
+                  <lb n="1" ed="ms"/>
+                  <lb n="1" ed="DN"/>
+                  <w me:msa="xAJ nP gU cD rP sI" lemma="allr" xml:id="w100"><me:dipl>Ollum</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w200"><me:dipl>guðs</me:dipl></w>
+                  <w me:msa="xNC nP gM cD sI" lemma="vinr" xml:id="w300"><me:dipl>vínu<ex>m</ex></me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w400"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xPD nP gU cD" lemma="sinn" xml:id="w500"><me:dipl>sinu<ex>m</ex></me:dipl></w>
+                  <w me:msa="xPD nP gU cD" lemma="sá" xml:id="w600"><me:dipl>þeím</me:dipl></w>
+                  <w me:msa="xCS" lemma="sem" xml:id="w700"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w800"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w900"><me:dipl>bref</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="siá" xml:id="w1000"><me:dipl>sea</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w1100"><me:dipl>æða</me:dipl></w>
+                  <lb n="2" ed="DN"/>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="høyra" xml:id="w1200"><me:dipl>hœyra</me:dipl></w>
+                  <pc xml:id="w1300">,,</pc>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="senda" xml:id="w1400"><me:dipl>Senda</me:dipl></w><pc xml:id="w1500">,,</pc>
+                  <w me:msa="xNP nU gM cN sI" lemma="‹-›arr" xml:id="w1600"><me:dipl>Gunnar</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="prestr" xml:id="w1700"><me:dipl>p<ex>re</ex>str</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="at" xml:id="w1800"><me:dipl>at</me:dipl></w>
+                  <w me:msa="xNP nU gM cG sI" lemma="Páll" xml:id="w1900"><me:dipl>pals</me:dipl></w>
+                  <w me:msa="xNC nS gF cD sI" lemma="stúka" xml:id="w2000"><me:dipl>stuku</me:dipl></w><pc xml:id="w2100">,,</pc>
+                  <w me:msa="xNP nU gM cN sI" lemma="Sigurðr" xml:id="w2200"><me:dipl>Sígurðr</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="prestr" xml:id="w2300"><me:dipl>p<ex>re</ex>str</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w2400"><me:dipl>a</me:dipl></w>
+                  <lb n="2" ed="ms"/>
+                  <w me:msa="xNP nU gF cD sI" lemma="Strond" xml:id="w2500"><me:dipl>strond</me:dipl></w><pc xml:id="w2600">,</pc>
+                  <lb n="3" ed="DN"/>
+                  <w me:msa="xNP nU gM cN sI" lemma="Guðbrandr" xml:id="w2700"><me:dipl>gudbrandr</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="prestr" xml:id="w2800"><me:dipl>p<ex>re</ex>st<ex>r</ex></me:dipl></w><pc xml:id="w2900">,</pc>
+                  <w me:msa="xCC" lemma="ok" xml:id="w3000"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xNP nU gM cN sI" lemma="Ormr" xml:id="w3100"><me:dipl>Orm<ex>r</ex></me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w3200"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nP gM cD sI" lemma="Vellir" xml:id="w3300"><me:dipl>wollum</me:dipl></w>
+                  <pc xml:id="w3400">,,</pc>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w3500"><me:dipl>Q<ex>ueðiu</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w3600"><me:dipl>G<ex>uðs</ex></me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w3700"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xPD nS gF cA" lemma="sinn" xml:id="w3800"><me:dipl>sína</me:dipl></w><pc xml:id="w3900">,,</pc>
+                  <w me:msa="xPD nU gU cD" lemma="ér" xml:id="w4000"><me:dipl>yðr</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPS mSU fF vA" lemma="vera" xml:id="w4100"><me:dipl>se</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w4200"><me:dipl>ku<ex>n</ex>nígt</me:dipl></w><pc xml:id="w4300">,</pc>
+                  <lb n="4" ed="DN"/>
+                  <w me:msa="xCS yIN" lemma="at" xml:id="w4400"><me:dipl>at</me:dipl></w>
+                  <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w4500"><me:dipl>ver</me:dipl></w>
+                  <w me:msa="xVB p1 nP tPT mIN fF vA" lemma="siá" xml:id="w4600"><me:dipl>saam</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w4700"><me:dipl>br<ex>e</ex>f</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w4800"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xNC nS gN cA sI" lemma="innsigli" xml:id="w4900"><me:dipl>jnsigli</me:dipl></w>
+                  <w me:msa="xNP nU gM cG sI" lemma="Sigurðr" xml:id="w5000"><me:dipl>sigurðar</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="logmaðr" xml:id="w5100"><me:dipl>logmannz</me:dipl></w>
+                  <lb n="3" ed="ms"/>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w5200"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gF cD sI" lemma="Randir" xml:id="w5300"><me:dipl>randum</me:dipl></w><pc xml:id="w5400">,,</pc>
+                  <w me:msa="xAV rU" lemma="svá" xml:id="w5500"><me:dipl>sua</me:dipl></w>
+                  <w me:msa="xVB nP tPS fP vA gN cA sI" lemma="vátta" xml:id="w5600"><me:dipl>vattande</me:dipl></w>
+                  <lb n="5" ed="DN"/>
+                  <w me:msa="xNC nS gN cA sI" lemma="orð" xml:id="w5700"><me:dipl>orð</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w5800"><me:dipl>eft<ex>ir</ex></me:dipl></w>
+                  <w me:msa="xNC nS gN cA sI" lemma="orð" xml:id="w5900"><me:dipl>orð</me:dipl></w>
+               </p>
+            </div>
+
+            <div n="1" type="transcript">
+               <p>
+                  <note type="explanation">[Her følgjer den første av to avskrifter (DN 4:63). Skiftet skjer i linje 3 av vidissen.]</note>
+                  <lb n="3" ed="ms"/>
+                  <lb n="1" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w6000"><me:dipl>Ollum</me:dipl></w>
+                  <w me:msa="xNC nP gM cD sI" lemma="maðr" xml:id="w6100"><me:dipl>mo<ex>nnu</ex>m</me:dipl></w>
+                  <w me:msa="xPD nP gU cD" lemma="sá" xml:id="w6200"><me:dipl>þeím</me:dipl></w>
+                  <w me:msa="xCS" lemma="sem" xml:id="w6300"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w6400"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w6500"><me:dipl>b<ex>re</ex>f</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="siá" xml:id="w6600"><me:dipl>sea</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w6700"><me:dipl>æða</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="høyra" xml:id="w6800"><me:dipl>hœyra</me:dipl></w><pc xml:id="w6900">,,</pc>
+                  <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="senda" xml:id="w7000"><me:dipl>Sendír</me:dipl></w>
+                  <lb n="2" ed="DN"/>
+                  <w me:msa="xNP nU gM cN sI" lemma="Sigurðr" xml:id="w7100"><me:dipl>Sígurðr</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="logmaðr" xml:id="w7200"><me:dipl>logmaðr</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="í" xml:id="w7300"><me:dipl>i</me:dipl></w>
+                  <w me:msa="xNP nU gN cD sI" lemma="Rygiafylki" xml:id="w7400"><me:dipl>ry<lb n="4" ed="ms"/>gíafylkí</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w7500"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w7600"><me:dipl>ægða</me:dipl></w><pc xml:id="w7700">,,</pc>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w7800"><me:dipl>Q<ex>ueðiu</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w7900"><me:dipl>G<ex>uðs</ex></me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w8000"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xPD nS gF cA" lemma="sinn" xml:id="w8100"><me:dipl>sína</me:dipl></w><pc xml:id="w8200">,</pc>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w8300"><me:dipl>Ek</me:dipl></w>
+                  <w me:msa="xVB p1 nS tPS mIN fF vA" lemma="vilia" xml:id="w8400"><me:dipl>vil</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w8500"><me:dipl>yðr</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w8600"><me:dipl>ku<ex>n</ex><lb n="3" ed="DN"/>nígt</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w8700"><me:dipl>g<ex>er</ex>a</me:dipl></w><pc xml:id="w8800">,</pc>
+                  <w me:msa="xCS yIN" lemma="at" xml:id="w8900"><me:dipl>at</me:dipl></w>
+                  <w me:msa="xAP yA" lemma="á" xml:id="w9000"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNC nS gM cA sI" lemma="hallvarðsvokudagr" xml:id="w9100"><me:dipl>halluarðz waku dagh</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="þá" xml:id="w9200"><me:dipl>þa</me:dipl></w>
+                  <w me:msa="xCS" lemma="er" xml:id="w9300"><me:dipl>er</me:dipl></w>
+                  <w me:msa="xVB nP tPT fP vA gM cN sI" lemma="líða" xml:id="w9400"><me:dipl>liðnír</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="vera" xml:id="w9500"><me:dipl>varo</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w9600"><me:dipl>fra</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w9700"><me:dipl>burð</me:dipl></w>
+                  <w me:msa="xPD nS gM cG" lemma="várr" xml:id="w9800"><me:dipl>wars</me:dipl></w>
+                  <lb n="5" ed="ms"/>
+                  <lb n="4" ed="DN"/>
+                  <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w9900"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+                  <w me:msa="xNP nU gM cG sI" lemma="Iesus" xml:id="w10000"><me:dipl>ih̅u</me:dipl></w>
+                  <w me:msa="xNP nU gM cG sI" lemma="Christus" xml:id="w10100"><me:dipl>xp̅i</me:dipl></w><pc xml:id="w10200">.</pc>
+                  <num xml:id="w10300"><w me:msa="xNU nS gM cB sU" lemma="millesimus" xml:id="w10400"><me:dipl>M<hi rend="superscript">o</hi>.</me:dipl></w></num>
+                  <num xml:id="w10500"><w me:msa="xNU nS gM cB sU" lemma="trecentesimus" xml:id="w10600"><me:dipl>CCC<hi rend="superscript">o</hi>.</me:dipl></w></num>
+                  <pc xml:id="w10700">,</pc>
+                  <w me:msa="xCC" lemma="ok" xml:id="w10800"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <num xml:id="w10900"><w me:msa="xNU nU gU cU sI" lemma="sex" xml:id="w11000"><me:dipl>ví</me:dipl></w></num>
+                  <w me:msa="xNC nP gM cN sI" lemma="vetr" xml:id="w11100"><me:dipl>væt<ex>r</ex></me:dipl></w><pc xml:id="w11200">,</pc>
+                  <w me:msa="xVB p1 nS tPT mIN fF vA" lemma="vera" xml:id="w11300"><me:dipl>var</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w11400"><me:dipl>ek</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w11500"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Sandr" xml:id="w11600"><me:dipl>sande</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="í" xml:id="w11700"><me:dipl>i</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Súladalr" xml:id="w11800"><me:dipl>sula dale</me:dipl></w><pc xml:id="w11900">,</pc>
+                  <pc xml:id="w12000">.</pc>
+                  <lb n="4" ed="DN"/>
+                  <w me:msa="xCC" lemma="ok" xml:id="w12100"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <lb n="5" ed="DN"/>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="koma" xml:id="w12200"><me:dipl>komo</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="þar" xml:id="w12300"><me:dipl>þar</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w12400"><me:dipl>korsbrœðr</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="af" xml:id="w12500"><me:dipl>af</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Stafangr" xml:id="w12600"><me:dipl>stawangre</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w12700"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xAJ nP gM cN rP sI" lemma="margr" xml:id="w12800"><me:dipl>marger</me:dipl></w>
+                  <w me:msa="xPD nP gM cN" lemma="annarr" xml:id="w12900"><me:dipl>aðrer</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w13000"><me:dipl>dugan<lb n="6" ed="ms"/>des</me:dipl></w>
+                  <w me:msa="xNC nP gM cN sI" lemma="maðr" xml:id="w13100"><me:dipl>me<ex>n</ex>n</me:dipl></w><pc xml:id="w13200">,</pc>
+                  <lb n="6" ed="DN"/>
+                  <w me:msa="xIM" lemma="at" xml:id="w13300"><me:dipl>at</me:dipl></w>
+                  <w me:msa="xVB fI tPS vA" lemma="siá" xml:id="w13400"><me:dipl>sea</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w13500"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xVB fI tPS vA" lemma="prófa" xml:id="w13600"><me:dipl>p<ex>ro</ex>fua</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="‹-›komliga" xml:id="w13700"><me:dipl>fulllegha</me:dipl></w>
+                  <w me:msa="xAP yA" lemma="um" xml:id="w13800"><me:dipl>vm</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w13900"><me:dipl>fiskína</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w14000"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="*Fáksstaðir" xml:id="w14100"><me:dipl>faxstaðum</me:dipl></w><pc xml:id="w14200">,</pc>
+                  <w me:msa="xCC" lemma="ok" xml:id="w14300"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xAP yD" lemma="at" xml:id="w14400"><me:dipl>at</me:dipl></w>
+                  <w me:msa="xAJ nS gN cD rP sI" lemma="réttr" xml:id="w14500"><me:dipl>retto</me:dipl></w>
+                  <lb n="7" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w14600"><me:dipl>æignar</me:dipl></w>
+                  <w me:msa="xNC nS gN cD sI" lemma="skipti" xml:id="w14700"><me:dipl>skíptí</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="með" xml:id="w14800"><me:dipl>m<ex>eðr</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w14900"><me:dipl>fyrnd</me:dipl></w><pc xml:id="w15000">,</pc>
+                  <w me:msa="xAV rU" lemma="þá" xml:id="w15100"><me:dipl>þa</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w15200"><me:dipl>eíghu</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w15300"><me:dipl>firir</me:dipl></w>
+                  <w me:msa="xVB nP tPT fP vA gM cN sI" lemma="segia" xml:id="w15400"><me:dipl>sagðer</me:dipl></w>
+                  <lb n="7" ed="ms"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w15500"><me:dipl>brœðr</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w15600"><me:dipl>land</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w15700"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w15800"><me:dipl>æígn</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="upp" xml:id="w15900"><me:dipl>vpp</me:dipl></w>
+                  <lb n="8" ed="DN"/>
+                  <w me:msa="xCC" lemma="ok" xml:id="w16000"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xAV rU" lemma="út" xml:id="w16100"><me:dipl>vt</me:dipl></w><pc xml:id="w16200">,,</pc>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w16300"><me:dipl>Syndízt</me:dipl></w>
+                  <w me:msa="xPD nU gU cD" lemma="ek" xml:id="w16400"><me:dipl>m<ex>er</ex></me:dipl></w>
+                  <w me:msa="xAV rU" lemma="svá" xml:id="w16500"><me:dipl>sua</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w16600"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xPD nP gU cD" lemma="annarr" xml:id="w16700"><me:dipl>aðru<ex>m</ex></me:dipl></w>
+                  <w me:msa="xNC nP gM cD sI" lemma="maðr" xml:id="w16800"><me:dipl>mo<ex>nnu</ex>m</me:dipl></w>
+                  <w me:msa="xCS ySU" lemma="sem" xml:id="w16900"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w17000"><me:dipl>firir</me:dipl></w>
+                  <w me:msa="xVB nP tPT fP vA gM cN sI" lemma="nefna" xml:id="w17100"><me:dipl>ne<ex>m</ex>fndir</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w17200"><me:dipl>korsbrœðr</me:dipl></w>
+                  <lb n="9" ed="DN"/>
+                  <w me:msa="xVB p3 nP tPT mSU fF vA" lemma="skulu" xml:id="w17300"><me:dipl>skilldí</me:dipl></w>
+                  <w me:msa="xVB fI tPS vA" lemma="nióta" xml:id="w17400"><me:dipl>níota</me:dipl></w>
+                  <w me:msa="xAJ nP gU cG rP sI" lemma="allr" xml:id="w17500"><me:dipl>allrar</me:dipl></w>
+                  <w me:msa="xPD nP gU cG" lemma="sá" xml:id="w17600"><me:dipl>þeírar</me:dipl></w>
+                  <lb n="9" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w17700"><me:dipl>fiskí</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w17800"><me:dipl>vela</me:dipl></w>
+                  <lb n="8" ed="ms"/>                  
+                  <w me:msa="xCS" lemma="sem" xml:id="w17900"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w18000"><me:dipl>þeír</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="hafa" xml:id="w18100"><me:dipl>hafa</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w18200"><me:dipl>gort</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w18300"><me:dipl>fir<ex>ir</ex></me:dipl></w>
+                  <w me:msa="xPD nS gN cD" lemma="sinn" xml:id="w18400"><me:dipl>sínu</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w18500"><me:dipl>lande</me:dipl></w><pc xml:id="w18600">,</pc>
+                  <lb n="10" ed="DN"/>
+                  <w me:msa="xCC" lemma="ok" xml:id="w18700"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w18800"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xPD nS gM cA" lemma="sinn" xml:id="w18900"><me:dipl>sín</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w19000"><me:dipl>kost</me:dipl></w><pc xml:id="w19100">,</pc>
+                  <w me:msa="xAV rU" lemma="svá" xml:id="w19200"><me:dipl>sua</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="þó" xml:id="w19300"><me:dipl>þo</me:dipl></w>
+                  <w me:msa="xCS ySU" lemma="at" xml:id="w19400"><me:dipl>at</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w19500"><me:dipl>eígí</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPT mSU fF vA" lemma="spilla" xml:id="w19600"><me:dipl>spilltí</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w19700"><me:dipl>fonre</me:dipl></w> <!-- OEH: Legg in "sic" for ‘fonre’ og "corr" for ‘fornre’ -->
+                  <w me:msa="YYY" lemma="XXX" xml:id="w19800"><me:dipl>fískí</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="hvert" xml:id="w19900"><me:dipl>hu<ex>er</ex>t</me:dipl></w>
+                  <w me:msa="xCS" lemma="sem" xml:id="w20000"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xPD nU gU cN" lemma="hon" xml:id="w20100"><me:dipl>hon</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="víkia" xml:id="w20200"><me:dipl>vík<ex>r</ex></me:dipl></w><pc xml:id="w20300">,</pc>
+                  <lb n="11" ed="DN"/>
+                  <w me:msa="xNC nP gF cA sI | xAP yG" lemma="sok" xml:id="w20400"><me:dipl>saker</me:dipl></w>                  
+                  <lb n="9" ed="ms"/>
+                  <w me:msa="xPD nS gN cG" lemma="sá" xml:id="w20500"><me:dipl>þess</me:dipl></w>
+                  <w me:msa="xCS yIN" lemma="at" xml:id="w20600"><me:dipl>at</me:dipl></w>
+                  <w me:msa="xNC nP gM cN sD" lemma="‹-›seti" xml:id="w20700"><me:dipl>landzsætanner</me:dipl></w><pc xml:id="w20800">,</pc>
+                  <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="hefia" xml:id="w20900"><me:dipl>hofo</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w21000"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w21100"><me:dipl>gerðo</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w21200"><me:dipl>vttan</me:dipl></w>
+                  <w me:msa="xNC nP gN cG sI" lemma="ráð" xml:id="w21300"><me:dipl>raða</me:dipl></w>
+                  <w me:msa="xPD nP gU cG" lemma="sá" xml:id="w21400"><me:dipl>þ<ex>ei</ex>ra</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w21500"><me:dipl>en</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w21600"><me:dipl>æígn</me:dipl></w>
+                  <lb n="12" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w21700"><me:dipl>atto</me:dipl></w><pc xml:id="w21800">,</pc>
+                  <w me:msa="xCC" lemma="ok" xml:id="w21900"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="skipta" xml:id="w22000"><me:dipl>skíptu</me:dipl></w>
+                  <w me:msa="xAP yG" lemma="meðal" xml:id="w22100"><me:dipl>mæðal</me:dipl></w>
+                  <w me:msa="xPD nU gU cG" lemma="sik" xml:id="w22200"><me:dipl>sín</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="eptir" xml:id="w22300"><me:dipl>eft<ex>ir</ex></me:dipl></w>
+                  <w me:msa="xNC nS gN cD sI" lemma="iarðarmegin" xml:id="w22400"><me:dipl>jarðar magne</me:dipl></w><pc xml:id="w22500">,</pc>
+                  <lb n="10" ed="ms"/>
+                  <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="auka" xml:id="w22600"><me:dipl>aukaðezt</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="hér" xml:id="w22700"><me:dipl>her</me:dipl></w>
+                  <w me:msa="xPD nS gM cD" lemma="hvárgi" xml:id="w22800"><me:dipl>huarghom</me:dipl></w>
+                  <lb n="13" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w22900"><me:dipl>landz</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="skyldarburðr" xml:id="w23000"><me:dipl>skyllda burðr</me:dipl></w>
+                  <lb n="13" ed="DN"/>
+                  <w me:msa="xCC" lemma="ok" xml:id="w23100"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xAV rU" lemma="þar" xml:id="w23200"><me:dipl>þar</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w23300"><me:dipl>f<ex>irir</ex></me:dipl></w>
+                  <w me:msa="xCS yIN" lemma="at" xml:id="w23400"><me:dipl>at</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w23500"><me:dipl>ek</me:dipl></w>
+                  <w me:msa="xVB p1 nS tPT mIN fF vA" lemma="siá" xml:id="w23600"><me:dipl>sa</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w23700"><me:dipl>br<ex>e</ex>f</me:dipl></w>
+                  <w me:msa="xNP nU gM cG sI" lemma="Ketill" xml:id="w23800"><me:dipl>ketils</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="biskup" xml:id="w23900"><me:dipl>b<ex>isku</ex>ps</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w24000"><me:dipl>i</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Stafangr" xml:id="w24100"><me:dipl>staw<lb n="14" ed="DN"/>angr<ex>e</ex></me:dipl></w>
+                  <w me:msa="xAP yD" lemma="með" xml:id="w24200"><me:dipl>m<ex>eðr</ex></me:dipl></w>
+                  <w me:msa="xPD nU gU cG" lemma="hann" xml:id="w24300"><me:dipl>h<ex>a</ex>ns</me:dipl></w>
+                  <w me:msa="xNC nS gN cD sI" lemma="innsigli" xml:id="w24400"><me:dipl>jnsíglí</me:dipl></w>
+                  <lb n="11" ed="ms"/>
+                  <w me:msa="xVB nP tPS fP vA gN cA sI" lemma="vátta" xml:id="w24500"><me:dipl>vattande</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w24600"><me:dipl>dagh</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w24700"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xNC nS gM cA sI" lemma="tími" xml:id="w24800"><me:dipl>tíma</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w24900"><me:dipl>firir</me:dipl></w>
+                  <w me:msa="xVB nS tPT fP vA gM cA sI" lemma="segia" xml:id="w25000"><me:dipl>sagðan</me:dipl></w>
+                  <w me:msa="xCS" lemma="sem" xml:id="w25100"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="bróðir" xml:id="w25200"><me:dipl>broðer</me:dipl></w>
+                  <lb n="15" ed="DN"/>
+                  <w me:msa="xNP nU gM cN sI" lemma="‹-›ríkr" xml:id="w25300"><me:dipl>Erikr</me:dipl></w>
+                  <w me:msa="xNC nS gM cN sI" lemma="umboðsmaðr" xml:id="w25400"><me:dipl>vmboðz maðr</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w25500"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+                  <w me:msa="xNP nU gM cG sI" lemma="Ión" xml:id="w25600"><me:dipl>jons</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="ábóti" xml:id="w25700"><me:dipl>abota</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="í" xml:id="w25800"><me:dipl>j</me:dipl></w>
+                  <w me:msa="xNP nU gF cD sI" lemma="Halsna" xml:id="w25900"><me:dipl>halsno</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w26000"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w26100"><me:dipl>brœðra</me:dipl></w>
+                  <w me:msa="xPD nU gU cG" lemma="hann" xml:id="w26200"><me:dipl>hans</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="setia" xml:id="w26300"><me:dipl>settí</me:dipl></w><pc xml:id="w26400">,</pc>
+                  <lb n="12" ed="ms"/>
+                  <lb n="16" ed="DN"/>
+                  <w me:msa="xVB p1 nS tPT mIN fF vA" lemma="siá" xml:id="w26500"><me:dipl>sa</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w26600"><me:dipl>ek</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w26700"><me:dipl>eigí</me:dipl></w>
+                  <w me:msa="xPD nS gN cA" lemma="annarr" xml:id="w26800"><me:dipl>annat</me:dipl></w>
+                  <w me:msa="xAJ nS gN cA rC sI" lemma="sannr" xml:id="w26900"><me:dipl>sannare</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w27000"><me:dipl>f<ex>irir</ex></me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w27100"><me:dipl>guðe</me:dipl></w><pc xml:id="w27200">,</pc>
+                  <w me:msa="xCC" lemma="en" xml:id="w27300"><me:dipl>en</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w27400"><me:dipl>ek</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w27500"><me:dipl>dœmde</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="með" xml:id="w27600"><me:dipl>meðr</me:dipl></w>
+                  <w me:msa="xPD nP gU cD" lemma="sá" xml:id="w27700"><me:dipl>þeím</me:dipl></w>
+                  <w me:msa="xNC nP gM cD sI" lemma="maðr" xml:id="w27800"><me:dipl>mo<ex>nnu</ex>m</me:dipl></w>
+                  <lb n="17" ed="DN"/>
+                  <w me:msa="xCS" lemma="sem" xml:id="w27900"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xAP | xAV" lemma="til" xml:id="w28000"><me:dipl>til</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="vera" xml:id="w28100"><me:dipl>varo</me:dipl></w>
+                  <w me:msa="xVB nP tPT fP vA gM cN sI" lemma="nefna" xml:id="w28200"><me:dipl>ne<ex>m</ex>fndír</me:dipl></w>
+                  <lb n="17" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w28300"><me:dipl>firir</me:dipl></w>
+                  <w me:msa="xVB nS tPT fP vA gF cA sI" lemma="segia" xml:id="w28400"><me:dipl>sagða</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w28500"><me:dipl>fískí</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w28600"><me:dipl>korsbrœðr<ex>om</ex></me:dipl></w>
+                  <lb n="13" ed="ms"/>
+                  <w me:msa="xAP yD" lemma="í" xml:id="w28700"><me:dipl>j</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Stafangr" xml:id="w28800"><me:dipl>stawangre</me:dipl></w><pc xml:id="w28900">,</pc>
+                  <w me:msa="xCC" lemma="ok" xml:id="w29000"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <lb n="18" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w29100"><me:dipl>kost</me:dipl></w>
+                  <w me:msa="xPD nS gM cA" lemma="sinn" xml:id="w29200"><me:dipl>sín</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="svá" xml:id="w29300"><me:dipl>sua</me:dipl></w>
+                  <w me:msa="xAJ nS gM cA rP sI" lemma="mikill" xml:id="w29400"><me:dipl>mykín</me:dipl></w>
+                  <w me:msa="xCS yIN" lemma="sem" xml:id="w29500"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xPD nP gM cN" lemma="sá" xml:id="w29600"><me:dipl>þeír</me:dipl></w>
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="hafa" xml:id="w29700"><me:dipl>hafa</me:dipl></w>
+                  <w me:msa="xAP yG" lemma="til" xml:id="w29800"><me:dipl>til</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w29900"><me:dipl>lagt</me:dipl></w>
+                  <w me:msa="xPD nS gF cG" lemma="sá" xml:id="w30000"><me:dipl>þeírar</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w30100"><me:dipl>forno</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w30200"><me:dipl>fiskínnar.</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="vera" xml:id="w30300"><me:dipl>var</me:dipl></w>
+                  <lb n="19" ed="DN"/>
+                  <w me:msa="xPD nS gN cN" lemma="siá" xml:id="w30400"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+                  <w me:msa="xNC nS gN cN sI" lemma="bréf" xml:id="w30500"><me:dipl>br<ex>e</ex>f</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w30600"><me:dipl>gort</me:dipl></w>
+                  <lb n="14" ed="ms"/>
+                  <w me:msa="xPD nP gU cD" lemma="sá" xml:id="w30700"><me:dipl>þeíma</me:dipl></w>
+                  <w me:msa="xNC nP gM cD sI" lemma="maðr" xml:id="w30800"><me:dipl>mo<ex>nnu</ex>m</me:dipl></w>
+                  <w me:msa="xAJ nP gU cD rP sI" lemma="hiáverandi" xml:id="w30900"><me:dipl>híauerandom</me:dipl></w><pc xml:id="w31000">,</pc>
+                  <w me:msa="xNP nU gM cD sI" lemma="Bárðr" xml:id="w31100"><me:dipl>Bárðe</me:dipl></w>
+                  <w me:msa="xNC nS gM cD sI" lemma="prestr" xml:id="w31200"><me:dipl>p<ex>re</ex>stí</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w31300"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gF cD sI" lemma="Hylia" xml:id="w31400"><me:dipl>hylu</me:dipl></w><pc xml:id="w31500">,</pc>
+                  <w me:msa="xNC nS gM cD sI" lemma="sira" xml:id="w31600"><me:dipl>síra</me:dipl></w>
+                  <lb n="20" ed="DN"/>
+                  <w me:msa="xNP nU gM cD sI" lemma="þórir" xml:id="w31700"><me:dipl>þore</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w31800"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Sandr" xml:id="w31900"><me:dipl>sande</me:dipl></w><pc xml:id="w32000">,</pc>
+                  <w me:msa="xNP nU gM cD sI" lemma="Ormr" xml:id="w32100"><me:dipl>orme</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w32200"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nP gM cD sI" lemma="Vellir" xml:id="w32300"><me:dipl>wollum</me:dipl></w><pc xml:id="w32400">,,</pc>
+                  <w me:msa="xNP nU gM cD sI" lemma="Þróndr" xml:id="w32500"><me:dipl>þroonde</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w32600"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nP gM cD sI" lemma="Leirangrar" xml:id="w32700"><me:dipl>leírangrom</me:dipl></w><pc xml:id="w32800">,,</pc>
+                  <w me:msa="xNP nU gM cD sI" lemma="þorgeirr" xml:id="w32900"><me:dipl>þorgeírí</me:dipl></w>
+                  <lb n="15" ed="ms"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w33000"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="*Fáksstaðir" xml:id="w33100"><me:dipl>fax<lb n="21" ed="DN"/>staðum</me:dipl></w><pc xml:id="w33200">,,</pc>
+                  <w me:msa="xNP nU gM cD sI" lemma="þorgils" xml:id="w33300"><me:dipl>þorgylsí</me:dipl></w>
+                  <w me:msa="xAP yD" lemma="á" xml:id="w33400"><me:dipl>a</me:dipl></w>
+                  <w me:msa="xNP nU gN cD sI" lemma="Vindeið" xml:id="w33500"><me:dipl>víndæiði</me:dipl></w><pc xml:id="w33600">,,</pc>
+                  <w me:msa="xAJ nP gU cD rP sI" lemma="margr" xml:id="w33700"><me:dipl>morghu<ex>m</ex></me:dipl></w>
+                  <w me:msa="xPD nP gU cD" lemma="annarr" xml:id="w33800"><me:dipl>aðrum</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w33900"><me:dipl>goðom</me:dipl></w>
+                  <w me:msa="xNC nP gM cD sI" lemma="maðr" xml:id="w34000"><me:dipl>mo<ex>nnu</ex>m</me:dipl></w>
+                  <lb n="21" ed="DN"/>
+                  <w me:msa="xCC" lemma="ok" xml:id="w34100"><me:dipl><ex>oc</ex></me:dipl></w>
+                  <w me:msa="xAP yG" lemma="til" xml:id="w34200"><me:dipl>til</me:dipl></w>
+                  <lb n="22" ed="DN"/>
+                  <w me:msa="xAJ nS gM cG rP sI" lemma="sannr" xml:id="w34300"><me:dipl>sanz</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="vitnisburðr" xml:id="w34400"><me:dipl>vítnísburðar</me:dipl></w>
+                  <w me:msa="xVB p1 nS tPT mIN fF vA" lemma="setia" xml:id="w34500"><me:dipl>settí</me:dipl></w>
+                  <w me:msa="xPD nU gU cN" lemma="ek" xml:id="w34600"><me:dipl>ek</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w34700"><me:dipl>f<ex>irir</ex></me:dipl></w>
+                  <w me:msa="xPD nS gM cA" lemma="siá" xml:id="w34800"><me:dipl>þenna</me:dipl></w>
+                  <lb n="16" ed="ms"/>
+                  <w me:msa="xPD nS gM cA" lemma="minn" xml:id="w34900"><me:dipl>mín</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w35000"><me:dipl>dom</me:dipl></w>
+                  <w me:msa="xPD nS gN cA" lemma="minn" xml:id="w35100"><me:dipl>mít</me:dipl></w>
+                  <w me:msa="xNC nS gN cA sI" lemma="‹-›sigli" xml:id="w35200"><me:dipl>jnsígli</me:dipl></w>
+               </p>
+            </div>
+
+            <div n="2" type="frame">
+               <p>
+                  <note type="explanation">[Her held rammeteksten i diplomet fram. Skiftet skjer i linje 16 av vidissen.]</note>
+                  <lb n="16" ed="ms"/>
+                  <lb n="5" ed="DN"/>
+                  <w me:msa="xAP yD" lemma="með" xml:id="w35300"><me:dipl>Meðr</me:dipl></w>
+                  <w me:msa="xAJ nS gM cD rP sD" lemma="samr" xml:id="w35400"><me:dipl>sama</me:dipl></w>
+                  <w me:msa="xNC nS gM cD sI" lemma="háttr" xml:id="w35500"><me:dipl>hætte</me:dipl></w>
+                  <lb n="6" ed="DN"/>
+                  <w me:msa="xVB p1 nP tPT mIN fF vA" lemma="siá" xml:id="w35600"><me:dipl>saam</me:dipl></w>
+                  <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w35700"><me:dipl>v<ex>er</ex></me:dipl></w>
+                  <w me:msa="xNC nS gN cA sI" lemma="staðfestubréf" xml:id="w35800"><me:dipl>staðfesto br<ex>e</ex>f</me:dipl></w>
+                  <w me:msa="xPD nS gM cG" lemma="várr" xml:id="w35900"><me:dipl>vars</me:dipl></w>
+                  <w me:msa="xAJ nS gM cG rP sI" lemma="virðuligr" xml:id="w36000"><me:dipl>vírðulegs</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="herra" xml:id="w36100"><me:dipl>h<ex>er</ex>ra</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w36200"><me:dipl>H<ex>akonar</ex></me:dipl></w><pc xml:id="w36300">.</pc>
+                  <w me:msa="xNP nU gM cG sI" lemma="Noregr" xml:id="w36400"><me:dipl>Noregs</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="konungr" xml:id="w36500"><me:dipl>kon<ex>on</ex>gs</me:dipl></w>
+                  <lb n="17" ed="ms"/>
+                  <lb n="7" ed="DN"/>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w36600"><me:dipl>híns</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w36700"><me:dipl>koronaða</me:dipl></w>
+                  <w me:msa="xAV rU" lemma="svá" xml:id="w36800"><me:dipl>sua</me:dipl></w>
+                  <w me:msa="xVB nP tPS fP vA gN cA sI" lemma="vátta" xml:id="w36900"><me:dipl>vattande</me:dipl></w>
+                  <w me:msa="xNC nS gN cA sI" lemma="orð" xml:id="w37000"><me:dipl>orð</me:dipl></w>
+                  <w me:msa="xAP yA" lemma="eptir" xml:id="w37100"><me:dipl>eft<ex>ir</ex></me:dipl></w>
+                  <w me:msa="xNC nS gN cA sI" lemma="orð" xml:id="w37200"><me:dipl>orð</me:dipl></w><pc xml:id="w37300">.</pc>
+               </p>
+            </div>
+
+            <div n="2" type="transcript">
+               <p>
+                  <note type="explanation">[Her følgjer den andre av to avskrifter (DN 4:65). Skiftet skjer i linje 17 av vidissen.]</note>
+                  <lb n="17" ed="ms"/>
+                  <lb n="1" ed="DN"/> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w37400"><me:dipl>Hakon</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w37500"><me:dipl>m<ex>eðr</ex></me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w37600"><me:dipl>guðs</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w37700"><me:dipl>mísku<ex>n</ex>n</me:dipl></w> 
+                  <w me:msa="xNP nU gM cG sI" lemma="Noregr" xml:id="w37800"><me:dipl>noregs</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w37900"><me:dipl>k<ex>ono</ex>ngr</me:dipl></w> 
+                  <w me:msa="xNC nS gM cN sI" lemma="sunr" xml:id="w38000"><me:dipl>son</me:dipl></w> 
+                  <w me:msa="xNP nU gM cG sI" lemma="Magnús" xml:id="w38100"><me:dipl>M<ex>agnus</ex></me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w38200"><me:dipl>k<ex>on</ex><lb n="2" ed="DN"/><ex>o</ex>ngs</me:dipl></w>
+                  <pc xml:id="w38300">,,</pc> 
+                  <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="senda" xml:id="w38400"><me:dipl>Sendír</me:dipl></w> 
+                  <lb n="18" ed="ms"/> 
+                  <w me:msa="xAJ nP gU cD rP sI" lemma="allr" xml:id="w38500"><me:dipl>allum</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w38600"><me:dipl>mo<ex>nnu</ex>m</me:dipl></w> 
+                  <w me:msa="xPD nP gU cD" lemma="sá" xml:id="w38700"><me:dipl>þeím</me:dipl></w> 
+                  <w me:msa="xCS" lemma="sem" xml:id="w38800"><me:dipl>sem</me:dipl></w> 
+                  <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w38900"><me:dipl>þ<ex>e</ex>tta</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w39000"><me:dipl>br<ex>e</ex>f</me:dipl></w> 
+                  <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="siá" xml:id="w39100"><me:dipl>sea</me:dipl></w> 
+                  <w me:msa="xCC" lemma="eða" xml:id="w39200"><me:dipl>æða</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w39300"><me:dipl>hœyra</me:dipl></w><pc xml:id="w39400">,,</pc> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w39500"><me:dipl>Q<ex>ueðiu</ex></me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w39600"><me:dipl>G<ex>uðs</ex></me:dipl></w> 
+                  <lb n="3" ed="DN"/> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w39700"><me:dipl><ex>oc</ex></me:dipl></w> 
+                  <w me:msa="xPD nS gF cA" lemma="sinn" xml:id="w39800"><me:dipl>sína</me:dipl></w><pc xml:id="w39900">,,</pc> 
+                  <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w40000"><me:dipl>vér</me:dipl></w> 
+                  <w me:msa="xVB p1 nP tPT mIN fF vA" lemma="siá" xml:id="w40100"><me:dipl>saam</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w40200"><me:dipl>opet</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w40300"><me:dipl>br<ex>e</ex>f</me:dipl></w> 
+                  <w me:msa="xAP yD" lemma="undir" xml:id="w40400"><me:dipl>vndír</me:dipl></w> 
+                  <w me:msa="xNC nS gN cD sI" lemma="‹-›sigli" xml:id="w40500"><me:dipl>jnsigli</me:dipl></w> 
+                  <w me:msa="xNP nU gM cG sI" lemma="Sigurðr" xml:id="w40600"><me:dipl>sigurðar</me:dipl></w> 
+                  <lb n="19" ed="ms"/> 
+                  <w me:msa="xNC nS gM cG sI" lemma="logmaðr" xml:id="w40700"><me:dipl>logmannz</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w40800"><me:dipl>i</me:dipl></w> 
+                  <w me:msa="xNP nU gN cD sI" lemma="Rygiafylki" xml:id="w40900"><me:dipl>rygía <lb n="4" ed="DN"/> fylkí</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w41000"><me:dipl>þat</me:dipl></w> 
+                  <w me:msa="xCS" lemma="sem" xml:id="w41100"><me:dipl>sem</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w41200"><me:dipl>her</me:dipl></w> 
+                  <w me:msa="YYY" lemma="XXX" xml:id="w41300"><me:dipl>fylgír</me:dipl></w> 
+                  <w me:msa="xPD nS gN cD" lemma="várr" xml:id="w41400"><me:dipl>varo</me:dipl></w>
+                     <lb n="4" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w41500"><me:dipl><ex>oc</ex></me:dipl></w>
+                     <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="vátta" xml:id="w41600"><me:dipl>vattar</me:dipl></w> 
+                     <w me:msa="xAP yA" lemma="um" xml:id="w41700"><me:dipl>vm</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w41800"><me:dipl>þan</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w41900"><me:dipl>dom</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42000"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42100"><me:dipl>or</me:dipl></w>
+                     <w me:msa="xNC nS gM cA sI" lemma="skurðr" xml:id="w42200"><me:dipl>skurð</me:dipl></w> 
+                     <lb n="5" ed="DN"/> 
+                     <w me:msa="xCS" lemma="sem" xml:id="w42300"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42400"><me:dipl>h<ex>a</ex>n</me:dipl></w>
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42500"><me:dipl>hefír</me:dipl></w> 
+                     <lb n="20" ed="ms"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42600"><me:dipl>a</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42700"><me:dipl>lagt</me:dipl></w> 
+                     <w me:msa="xAP yA" lemma="um" xml:id="w42800"><me:dipl>vm</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w42900"><me:dipl>fískína</me:dipl></w> 
+                     <w me:msa="xAP yD" lemma="á" xml:id="w43000"><me:dipl>a</me:dipl></w> 
+                     <w me:msa="xNP nU gM cD sI" lemma="*Fáksstaðir" xml:id="w43100"><me:dipl>faxstaðum</me:dipl></w><pc xml:id="w43200">,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w43300"><me:dipl>míllu<ex>m</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w43400"><me:dipl>korsbrœðra</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w43500"><me:dipl>j</me:dipl></w> 
+                     <lb n="6" ed="DN"/> 
+                     <w me:msa="xNP nU gM cD sI" lemma="Stafangr" xml:id="w43600"><me:dipl>stawangre</me:dipl></w><pc xml:id="w43700">,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w43800"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="xPD nP gU cG" lemma="sá" xml:id="w43900"><me:dipl>þ<ex>ei</ex>ra</me:dipl></w> 
+                     <w me:msa="xPD nP gU cG" lemma="annarr" xml:id="w44000"><me:dipl>annara</me:dipl></w> 
+                     <w me:msa="xCS" lemma="sem" xml:id="w44100"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="xNC nS gN cA sI" lemma="viðrskipti" xml:id="w44200"><me:dipl>viðrskíptí</me:dipl></w> 
+                     <w me:msa="xVB p3 nP tPT mIN fF vA" lemma="eiga" xml:id="w44300"><me:dipl>atto</me:dipl></w> 
+                     <w me:msa="xAP yA" lemma="viðr" xml:id="w44400"><me:dipl>viðr</me:dipl></w> 
+                     <lb n="21" ed="ms"/> 
+                     <w me:msa="xPD nP gM cA" lemma="sá" xml:id="w44500"><me:dipl>þa</me:dipl></w> 
+                     <w me:msa="xAP yA" lemma="um" xml:id="w44600"><me:dipl>vm</me:dipl></w> 
+                     <w me:msa="xPD nS gF cA" lemma="siá" xml:id="w44700"><me:dipl>þessa</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w44800"><me:dipl>fískí</me:dipl></w><pc xml:id="w44900">,</pc> 
+                     <lb n="7" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w45000"><me:dipl>Oc</me:dipl></w> 
+                     <w me:msa="xAP yD" lemma="af" xml:id="w45100"><me:dipl>af</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w45200"><me:dipl>þuí</me:dipl></w> 
+                     <w me:msa="xCS yIN" lemma="at" xml:id="w45300"><me:dipl>at</me:dipl></w> 
+                     <w me:msa="xPD nU gU cD" lemma="vér" xml:id="w45400"><me:dipl>oss</me:dipl></w> 
+                     <w me:msa="xVB p3 nS tPT mIN fF vR" lemma="sýna" xml:id="w45500"><me:dipl>syndízt</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w45600"><me:dipl>h<ex>a</ex>ns</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w45700"><me:dipl>dom<ex>r</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w45800"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w45900"><me:dipl>or</me:dipl></w>
+                     <w me:msa="xNC nS gM cN sI" lemma="skurðr" xml:id="w46000"><me:dipl>skurðr</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w46100"><me:dipl>rett<ex>r</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w46200"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w46300"><me:dipl>loglæghr</me:dipl></w> 
+                     <lb n="8" ed="DN"/> 
+                     <w me:msa="xVB fI tPS vA" lemma="vera" xml:id="w46400"><me:dipl>v<ex>er</ex>a</me:dipl></w><pc xml:id="w46500">,</pc> 
+                     <w me:msa="xAV rU" lemma="þá" xml:id="w46600"><me:dipl>þa</me:dipl></w> 
+                     <w me:msa="xVB p1 nP tPS mIN fF vA" lemma="staðfesta" xml:id="w46700"><me:dipl>staðfestom</me:dipl></w> 
+                     <lb n="22" ed="ms"/> 
+                     <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w46800"><me:dipl>ver</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w46900"><me:dipl>h<ex>a</ex>n</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w47000"><me:dipl>m<ex>eðr</ex></me:dipl></w> 
+                     <w me:msa="xPD nS gN cD" lemma="siá" xml:id="w47100"><me:dipl>þesso</me:dipl></w> 
+                     <w me:msa="xPD nS gN cD" lemma="várr" xml:id="w47200"><me:dipl>varo</me:dipl></w>
+                     <lb n="8" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w47300"><me:dipl><ex>oc</ex></me:dipl></w>
+                     <w me:msa="YYY" lemma="XXX" xml:id="w47400"><me:dipl>firir</me:dipl></w>
+                     <w me:msa="xVB p1 nP tPS mIN fF vA" lemma="bióða" xml:id="w47500"><me:dipl>bíoðom</me:dipl></w> 
+                     <lb n="9" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w47600"><me:dipl>hu<ex>er</ex>íum</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w47700"><me:dipl>ma<ex>n</ex>ne</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w47800"><me:dipl>h<ex>a</ex>n</me:dipl></w>
+                     <w me:msa="xIM" lemma="at" xml:id="w47900"><me:dipl>at</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w48000"><me:dipl>ríufa</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w48100"><me:dipl>æða</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w48200"><me:dipl>rofs</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w48300"><me:dipl>me<ex>n</ex>n</me:dipl></w> 
+                     <w me:msa="xAP | xAV" lemma="til" xml:id="w48400"><me:dipl>til</me:dipl></w> 
+                     <w me:msa="xIM" lemma="at" xml:id="w48500"><me:dipl>at</me:dipl></w> 
+                     <w me:msa="xVB fI tPS vA" lemma="fá" xml:id="w48600"><me:dipl>fa</me:dipl></w><pc xml:id="w48700">,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w48800"><me:dipl>næma</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w48900"><me:dipl>sa</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w49000"><me:dipl>er</me:dipl></w> 
+                     <lb n="23" ed="ms"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w49100"><me:dipl>þat</me:dipl></w> 
+                     <lb n="10" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w49200"><me:dipl>g<ex>er</ex>ír</me:dipl></w><pc xml:id="w49300">,</pc> 
+                     <w me:msa="xVB p3 nS tPS mSU fF vA" lemma="vilia" xml:id="w49400"><me:dipl>vili</me:dipl></w> 
+                     <w me:msa="xAJ nS gN cD rP sI" lemma="slíkr" xml:id="w49500"><me:dipl>sliku</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w49600"><me:dipl>f<ex>irir</ex></me:dipl></w> 
+                     <w me:msa="xVB fI tPS vA" lemma="svara" xml:id="w49700"><me:dipl>suara</me:dipl></w> 
+                     <w me:msa="xCS" lemma="sem" xml:id="w49800"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w49900"><me:dipl>logh</me:dipl></w> 
+                     <w me:msa="xVB p3 nP tPS mIN fF vA" lemma="vátta" xml:id="w50000"><me:dipl>vatta</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50100"><me:dipl>þeím</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50200"><me:dipl>a</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50300"><me:dipl>hændr</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50400"><me:dipl>e<ex>r</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50500"><me:dipl>ryfr</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50600"><me:dipl>log<lb n="11" ed="DN"/>ma<ex>n</ex>nz</me:dipl></w>                  
+                     <w me:msa="YYY" lemma="XXX" xml:id="w50700"><me:dipl>or</me:dipl></w>
+                     <w me:msa="xNC nS gM cA sI" lemma="skurðr" xml:id="w50800"><me:dipl>skurð</me:dipl></w><pc xml:id="w50900">,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w51000"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w51100"><me:dipl>eínkanlegha</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w51200"><me:dipl>þa</me:dipl></w> 
+                     <lb n="24" ed="ms"/> 
+                     <w me:msa="xNC nS gF cA sI" lemma="skipan" xml:id="w51300"><me:dipl>skípan</me:dipl></w> 
+                     <w me:msa="xCS" lemma="sem" xml:id="w51400"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="xAJ nS gM cN rP sI" lemma="sialfr" xml:id="w51500"><me:dipl>sialf<ex>r</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w51600"><me:dipl>k<ex>ono</ex>ng<ex>r</ex></me:dipl></w> 
+                     <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="staðfesta" xml:id="w51700"><me:dipl>staðfestír</me:dipl></w> 
+                     <lb n="12" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w51800"><me:dipl>m<ex>eðr</ex></me:dipl></w> 
+                     <w me:msa="xPD nP gU cD" lemma="sinn" xml:id="w51900"><me:dipl>sínu<ex>m</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w52000"><me:dipl>br<ex>e</ex>fom</me:dipl></w><pc xml:id="w52100">,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w52200"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="xPD nU gU cD" lemma="vér" xml:id="w52300"><me:dipl>oss</me:dipl></w> 
+                     <num xml:id="w52400"><w me:msa="xNU nU gU cU sI" lemma="átta" xml:id="w52500"><me:dipl>víí</me:dipl></w></num>
+                     <lb n="12" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w52600"><me:dipl>Bíoðom</me:dipl></w> 
+                     <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w52700"><me:dipl>v<ex>er</ex></me:dipl></w> 
+                     <w me:msa="xNC nS gM cD sD" lemma="sýslumaðr" xml:id="w52800"><me:dipl>syslu <lb n="13" ed="DN"/> ma<ex>n</ex>neno<ex>m</ex></me:dipl></w> 
+                     <lb n="25" ed="ms"/> 
+                     <w me:msa="xAV rU" lemma="þar" xml:id="w52900"><me:dipl>þar</me:dipl></w> 
+                     <w me:msa="xCS" lemma="sem" xml:id="w53000"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="xPD nS gF cN" lemma="siá" xml:id="w53100"><me:dipl>þessí</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w53200"><me:dipl>fískí</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w53300"><me:dipl>ligg<ex>r</ex></me:dipl></w><pc xml:id="w53400">,</pc> 
+                     <w me:msa="xIM" lemma="at" xml:id="w53500"><me:dipl>at</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w53600"><me:dipl>g<ex>er</ex>a</me:dipl></w> <add place="above"></add> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w53700"><me:dipl>brœðrom</me:dipl></w>
+                     <w me:msa="YYY" lemma="XXX" xml:id="w53800"><me:dipl>rett</me:dipl></w> 
+                     <w me:msa="xAP yA" lemma="um" xml:id="w53900"><me:dipl>vm</me:dipl></w> 
+                     <w me:msa="xAJ nP gM cA rP sI" lemma="allr" xml:id="w54000"><me:dipl>alla</me:dipl></w> 
+                     <lb n="14" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w54100"><me:dipl>lutí</me:dipl></w> 
+                     <w me:msa="xAP yD" lemma="eptir" xml:id="w54200"><me:dipl>ef<ex>tir</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w54300"><me:dipl>þuí</me:dipl></w> 
+                     <w me:msa="xCS" lemma="sem" xml:id="w54400"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w54500"><me:dipl>logma<ex>n</ex>nz</me:dipl></w> 
+                     <w me:msa="xNC nS gN cN sD" lemma="bréf" xml:id="w54600"><me:dipl>br<ex>e</ex>fet</me:dipl></w> 
+                     <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="vátta" xml:id="w54700"><me:dipl>vattar</me:dipl></w><pc xml:id="w54800">,</pc> 
+                     <w me:msa="xAV rU" lemma="svá" xml:id="w54900"><me:dipl>sua</me:dipl></w> 
+                     <lb n="26" ed="ms"/> 
+                     <w me:msa="xCS yIN" lemma="sem" xml:id="w55000"><me:dipl>sem</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w55100"><me:dipl>h<ex>a</ex>n</me:dipl></w> 
+                     <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="vilia" xml:id="w55200"><me:dipl>uil</me:dipl></w> 
+                     <w me:msa="xVB fI tPS vA" lemma="svara" xml:id="w55300"><me:dipl>suara</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w55400"><me:dipl>f<ex>irir</ex></me:dipl></w> 
+                     <lb n="15" ed="DN"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w55500"><me:dipl>guði</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w55600"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w55700"><me:dipl>oss</me:dipl></w><pc xml:id="w55800">,,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w55900"><me:dipl><ex>oc</ex></me:dipl></w> 
+                     <w me:msa="xCS ySU" lemma="at" xml:id="w56000"><me:dipl>at</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w56100"><me:dipl>þat</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w56200"><me:dipl>þurfi</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w56300"><me:dipl>eígí</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w56400"><me:dipl>oftare</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w56500"><me:dipl>f<ex>irir</ex></me:dipl></w> 
+                     <w me:msa="xPD nU gU cD" lemma="vér" xml:id="w56600"><me:dipl>oss</me:dipl></w> 
+                     <w me:msa="xIM" lemma="at" xml:id="w56700"><me:dipl>at</me:dipl></w>
+                     <lb n="15" ed="DN"/> 
+                     <w me:msa="xPD nS gN cN" lemma="siá" xml:id="w56800"><me:dipl>þ<ex>e</ex>tta</me:dipl></w> 
+                     <w me:msa="xNC nS gN cN sI" lemma="bréf" xml:id="w56900"><me:dipl>br<ex>e</ex>f</me:dipl></w> 
+                     <lb n="16" ed="DN"/> 
+                     <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="vera" xml:id="w57000"><me:dipl>var</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w57100"><me:dipl>gort</me:dipl></w> 
+                     <lb n="27" ed="ms"/> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w57200"><me:dipl>i</me:dipl></w> 
+                     <w me:msa="xNP nU gF cD sI" lemma="Konungahella" xml:id="w57300"><me:dipl>kononghællo</me:dipl></w> 
+                     <num xml:id="w57400"><w me:msa="xNU nP gU cD sI" lemma="tveir" xml:id="w57500"><me:dipl>tueím</me:dipl></w></num> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w57600"><me:dipl>nattom</me:dipl></w> 
+                     <w me:msa="xAP yA" lemma="eptir" xml:id="w57700"><me:dipl>eft<ex>ir</ex></me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w57800"><me:dipl>Olafs</me:dipl></w> 
+                     <w me:msa="xNC nS gF cA sI" lemma="vaka" xml:id="w57900"><me:dipl>vaku</me:dipl></w> 
+                     <w me:msa="xAJ nS gF cA rC sI" lemma="síðarri" xml:id="w58000"><me:dipl>siðare</me:dipl></w><pc xml:id="w58100">,</pc> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w58200"><me:dipl>A</me:dipl></w> 
+                     <num xml:id="w58300"><w me:msa="xNU nS gN cD sI" lemma="siaundi" xml:id="w58400"><me:dipl>síaunda</me:dipl></w></num> 
+                     <lb n="17" ed="DN"/> 
+                     <w me:msa="xNC nS gN cD sI" lemma="ár" xml:id="w58500"><me:dipl>are</me:dipl></w> 
+                     <w me:msa="YYY" lemma="XXX" xml:id="w58600"><me:dipl>rikís</me:dipl></w> 
+                     <w me:msa="xPD nS gN cG" lemma="várr" xml:id="w58700"><me:dipl>vars</me:dipl></w><pc xml:id="w58800">,</pc> 
+                     <w me:msa="xNC nS gM cN sI" lemma="herra" xml:id="w58900"><me:dipl>h<ex>er</ex>ra</me:dipl></w> 
+                     <w me:msa="xNP nU gM cN sI" lemma="Snari" xml:id="w59000"><me:dipl>Snara</me:dipl></w> 
+                     <w me:msa="xNP nU gM cN sI" lemma="Áslákssunr" xml:id="w59100"><me:dipl>aslaks son</me:dipl></w> 
+                     <lb n="28" ed="ms"/> 
+                     <w me:msa="xVB p3 nS tPT mIN fF vA" lemma="‹-›sigla" xml:id="w59200"><me:dipl>jnsiglaðe</me:dipl></w><pc xml:id="w59300">,</pc> 
+                     <w me:msa="xNP nU gM cN sI" lemma="Ívarr" xml:id="w59400"><me:dipl>jwar</me:dipl></w> 
+                     <w me:msa="xNC nS gM cN sI" lemma="klerkr" xml:id="w59500"><me:dipl>klerk<ex>r</ex></me:dipl></w>
+               </p>
+            </div>
+
+            <div n="3" type="frame">
+               <p>
+                  <note type="explanation">[Her er dei to avskriftene ferdige, og rammeteksten avsluttar vidissen. Skiftet skjer i linje 28.]</note>
+                  <lb n="28" ed="ms"/>
+                  <lb n="8" ed="DN"/>
+                  <w me:msa="xCC" lemma="ok" xml:id="w59600"><me:dipl>Oc</me:dipl></w>
+                  <w me:msa="xAP yG" lemma="til" xml:id="w59700"><me:dipl>til</me:dipl></w>
+                  <w me:msa="xAJ nS gM cG rP sI" lemma="sannr" xml:id="w59800"><me:dipl>sanz</me:dipl></w>
+                  <w me:msa="xNC nS gM cG sI" lemma="vitnisburðr" xml:id="w59900"><me:dipl>vítnis burðar</me:dipl></w>
+                  <w me:msa="xVB p1 nP tPT mIN fF vA" lemma="setia" xml:id="w60000"><me:dipl>settom</me:dipl></w>
+                  <w me:msa="xPD nU gU cN" lemma="vér" xml:id="w60100"><me:dipl>v<ex>er</ex></me:dipl></w>
+                  <w me:msa="xPD nP gN cA" lemma="várr" xml:id="w60200"><me:dipl>var</me:dipl></w>
+                  <w me:msa="xNC nP gN cA sI" lemma="innsigli" xml:id="w60300"><me:dipl>jnsíglí</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w60400"><me:dipl>f<ex>irir</ex></me:dipl></w>
+                  <w me:msa="xPD nS gN cA" lemma="siá" xml:id="w60500"><me:dipl>þ<ex>e</ex>tta</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w60600"><me:dipl>br<ex>e</ex>f</me:dipl></w><pc xml:id="w60700">.</pc>
+                  <lb n="9" ed="DN"/>
+               </p>
+            </div>
+            <div type="verso">
+               <p>
+                  <pb n="1v" ed="ms"/>
+                  <lb n="1" ed="ms"/><!-- <note type="explanation">y h:</note> -->
+                  <w me:msa="xNC nS gN cN sI" lemma="bréf" xml:id="w60800"><me:dipl>breff</me:dipl></w>
+                  <w me:msa="xCS" lemma="sem" xml:id="w60900"><me:dipl>sem</me:dipl></w>
+                  <w me:msa="xNC nS gN cD sD" lemma="kommún" xml:id="w61000"><me:dipl>komuneno</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w61100"><me:dipl>$</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="høyra" xml:id="w61200"><me:dipl>h$œyrir</me:dipl></w>
+                  <w me:msa="xAP | xAV" lemma="til" xml:id="w61300"><me:dipl>till</me:dipl></w>
+                  <w me:msa="xCC" lemma="ok" xml:id="w61400"><me:dipl>oc</me:dipl></w>
+                  <w me:msa="xVB p3 nS tPS mIN fF vA" lemma="vera" xml:id="w61500"><me:dipl>er</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w61600"><me:dipl>firir</me:dipl></w>
+                  <w me:msa="YYY" lemma="XXX" xml:id="w61700"><me:dipl>fiskene</me:dipl></w>
+                  <lb n="10" ed="DN"/>
+                  <w me:msa="xAP yD" lemma="í" xml:id="w61800"><me:dipl>j</me:dipl></w>
+                  <w me:msa="xNP nU gM cD sI" lemma="Súladalr" xml:id="w61900"><me:dipl>suladale</me:dipl></w>
+               </p>
+            </div>
+         </div>
+      </body>
+
+
+ <!--     <back>
+         <div type="metadata">
+            <list>
+               <item>
+                  <label>NUM</label>
+               </item>
+               <item>
+                  <label>DAT</label> *1306-99-50</item>
+               <item>
+                  <label>TID</label>
+               </item>
+               <item>
+                  <label>TRYKT1</label>
+               </item>
+               <item>
+                  <label>verk</label> DN</item>
+               <item>
+                  <label>bind</label> IV</item>
+               <item>
+                  <label>side</label>
+               </item>
+               <item>
+                  <label>nr</label> 67</item>
+               <item>
+                  <label>OVERS</label>
+               </item>
+               <item>
+                  <label>ARK</label>
+               </item>
+               <item>
+                  <label>ARKSIGN </label>
+               </item>
+               <item>
+                  <label>AVSKR</label>
+               </item>
+               <item>
+                  <label>SPR</label>
+               </item>
+               <item>
+                  <label>LND</label>
+               </item>
+               <item>
+                  <label>OMR</label>
+               </item>
+               <item>
+                  <label>FYL</label>
+               </item>
+               <item>
+                  <label>HER</label>
+               </item>
+               <item>
+                  <label>STD</label> [Stavanger]</item>
+               <item>
+                  <label>MIL</label> P</item>
+               <item>
+                  <label>SKRIVER</label>
+               </item>
+               <item>
+                  <label>TYP</label>
+               </item>
+               <item>
+                  <label>AUT</label>
+               </item>
+            </list>
+         </div>
+         <div type="metadata_2">
+            <list>
+               <item>
+                  <label>SGL</label>
+               </item>
+               <item>
+                  <label>REM</label>
+               </item>
+               <item>
+                  <label>REMTXT</label>
+               </item>
+               <item>
+                  <label>SIGFORB</label>
+               </item>
+               <item>
+                  <label>BAK1</label>ff s</item>
+               <item>
+                  <label>NOTE1</label>
+               </item>
+               <item>
+                  <label>KOM1</label>
+               </item>
+               <item>
+                  <label>FOTO</label>
+               </item>
+            </list>
+         </div>
+      </back> -->
+      
+   </text>
+</TEI>

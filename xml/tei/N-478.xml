@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 478 : Nidaros Cathedral X, Trondheim, Trøndelag : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="person"> <!-- OEH 2021-04-16: Du kan føre opp begge utgjevarane som full <editor> -->
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 5, pp. 46–48</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName> <!-- OEH 2021-04-16: Det er tenkeleg at dei to høyrer til ulike institusjonar, så dette bør fyllast ut for kvar og ein -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katharina</forename>
+                            <forename>Sophie</forename>
+                            <surname>Kühnel</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename> <!-- OEH 2021-03-25: Separate fornamn -->
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-25">25 March 2021</date>.</edition> <!-- OEH 2021-03-25: Har sett datoen til i dag -->
+            </editionStmt>
+            <extent n="17">17 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">V 46-48</idno>
+                <date when="2021-03-25">25 March 2021</date> <!-- OEH 2021-03-25: Har sett datoen til i dag -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR.</bibl> 
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.4269, 10.3969</settlement>
+                        <idno>N 478</idno>
+                        <msName>N 478: Nidaros Cathedral X, Trondheim, Trøndelag</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1200" notAfter="1300">c. 1200-1300</origDate></origin> <!-- OEH 2021-03-25: Dette er mitt framlegg i mitt kapittel om gammalnorsk i Tidslinjer, s. 217 -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook</title>
+                    (version 4.0 beta), at <ref target="http://www.menota.org/handbook">
+                        http://www.menota.org/handbook</ref> as of <date>2021-03-14</date>.</p>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 46-48.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="partly">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-03-25</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made a few changes to the header</change>
+            <change>
+                <date>2021-03-23</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made the first working draft of this file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 478 ||  
+                    <hi rend="bold">Sted</hi>: Nidaros domkirke, Trondheim, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer || 
+                    <hi rend="bold">Datering</hi>: 1200-tallet<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR V: 46–48 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/5e0a8379-4c66-447b-bcef-ffe821fef9b5" type="external">N 478</ref>
+                </head>
+                <p>Innskriften finnes i et hjørne i det sørlige kapellet og er 44,5 cm lang. Runene er tydelige, selv om det er noen forvitringsskader. (NIyR V: 46)</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <w lemma="Guð" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&gMDst;&uGE;&thGE;</me:facs>
+                            <me:dipl>guþ</me:dipl>
+                            <me:norm>Guð</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic"> <!-- OEH 2021-03-25: <pc>-elementet har fått et attributt for at det er rune-interpunksjon. -->
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="ok" me:msa="xCC">
+                        <choice>
+                            <me:facs>&oYG;&kORyshp;</me:facs>
+                            <me:dipl>ok</me:dipl>
+                            <me:norm>ok</me:norm>
+                        </choice>
+                    </w>
+                     <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="hinn" me:msa="xDD gM nS cN">
+                        <choice>
+                            <me:facs>&hYGL;&iGE;&nYG;</me:facs>
+                            <me:dipl>hin</me:dipl>
+                            <me:norm>hinn</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="helgr" me:msa="xAJ rP gM nS cN sD">
+                        <choice>
+                            <me:facs>&hYGL;&iGE;&aeMD;&lGE;&gMDst;&iGE;</me:facs>
+                            <me:dipl>hiælgi</me:dipl>
+                            <me:norm>helgi</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Ólafr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&oYG;&lGE;&aYG;&fGEst;&rGE;</me:facs>
+                            <me:dipl>olafr</me:dipl>
+                            <me:norm>Óláfr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="konungr" me:msa="xNC gM nS cN sI">
+                        <choice>
+                            <me:facs>&kYGst;&oYG;&nYG;&gMDst;&rGE;</me:facs>
+                            <me:dipl>kongr</me:dipl>
+                            <me:norm>konungr</me:norm> <!-- OEH 2021-03-25: Trur eg ville ha valt den tradisjonelle forma “konungr” -->
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="hjálpa" me:msa="xVB fF tPS mSU p3 nP vA iST">
+                        <choice>
+                            <me:facs>&hYGL;&iGE;&aYG;&lGE;&pMD;&eMD;</me:facs>
+                            <me:dipl>hialpe</me:dipl>
+                            <me:norm>hjalpi</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="þá" me:msa="xDD gM nS cD">
+                        <choice>
+                            <me:facs>&thGE;&aeMD;&iGE;&mYGLst;</me:facs>
+                            <me:dipl>þæim</me:dipl>
+                            <me:norm>þeim</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="maðr" me:msa="xNC gM nS cD sI">
+                        <choice>
+                            <me:facs>&mYGLst;&aYG;&nYG;&eMD;</me:facs>
+                            <me:dipl>mane</me:dipl>
+                            <me:norm>manni</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="er" me:msa="xRP">
+                        <choice>
+                            <me:facs>&eMD;&rGE;</me:facs>
+                            <me:dipl>er</me:dipl>
+                            <me:norm>er</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="þessi" me:msa="xDD gF nP cA">
+                        <choice>
+                            <me:facs>&thGE;&eMD;<unclear reason="damage">&sYGSdot;</unclear>&aYG;&rGE;</me:facs>
+                            <me:dipl>þe<supplied type="restoration" resp="MagnusOlsen">s</supplied>ar</me:dipl>
+                            <me:norm>þe<supplied type="restoration" resp="MagnusOlsen">ss</supplied>ar</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="rún" me:msa="xNC gF nP cA sI">
+                        <choice>
+                            <me:facs>&rGE;&uGE;&nYG;&aYG;&rGE;</me:facs>
+                            <me:dipl>runar</me:dipl>
+                            <me:norm>rúnar</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="rísta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                        <choice>
+                            <me:facs>&rGE;&aeMD;&iGE;&sYGSdot;&tYG;</me:facs>
+                            <me:dipl>ræist</me:dipl>
+                            <me:norm>reist</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="með" me:msa="xAP yD">
+                        <choice>
+                            <me:facs>&mYGLst;&eMD;&thGE;&rGE;</me:facs>
+                            <me:dipl>meþr</me:dipl>
+                            <me:norm>með</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="sinn" me:msa="xDP gN nS cD">
+                        <choice>
+                            <me:facs><unclear reason="damage">&sYGSdot;</unclear>&iGE;&nYG;&uGE;</me:facs>
+                            <me:dipl><supplied type="restoration" resp="MagnusOlsen">s</supplied>inu</me:dipl>
+                            <me:norm><supplied type="restoration" resp="MagnusOlsen">s</supplied>ínu</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="heilagr" me:msa="xAJ rP gN nS cD sI">
+                        <choice>
+                            <me:facs>&hYGL;&aeMD;&iGE;&lGE;<add place="inline">&aYG;</add>&hYGL;&uGE;</me:facs>
+                            <me:dipl>hæil<add place="inline">a</add>hu</me:dipl>
+                            <me:norm>heilagu</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="árnaðarorð" me:msa="xNC gN nS cD sI">
+                        <choice>
+                            <me:facs>&aYG;&rGE;&nYG;&aYG;&thGE;&aYG;&rGE; <pc type="runic">&twodotPM;</pc> &oYG;&rGE;&thGE;&eMD;</me:facs>
+                            <me:dipl>arnaþar <pc type="runic">:</pc> orþe</me:dipl>
+                            <me:norm>árnaðarorði</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Gud og den hellige kongen Ólafr hjelpe den mannen som ristet disse runer, med sin hellige forbønn.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>May God and the holy King Ólafr help the man who carved these runes with their holy intercession. </p>
+            </div>
+            <div type="comment" xml:lang="nor"> <!-- OEH 2021-03-25: Har flytta ned kommentaren -->
+                <head>Kommentar</head>
+                <p>De siste ordene “sínu heilagu árnaðarorði” (sin hellige forbønn), “med adjektivet i ubestemt form efter et possessivt pronomen - er ikke vanlig uttrykksmåte.” (NIyR 5: 48)</p>
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <p><figure><graphic url="N478-B.jpg"></graphic></figure></p>
+                <caption>Avtegning av hele innskriften N 478 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <p><figure><graphic url="N478-C.jpg"/></figure></p>
+                <caption>Fotografi av første del av N 478. Fra NIyR V: 47. Lisens: CC-BY-SA 4.0</caption>
+                <p><figure><graphic url="N478-F.jpg"/></figure></p>
+                <caption>Avtegning av første del av N 478 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0</caption>
+                <p><figure><graphic url="N478-D.jpg"/></figure></p>
+                <caption>Fotografi av andre del av N 478. Fra NIyR V: 47. Lisens: CC-BY-SA 4.0</caption>
+                <p><figure><graphic url="N478-G.jpg"/></figure></p>
+                <caption>Avtegning av andre del av N 478 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0</caption>
+                <p><figure><graphic url="N478-E.jpg"/></figure></p>
+                <caption>Fotografi av tredje del av N 478. Fra NIyR V: 47. Lisens: CC-BY-SA 4.0</caption>
+                <p><figure><graphic url="N478-H.jpg"/></figure></p>
+                <caption>Avtegning av tredje del av N 478 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0</caption>
+                
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katharina Sophie Kühnel (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>

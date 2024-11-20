@@ -1,0 +1,301 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>B 390 : Bryggen, Bergen, Vestland : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>James</forename>
+							<forename>E.</forename>
+							<surname>Knirk</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in <title>Runer frå Bryggen</title>, 1964, p. 21</resp>
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Robert</forename>
+							<forename>K.</forename>
+							<surname>Paulsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-03-05">5 March 2021</date>.</edition>
+			</editionStmt>
+			<extent n="9">9 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="RunicArchives">B 390</idno>
+				<date when="2021-01-27">27 January 2021</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Photo from Bryggens Museum, Bergen.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>60.398, 5.32</settlement>
+						<repository>Bryggens Museum</repository>
+						<idno>B 390</idno>
+						<msName>B 390 : Bryggen, Bergen, Vestland</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="stick">
+							<supportDesc>
+								<support>
+									<p><material>wood</material>.</p>
+								</support>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1170" notAfter="1198">c. 1170-1198</origDate></origin> <!-- Should have been 1170/71 -->
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Kept in Bryggens Museum</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This encoding follows the standard set out in <title>The Menota handbook</title> (version 3.0), at <ref target="http://www.menota.org/handbook.xml">http://www.menota.org/handbook.xml</ref> as of <date>2019-12-12</date>.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering in Aslak Liestøl, <title>Runer frå Bryggen </title> (1964), p. 21.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic, and normalized. These transcriptions have initially been retrieved automatically from the emroon-database.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+					<p>The whole text has been lemmatized and morphologically analyzed. These annotations have initially been retrieved automatically from the emroon-database.</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+			</langUsage>
+			<handNotes>
+				<handNote xml:id="h1"/>
+			</handNotes>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2023-06-27</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Inserted a new photo of the inscription.</change>
+			<change>
+				<date>2022-04-18</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-04-05</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the dating and the section on illustrations.</change>
+			<change>
+				<date>2021-08-30</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+			<change><date>2021-03-05</date>
+				<name>
+					<persName>Odd Einar Haugen</persName>
+					<orgName type="affiliation">University of Bergen</orgName>
+				</name>: Revised the header, and added a front and back element. </change>
+			<change><date>2021-01-27</date>
+				<name>
+					<persName>Robert K. Paulsen</persName>
+					<orgName type="affiliation">University of Bergen</orgName>
+				</name>: File was created automatically from the <ref target="http://www.emroon.no">emroon</ref> Menota export at <ref target="http://www.emroon.no/export.html?Menota:runetest">http://www.emroon.no/export.html?Menota:runetest</ref>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+				<head><hi rend="bold">Signum</hi>: B 390 ||  
+					<hi rend="bold">Stad</hi>: Bryggen, Bergen, Vestland ||  
+					<hi rend="bold">Kart</hi>: Lenke kommer her || 
+					<hi rend="bold">Datering</hi>: c. 1170-1198 <lb/>
+					<hi rend="bold">Materiale</hi>: Tre ||  
+					<hi rend="bold">Status</hi>: Bevart ||  
+					<hi rend="bold">Utgåve</hi>: Enno ikkje i NIyR ||
+					<hi rend="bold">SamNord</hi>: <ref
+						target="http://kulturarvsdata.se/uu/srdb/b1ec362b-fcff-4d2a-b655-286346f55833" type="external">B 390</ref>
+				</head>
+				<p>Ein liten, halvrund pinne med ei innskrift fullstendig utan ordmellomrom. I denne attgjevinga er innskrifta delt i ni ord. Kan tolkast som skryt eller kan hende som ei åtvaring. Jf. Aslak Liestøl, <title>Runer frå Bryggen</title> (1964), s. 21.</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+			</div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+				<p>
+				<pb ed="ms" n="1r"/>
+				<lb ed="ms" n="1"/>
+					<handShift new="#h1"/>
+					<seg type="nb">
+						<w lemma="Ingibj&oogon;rg" me:msa="xNP gF nS cN sI">
+							<choice>
+								<me:facs>&#x16C1;&#x16BF;&#x16B4;&#x16C2;&#x16D2;&#x16C1;&#x16AF;&#x16B1;&#x16B4;</me:facs>
+								<me:dipl>inkebiørk</me:dipl>
+								<me:norm>Ingibj&oogon;rg</me:norm>
+							</choice>
+						</w>
+						<w lemma="unna" me:msa="xVB fF tPT mIN p3 nS vA iPP">
+							<choice>
+								<me:facs>&#x16A2;&#x16BF;&#x16C1;</me:facs>
+								<me:dipl>uni</me:dipl>
+								<me:norm>unni</me:norm>
+							</choice>
+						</w>
+						<w lemma="ek" me:msa="xPE p1 nS cD">
+							<choice>
+								<me:facs>&mMedrun;&#x16C2;&#x16B1;</me:facs>
+								<me:dipl>mer</me:dipl>
+								<me:norm>mér</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:norm>,</me:norm>
+							</choice>
+						</pc>
+						<w lemma="þá" me:msa="xAV">
+							<choice>
+								<me:facs>&#x16A6;&#x16C6;</me:facs>
+								<me:dipl>þa</me:dipl>
+								<me:norm>þá</me:norm>
+							</choice>
+						</w>
+						<w lemma="er" me:msa="xCS">
+							<choice>
+								<me:facs>&#x16C2;&#x16B1;</me:facs>
+								<me:dipl>er</me:dipl>
+								<me:norm>er</me:norm>
+							</choice>
+						</w>
+						<w lemma="ek" me:msa="xPE p1 nS cN">
+							<choice>
+								<me:facs>&#x16C1;&#x16B4;</me:facs>
+								<me:dipl>ik</me:dipl>
+								<me:norm>ek</me:norm>
+							</choice>
+						</w>
+						<w lemma="vera" me:msa="xVB fF tPT mIN p1 nS vA iST">
+							<choice>
+								<me:facs>&#x16A2;&#x16C6;&#x16B1;</me:facs>
+								<me:dipl>uar</me:dipl>
+								<me:norm>var</me:norm>
+							</choice>
+						</w>
+						<w lemma="í" me:msa="xAP yD">
+							<choice>
+								<me:facs>&#x16C1;</me:facs>
+								<me:dipl>i</me:dipl>
+								<me:norm>í</me:norm>
+							</choice>
+						</w>
+						<w lemma="Stafangr" me:msa="xNP gM nS cD sI">
+							<choice>
+								<me:facs>&#x16CC;&#x16A6;&#x16C6;&#x16A0;&#x16C6;&#x16B4;&#x16B1;&#x16C1;</me:facs>
+								<me:dipl>sþafakri</me:dipl>
+								<me:norm>Stafangri</me:norm>
+							</choice>
+						</w>
+					</seg>
+					<pc type="runic">
+						<choice>
+							<me:norm>.</me:norm>
+						</choice>
+					</pc>
+				</p>
+			</div>
+		</body>
+		<back>
+			<div type="translation" xml:lang="nor">
+				<head>Omsetjing til norsk</head>
+				<p>Ingebjørg elska meg då eg var i Stavanger.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+				<p>Ingibjǫrg loved me when I was in Stavanger.</p>
+			</div>
+			<div type="illustration">
+				<head>Illustrasjonar</head>
+             <figure><graphic url="B390-A.jpg"/></figure>
+				<caption>Fotografi av B 390 ved Kristel Zilmer, Kulturhistorisk museum, Runearkivet. Lisens: CC BY-SA 4.0.</caption>
+				<figure><graphic url="B390-B.jpg"/></figure>
+				<caption>Avteikning av B 390 ved Saskia J. Cowan (2021). Lisens: CC BY-SA 4.0.</caption> 
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kjelder</head> <!-- NYTT: Vi brukar elementet <bibl> om kvar kjelde. Innførslane for NIyR og SamNOrd kan kopierast direkte herifrå. -->
+				<bibl>Liestøl, Aslak. 1964. <title>Runer frå Bryggen</title>, s. 21. – Særtrykk fra <title>Viking</title> (1964).</bibl>
+				<bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Robert K. Paulsen (Universitetet i Bergen, 2021)</p> <!-- NYTT: Vi legg til institusjon og årstal. -->
+				<note type="explanation">Innførselen byggjer på publiserte ressursar, særleg Liestøl (1964) og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+			</div>
+		</back>
+	</text>
+</TEI>

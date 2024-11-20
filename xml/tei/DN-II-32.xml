@@ -1,0 +1,128 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 2:32 = RN 2:666 : 2.–8. mars 1292 : Bergen : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.2">Version 0.8.2, <date when="2024-02-08">8 February 2024</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-11-16">16 November 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <idno>DN 2:32</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 2:666</idno></altIdentifier>
+                  <msName>1292 March 2–8 : Bergen</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="placeholder" defective="false">
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>Bergen</origPlace>
+                     <origDate notBefore="1292" notAfter="1292">1292 March 2–8</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+         <date>2024-02-07</date>
+         <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+         <orgName>Universitetet i Bergen</orgName>: Shortened the comment on the dating.</change>
+         <change>
+            <date>2023-11-16</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Built this file as a placeholder for the now lost document DN 1:103
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+   
+   <text xml:lang="nor"> 
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: 2.–8. mars 1292 || <hi rend="bold">Stad</hi>: Bergen. </head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er no tapt, men det er kjent gjennom ei avskrift i ein seinare vidisse, <ref type="internal" target="DN_bind_02_brevnr_079">DN 2:79</ref>, utferda etter 6. desember 1303. Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet av avskrifta i vidissen.</p>
+               <p>Dateringa byggjer på RN 2:666, som skriv: I DN feildatert til “sidst i Febr. 1293”.</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 2, nr. 32</head>
+               <p>Sigurd Lagmand tildömmer Brödrene Odd paa Rogn og Hollrod paa Ringheim som rette Odelsmænd Gaarden Birkjar paa Voss, som Einar Pinung gjorde Paastand paa Lod i. (jfr. I. No. 97-100.)</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 2, nr. 666</head>
+               <p>Domsbrev frå Sigurd lagmann: Brørne Odd på Rogne og Hollrod på Ringheim hadde saman med Einar Pinning oppsøkt lagmannen på Aga for å få avgjort odelssøksmålet om garden Byrkjo. Dei to brørne blir tildømt garden, som Einar derfor må late frå seg (jfr nr 667 ).</p>
+            </div>
+         </div>
+      </front>
+      
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty -->
+         <div type="diplom">
+         </div>        
+      </body>          
+   </text>
+</TEI>

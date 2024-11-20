@@ -1,0 +1,123 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 2:22 = RN 2:468 : [around 1286 Aug 28]: [Oslo] : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.2">Version 0.8.2, <date when="2023-11-21">21 November 2023</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-01-30">31 January 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <idno>DN 2:22</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 2:468</idno></altIdentifier>
+                  <msName>[around 1286 Aug 28]: [Oslo]</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem defective="false"> <!-- Her kan vi leggje inn ein passande kategori som class. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>[Oslo]</origPlace>
+                     <origDate notBefore="1286" notAfter="1286">[around 1286 Aug 28]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-01-31</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Made this file as a place holder for the lost original DN 2:22
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+   
+   <text xml:lang="nor"> 
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: [rundt 28. august 1286] || <hi rend="bold">Stad</hi>: [Oslo]. </head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet har vore forfatta på latin og er no tapt. Det er kjent gjennom ei avskrift i ein noko yngre vidisse, <ref type="internal" target="DN_bind_02_brevnr_023">DN 2:23</ref>, der det er omsett til norsk. Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet i avskrifta i denne vidissen</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 2, nr. 22</head>
+               <p>Hugucio, Pave Honorii IV Kapellan og Legat til de 3 nordiske Riger (jfr. I. No. 75.), opfordrer Oslo Stifts Geistlige og Verdslige til inden Jul at betale den skyldige Tiende til det hellige Land, samt andre Gaver, Löftefe, Korslösning o. dsl., og lover dem i saa Fald Aflösning af den Band, hvori de ved Forsömmelsen hidtil ere faldne; men truer de Forsömmelige med streng Band og Pengeböder. (jfr. I. No. 78.).</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 2, nr. 440</head>
+               <p>Påbod frå Uguccio, pavens kapellan og sendemann, tiendekollektor i Norge, Danmark og Sverige, til alle klerkar og lekmenn i Oslo bispedøme: I samsvar med påbod frå pave Honorius IV (nr 404 ) er han komen hit for å få utbetalt all uteståande tiende, gåver, avgifter, krossløysingspengar og andre ting til hjelp for det heilage landet. Paven har og pålagt han å reise søksmål mot dei som heilt eller delvis ikkje til rett tid har betalt det dei pliktar. Oppmodar alle om å gjere greitt for seg innan jul, om dei ikkje vil falle i ekskommunikasjon og store bøter.</p>
+            </div>
+         </div>
+      </front>
+      
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty. -->
+         <div type="diplom">
+         </div>        
+      </body>          
+   </text>
+</TEI>

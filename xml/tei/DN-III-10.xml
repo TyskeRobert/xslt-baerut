@@ -1,0 +1,125 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 3:10 = RN 2:1059 : [1267 aug 16 – ca 1300] : [Nidaros] : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.2">Version 0.8.2, <date when="2024-02-07">7 February 2024</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2022-12-01">1 December 2022</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement> <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository> <!-- Dette kan vi vente med -->
+                  <idno>DN 3:10</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 2:1059</idno></altIdentifier>
+                  <msName>[1267 aug 16 – ca 1300] : Nidaros</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="vidimus" defective="false"> <!-- Her kan vi leggje inn kategorien “vidimus”. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>Nidaros</origPlace>
+                     <origDate notBefore="1267" notAfter="1300">[1267 aug 16 – ca 1300]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-01-03</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Made this file as a documentation of the vidimus diploma DN 3:46, using DN 3:10 as signature
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+  
+   <text xml:lang="nor"> 
+       <front>
+                      <div type="abstracts">
+                         <head><hi rend="bold">Dato</hi>: [16. august 1267 – omkring 1300] || <hi rend="bold">Stad</hi>: Nidaros. </head>
+                         <div source="intro">
+                            <head>Bakgrunn</head>
+                            <p>Dette diplomet er no tapt, men det er kjent gjennom ei avskrift i ein yngre vidisse, <ref type="internal" target="DN_bind_03_brevnr_046">DN 3:46</ref> frå omkring 1300. Det tapte diplomet var sjølv ein vidisse, som gav att i omsetjing til norsk eit diplom på latin, utferda i Nidaros 16. august 1267 og utgjeve i DN 1:61.</p>
+                            </div>
+                      <div source="DN">
+                         <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 3, nr. 10</head>
+                         <p>Erkebiskop Haakon skjænker St. Andreæ Kirke paa Haug (i Verdalen) med dens Gods til Kannikernes fælles Bordhold ved Nidaros Domkirke. Indtaget i næstfölgende Pave Clemens’s Stadfæstelse [<ref type="internal" target="DN_bind_03_brevnr_011">DN 3:11</ref>].</p>
+                      </div>
+                      <div source="RN">
+                         <head>Frå <title>Regesta Norvegica</title>, bd. 2, nr. 1059</head>
+                         <p>Omsetting til gno av nr 52 [RN 2:52].</p>
+                      </div>
+                      </div>
+                   </front>
+     
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty. -->
+   <div type="diplom">
+     </div>        
+   </body>          
+</text>
+</TEI>

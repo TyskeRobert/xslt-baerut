@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng"> <!-- NYTT: Merk at teksten i <teiHeader xml:lang="eng"> skal vere på engelsk. I elementet <text> nedanfor slår vi over til norsk. -->
+		<fileDesc>
+			<titleStmt>
+				<title>N 58 † : Li farm, Gausdal, Innlandet : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 1, pp. 118–123</resp>
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-03-06">6 March 2021</date>.</edition>
+			</editionStmt>
+			<extent n="6">6 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">I 118–123</idno>
+				<date when="2018-02-13">13 February 2018</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>61.2768, 10.1327</settlement> <!-- NYTT: Vi hentar koordinatane frå den samnordiske runetekstdatabasen. Vi kan truleg få inn kartvising i løpet av hausten 2021, og då vil den byggje på dei koordinatane som ligg her. -->
+						<idno>N 58</idno>
+						<msName>N 58 † : Li farm, Gausdal, Innlandet</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="memorial-stone"> <!-- NYTT: Her er det rom for kategorisering/genrebestemming av innskrifta, men det er noko vi ikkje skal bruke tid på enno. Her har eg berre lagt inn “memorial-stone” (mellomrom blir ikkje akseptert) som ein mogleg kategori. For å bruke dette feltet må vi setje opp ein typologi, og den manglar enno. -->
+							<supportDesc>
+								<support>
+									<p><material>stone</material>.</p> <!-- NYTT: Denne er enkel nok - vi brukar termar som “stone”, “tree”, “bone”, “metal” o.l. Opplysninga kjem på nytt lenger nede i <front>, og der nyttar vi   norske termar. Elles er det fullt mogleg å leggje inn litt fritekst her. Då kan ein gjere det i ein ny <p>, t.d. “Etter det som er opplyst i NIyR, er det tale om granitt.”-->
+									<p></p>
+								</support>
+								<condition></condition> <!-- NYTT: Dette feltet er ikkje obligatorisk. Men om ønskeleg kan ein leggje inn tekst av typen “Partially damaged” e.l. -->
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1050" notAfter="1100">c. 1050-1100</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="lost">Lost in 1839. Now only known in earlier drawings.</note> <!-- NYTT: Det synest ikkje vere nokon opplagd stad for å notere at innskriftsgjenstanden er tapt. Men det er mogleg å leggje det inn som ein <note> i <adminInfo> i elementet <additional>. Med tanke på ekstraksjon av data, kan ein gje <note>-elementet attributtet @type med verdiane ‘extant’ eller ‘lost’. Så kan ein bruke <note>-elementet til å kommentere kvar innskriftsgjenstanden er å finne, om den er bevart, eller korleis vi kjenner til den, dersom den er tapt. Gjer det kortfatta. Status for innskrifta kjem vi tilbake til i <front>-elementet nedanfor, der vi brukar dei norske termane “Bevart” eller “Tapt”. -->
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 1, pp. 118–123.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2021-10-02</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Added links to the individual volumes of NIyR.</change>
+			<change>
+				<date>2021-09-20</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Added a link to the SamNord database in the initial lines, and implemented web links in the references
+				to NIyR and SamNord in the Sources section.</change>
+			<change>
+				<date>2021-09-15</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Added a note in the front element with a link to an explanatory file for the catalogue and its individual parts.</change>
+			<change>
+				<date>2021-08-31</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor revision of the template.</change>
+			<change>
+				<date>2021-08-26</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the file into a template file for further work on the encoding of runic inscriptions</change>
+			<change>
+				<date>2021-03-15</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Updated the header, and added a front and a back element</change>
+			<change>
+				<date>2021-01-24</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first, extended version of this file for the runic course in the spring term of 2021</change>
+			<change>
+				<date>2018-02-13</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file and had it published in the test archive of Menota</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<!-- NYTT: Header er som nemnt ovanfor forfatta på engelsk, men når vi no går over til <text>, er det norsk som gjeld. Du må bestemme deg for om du vil bruke nynorsk eller bokmål, og passe på at all tekst kjem i same målform. Denne malen er utfylt på nynorsk, så om du brukar bokmål, må du merke deg desse endringane i titlar:
+		Stad > Sted, Utgåve > Utgave, Omsetjing til norsk/engelsk > Oversettelse til norsk/engelsk, Kjelder > Kilder -->
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+                  	<head><hi rend="bold">Signum</hi>: N 58 || 
+                  		<hi rend="bold">Stad</hi>: Li gard, Gausdal, Innlandet [Oppland] ||
+                  		<hi rend="bold">Datering</hi>: ca. 1050–1100 
+                  		<hi rend="bold">Kart</hi>: På veg || <lb/>
+                  		<hi rend="bold">Materiale</hi>: Stein || 
+                  		<hi rend="bold">Status</hi>: Tapt ||  <!-- NYTT: Ny kategori i samsvar med <additional> ovanfor, men med norsk tekst. Om innskrifta er tapt, skriv du “Tapt”. Om innskrifta er bevart på staden, skriv du “Bevart på staden”/“Bevart på stedet”. Om innskrifta er flytta til eit museum e.l., kan du nemne dette kortfatta, t.d. “Bevart, no i Bryggens museum”/“Bevart, nå i Bryggens Museum”. Om du har ei meir detaljert referanse, t.d. med nummer frå samlinga, kan du ta det heile med i "p" nedanfor. -->
+                  		<hi rend="bold">Utgåve</hi>: NIyR I: 118–123 || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/a227e751-17d3-4f62-b504-f82f785b8e58" type="external">N 58</ref> <!-- NYTT: Legg inn den referansen du finn i SamNord under “Referera enligt följande” og skriv inn signum akkurat slik det står i Runor, her “N 58”. -->
+                  	</head>
+			</div>
+			<div type="presentation">
+				<head>Omtale</head>
+                  	<p>Denne bautasteinen frå garden Li i Gausdal kommune har ei innskrift som dokumenterer utsetjing av fisk i Raudsjøen, som ligg vestanfor garden og høgare oppe i terrenget. I 1839 vart steinen brukt til grunnmur i eit fjøs på garden, og har seinare ikkje vore attfunnen. Innskrifta har vore avteikna tre gonger, seinast i 1833 av student Chr. C.A. Lange, seinare riksantikvar. Lange fortel at steinen var rekna som bortkommen, men legg til: “Imidlertid fandt jeg den ved et Besøg i G[a]usdal i Juli Maaned 1833 opstillet af Bonden i Gaardens Have, hvortil den for kort Tid siden var bragt fra Udmarken nede ved Elven, hvor den forhen havde staaet. Stenen er omtrent 2 1/4 Alen lang [ca. 140 cm] og 1/2 Alen [ca. 30 cm] i Gjennemsnitt. [...] Den er af en sortblank meget haard Steenart, der klang næsten som Metal, naar man slog paa den, endog med Træe.” Jf. NIyR I: 119-120.</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>  <!-- NYTT: La denne noten stå akkurat slik. Den lenkar til ei pdf-fil som forklarar oppsettet av runekatalogen. -->
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskrifta</head> <!-- NYTT: Denne blir vist i same skriftgrad som <head> i <div type="translation"> nedanfor. På bokmål kan du skrive “innskriften”. -->
+					<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+						<w lemma="Eilífr" me:msa="xNP gM nS cN sI" > <!-- NYTT: Vi satsar på full morfologisk annotajon. -->
+								<choice>
+									<me:facs>ᛆᛁᛚᛁᚠᚱ</me:facs>
+									<me:dipl>ailifr</me:dipl>
+									<me:norm>Eilífr</me:norm>
+								</choice>
+							</w>
+						<pc type="runic"> <!-- NYTT: Interpunksjonen står i eit eige element “pc”. Dersom det ikkje skal visast interpunksjon på alle nivåa, treng du ikkje leggje inn dei tomme nivåa - i dette tilfellet “me:dipl” og “me:norm”.-->
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="elgr" me:msa="xNC gM nS cN sI">
+								<choice>
+									<me:facs>ᛆᛚᚴᚱ</me:facs>
+									<me:dipl>alkr</me:dipl>
+									<me:norm>elgr</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="bera" me:msa="xVB fF tPT mIN p3 nS vA iST">
+								<choice>
+									<me:facs>ᛒᛆᚱ</me:facs>
+									<me:dipl>bar</me:dipl>
+									<me:norm>bar</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="fiskr" me:msa="xNC gM nP cA sI">
+								<choice>
+									<me:facs>ᚠᛁᛋᚴᛆ</me:facs>
+									<me:dipl>fiska</me:dipl>
+									<me:norm>fiska</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+							<w lemma="í" me:msa="xAP">
+								<choice>
+									<me:facs>ᛁ</me:facs>
+									<me:dipl>i</me:dipl>
+									<me:norm>í</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Rauðusjór" me:msa="xNP gM nS cA sI">
+								<choice>
+									<me:facs>ᚱᛆᚢᚦᚢ <pc type="runic">:</pc> ᛋᛁᚮ</me:facs>
+									<me:dipl>rauþu sio</me:dipl>
+									<me:norm>Rauðusjó</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:norm>.</me:norm>
+							</choice>
+						</pc>
+					</p>			
+			</div>
+		</body>
+		<back>	
+			<div type="translation" xml:lang="nor">
+				<head>Omsetjing til norsk</head> <!-- NYTT: Her er det naturleg å følgje NIyR, men du kan tilpasse omsetjinga til di eiga målform. -->
+				<p>Eiliv Elg sette fiskar i Raudsjøen.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Omsetjing til engelsk (etter innførselen i SamNord)</head> <!-- NYTT: Har lagt til ein parentes med referanse til SamNord. -->
+				<p>Eilífr Elk carried (ie. released) fish into Rauðusjór.</p>	
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Som nemnt ovanfor har innskrifta  vore avteikna tre gonger, først av Gerhard Schøning i 1775, deretter av M.F. Arendt i 1805 og endeleg i 1833 av  Chr. C.A. Lange. Dei tre teikningane gjev ikkje att runene heilt likt. Det er verdt å merke seg at i avteikningna til Lange, som er vist nedanfor, er det andre ordet attgjeve som ᛁᛚᚴᚱ <hi rend="bold">ilkr</hi> og det tredje som ᛒᛁᚱ <hi rend="bold">bir</hi>, men på grunnlag av dei to andre avteikningane er desse orda tolka som ᛆᛚᚴᚱ <hi rend="bold">alkr</hi> og ᛒᛆᚱ <hi rend="bold">bar</hi>. Jf. NIyR I: 119–121.</p> <!-- NYTT: Legg merke til korleis runeteikn og translittereringar av desse er koda her. Om ein ikkje kan taste inn runeteikna direkte, må ein bruke entitetar. -->
+				<p>Det skal tidlegare ha vore aure (ørret) i Raudsjøen, men i nyare tid vart det sett ut gjedde: <ref
+					target="https://no.wikipedia.org/wiki/Raudsjøen" type="external">Raudsjøen</ref></p>
+			</div>			
+			<div type="illustration">
+				<head>Illustrasjonar</head> <!-- Eller på bokmål “Illustrasjoner”. -->
+				<figure><graphic url="N58-A.jpg"/></figure>
+				<caption>Avteikning av N 58 ved Chr.A. Lange (1833). Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N58-B.jpg"/></figure>
+				<caption>Avteikning av N 58 ved Gerhard Shøning (1775). Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N58-C.jpg"/></figure>
+				<caption>Avteikning av N 58 ved M.F. Arendt (1805). Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kjelder</head> <!-- NYTT: Vi brukar elementet <bibl> for kvar kjelde. Innførslane for NIyR og SamNord kan kopierast direkte herifrå, berre tilpassa nynorsk eller bokmål. For ein bokmålsversjon, sjå t.d. A53. -->
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2008041600054" type="external">Bd. 1</ref> (1941), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2011110908131" type="external">bd. 2</ref> (1951), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2016010508032" type="external">bd. 3</ref> (1954), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604065" type="external">bd. 5</ref> (1960), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014021748073" type="external">bd. 6:1</ref> (1980), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014052708113" type="external">bd. 6:2</ref> (1990), <ref  target="https://folk.ntnu.no/ivar/filer/Hagland1997-Trondheimsruner.pdf" type="external">bd. 7</ref> (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg berre for norske IP-adresser (utanom bd. 7).</bibl>
+				<bibl>“Raudsjøen.” Artikkel i den norske <title>Wikipedia</title>, <ref
+					target="https://no.wikipedia.org/wiki/Raudsjøen" type="external">https://no.wikipedia.org/wiki/Raudsjøen</ref>. Lesen 26. august 2021.</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Odd Einar Haugen (Universitetet i Bergen, 2021)</p> <!-- NYTT: Vi legg til institusjon og årstal. -->
+				<note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> <!-- NYTT: Denne skal kome i grått (ettersom note-elementet har type-attributt med verdien ‘explanation’) Her er teksten på nynorsk. Bokmålsversjonen ser slik ut:
+					Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene. -->
+				<!-- Denne teksten kan tilpassast når det er andre viktige kjelder som kjem i tillegg. Sjå t.d. A74 for døme på dette. -->
+			</div>
+		</back>
+	</text>
+</TEI>

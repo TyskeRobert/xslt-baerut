@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 22 † : Frogner church, Frogner, Oslo : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 1, pp. 50-54</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katharina</forename>
+                            <forename>Sophie</forename>
+                            <surname>Kühnel</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename> 
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-04-10">10 April 2021</date>.</edition> 
+            </editionStmt>
+            <extent n="15">15 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">I 50-54</idno>
+                <date when="2021-04-10">10 April 2021</date> 
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawing from NIyR</bibl> 
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>59.9175, 10.7066</settlement>
+                        <idno>N 22</idno>
+                        <msName>N 22 † : Frogner church, Frogner, Oslo</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="plaster">
+                            <supportDesc>
+                                <support>
+                                    <p><material>plaster</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1150" notAfter="1250">c. 1200</origDate></origin>  <!-- OEH 2021-04-16: Etter det Magnus Olsen skriv i NIyR I: 54 trur eg vi inntil vidare kan datere innskrifta til tidsrommet 1150-1250, uttrykt som “c. 1200 -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="lost">See report in NIyR I: 50-54</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook</title>
+                    (version 4.0 beta), at <ref target="http://www.menota.org/handbook">
+                        http://www.menota.org/handbook</ref> as of <date>2021-03-14</date>.</p>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 1, pp. 50-54.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                    <date>2022-04-18</date>
+                    <name>Olga Kalinovskaia</name>
+                    <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+                <date>2022-04-06</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-18</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols and normalisation
+            </change>
+            <change>
+                <date>2021-08-30</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>  
+                <date>2021-04-10</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: added images</change>
+            <change>
+                <date>2021-04-01</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made the first working draft of this file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 22 ||  
+                    <hi rend="bold">Sted</hi>: Frogner kirke, Frogner, Oslo ||  
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1200 <lb/>
+                    <hi rend="bold">Materiale</hi>: Kalkpuss ||  
+                    <hi rend="bold">Status</hi>: Tapt ||  
+                    <hi rend="bold">Utgave</hi>: NIyR I: 50–54 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/db6c015e-1631-4dbb-92ed-75f53910cac8" type="external">N 22</ref>
+                </head>
+                <p>Runene var ristet inn i kalkpussen på innsiden av en vegg i kirken. Innskriften var 71,5 cm lang, men et stykke mangler, så 
+                    den må ha vært minst 2,5 cm lengre. Dens høyde var mellom 4,3 og 5,5 cm. Runene er nå tapt.</p> <!-- OEH 2021-04-16: Ørlite finpussing av språket -->
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                        <w lemma="Guð" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs><supplied reason="restoration" resp="MagnusOlsen">&gMDst;</supplied>&uGE;&thGE;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="MagnusOlsen">g</supplied>uþ</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="MagnusOlsen">G</supplied>uð</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="signa" me:msa="xVB fF tPS mSU p3 nS vA iWK">
+                            <choice>
+                                <me:facs>&sYGSdot;&iGE;&hYGL;&nYG;&iGE;</me:facs>
+                                <me:dipl>sihni</me:dipl>
+                                <me:norm>signi</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sá" me:msa="xDD gM nS cA">
+                            <choice>
+                                <me:facs>&thGE;&eMD;&nYG;</me:facs>
+                                <me:dipl>þen</me:dipl>
+                                <me:norm>þann</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="maðr" me:msa="xNC gM nS cA sI">
+                            <choice>
+                                <me:facs>&mYGLst;&aYG;&nYG;</me:facs>
+                                <me:dipl>man</me:dipl>
+                                <me:norm>mann</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="er" me:msa="xRP">
+                            <choice>
+                                <me:facs>&eMD;&rGE;</me:facs>
+                                <me:dipl>er</me:dipl>
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="gera" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+                            <choice>
+                                <me:facs>&gMDst;&eMD;&rGE;&thGE;&eMD;</me:facs>
+                                <me:dipl>gerþe</me:dipl>
+                                <me:norm>gerði</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:norm>,</me:norm>
+                            </choice>
+                        </pc>
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs>&aYG;&uGE;&kYG;</me:facs>
+                                <me:dipl>auk</me:dipl>
+                                <me:norm>ok</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sá" me:msa="xDD gM nS cA">
+                            <choice>
+                                <me:facs>&thGE;&eMD;&nYG;</me:facs>
+                                <me:dipl>þen</me:dipl>
+                                <me:norm>þann</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="er" me:msa="xRP">
+                            <choice>
+                                <me:facs>&eMD;&rGE;</me:facs>
+                                <me:dipl>er</me:dipl>
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="gera" me:msa="xVB fI tPS vA iWK">
+                            <choice>
+                                <me:facs>&gMDst;&eMD;&rGE;&aYG;</me:facs>
+                                <me:dipl>gera</me:dipl>
+                                <me:norm>gera</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="láta" me:msa="xVB fF tPT mIN p3 nS vA iRD">
+                            <choice>
+                                <me:facs>&lGE;&eMD;&tYG;</me:facs>
+                                <me:dipl>let</me:dipl>
+                                <me:norm>lét</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sá" me:msa="xDD gN nS cN">
+                            <choice>
+                                <me:facs>&thGE;&aYG;&tYG;</me:facs>
+                                <me:dipl>þat</me:dipl>
+                                <me:norm>þat</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs><seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl><seg type="lig">e&#xF538;r</seg></me:dipl>
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="Erlingr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&eMD;&lGE;&lGE;&iGE;&nYG;&gMDst;&rGE;</me:facs>
+                                <me:dipl>ellingr</me:dipl>
+                                <me:norm>Erlingr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="Loptsson" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&lGE;&oYG;<unclear reason="weathered">****</unclear></me:facs>
+                                <me:dipl>lo<unclear reason="weathered">****</unclear></me:dipl>
+                                <me:norm>Lo<supplied reason="restoration" resp="MagnusOlsen">ptsson</supplied></me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Gud signe den mann som gjorde (meg), og den som lot gjøre (meg), det er Erlingr Lo(ftsson).</p> <!-- OEH 2021-04-16: Litt finpussing av språket -->
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>God bless the man who made (me) and he who had (me) made, that is Erlingr Lo(ftsson)</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head> 
+                <p>Ved en brann i kirken i juni 1918, som ødela alt unntatt veggene, ble det ytterste kalklaget inne i kirken flenget løs. Det innerste laget, som var så gammelt som kirkens opprettelse, ble blottlagt, og på en vegg fant man fem parallelle linjer og runetegn. Den første runen i innskriften mangler helt, og de siste tegnene kunne man ikke se under pussen fordi den “her sad meget løst og tildels allerede var udfalden” (NIyR I: 52). Olsen formoder at det siste ordet er &lGE;&oYG;&fGEst;&sYGS;&oYG;&nYG; <hi rend="bold">Lof(t)s(s)on</hi> eller &lGE;&oYG;&fGEst;&sYGS;&uGE;&nYG; <hi rend="bold">Lof(t)s(s)un</hi>. Språket er eldre østlandsk med vokalharmoni i &sYGSdot;&iGE;&hYGL;&nYG;&iGE; <hi rend="bold">sihni</hi> og &gMDst;&eMD;&rGE;&thGE;&eMD; <hi rend="bold">gerþe</hi>, og den østlandske formen &thGE;&eMD;&nYG; <hi rend="bold">þen</hi> (normalisert <hi rend="italic">þann</hi>). Innskriften viser til byggmesteren og byggherren til kirken. Man kan “hverken fra runologisk og sproglig eller fra bygningshistorisk hold uttale noget bestemt om kirkens alder” (NIyR I: 54). Olsen daterer runene til omkring 1200. Innskriften ble ødelagt etter et par år på grunn av væte og frost, og under et besøk i 1937 fant 
+                    Magnus Olsen ingenting bevart. Idéen om at hele murveggen skulle ha blitt flyttet til en samling for å bevare den hadde blitt forkastet tidligere.</p> <!-- OEH 2021-04-16: Litt finpussing av språket, og en revisjon av translittereringa for å få fram dei språklege poenga, m.a. med vokalharmoni. -->
+            </div>
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <figure><graphic url="N22-A.jpg"/></figure>
+                <caption>Avtegning av N 22. Gjengitt etter NIyR I: 52. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katharina Sophie Kühnel (Universitetet i Bergen, 2021)</p>
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+            </div>
+        </back>
+    </text>
+</TEI>

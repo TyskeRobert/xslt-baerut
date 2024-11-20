@@ -1,0 +1,4754 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns:me="http://www.menota.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>A fragment of Díalógar (Viðrǿður) Gregors páfa : NRA norr fragm 72 and 76 : A digital edition</title>
+				<editor>
+					<name>
+						<persName>
+							<forename>Nina</forename>
+							<surname>Stensaker</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name>
+						<persName>Nina Stensaker</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>MenotaBlitz technology developed by</resp>
+					<name>
+						<persName>Robert Kristof Paulsen</persName>
+						<orgName type="affiliation">Universitetet i Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>MLA technology for normalisation developed by</resp>
+					<name>
+						<persName>Paul Meurer</persName>
+						<orgName type="affiliation">Universitetet i Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">First full three-level version, generated with MenotaBlitz and MLA,
+					<date when="2023-07-27">27 July 2023</date>
+				</edition>
+			</editionStmt>
+			<extent n="1157">1157</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="Menota">Ms. ??</idno>
+				<date when="2023-08-14">14 August 2023</date>
+				<availability status="free">
+					<licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+					<p>Licence accepted by the editor Nina Stensaker in a meeting with Odd Einar
+						Haugen, 17 Sep 2018.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note>Produced as part of my PhD project at <orgName type="affiliation">University
+					of Bergen</orgName>.</note>
+			</notesStmt>
+			<sourceDesc>
+				<bibl facs="yes">Photographic facsimiles of the whole fragment from the National Archives (Riksarkivet) in Oslo.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Norway</country>
+						<settlement>Oslo</settlement>
+						<repository>Riksarkivet</repository>
+						<idno>NRA norr fragm 72 and 76</idno>
+						<msName>A fragment of Díalógar (Viðrǿður) Gregors páfa</msName>
+					</msIdentifier>
+					<msContents>
+						<msItem n="1">
+							<locus from="1r" to="2v">1r–2v</locus>
+							<title type="main">Díalógar (Viðrǿður) Gregors páfa</title>
+							<title type="abbreviated">GregDialFrg</title>
+							<textLang mainLang="isl">Icelandic</textLang>
+						</msItem>
+					</msContents>
+					<history>
+						<origin>
+							<p>Written in <origPlace>Iceland</origPlace>
+								<origDate notBefore="1200" notAfter="1300">c. 1275</origDate>.</p>
+						</origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This encoding follows the standard set out in
+					<title>The Menota Handbook (3.0)</title>,
+					at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+					as of <date when="2021-02-13">13 February 2021</date>.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been transcribed directly from photographic colour facsimiles
+						of the manuscript.</p>
+				</correction>
+				<normalization me:level="facs dipl">
+					<p>This text has been encoded on all two focal levels: facsimile and diplomatic.</p>    
+				</normalization>
+				<interpretation me:lemmatized="none" me:morphAnalyzed="none">
+					<p>This text has not been annotated or lemmatised.</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="isl">Icelandic</language>
+				<language ident="lat">Latin</language>
+			</langUsage>
+			<handNotes>
+				<handNote>h1</handNote>
+			</handNotes>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2023-11-09">
+				<p>(1) La til front-element med noe bakgrunnsinformasjon.
+				(2) La til noter om hvor alle skiftene av hender skjer i følge Hreinn Benediktsson.</p>
+			</change>
+			<change when="2023-08-15">
+				<p>(1) Flere rettelser i header
+				(2) Korrertur av facs-nivå.
+				(3) Korrektur av dipl-nivå.</p>
+			</change>
+            <change when="2023-08-14">
+                <p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref>
+                    "menotaFDNL"-style transcription</p>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+    	<front>
+    		<div type="background">
+    			<head>Bakgrunn</head>
+    			<p>Dette fragmentet gjengir deler av <title>Gregors saga páfa</title> og <title>Díalógar (Viðrǿður) Gregors páfa</title>.
+    				Signaturen NRA norr fragm 72 &amp; 76 består av seks fragmenter som utgjør delene av to blad (1r-2v).
+    			</p>
+    			<p>Fragmentene er énspaltet og Hreinn Benediktsson hevder at det er skrevet av tre ulike, 
+    				islandske skriverhender. Han omtaler dem som hånd II, V og VI.
+    			</p>
+    				<p>
+    				Hånd II har skrevet 1r1-16, 1v1-8 + 12-19, samt resten av håndskriftet fra 2r4.
+    				</p>
+    				<p>
+    				Hånd V har skrevet 1r16-19, 1v10-12 og 2r1-4.
+    				</p>
+    				<p>
+    				Hånd VI har skrvet 1v8-9.
+    				</p>
+    			<p>Fragmentene har tilhørt samme kodeks som NRA 71 og 75, i tillegg har AM 921 IV 4to også tilhørt samme kodeks.
+    			</p>
+    			<p>Fragmentene ble funnet i fogderegnskap fra Ryfylke og Stavangerlen 1627 og Jæren 1626. </p>
+    			<p>Det finnes fem initialer og fire rubrikker i fragmentene.</p>
+    			<p>Supplert tekst er hentet fra Hreinn Benediktssons utgave <title>The Life of St. Gregory and his Dialogues</title> (1963).</p>
+    		</div>
+    	</front>
+        <body>
+			<div>
+				<p>
+					<pb ed="ms" n="1r"/>
+					<note type="comment" resp="NS">De første 16 linjen er skrevet av hånd II i følge
+					Hreinn Benediktsson.</note>
+					<pc xml:id="w100">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							</choice>
+					</pc>
+					<note type="explanation" resp="NS">I første linjen kan en skimte nederste del av bokstavene.
+						Teksten er supplert etter Hreinn Benediktsson (1963), s. 58.</note>
+					<w xml:id="w200">
+						<choice>
+							<me:facs><unclear><gap reason="damage" unit="char" quantity="2"></gap><lb ed="ms" n="1"/>ca</unclear></me:facs>
+							<me:dipl><supplied reason="restoration" resp="Hreinn Benediktsson, 1963">ta</supplied><lb ed="ms" n="1"/>ca</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w300">
+						<choice>
+							<me:facs><unclear>mıc</unclear></me:facs>
+							<me:dipl>mic</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w400">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w500">
+						<choice>
+							<me:facs><unclear>&Eunc;n</unclear></me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w600">
+						<choice>
+							<me:facs><unclear>þa</unclear></me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w700">
+						<choice>
+							<me:facs><unclear>&trot;oc</unclear></me:facs>
+							<me:dipl>toc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w800">
+						<choice>
+							<me:facs><unclear>þuer</unclear></me:facs>
+							<me:dipl>þuer</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w900">
+						<choice>
+							<me:facs><unclear>a&trot;</unclear></me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1000">
+						<choice>
+							<me:facs><unclear>bolua</unclear></me:facs>
+							<me:dipl>bolua</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1100">
+						<choice>
+							<me:facs><unclear>&slong;em</unclear></me:facs>
+							<me:dipl>sem</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1200">
+						<choice>
+							<me:facs><unclear>&hrdes;<am>&bar;</am></unclear></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1300">
+						<choice>
+							<me:facs><unclear>var</unclear></me:facs>
+							<me:dipl>var</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1400">
+						<choice>
+							<me:facs><unclear>vanr</unclear></me:facs>
+							<me:dipl>vanr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1500">
+						<choice>
+							<me:facs><unclear><am>&etslash;</am></unclear></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1600">
+						<choice>
+							<me:facs><unclear>mela</unclear></me:facs>
+							<me:dipl>mela</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1700">
+						<choice>
+							<me:facs><unclear>gvð</unclear></me:facs>
+							<me:dipl>gvð</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="2"/>
+					<w xml:id="w1800">
+						<choice>
+							<me:facs>la&slongtlig;an</me:facs>
+							<me:dipl>lastan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w1900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w2000">
+						<choice>
+							<me:facs>&drot;o</me:facs>
+							<me:dipl>do</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w2100">
+						<choice>
+							<me:facs>þegar</me:facs>
+							<me:dipl>þegar</me:dipl>
+							</choice>
+					</w>
+					<seg type="nb">
+						<w xml:id="w2200">
+							<choice>
+								<me:facs>ı</me:facs>
+								<me:dipl>i</me:dipl>
+								
+							</choice>
+						</w>
+						<w xml:id="w2300">
+							<choice>
+								<me:facs>þ<am>&bar;</am>rı</me:facs>
+								<me:dipl>þ<ex>ei</ex>ri</me:dipl>
+								
+							</choice>
+						</w>
+					</seg>
+					<w xml:id="w2400">
+						<choice>
+							<me:facs>&slong;vnð</me:facs>
+							<me:dipl>svnð</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w2500">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w2600">
+						<choice>
+							<me:facs>Guð</me:facs>
+							<me:dipl>Guð</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w2700">
+						<choice>
+							<me:facs>&slong;yn&drot;ı</me:facs>
+							<me:dipl>syndi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w2800">
+						<choice>
+							<me:facs>&fins;<am>&inodotsup;</am></me:facs>
+							<me:dipl>f<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w2900">
+						<choice>
+							<me:facs>&hrdes;v<am>&er;</am>ıa</me:facs>
+							<me:dipl>hv<ex>er</ex>ia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3000">
+						<choice>
+							<me:facs>&slong;ekð</me:facs>
+							<me:dipl>sekð</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3100">
+						<choice>
+							<me:facs>&slong;veın</me:facs>
+							<me:dipl>svein</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="3"/>
+					<w xml:id="w3200">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3300">
+						<choice>
+							<me:facs>&slong;lıc<am>&ra;</am>r</me:facs>
+							<me:dipl>slic<ex>ra</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3400">
+						<choice>
+							<me:facs>gagn&fins;arar</me:facs>
+							<me:dipl>gagnfarar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3500">
+						<choice>
+							<me:facs>v<am>&er;</am>ð&rrot;</me:facs>
+							<me:dipl>v<ex>er</ex>ðr</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w3600">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w3700">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3800">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w3900">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4000">
+						<choice>
+							<me:facs>m<am>&bar;</am>l&trot;ı</me:facs>
+							<me:dipl>m<ex>æ</ex>lti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4100">
+						<choice>
+							<me:facs>gvðla&slongtlig;an</me:facs>
+							<me:dipl>gvðlastan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4200">
+						<choice>
+							<me:facs>að&rrot;</me:facs>
+							<me:dipl>aðr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4300">
+						<choice>
+							<me:facs>h<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4400">
+						<choice>
+							<me:facs>&drot;øı</me:facs>
+							<me:dipl>døi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4500">
+						<choice>
+							<me:facs>&trot;ıl</me:facs>
+							<me:dipl>til</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="4"/>
+					<w xml:id="w4600">
+						<choice>
+							<me:facs>þe&slong;&slong;</me:facs>
+							<me:dipl>þess</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4700">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4800">
+						<choice>
+							<me:facs>þa&trot;<am>&er;</am></me:facs>
+							<me:dipl>þat<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w4900">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5000">
+						<choice>
+							<me:facs>ken&drot;ı</me:facs>
+							<me:dipl>kendi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5100">
+						<choice>
+							<me:facs>&slong;ekð</me:facs>
+							<me:dipl>sekð</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5200">
+						<choice>
+							<me:facs>&slong;ına</me:facs>
+							<me:dipl>sina</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5300">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5400">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5500">
+						<choice>
+							<me:facs>vr&avlig;kðı</me:facs>
+							<me:dipl>vraokði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5600">
+						<choice>
+							<me:facs>on&drot;</me:facs>
+							<me:dipl>ond</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5700">
+						<choice>
+							<me:facs>&slong;on<am>&ra;</am></me:facs>
+							<me:dipl>son<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5800">
+						<choice>
+							<me:facs>&slong;ín&slong;</me:facs>
+							<me:dipl>síns</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w5900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6000">
+						<choice>
+							<me:facs>&hrdes;a&fins;<lb ed="ms" n="5"/>ðı</me:facs>
+							<me:dipl>haf<lb ed="ms" n="5"/>ði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6100">
+						<choice>
+							<me:facs>&fins;&avlig;&drot;&drot;an</me:facs>
+							<me:dipl>faoddan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6200">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6300">
+						<choice>
+							<me:facs>&trot;ıl</me:facs>
+							<me:dipl>til</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6400">
+						<choice>
+							<me:facs>pın&slong;la</me:facs>
+							<me:dipl>pinsla</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6500">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6600">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6700">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6800">
+						<choice>
+							<me:facs>vıll&drot;ı</me:facs>
+							<me:dipl>villdi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w6900">
+						<choice>
+							<me:facs>e<am>&bar;</am>g</me:facs>
+							<me:dipl>e<ex>i</ex>g<ex>i</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w7000">
+						<choice>
+							<me:facs>q<am>&inodotsup;</am>ð&inodot;a</me:facs>
+							<me:dipl>q<ex>vi</ex>ðia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w7100">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>m</me:facs>
+							<me:dipl>h<ex>onu</ex>m</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w7200">
+						<choice>
+							<me:facs>ıl&zstrok;co</me:facs>
+							<me:dipl>ilzco</me:dipl>
+							</choice>
+					</w>
+				</p>
+			</div>
+        	<div>
+        		<head>
+        			<w lemma="" me:msa="" xml:id="w7300">
+        				<choice>
+        					<me:facs><am>G G</am></me:facs>
+        					<me:dipl><ex>Gregorius</ex></me:dipl>
+        					
+        				</choice>
+        			</w>
+        		</head>
+        		<p>
+					<lb ed="ms" n="6"/>
+					<w xml:id="w7400">
+						<choice>
+							<me:facs><c type="initial">S</c>&trot;ep&hscap;an<am>&sem;</am></me:facs>
+							<me:dipl>Step&hscap;an<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+        			<!-- Overraskende med semikonolon som forkortelse for us, hadde forventet en et us-tegn. -->
+					<w xml:id="w7500">
+						<choice>
+							<me:facs>&hrdes;e&trot;</me:facs>
+							<me:dipl>het</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w7600">
+						<choice>
+							<me:facs>eın<am>&bar;</am></me:facs>
+							<me:dipl>ein<ex>n</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w7700">
+						<choice>
+							<me:facs>&gscap;<am>&ssup;</am></me:facs>
+							<me:dipl>&gscap;<ex>uðs</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w7800">
+						<choice>
+							<me:facs><pc>.</pc><am>&mMedrun;</am><pc>.</pc></me:facs>
+							<me:dipl><pc>.</pc><ex>maðr</ex><pc>.</pc></me:dipl>
+							</choice>
+					</w>
+        			<!-- Runetegn. -->
+					<w xml:id="w7900">
+						<choice>
+							<me:facs>&slong;a</me:facs>
+							<me:dipl>sa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8000">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8100">
+						<choice>
+							<me:facs>onga</me:facs>
+							<me:dipl>onga</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8200">
+						<choice>
+							<me:facs>a&trot;&trot;ı</me:facs>
+							<me:dipl>atti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8300">
+						<choice>
+							<me:facs>avra</me:facs>
+							<me:dipl>avra</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8400">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8500">
+						<choice>
+							<me:facs>uıll&drot;ı</me:facs>
+							<me:dipl>uilldi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8600">
+						<choice>
+							<me:facs>onga</me:facs>
+							<me:dipl>onga</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="7"/>
+					<w xml:id="w8700">
+						<choice>
+							<me:facs>eıga</me:facs>
+							<me:dipl>eiga</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8800">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w8900">
+						<choice>
+							<me:facs>el&slong;caðı</me:facs>
+							<me:dipl>elscaði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9000">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9100">
+						<choice>
+							<me:facs>meı&rscap;</me:facs>
+							<me:dipl>mei&rscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9200">
+						<choice>
+							<me:facs>valað</me:facs>
+							<me:dipl>valað</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9300">
+						<choice>
+							<me:facs>&slong;ı&trot;&trot;</me:facs>
+							<me:dipl>sitt</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9400">
+						<choice>
+							<me:facs>en</me:facs>
+							<me:dipl>en</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9500">
+						<choice>
+							<me:facs>avðe&fins;ı</me:facs>
+							<me:dipl>avðefi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9600">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9700">
+						<choice>
+							<me:facs>&hrdes;a&fins;ðı</me:facs>
+							<me:dipl>hafði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w9900">
+						<choice>
+							<me:facs>þo</me:facs>
+							<me:dipl>þo</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="8"/>
+					<w xml:id="w10000">
+						<choice>
+							<me:facs>lınm&oslashogon;ðı</me:facs>
+							<me:dipl>linmøði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10100">
+						<choice>
+							<me:facs>vıð</me:facs>
+							<me:dipl>við</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10200">
+						<choice>
+							<me:facs>allar</me:facs>
+							<me:dipl>allar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10300">
+						<choice>
+							<me:facs>meıngo&rrot;ð<am>&er;</am></me:facs>
+							<me:dipl>meingorð<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10400">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10500">
+						<choice>
+							<me:facs>&fins;lyðı</me:facs>
+							<me:dipl>flyði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10600">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10700">
+						<choice>
+							<me:facs>þy&slong;</me:facs>
+							<me:dipl>þys</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10800">
+						<choice>
+							<me:facs>alþyðo</me:facs>
+							<me:dipl>alþyðo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w10900">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w11000">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w11100">
+						<choice>
+							<me:facs>me&trot;<lb ed="ms" n="9"/>&trot;ı</me:facs>
+							<me:dipl>met<lb ed="ms" n="9"/>ti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w11200">
+						<choice>
+							<me:facs>ıa&fins;nan</me:facs>
+							<me:dipl>iafnan</me:dipl>
+							</choice>
+					</w>
+					<seg type="nb">
+						<w xml:id="w11300">
+							<choice>
+								<me:facs>a</me:facs>
+								<me:dipl>a</me:dipl>
+								
+							</choice>
+						</w>
+						<w xml:id="w11400">
+							<choice>
+								<me:facs>b&oogon;no<am>&bar;</am></me:facs>
+								<me:dipl>b&oogon;no<ex>m</ex></me:dipl>
+								
+							</choice>
+						</w>
+					</seg>
+					<w xml:id="w11500">
+						<choice>
+							<me:facs>v<am>&er;</am>a</me:facs>
+							<me:dipl>v<ex>er</ex>a</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w11600">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w11700">
+						<choice>
+							<me:facs>&Eunc;ına</me:facs>
+							<me:dipl>Eina</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w11800">
+						<choice>
+							<me:facs>man</me:facs>
+							<me:dipl>man</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w11900">
+						<choice>
+							<me:facs>ek</me:facs>
+							<me:dipl>ek</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12000">
+						<choice>
+							<me:facs>&slong;egıa</me:facs>
+							<me:dipl>segia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12100">
+						<choice>
+							<me:facs>ıar&trot;egn</me:facs>
+							<me:dipl>iartegn</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12200">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12300">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12400">
+						<choice>
+							<me:facs>þa<lb ed="ms" n="10"/>ðan</me:facs>
+							<me:dipl>þa<lb ed="ms" n="10"/>ðan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12500">
+						<choice>
+							<me:facs>megı</me:facs>
+							<me:dipl>megi</me:dipl>
+							</choice>
+					</w>
+        			<surplus reason="dittography">
+					<w xml:id="w12600">
+						<choice>
+							<me:facs>megı</me:facs>
+							<me:dipl>megi</me:dipl>
+							</choice>
+					</w>
+        			</surplus>
+					<w xml:id="w12700">
+						<choice>
+							<me:facs>margar</me:facs>
+							<me:dipl>margar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12800">
+						<choice>
+							<me:facs>o&fins;</me:facs>
+							<me:dipl>of</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w12900">
+						<choice>
+							<me:facs>m<am>&er;</am>kıa</me:facs>
+							<me:dipl>m<ex>er</ex>kia</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w13000">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w13100">
+						<choice>
+							<me:facs>&aenl;</me:facs>
+							<me:dipl>A</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13200">
+						<choice>
+							<me:facs>nøco<am>&rum;</am></me:facs>
+							<me:dipl>nøco<ex>rum</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13300">
+						<choice>
+							<me:facs>&drot;egı</me:facs>
+							<me:dipl>degi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13400">
+						<choice>
+							<me:facs>&hrdes;a&fins;ðı</me:facs>
+							<me:dipl>hafði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13500">
+						<choice>
+							<me:facs>&slong;&trot;ep&hscap;a<lb ed="ms" n="11"/>n<am>&sem;</am></me:facs>
+							<me:dipl>step&hscap;a<lb ed="ms" n="11"/>n<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13600">
+						<choice>
+							<me:facs>upp</me:facs>
+							<me:dipl>upp</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13700">
+						<choice>
+							<me:facs>&slong;co&rrot;ın<am>&bar;</am></me:facs>
+							<me:dipl>sciorin<ex>n</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13800">
+						<choice>
+							<me:facs>akr</me:facs>
+							<me:dipl>akr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w13900">
+						<choice>
+							<me:facs>&slong;ín</me:facs>
+							<me:dipl>sín</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14000">
+						<choice>
+							<me:facs>þan</me:facs>
+							<me:dipl>þan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14100">
+						<choice>
+							<me:facs>eín</me:facs>
+							<me:dipl>eín</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14200">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14300">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14400">
+						<choice>
+							<me:facs>a&trot;&trot;ı</me:facs>
+							<me:dipl>atti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14500">
+						<choice>
+							<me:facs>&trot;<am>&inodotsup;</am></me:facs>
+							<me:dipl>t<ex>il</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14600">
+						<choice>
+							<me:facs>allra</me:facs>
+							<me:dipl>allra</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14700">
+						<choice>
+							<me:facs>mı&slong;&slong;ara</me:facs>
+							<me:dipl>missara</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w14800">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="12"/>
+					<w xml:id="w14900">
+						<choice>
+							<me:facs>vın<am>&bar;</am>o</me:facs>
+							<me:dipl>vin<ex>n</ex>o</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15000">
+						<choice>
+							<me:facs>&sscap;<am>&er;</am></me:facs>
+							<me:dipl>&sscap;<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15100">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15200">
+						<choice>
+							<me:facs>lęrı&slong;veıno<am>&bar;</am></me:facs>
+							<me:dipl>lęrisveino<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15300">
+						<choice>
+							<me:facs>&slong;ıno<am>&bar;</am></me:facs>
+							<me:dipl>sino<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15400">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15500">
+						<choice>
+							<me:facs>&hrdes;a&fins;ðı</me:facs>
+							<me:dipl>hafði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15600">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15700">
+						<choice>
+							<me:facs>bo&rrot;ı&trot;</me:facs>
+							<me:dipl>borit</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15800">
+						<choice>
+							<me:facs>bun&drot;ın</me:facs>
+							<me:dipl>bundin</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w15900">
+						<choice>
+							<me:facs>&trot;<am>&inodotsup;</am></me:facs>
+							<me:dipl>t<ex>il</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w16000">
+						<choice>
+							<me:facs>bu&gscap;&hrdes;loðo</me:facs>
+							<me:dipl>bu&gscap;hloðo</me:dipl>
+							</choice>
+					</w>
+        			<note type="explanation" resp="NS">Her starter NRA norr fragm 76. Den første
+        			linjen er nesten uleselig, men en kan skimte de nederste delene av bokstavene. Teksten
+        			er supplert fra Hreinn Benediktsson 1963, s. 58.</note>
+					<lb ed="ms" n="13"/>
+					<w xml:id="w16100">
+						<choice>
+							<me:facs><unclear>&Eunc;n</unclear></me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w16200">
+						<choice>
+							<me:facs><unclear>ıllıgarn</unclear></me:facs>
+							<me:dipl>illigarn</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w16300">
+						<choice>
+							<me:facs><unclear><am>&mMedrun;</am></unclear></me:facs>
+							<me:dipl><ex>maðr</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w16400">
+						<choice>
+							<me:facs><unclear>naco&rrot;</unclear></me:facs>
+							<me:dipl>nacor</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w16500">
+						<choice>
+							<me:facs><unclear>com</unclear></me:facs>
+							<me:dipl>com</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w16600">
+						<choice>
+							<me:facs><unclear>&trot;ıl</unclear></me:facs>
+							<me:dipl>til</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w16700">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<gap reason="cut" quantity="1" unit="line"></gap><note type="comment" resp="NS">Resten
+					av linjen er uleselig.</note>
+					<lb ed="ms" n="14"/>
+					<pc xml:id="w16800">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							</choice>
+					</pc>
+        			<w xml:id="w16900">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w17000">
+						<choice>
+							<me:facs>ın<am>&bar;</am>ı</me:facs>
+							<me:dipl>in<ex>n</ex>i</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w17100">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w17200">
+						<choice>
+							<me:facs>Oc</me:facs>
+							<me:dipl>Oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w17300">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w17400">
+						<choice>
+							<me:facs>an<am>&bar;</am>a&rscap;</me:facs>
+							<me:dipl>an<ex>n</ex>a&rscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w17500">
+						<choice>
+							<me:facs><am>&mMedrun;</am></me:facs>
+							<me:dipl><ex>maðr</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w17600">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w17700">
+						<choice>
+							<me:facs>&slong;a</me:facs>
+							<me:dipl>sa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w17800">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w17900">
+						<choice>
+							<me:facs>ran<am>&bar;</am></me:facs>
+							<me:dipl>ran<ex>n</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18000">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18100">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w18200">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<gap reason="cut" quantity="1" unit="line"></gap>
+        			<note type="comment" resp="NS">Resten
+        				av linjen er uleselig.</note>
+					<lb ed="ms" n="15"/>
+        			<pc xml:id="w18300">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w18400">
+						<choice>
+							<me:facs>þan<am>&bar;</am></me:facs>
+							<me:dipl>þan<ex>n</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18500">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18600">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>m</me:facs>
+							<me:dipl>h<ex>onu</ex>m</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18700">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18800">
+						<choice>
+							<me:facs>go&rscap;</me:facs>
+							<me:dipl>go&rscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w18900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w19000">
+						<choice>
+							<me:facs>&hrdes;armaðı</me:facs>
+							<me:dipl>harmaði</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w19100">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<gap reason="cut" quantity="1" unit="line"></gap>
+        			<note type="comment" resp="NS">Resten
+        				av linjen er uleselig.</note>
+					<lb ed="ms" n="16"/>
+        			<pc xml:id="w19200">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w19300">
+						<choice>
+							<me:facs>uı&trot;a</me:facs>
+							<me:dipl>uita</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w19400">
+						<choice>
+							<me:facs>&hrdes;v<am>&er;</am>r</me:facs>
+							<me:dipl>hv<ex>er</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w19500">
+						<choice>
+							<me:facs>&drot;yrðar</me:facs>
+							<me:dipl>dyrðar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w19600">
+						<choice>
+							<me:facs><am>&mMedrun;</am></me:facs>
+							<me:dipl><ex>maðr</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w19700">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w19800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w19900">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Her starter hånd V i følger Hreinn Benediktsson.</note>
+					<w xml:id="w20000">
+						<choice>
+							<me:facs>&hrdes;armaþv</me:facs>
+							<me:dipl>harmaþv</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20100">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20200">
+						<choice>
+							<me:facs>q<am>&asup;</am>þ</me:facs>
+							<me:dipl>q<ex>va</ex>þ</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20300">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20400">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20500">
+						<choice>
+							<me:facs>þeı<am>&bar;</am></me:facs>
+							<me:dipl>þei<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20600">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20700">
+						<choice>
+							<me:facs>orþe&trot;</me:facs>
+							<me:dipl>orþet</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="17"/>
+					<w xml:id="w20800">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w20900">
+						<choice>
+							<me:facs>þe&trot;&trot;a</me:facs>
+							<me:dipl>þetta</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21000">
+						<choice>
+							<me:facs>g<am>&er;</am>þı</me:facs>
+							<me:dipl>g<ex>er</ex>þi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21100">
+						<choice>
+							<me:facs>þ<am>&bar;</am>&trot;</me:facs>
+							<me:dipl>þ<ex>via</ex>t</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21200">
+						<choice>
+							<me:facs>m<am>&er;</am></me:facs>
+							<me:dipl>m<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21300">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21400">
+						<choice>
+							<me:facs>eckı</me:facs>
+							<me:dipl>ecki</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21500">
+						<choice>
+							<me:facs>&trot;ıl</me:facs>
+							<me:dipl>til</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21600">
+						<choice>
+							<me:facs>meín&slong;</me:facs>
+							<me:dipl>meíns</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w21700">
+						<choice>
+							<me:facs>o&rrot;þe&trot;</me:facs>
+							<me:dipl>orþet</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w21800">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w21900">
+						<choice>
+							<me:facs>&aenl;&fins;</me:facs>
+							<me:dipl>Af</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22000">
+						<choice>
+							<me:facs>þ<am>&inodotsup;</am></me:facs>
+							<me:dipl>þ<ex>vi</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22100">
+						<choice>
+							<me:facs>megv<am>&bar;</am></me:facs>
+							<me:dipl>megv<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22200">
+						<choice>
+							<me:facs>v<am>&er;</am></me:facs>
+							<me:dipl>v<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22300">
+						<choice>
+							<me:facs>vı&trot;a</me:facs>
+							<me:dipl>vita</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="18"/>
+					<w xml:id="w22400">
+						<choice>
+							<me:facs><am>&lbar;</am></me:facs>
+							<me:dipl><ex>ve</ex>l</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22500">
+						<choice>
+							<me:facs>v<am>&er;</am>þa</me:facs>
+							<me:dipl>v<ex>ir</ex>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22600">
+						<choice>
+							<me:facs>&hrdes;v<am>&er;</am>n</me:facs>
+							<me:dipl>hv<ex>er</ex>n</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22700">
+						<choice>
+							<me:facs>&hrdes;vgar</me:facs>
+							<me:dipl>hvgar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22800">
+						<choice>
+							<me:facs>c<am>&ra;</am>&fins;&trot;</me:facs>
+							<me:dipl>c<ex>ra</ex>ft</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w22900">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23000">
+						<choice>
+							<me:facs>&hrdes;a&fins;þı</me:facs>
+							<me:dipl>hafþi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23100">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23200">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23300">
+						<choice>
+							<me:facs>bar</me:facs>
+							<me:dipl>bar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23400">
+						<choice>
+							<me:facs>&slong;va</me:facs>
+							<me:dipl>sva</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23500">
+						<choice>
+							<me:facs>þolenmoþlega</me:facs>
+							<me:dipl>þolenmoþlega</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="19"/>
+					<w xml:id="w23600">
+						<choice>
+							<me:facs>&slong;caþa</me:facs>
+							<me:dipl>scaþa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23700">
+						<choice>
+							<me:facs>&slong;ı&nscap;</me:facs>
+							<me:dipl>si&nscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23800">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w23900">
+						<choice>
+							<me:facs>&hrdes;armaþı</me:facs>
+							<me:dipl>harmaþi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24000">
+						<choice>
+							<me:facs>meı&rscap;</me:facs>
+							<me:dipl>mei&rscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24100">
+						<choice>
+							<me:facs>an&drot;ar</me:facs>
+							<me:dipl>andar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24200">
+						<choice>
+							<me:facs>&slong;caþa</me:facs>
+							<me:dipl>scaþa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24300">
+						<choice>
+							<me:facs>þe&sscap;</me:facs>
+							<me:dipl>þe&sscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24400">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24500">
+						<choice>
+							<me:facs>&slong;ynþ</me:facs>
+							<me:dipl>synþ</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w24600">
+						<choice>
+							<me:facs>g<am>&er;</am>þe</me:facs>
+							<me:dipl>g<ex>er</ex>þe</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w24700">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<pb ed="ms" n="1v"/>
+					<lb ed="ms" n="1"/>
+        			<note type="explanation" resp="NS">I første linje skimtes kun nederste del av bokstavene. Teksten
+        				er supplert fra Hreinn Benediktsson 1963, s. 59.</note>
+        			<pc xml:id="w24800">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<note type="comment" resp="NS">Her er det hånd II i følge Hreinn Benediktsson.</note>
+					<w xml:id="w24900">
+						<choice>
+							<me:facs><unclear>co<am>&bar;</am></unclear></me:facs>
+							<me:dipl>co<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25000">
+						<choice>
+							<me:facs><unclear>ı&fins;<am>&er;</am></unclear></me:facs>
+							<me:dipl>if<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25100">
+						<choice>
+							<me:facs><unclear>þa</unclear></me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25200">
+						<choice>
+							<me:facs><unclear>e<am>&er;</am></unclear></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25300">
+						<choice>
+							<me:facs><unclear>&hrdes;ıa</unclear></me:facs>
+							<me:dipl>hia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25400">
+						<choice>
+							<me:facs><unclear>&slong;&trot;oðo</unclear></me:facs>
+							<me:dipl>stoðo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25500">
+						<choice>
+							<me:facs><unclear>&slong;va</unclear></me:facs>
+							<me:dipl>sva</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25600">
+						<choice>
+							<me:facs><unclear>a&trot;</unclear></me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25700">
+						<choice>
+							<me:facs><unclear>e&nrdes;e</unclear></me:facs>
+							<me:dipl>ene</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25800">
+						<choice>
+							<me:facs><unclear>ma&trot;&trot;ı</unclear></me:facs>
+							<me:dipl>matti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w25900">
+						<choice>
+							<me:facs>upp</me:facs>
+							<me:dipl>upp</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26000">
+						<choice>
+							<me:facs>&slong;&trot;an&drot;a</me:facs>
+							<me:dipl>standa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26200">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26300">
+						<choice>
+							<me:facs>an<lb ed="ms" n="2"/>la&trot;</me:facs>
+							<me:dipl>an<lb ed="ms" n="2"/>lat</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26400">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26500">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26600">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26700">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w26800">
+						<choice>
+							<me:facs>e&eng;la</me:facs>
+							<me:dipl>e&eng;la</me:dipl>
+							</choice>
+					</w>
+        			<!-- Sjekk om dette er ordet engla eller enla, hvis det er forkortelse for ng
+        			må eng setter i am/ex. -->
+					<w xml:id="w26900">
+						<choice>
+							<me:facs>&slong;a</me:facs>
+							<me:dipl>sa</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w27000">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w27100">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w27200">
+						<choice>
+							<me:facs>&slong;va</me:facs>
+							<me:dipl>sva</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w27300">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w27400">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w27500">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w27600">
+						<choice>
+							<me:facs>&slong;a</me:facs>
+							<me:dipl>sa</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w27700">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w27800">
+						<choice>
+							<me:facs>urðo</me:facs>
+							<me:dipl>urðo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w27900">
+						<choice>
+							<me:facs>all<am>&er;</am></me:facs>
+							<me:dipl>all<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28000">
+						<choice>
+							<me:facs>eın<am>&bar;</am>ı</me:facs>
+							<me:dipl>ein<ex>n</ex>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28100">
+						<choice>
+							<me:facs>ogn</me:facs>
+							<me:dipl>ogn</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28200">
+						<choice>
+							<me:facs>&slong;cel&fins;<lb ed="ms" n="3"/>ð<am>&er;</am></me:facs>
+							<me:dipl>scelf<lb ed="ms" n="3"/>ð<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28300">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28400">
+						<choice>
+							<me:facs>un&drot;&rrot;aðo</me:facs>
+							<me:dipl>undraðo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28500">
+						<choice>
+							<me:facs>&hrdes;v<am>&er;</am>&slong;o</me:facs>
+							<me:dipl>hv<ex>er</ex>so</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28600">
+						<choice>
+							<me:facs>mıkıll</me:facs>
+							<me:dipl>mikill</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28700">
+						<choice>
+							<me:facs>c<am>&ra;</am>p&trot;r</me:facs>
+							<me:dipl>c<ex>ra</ex>ptr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28800">
+						<choice>
+							<me:facs>co<am>&bar;</am></me:facs>
+							<me:dipl>co<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w28900">
+						<choice>
+							<me:facs>ı</me:facs>
+							<me:dipl>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29000">
+						<choice>
+							<me:facs>mo&trot;</me:facs>
+							<me:dipl>mot</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29100">
+						<choice>
+							<me:facs>on&drot;o</me:facs>
+							<me:dipl>ondo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29200">
+						<choice>
+							<me:facs>&slongtlig;ep&hscap;anı</me:facs>
+							<me:dipl>step&hscap;ani</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w29300">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w29400">
+						<choice>
+							<me:facs>þ<am>&bar;</am>&trot;</me:facs>
+							<me:dipl>þ<ex>via</ex>t</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29500">
+						<choice>
+							<me:facs>en<lb ed="ms" n="4"/>gı</me:facs>
+							<me:dipl>en<lb ed="ms" n="4"/>gi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29600">
+						<choice>
+							<me:facs>ma&trot;&trot;ı</me:facs>
+							<me:dipl>matti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29700">
+						<choice>
+							<me:facs>upp</me:facs>
+							<me:dipl>upp</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29800">
+						<choice>
+							<me:facs>&slong;&trot;an&drot;a</me:facs>
+							<me:dipl>standa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w29900">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30000">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30100">
+						<choice>
+							<me:facs>an&drot;la&trot;</me:facs>
+							<me:dipl>andlat</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30200">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30300">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w30400">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w30500">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30600">
+						<choice>
+							<me:facs>v<am>&er;</am>ð&rrot;</me:facs>
+							<me:dipl>v<ex>er</ex>ðr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30700">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30800">
+						<choice>
+							<me:facs>&slong;&trot;vn&drot;o<am>&bar;</am></me:facs>
+							<me:dipl>stvndo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w30900">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31000">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31100">
+						<choice>
+							<me:facs>v<am>&er;</am>þr</me:facs>
+							<me:dipl>v<ex>er</ex>þr</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="5"/>
+					<w xml:id="w31200">
+						<choice>
+							<me:facs>&slong;yn&drot;&rrot;</me:facs>
+							<me:dipl>syndr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31300">
+						<choice>
+							<me:facs>v<am>&er;</am>þleıkr</me:facs>
+							<me:dipl>v<ex>er</ex>þleikr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31400">
+						<choice>
+							<me:facs>an&drot;ar</me:facs>
+							<me:dipl>andar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31500">
+						<choice>
+							<me:facs>ıan&drot;la&trot;e</me:facs>
+							<me:dipl>iandlate</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w31600">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w31700">
+						<choice>
+							<me:facs>en</me:facs>
+							<me:dipl>en</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31800">
+						<choice>
+							<me:facs>ep&trot;<am>&er;</am></me:facs>
+							<me:dipl>ept<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w31900">
+						<choice>
+							<me:facs>&drot;&avlig;ðan<am>&bar;</am></me:facs>
+							<me:dipl>davðan<ex>n</ex></me:dipl>
+							</choice>
+					</w>
+        			<!-- HB har aolig, men tror det er feil, lenger nede kommer ordet igjen og da har HB avlig. -->
+					<w xml:id="w32000">
+						<choice>
+							<me:facs>uı&trot;<am>&ra;</am>&zstrok;</me:facs>
+							<me:dipl>uit<ex>ra</ex>z</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w32100">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w32200">
+						<choice>
+							<me:facs>&slong;cy&rscap;a</me:facs>
+							<me:dipl>scy&rscap;a</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="6"/>
+					<w xml:id="w32300">
+						<choice>
+							<me:facs>&sscap;ıc<am>&bar;</am></me:facs>
+							<me:dipl>&sscap;ic<ex>ut</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w32400">
+						<choice>
+							<me:facs>&gscap;<am>&us;</am></me:facs>
+							<me:dipl>&gscap;<ex>uðs</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w32500">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w32600">
+						<choice>
+							<me:facs>va&trot;&trot;ar</me:facs>
+							<me:dipl>vattar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w32700">
+						<choice>
+							<me:facs>&trot;oko</me:facs>
+							<me:dipl>toko</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w32800">
+						<choice>
+							<me:facs>g<am>&inodotsup;</am>mmar</me:facs>
+							<me:dipl>g<ex>ri</ex>mmar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w32900">
+						<choice>
+							<me:facs>pın&slong;l<am>&er;</am></me:facs>
+							<me:dipl>pinsl<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33000">
+						<choice>
+							<me:facs>a&fins;</me:facs>
+							<me:dipl>af</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33100">
+						<choice>
+							<me:facs>&hrdes;eıðno<am>&bar;</am></me:facs>
+							<me:dipl>heiðno<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33200">
+						<choice>
+							<me:facs>m<am>&osup;&bar;</am></me:facs>
+							<me:dipl>m<ex>onnom</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w33300">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w33400">
+						<choice>
+							<me:facs>en</me:facs>
+							<me:dipl>en</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33500">
+						<choice>
+							<me:facs>&slong;ıþ<am>&bar;</am></me:facs>
+							<me:dipl>siþ<ex>an</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33600">
+						<choice>
+							<me:facs>&hrdes;v<am>&er;</am>n<lb ed="ms" n="7"/>&drot;ag</me:facs>
+							<me:dipl>hv<ex>er</ex>n<lb ed="ms" n="7"/>dag</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33700">
+						<choice>
+							<me:facs>m<am>&ra;</am>gar</me:facs>
+							<me:dipl>m<ex>ar</ex>gar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33800">
+						<choice>
+							<me:facs>ıar&trot;egn<am>&er;</am></me:facs>
+							<me:dipl>iartegn<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w33900">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34000">
+						<choice>
+							<me:facs>&drot;&avlig;ðo<am>&bar;</am></me:facs>
+							<me:dipl>davðo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34100">
+						<choice>
+							<me:facs>beıno<am>&bar;</am></me:facs>
+							<me:dipl>beino<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34200">
+						<choice>
+							<me:facs>þ<am>&bar;</am>&rscap;a</me:facs>
+							<me:dipl>þ<ex>ei</ex>&rscap;a</me:dipl>
+							</choice>
+					</w>
+				</p>
+			</div>
+        	<div>
+        		<head>
+					<w xml:id="w34300">
+						<choice>
+							<me:facs>Gregorıvs</me:facs>
+							<me:dipl>Gregorivs</me:dipl>
+							</choice>
+					</w>
+        		</head>
+        		<!-- Liggende s. -->
+        		<p>
+					<lb ed="ms" n="8"/>
+					<w xml:id="w34400">
+						<choice>
+							<me:facs><c type="initial">V</c>alen&trot;ın<am>&us;</am></me:facs>
+							<me:dipl>Valentin<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34500">
+						<choice>
+							<me:facs>&hrdes;e&trot;</me:facs>
+							<me:dipl>het</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34600">
+						<choice>
+							<me:facs>abo&trot;ı</me:facs>
+							<me:dipl>aboti</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Her starter hånd VI i følge Hreinn Benediktsson.</note>
+					<w xml:id="w34700">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34800">
+						<choice>
+							<me:facs>réþ</me:facs>
+							<me:dipl>réþ</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w34900">
+						<choice>
+							<me:facs>&fins;&ydot;r</me:facs>
+							<me:dipl>fyr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35000">
+						<choice>
+							<me:facs>munclıfe</me:facs>
+							<me:dipl>munclife</me:dipl>
+							</choice>
+					</w>
+        			<!-- Karolinigsk f. -->
+					<w xml:id="w35100">
+						<choice>
+							<me:facs>ı</me:facs>
+							<me:dipl>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35200">
+						<choice>
+							<me:facs>&hrdes;<am>&er;</am>aþe</me:facs>
+							<me:dipl>h<ex>er</ex>aþe</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35300">
+						<choice>
+							<me:facs>val<am>&er;</am>ıa</me:facs>
+							<me:dipl>val<ex>er</ex>ia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35400">
+						<choice>
+							<me:facs>&eenl;n</me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35500">
+						<choice>
+							<me:facs>ef</me:facs>
+							<me:dipl>ef</me:dipl>
+							</choice>
+					</w>
+        			<!-- Karolingisk f -->
+					<w xml:id="w35600">
+						<choice>
+							<me:facs>la<lb ed="ms" n="9"/>ngb<am>&er;</am>g<am>&er;</am></me:facs>
+							<me:dipl>la<lb ed="ms" n="9"/>ngb<ex>ar</ex>g<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35700">
+						<choice>
+							<me:facs>&hrdes;<am>&er;</am>ıoþo</me:facs>
+							<me:dipl>h<ex>er</ex>ioþo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w35800">
+						<choice>
+							<me:facs>ımvnclíf</me:facs>
+							<me:dipl>imvnclíf</me:dipl>
+							</choice>
+					</w>
+        			<!-- Karolinigsk f. -->
+					<w xml:id="w35900">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>&slong;</me:facs>
+							<me:dipl>h<ex>an</ex>s</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w36000">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w36100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w36200">
+						<choice>
+							<me:facs>grıpu</me:facs>
+							<me:dipl>gripu</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w36300">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w36400">
+						<choice>
+							<me:facs>munca</me:facs>
+							<me:dipl>munca</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w36500">
+						<choice>
+							<me:facs>&trot;va</me:facs>
+							<me:dipl>tva</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w36600">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w36700">
+						<choice>
+							<me:facs>fe&slongtlig;o</me:facs>
+							<me:dipl>festo</me:dipl>
+							</choice>
+					</w>
+        			<!-- Karlonigisk f. -->
+					<w xml:id="w36800">
+						<choice>
+							<me:facs>upp</me:facs>
+							<me:dipl>upp</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Her starter hånd V i følge Hreinn Benediktsson.</note>
+					<lb ed="ms" n="10"/>
+					<w xml:id="w36900">
+						<choice>
+							<me:facs>í</me:facs>
+							<me:dipl>í</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37000">
+						<choice>
+							<me:facs>eí&trot;&trot;</me:facs>
+							<me:dipl>eítt</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37100">
+						<choice>
+							<me:facs>&trot;re</me:facs>
+							<me:dipl>tre</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37200">
+						<choice>
+							<me:facs>báþa</me:facs>
+							<me:dipl>báþa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37300">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37400">
+						<choice>
+							<me:facs>e&nscap;</me:facs>
+							<me:dipl>e&nscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37500">
+						<choice>
+							<me:facs>&slong;ama</me:facs>
+							<me:dipl>sama</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w37600">
+						<choice>
+							<me:facs>&drot;ag</me:facs>
+							<me:dipl>dag</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w37700">
+        				<choice>
+        					<me:facs>.</me:facs>
+        					<me:dipl>.</me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w37800">
+						<choice>
+							<me:facs>&Eunc;n</me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+        			<w xml:id="w37900">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+        			<w xml:id="w38000">
+						<choice>
+							<me:facs>ap&trot;ne</me:facs>
+							<me:dipl>aptne</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38200">
+						<choice>
+							<me:facs>&trot;oco</me:facs>
+							<me:dipl>toco</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38300">
+						<choice>
+							<me:facs>an&drot;<am>&er;</am></me:facs>
+							<me:dipl>and<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38400">
+						<choice>
+							<me:facs>þ<am>&bar;</am>ra</me:facs>
+							<me:dipl>þ<ex>ei</ex>ra</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="11"/>
+					<w xml:id="w38500">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38600">
+						<choice>
+							<me:facs>&slong;yn<am>&ra;</am></me:facs>
+							<me:dipl>syn<ex>va</ex></me:dipl>
+							</choice>
+					</w>
+        			<!-- Usikker på forkortelsestegnet. -->
+					<w xml:id="w38700">
+						<choice>
+							<me:facs>&slong;alma</me:facs>
+							<me:dipl>salma</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38800">
+						<choice>
+							<me:facs>þar</me:facs>
+							<me:dipl>þar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w38900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39000">
+						<choice>
+							<me:facs>lo&fins;</me:facs>
+							<me:dipl>lof</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39100">
+						<choice>
+							<me:facs>gþ&slong;</me:facs>
+							<me:dipl>g<ex>v</ex>þs</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39200">
+						<choice>
+							<me:facs>&slong;vá&trot;</me:facs>
+							<me:dipl>svát</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39300">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39400">
+						<choice>
+							<me:facs>&hrdes;eyrþo</me:facs>
+							<me:dipl>heyrþo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39500">
+						<choice>
+							<me:facs>&slong;o&nrdes;</me:facs>
+							<me:dipl>son</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39600">
+						<choice>
+							<me:facs>e&nscap;</me:facs>
+							<me:dipl>e&nscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39700">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w39800">
+						<choice>
+							<me:facs>bana&trot;</me:facs>
+							<me:dipl>banat</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="12"/>
+					<w xml:id="w39900">
+						<choice>
+							<me:facs>&hrdes;o&fins;þo</me:facs>
+							<me:dipl>hofþo</me:dipl>
+							</choice>
+					</w>
+        			<!-- benediktsson har oogon pð færst o, men ser ikke noe, syns den siste er mer spesiell -->
+					<w xml:id="w40000">
+						<choice>
+							<me:facs>þeı<am>&bar;</am></me:facs>
+							<me:dipl>þei<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40100">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40200">
+						<choice>
+							<me:facs>vn&drot;<am>&ra;</am>þo&slong;c</me:facs>
+							<me:dipl>vnd<ex>ra</ex>þosc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40300">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40400">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40500">
+						<choice>
+							<me:facs>&hrdes;rę&drot;&drot;o&slong;c</me:facs>
+							<me:dipl>hręddosc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40600">
+						<choice>
+							<me:facs>þenna</me:facs>
+							<me:dipl>þenna</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40700">
+						<choice>
+							<me:facs>&slong;o&nrdes;</me:facs>
+							<me:dipl>son</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Her starter hånd II i følge Hreinn Benediktsson.</note>
+					<w xml:id="w40800">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w40900">
+						<choice>
+							<me:facs>þ<am>&er;</am></me:facs>
+							<me:dipl>þ<ex>eir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w41000">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w41100">
+						<choice>
+							<me:facs>&hrdes;<am>&er;</am>leı&drot;&drot;<am>&er;</am></me:facs>
+							<me:dipl>h<ex>er</ex>leidd<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w41200">
+						<choice>
+							<me:facs>v<am>&osup;</am></me:facs>
+							<me:dipl>v<ex>oro</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w41300">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+        			<note type="explanation" resp="NS">Her starter NRA norr fragm 76. 
+        				Første del av linjen er klippet bort og av siste del er kun
+        				nedeste del av bokstavene tilbake. Supplert fra Hreinn Benediktsson 1963, s. 59.</note>
+        			
+					<lb ed="ms" n="13"/>
+        			<gap reason="cut" quantity="1" unit="line"></gap>
+        			<pc xml:id="w41400">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w41500">
+						<choice>
+							<me:facs><unclear>þe&slong;&slong;om</unclear></me:facs>
+							<me:dipl>þessom</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w41600">
+						<choice>
+							<me:facs><unclear>&slong;o&nrdes;</unclear></me:facs>
+							<me:dipl>son</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w41700">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w41800">
+						<choice>
+							<me:facs><unclear>En</unclear></me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w41900">
+						<choice>
+							<me:facs><unclear>le&trot;</unclear></me:facs>
+							<me:dipl>let</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42000">
+						<choice>
+							<me:facs><unclear>&trot;ıl</unclear></me:facs>
+							<me:dipl>til</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42100">
+						<choice>
+							<me:facs><unclear>þe&slong;&slong;</unclear></me:facs>
+							<me:dipl>þess</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42200">
+						<choice>
+							<me:facs><unclear>lıcam&slong;</unclear></me:facs>
+							<me:dipl>licams</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42300">
+						<choice>
+							<me:facs><unclear>ey&trot;o</unclear></me:facs>
+							<me:dipl>eyto</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42400">
+						<choice>
+							<me:facs><unclear>&hrdes;ey</unclear><lb ed="ms" n="14"/><gap reason="damage" unit="char" quantity="2"></gap></me:facs>
+							<me:dipl>hey<lb ed="ms" n="14"/><supplied reason="restoration" resp="HB-1963">ra</supplied></me:dipl>
+							</choice>
+					</w>
+        			<gap reason="cut" quantity="1" unit="line"></gap>
+        			<note type="comment" resp="NS">Første del av linjen er klippert bort.</note>
+					<w xml:id="w42500">
+						<choice>
+							<me:facs><gap reason="damage" unit="char" quantity="5"></gap>&drot;ı</me:facs>
+							<me:dipl><supplied reason="restoration" resp="HB-1963">lifan</supplied>di</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42600">
+						<choice>
+							<me:facs>m<am>&bar;</am></me:facs>
+							<me:dipl>m<ex>enn</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42700">
+						<choice>
+							<me:facs>&slong;kılı</me:facs>
+							<me:dipl>skili</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42800">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w42900">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43000">
+						<choice>
+							<me:facs>þ<am>&er;</am></me:facs>
+							<me:dipl>þ<ex>eir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43100">
+						<choice>
+							<me:facs>lı&fins;a</me:facs>
+							<me:dipl>lifa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43200">
+						<choice>
+							<me:facs>&slong;an&drot;lıgarr</me:facs>
+							<me:dipl>sandligarr</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w43300">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<lb ed="ms" n="15"/>
+        			<gap reason="cut" quantity="1" unit="line"></gap>
+        			<note type="comment" resp="NS">Første del av linjen er klippet bort.</note>
+					<w xml:id="w43400">
+						<choice>
+							<me:facs><gap reason="damage" unit="char" quantity="4"></gap>a</me:facs>
+							<me:dipl><supplied reason="restoration" resp="HB-1963">þion</supplied>a</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43500">
+						<choice>
+							<me:facs>&trot;<am>&vsup;</am>lıga</me:facs>
+							<me:dipl>t<ex>rv</ex>liga</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43600">
+						<choice>
+							<me:facs>&gscap;uðı</me:facs>
+							<me:dipl>&gscap;uði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43700">
+						<choice>
+							<me:facs>meðan</me:facs>
+							<me:dipl>meðan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w43800">
+						<choice>
+							<me:facs>lı&fins;a</me:facs>
+							<me:dipl>lifa</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w43900">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<lb ed="ms" n="16"/>
+					<w xml:id="w44000">
+						<choice>
+							<me:facs>Svran<am>&us;</am></me:facs>
+							<me:dipl>Svran<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44100">
+						<choice>
+							<me:facs>&hrdes;e&trot;</me:facs>
+							<me:dipl>het</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44200">
+						<choice>
+							<me:facs>naco&rrot;</me:facs>
+							<me:dipl>nacor</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44300">
+						<choice>
+							<me:facs>abb<am>&bar;</am>ı</me:facs>
+							<me:dipl>abb<ex>ot</ex>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44400">
+						<choice>
+							<me:facs>&slong;c<am>&bar;</am>&sscap;</me:facs>
+							<me:dipl>s<ex>an</ex>c<ex>tu</ex>&sscap;</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44500">
+						<choice>
+							<me:facs>&slong;a</me:facs>
+							<me:dipl>sa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44600">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44700">
+						<choice>
+							<me:facs>ge&fins;ı&trot;</me:facs>
+							<me:dipl>gefit</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44800">
+						<choice>
+							<me:facs>&hrdes;a&fins;ðı</me:facs>
+							<me:dipl>hafði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w44900">
+						<choice>
+							<me:facs>&hrdes;<am>&er;</am>leı&drot;&drot;o<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>er</ex>leiddo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45000">
+						<choice>
+							<me:facs>m<am>&osup;&bar;</am></me:facs>
+							<me:dipl>m<ex>onnum</ex></me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w45100">
+        				<choice>
+        					<me:facs>.</me:facs>
+        					<me:dipl>.</me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w45200">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="17"/>
+					<w xml:id="w45300">
+						<choice>
+							<me:facs>ren&trot;o<am>&bar;</am></me:facs>
+							<me:dipl>rento<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45400">
+						<choice>
+							<me:facs>alla</me:facs>
+							<me:dipl>alla</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45500">
+						<choice>
+							<me:facs>lu&trot;ı</me:facs>
+							<me:dipl>luti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45600">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45700">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w45900">
+						<choice>
+							<me:facs>a&trot;&trot;ı</me:facs>
+							<me:dipl>atti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46000">
+						<choice>
+							<me:facs>ımunclı&fins;ı</me:facs>
+							<me:dipl>imunclifi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46100">
+						<choice>
+							<me:facs>&slong;ıno</me:facs>
+							<me:dipl>sino</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46200">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46300">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46400">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46500">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46600">
+						<choice>
+							<me:facs>&hrdes;a&fins;<lb ed="ms" n="18"/>ðı</me:facs>
+							<me:dipl>haf<lb ed="ms" n="18"/>ði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46700">
+						<choice>
+							<me:facs>all&trot;</me:facs>
+							<me:dipl>allt</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46800">
+						<choice>
+							<me:facs>ge&fins;ı&trot;</me:facs>
+							<me:dipl>gefit</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w46900">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47000">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47100">
+						<choice>
+							<me:facs>ıklęðo<am>&bar;</am></me:facs>
+							<me:dipl>iklęðo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47200">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47300">
+						<choice>
+							<me:facs><am>.</am><am>&lbar;</am><am>.</am></me:facs>
+							<me:dipl><ex>ve</ex>l</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47400">
+						<choice>
+							<me:facs>ı</me:facs>
+							<me:dipl>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47500">
+						<choice>
+							<me:facs>&fins;&avlig;&zstrok;lo</me:facs>
+							<me:dipl>faozlo</me:dipl>
+							</choice>
+					</w>
+        			<!-- Samme her, er dette av eller ao, HB har ao, men syns det like godt kan være av. -->
+					<w xml:id="w47600">
+						<choice>
+							<me:facs><am>.</am><am>&lbar;</am></me:facs>
+							<me:dipl><ex>ve</ex>l<ex></ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47700">
+						<choice>
+							<me:facs>ı</me:facs>
+							<me:dipl>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47800">
+						<choice>
+							<me:facs>l&avlig;&slong;v<am>&bar;</am></me:facs>
+							<me:dipl>lavsv<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w47900">
+						<choice>
+							<me:facs>&avlig;&rscap;&rum;</me:facs>
+							<me:dipl>av&rscap;</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Ser ut til at kapitel R er gjort om til en &rum;, trolig av
+        		skriveren selv.</note>
+					<pc xml:id="w48000">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w48100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w48200">
+						<choice>
+							<me:facs>como</me:facs>
+							<me:dipl>como</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w48300">
+						<choice>
+							<me:facs>&hrdes;<am>&er;</am></me:facs>
+							<me:dipl>h<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="19"/>
+					<w xml:id="w48400">
+						<choice>
+							<me:facs>m<am>&nsup;</am></me:facs>
+							<me:dipl>m<ex>enn</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w48500">
+						<pc>
+							<choice>
+								<me:facs>.</me:facs>
+								<me:dipl>.</me:dipl>
+								
+							</choice>
+						</pc>
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+        			<seg type="nb">
+					<w xml:id="w48600">
+						<choice>
+							<me:facs>&hrdes;an</me:facs>
+							<me:dipl>han</me:dipl>
+							</choice>
+					</w>
+        			<w xml:id="w48700">
+        				<choice>
+        					<me:facs>&trot;oco</me:facs>
+        					<me:dipl>toco</me:dipl>
+        					
+        				</choice>
+        			</w>
+        			</seg>
+        			<w xml:id="w48800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w48900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49000">
+						<choice>
+							<me:facs>baðv</me:facs>
+							<me:dipl>baðv</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49100">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49200">
+						<choice>
+							<me:facs>ley&slong;a</me:facs>
+							<me:dipl>leysa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49300">
+						<choice>
+							<me:facs>&slong;ıc</me:facs>
+							<me:dipl>sic</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49400">
+						<choice>
+							<me:facs>un&drot;an</me:facs>
+							<me:dipl>undan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49500">
+						<choice>
+							<me:facs>q<am>&osup;</am>lo<am>&bar;</am></me:facs>
+							<me:dipl>q<ex>vo</ex>lo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49600">
+						<choice>
+							<me:facs>&Eunc;n</me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49700">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w49900">
+						<choice>
+							<me:facs>&slong;agðı</me:facs>
+							<me:dipl>sagði</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w50000">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<pb ed="ms" n="2r"/>
+					<lb ed="ms" n="1"/>
+        			<!-- Kalt Fr av Benediktsson, 72b r -->
+        			<note type="comment" resp="NS">Her starter hånd V i følge Hreinn Benediktsson.</note>
+        			<pc xml:id="w50100">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w50200">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50300">
+						<choice>
+							<me:facs>ma</me:facs>
+							<me:dipl>ma</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50400">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50500">
+						<choice>
+							<me:facs>vera</me:facs>
+							<me:dipl>vera</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50600">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50700">
+						<choice>
+							<me:facs>&slong;arlıgr</me:facs>
+							<me:dipl>sarligr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50800">
+						<choice>
+							<me:facs>&drot;&avlig;þe</me:facs>
+							<me:dipl>davþe</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w50900">
+						<choice>
+							<me:facs>reın&slong;e</me:facs>
+							<me:dipl>reinse</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51000">
+						<choice>
+							<me:facs>&nscap;eqv<am>&er;</am>ıar</me:facs>
+							<me:dipl>&nscap;eqv<ex>er</ex>iar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51100">
+						<choice>
+							<me:facs>&slong;ynþ<am>&er;</am></me:facs>
+							<me:dipl>synþ<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51200">
+						<choice>
+							<me:facs><sic>þ<am>&bar;</am>rar</sic></me:facs>
+							<me:dipl><corr resp="HB_1963">þ<ex>ei</ex>ra</corr></me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="2"/>
+					<w xml:id="w51300">
+						<choice>
+							<me:facs><c type="littNot">&Euncclose;</c>n</me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51400">
+						<choice>
+							<me:facs>ı<am>&lbrk;</am>o<am>&bar;</am></me:facs>
+							<me:dipl>i<ex>ll</ex>o<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51500">
+						<choice>
+							<me:facs>m<am>&osup;&bar;</am></me:facs>
+							<me:dipl>m<ex>onnum</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51600">
+						<choice>
+							<me:facs>v<am>&er;</am>þr</me:facs>
+							<me:dipl>v<ex>er</ex>þr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51700">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51800">
+						<choice>
+							<me:facs>a&fins;a<am>&lbrk;</am>&zstrok; &drot;ome</me:facs>
+							<me:dipl>afa<ex>ll</ex>z dome</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w51900">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w52000">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w52100">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w52200">
+						<choice>
+							<me:facs>&hrdes;ava</me:facs>
+							<me:dipl>hava</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w52300">
+						<choice>
+							<me:facs>vell&drot;e</me:facs>
+							<me:dipl>vellde</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w52400">
+						<choice>
+							<me:facs>ıgegn</me:facs>
+							<me:dipl>igegn</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w52500">
+						<choice>
+							<me:facs>rę&trot;</me:facs>
+							<me:dipl>ręt</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="3"/>
+					<w xml:id="w52600">
+						<choice>
+							<me:facs>la&trot;o<am>&bar;</am></me:facs>
+							<me:dipl>lato<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w52700">
+        				<choice>
+        					<me:facs>.</me:facs>
+        					<me:dipl>.</me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<seg type="nb">
+        			<w xml:id="w52800">
+						<choice>
+							<me:facs><c type="littNot">S</c>va</me:facs>
+							<me:dipl>Sva</me:dipl>
+							</choice>
+					</w>
+        			<w xml:id="w52900">
+        				<choice>
+        					<me:facs>&slong;e<am>&bar;</am></me:facs>
+        					<me:dipl>se<ex>m</ex></me:dipl>
+        					
+        				</choice>
+        			</w>
+        			</seg>
+        			<w xml:id="w53000">
+						<choice>
+							<me:facs>&slong;ıa</me:facs>
+							<me:dipl>sia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53100">
+						<choice>
+							<me:facs><am>&mMedrun;</am></me:facs>
+							<me:dipl><ex>maðr</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53200">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53300">
+						<choice>
+							<me:facs>&hrdes;elgan</me:facs>
+							<me:dipl>helgan</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53400">
+						<choice>
+							<me:facs>&drot;ıacn</me:facs>
+							<me:dipl>diacn</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53500">
+						<choice>
+							<me:facs>vá</me:facs>
+							<me:dipl>vá</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53600">
+						<choice>
+							<me:facs>naþı</me:facs>
+							<me:dipl>naþi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53700">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w53800">
+						<choice>
+							<me:facs>le&eng;e</me:facs>
+							<me:dipl>le&eng;e</me:dipl>
+							</choice>
+					</w>
+        			<w xml:id="w53900">
+        				<choice>
+        					<me:facs>a&trot;</me:facs>
+        					<me:dipl>at</me:dipl>
+        					
+        				</choice>
+        			</w>
+        			<w xml:id="w54000">
+						<choice>
+							<me:facs>fagna</me:facs>
+							<me:dipl>fagna</me:dipl>
+							</choice>
+					</w>
+        			<!-- karolinigsk f. -->
+					<lb ed="ms" n="4"/>
+					<w xml:id="w54100">
+						<choice>
+							<me:facs>&drot;<am>&asup;</am>vþa</me:facs>
+							<me:dipl>d<ex>a</ex>vþa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w54200">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>&sscap;</me:facs>
+							<me:dipl>h<ex>an</ex>&sscap;</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w54300">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w54400">
+						<choice>
+							<me:facs>þenna</me:facs>
+							<me:dipl>þenna</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w54500">
+						<choice>
+							<me:facs>&hrdes;lv&trot;</me:facs>
+							<me:dipl>hlvt</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w54600">
+						<choice>
+							<me:facs>&slong;a&nscap;ar</me:facs>
+							<me:dipl>sa&nscap;ar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w54700">
+						<choice>
+							<me:facs>&hrdes;eılog</me:facs>
+							<me:dipl>heilog</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Her starter hånd II i følge Hreinn Benediktsson. 
+        				Resten av fragmentet er skrevet av den hånden.</note>
+					<w xml:id="w54800">
+						<choice>
+							<me:facs>rı&trot;nı<am>&eng;</am></me:facs>
+							<me:dipl>ritni<ex>ng</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w54900">
+						<choice>
+							<me:facs>þ<am>&bar;</am>&trot;</me:facs>
+							<me:dipl>þ<ex>via</ex>t</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55000">
+						<choice>
+							<me:facs>&slong;pa<am>&mMedrun;</am></me:facs>
+							<me:dipl>spa<ex>maðr</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55100">
+						<choice>
+							<me:facs><am>.</am>&gscap;<am>&us;</am></me:facs>
+							<me:dipl><ex></ex>&gscap;<ex>uðs</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55200">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="5"/>
+					<w xml:id="w55300">
+						<choice>
+							<me:facs>&slong;en&drot;&rrot;</me:facs>
+							<me:dipl>sendr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55400">
+						<choice>
+							<me:facs>ıgegn</me:facs>
+							<me:dipl>igegn</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55500">
+						<choice>
+							<me:facs>þıoðo</me:facs>
+							<me:dipl>þioðo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55600">
+						<choice>
+							<me:facs>&slong;amarıa<am>&bar;</am></me:facs>
+							<me:dipl>samaria<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55700">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55800">
+						<choice>
+							<me:facs>&hrdes;a&fins;ðı</me:facs>
+							<me:dipl>hafði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w55900">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56000">
+						<choice>
+							<me:facs>vlyðnı</me:facs>
+							<me:dipl>vlyðni</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56100">
+						<choice>
+							<me:facs>v<am>&inodotsup;</am></me:facs>
+							<me:dipl>v<ex>ið</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56200">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56300">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56400">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>m</me:facs>
+							<me:dipl>h<ex>onu</ex>m</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="6"/>
+					<w xml:id="w56500">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56600">
+						<choice>
+							<me:facs>boðı&trot;</me:facs>
+							<me:dipl>boðit</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56700">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w56800">
+						<choice>
+							<me:facs>&fins;a&slongtlig;a</me:facs>
+							<me:dipl>fasta</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w56900">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w57000">
+						<choice>
+							<me:facs>en</me:facs>
+							<me:dipl>en</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57100">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57200">
+						<choice>
+							<me:facs>á&trot;</me:facs>
+							<me:dipl>át</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57300">
+						<choice>
+							<me:facs>v<am>&bar;</am></me:facs>
+							<me:dipl>v<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57400">
+						<choice>
+							<me:facs>g&oogon;&trot;o</me:facs>
+							<me:dipl>gǫto</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57500">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57600">
+						<choice>
+							<me:facs>&drot;<am>&ra;</am>p</me:facs>
+							<me:dipl>d<ex>ra</ex>p</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57700">
+						<choice>
+							<me:facs>þegar</me:facs>
+							<me:dipl>þegar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57800">
+						<choice>
+							<me:facs>e&trot;</me:facs>
+							<me:dipl>et</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w57900">
+						<choice>
+							<me:facs>várga</me:facs>
+							<me:dipl>várga</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="7"/>
+					<w xml:id="w58000">
+						<choice>
+							<me:facs>&drot;&ydot;r</me:facs>
+							<me:dipl>dyr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58100">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w58200">
+        				<choice>
+        					<me:facs>.</me:facs>
+        					<me:dipl>.</me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w58300">
+						<choice>
+							<me:facs>en</me:facs>
+							<me:dipl>en</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58400">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58500">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58600">
+						<choice>
+							<me:facs>&sscap;<am>&asup;</am></me:facs>
+							<me:dipl>&sscap;<ex>va</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58700">
+						<choice>
+							<me:facs>&slong;ıþ<am>&bar;</am></me:facs>
+							<me:dipl>siþ<ex>an</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58800">
+						<choice>
+							<me:facs>&slong;ag&trot;</me:facs>
+							<me:dipl>sagt</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w58900">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59000">
+						<choice>
+							<me:facs>&drot;yrı&trot;</me:facs>
+							<me:dipl>dyrit</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59100">
+						<choice>
+							<me:facs>&slong;&trot;oð</me:facs>
+							<me:dipl>stoð</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59200">
+						<choice>
+							<me:facs>ı&fins;<am>&er;</am></me:facs>
+							<me:dipl>if<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59300">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>m</me:facs>
+							<me:dipl>h<ex>onu</ex>m</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59400">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59500">
+						<choice>
+							<me:facs>&fins;ell</me:facs>
+							<me:dipl>fell</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59600">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59700">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="8"/>
+					<w xml:id="w59800">
+						<choice>
+							<me:facs>&hrdes;rę</me:facs>
+							<me:dipl>hrę</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w59900">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w60000">
+        				<choice>
+        					<me:facs>.</me:facs>
+        					<me:dipl>.</me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<w xml:id="w60100">
+						<choice>
+							<me:facs>Sıa</me:facs>
+							<me:dipl>Sia</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60200">
+						<choice>
+							<me:facs>a&trot;b<am>&ur;</am>þr</me:facs>
+							<me:dipl>atb<ex>ur</ex>þr</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60300">
+						<choice>
+							<me:facs>&slong;yn<am>&er;</am></me:facs>
+							<me:dipl>syn<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60400">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60500">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60600">
+						<choice>
+							<me:facs>&slong;ynð</me:facs>
+							<me:dipl>synð</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60700">
+						<choice>
+							<me:facs><sic>vlynðnı</sic></me:facs>
+							<me:dipl><corr resp="HB_1963">vlyðni</corr></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60800">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w60900">
+						<choice>
+							<me:facs>v<am>&ra;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61000">
+						<choice>
+							<me:facs>b&avlig;&trot;<am>&combdot;</am></me:facs>
+							<me:dipl>bavt<ex>t</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61100">
+						<choice>
+							<me:facs>ı&drot;&avlig;ða</me:facs>
+							<me:dipl>idavða</me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="9"/>
+					<w xml:id="w61200">
+						<choice>
+							<me:facs><am>&hslongligbar;</am></me:facs>
+							<me:dipl><ex>hans</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61300">
+						<choice>
+							<me:facs>þ<am>&bar;</am>&trot;</me:facs>
+							<me:dipl>þ<ex>via</ex>t</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61400">
+						<choice>
+							<me:facs>&drot;yrı&trot;</me:facs>
+							<me:dipl>dyrit</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61500">
+						<choice>
+							<me:facs>þo&rrot;ðı</me:facs>
+							<me:dipl>þorði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61600">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61700">
+						<choice>
+							<me:facs>bana</me:facs>
+							<me:dipl>bana</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w61800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am>m</me:facs>
+							<me:dipl>h<ex>onu</ex>m</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w61900">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w62000">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w62100">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w62200">
+						<choice>
+							<me:facs>þo&rrot;ðı</me:facs>
+							<me:dipl>þorði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w62300">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w62400">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w62500">
+						<choice>
+							<me:facs>&fins;alla</me:facs>
+							<me:dipl>falla</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w62600">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							</choice>
+					</w>
+        			<pc xml:id="w62700">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<pb ed="ms" n="2v"/>
+					<lb ed="ms" n="1"/>
+        			<pc xml:id="w62800">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				</choice>
+        			</pc>
+        			<!-- 72b v (Fv) -->
+					<w xml:id="w62900">
+						<choice>
+							<me:facs>oc</me:facs>
+							<me:dipl>oc</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63000">
+						<choice>
+							<me:facs>paul<am>&sem;</am></me:facs>
+							<me:dipl>paul<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63100">
+						<choice>
+							<me:facs>p<am>&bar;</am>le</me:facs>
+							<me:dipl>p<ex>osto</ex>le</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w63200">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w63300">
+						<choice>
+							<me:facs>fy&slong;v<am>&bar;</am>&zstrok;</me:facs>
+							<me:dipl>fysv<ex>m</ex>z</me:dipl>
+							</choice>
+					</w>
+        			<!-- Karolinigsk f. -->
+					<w xml:id="w63400">
+						<choice>
+							<me:facs>ec</me:facs>
+							<me:dipl>ec</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63500">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63600">
+						<choice>
+							<me:facs>ley&slong;a&zstrok;</me:facs>
+							<me:dipl>leysaz</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63700">
+						<choice>
+							<me:facs>ı&fins;<am>&ra;</am></me:facs>
+							<me:dipl>if<ex>ra</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63800">
+						<choice>
+							<me:facs>lıca<am>&bar;</am></me:facs>
+							<me:dipl>lica<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w63900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64000">
+						<choice>
+							<me:facs>v<am>&er;</am>a</me:facs>
+							<me:dipl>v<ex>er</ex>a</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64100">
+						<choice>
+							<me:facs>m<am>&sem;</am></me:facs>
+							<me:dipl>m<ex>eð</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64200">
+						<choice>
+							<me:facs>x<am>&inodotsup;</am></me:facs>
+							<me:dipl>x<ex>risti</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64300">
+						<choice>
+							<me:facs>Sa</me:facs>
+							<me:dipl>Sa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64400">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64500">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<lb ed="ms" n="2"/>
+					<w xml:id="w64600">
+						<choice>
+							<me:facs>ı&fins;ar</me:facs>
+							<me:dipl>ifar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64700">
+						<choice>
+							<me:facs><sic>c<am>&inodotsup;</am>&trot;</sic></me:facs>
+							<me:dipl><corr resp="HB-1963">c<ex>ri</ex>st</corr></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w64800">
+						<choice>
+							<me:facs>v<am>&er;</am>a</me:facs>
+							<me:dipl>v<ex>er</ex>a</me:dipl>
+							</choice>
+					</w>
+					<seg type="nb">
+						<w xml:id="w64900">
+							<choice>
+								<me:facs>a</me:facs>
+								<me:dipl>a</me:dipl>
+								
+							</choice>
+						</w>
+						<w xml:id="w65000">
+							<choice>
+								<me:facs>&hrdes;ı<am>&bar;</am>no<am>&bar;</am></me:facs>
+								<me:dipl>hi<ex>m</ex>no<ex>m</ex></me:dipl>
+								
+							</choice>
+						</w>
+					</seg>
+					<w xml:id="w65100">
+						<choice>
+							<me:facs>&trot;<am>&vsup;</am>ı</me:facs>
+							<me:dipl>t<ex>rv</ex>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w65200">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w65300">
+						<choice>
+							<me:facs>on&drot;</me:facs>
+							<me:dipl>ond</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w65400">
+						<choice>
+							<me:facs>p&avlig;l<am>&sem;</am></me:facs>
+							<me:dipl>pavl<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w65500">
+						<choice>
+							<me:facs>v<am>&er;</am>a</me:facs>
+							<me:dipl>v<ex>er</ex>a</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w65600">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w65700">
+						<choice>
+							<me:facs>&hrdes;ı<am>&bar;</am>no<am>&bar;</am></me:facs>
+							<me:dipl>hi<ex>m</ex>no<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w65800">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w65900">
+						<choice>
+							<me:facs>&Eunc;n</me:facs>
+							<me:dipl>En</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w66000">
+						<choice>
+							<me:facs>ml&trot;ı</me:facs>
+							<me:dipl>m<ex>æ</ex>lti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w66100">
+						<choice>
+							<me:facs>p&avlig;<lb ed="ms" n="3"/>l<am>&us;</am></me:facs>
+							<me:dipl>pav<lb ed="ms" n="3"/>l<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w66200">
+						<choice>
+							<me:facs>&slong;va</me:facs>
+							<me:dipl>sva</me:dipl>
+							</choice>
+					</w>
+        			<surplus reason="dittopgraphy">
+					<w xml:id="w66300">
+						<choice>
+							<me:facs>&sscap;<am>&asup;</am></me:facs>
+							<me:dipl>&sscap;<ex>va</ex></me:dipl>
+							</choice>
+					</w>
+        			</surplus>
+					<w xml:id="w66400">
+						<choice>
+							<me:facs>ıoð<am>&rum;</am></me:facs>
+							<me:dipl>ioð<ex>rum</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w66500">
+						<choice>
+							<me:facs>&slong;&trot;að</me:facs>
+							<me:dipl>stað</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w66600">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w66700">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w66800">
+						<choice>
+							<me:facs>vı&trot;o<am>&bar;</am></me:facs>
+							<me:dipl>vito<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w66900">
+						<choice>
+							<me:facs>v<am>&er;</am></me:facs>
+							<me:dipl>v<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67000">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67100">
+						<choice>
+							<me:facs>lo&slong;nar</me:facs>
+							<me:dipl>losnar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67200">
+						<choice>
+							<me:facs>&hrdes;<am>&us;</am></me:facs>
+							<me:dipl>h<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67300">
+						<choice>
+							<me:facs><sic>ıarðlıg<am>&ra;</am></sic></me:facs>
+							<me:dipl><corr resp="HB_1963">iarðlig<ex>ra</ex>r</corr></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67400">
+						<choice>
+							<me:facs><unclear>d</unclear>yrðar</me:facs>
+							<me:dipl>dyrðar</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Hreinn Benediktsson 1963 s. 60: "or byrðar, mistake for bygdar 
+        				(si terrestris domus nostra huius habitationis dissolvatur)". Merk at det i håndskriftet ikke står noen tydelig r til slutt, 
+        				men det er et tegn etter a som kan tolkes mot noe slikt. </note>
+					<w xml:id="w67500">
+						<choice>
+							<me:facs>var<lb ed="ms" n="4"/>rar</me:facs>
+							<me:dipl>var<lb ed="ms" n="4"/>rar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67600">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67700">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67800">
+						<choice>
+							<me:facs>&hrdes;o&fins;o<am>&bar;</am></me:facs>
+							<me:dipl>hofo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w67900">
+						<choice>
+							<me:facs>v<am>&er;</am></me:facs>
+							<me:dipl>v<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68000">
+						<choice>
+							<me:facs>a&fins;</me:facs>
+							<me:dipl>af</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68100">
+						<choice>
+							<me:facs>&gscap;vðe</me:facs>
+							<me:dipl>&gscap;vðe</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68200">
+						<choice>
+							<me:facs>eılı&fins;&trot;</me:facs>
+							<me:dipl>eilift</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68300">
+						<choice>
+							<me:facs>&hrdes;<am>&us;</am></me:facs>
+							<me:dipl>h<ex>us</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68400">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68500">
+						<choice>
+							<me:facs>&hrdes;ı<am>&bar;</am>no<am>&bar;</am></me:facs>
+							<me:dipl>hi<ex>m</ex>no<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68600">
+						<choice>
+							<me:facs>n<am>&bar;</am></me:facs>
+							<me:dipl>n<ex>on</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68700">
+						<choice>
+							<me:facs>&hrdes;on&drot;o<am>&bar;</am></me:facs>
+							<me:dipl>hondo<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w68800">
+						<choice>
+							<me:facs>go&rrot;&trot;</me:facs>
+							<me:dipl>gort</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w68900">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+        		</p></div>
+        	<div>
+        		<head>
+					<w xml:id="w69000">
+						<choice>
+							<me:facs>pe&trot;<am>&vsup;</am>&slong;</me:facs>
+							<me:dipl>pet<ex>rv</ex>s</me:dipl>
+							</choice>
+					</w>
+        		</head>
+        		<p>
+					<lb ed="ms" n="5"/>
+					<w xml:id="w69100">
+						<choice>
+							<me:facs><c type="initial">&Euncclose;</c>&fins;</me:facs>
+							<me:dipl>Ef</me:dipl>
+							</choice>
+					</w>
+        			<w xml:id="w69200">
+        				<choice>
+        					<me:facs>nv</me:facs>
+        					<me:dipl>nv</me:dipl>
+        					
+        				</choice>
+        			</w>
+        			<w xml:id="w69300">
+						<choice>
+							<me:facs>ero</me:facs>
+							<me:dipl>ero</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w69400">
+						<choice>
+							<me:facs>an&drot;<am>&er;</am></me:facs>
+							<me:dipl>and<ex>er</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w69500">
+						<choice>
+							<me:facs><sic>rer&trot;la&trot;<am>&ra;</am></sic></me:facs>
+							<me:dipl><corr resp="HB_1963">retlat<ex>ra</ex></corr></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w69600">
+						<choice>
+							<me:facs>a&hrdes;ı<am>&bar;</am>ne</me:facs>
+							<me:dipl>ahi<ex>m</ex>ne</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w69700">
+						<choice>
+							<me:facs>&hrdes;va&trot;</me:facs>
+							<me:dipl>hvat</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w69800">
+						<choice>
+							<me:facs>&hrdes;ava</me:facs>
+							<me:dipl>hava</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w69900">
+						<choice>
+							<me:facs>þær</me:facs>
+							<me:dipl>þær</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w70000">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w70100">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							</choice>
+					</w>
+        			<del type="overstrike">
+        			<w xml:id="w70200">
+        				<choice>
+        					<me:facs>&hrdes;&inodot;</me:facs>
+        					<me:dipl>hi</me:dipl>
+        					
+        				</choice>
+        			</w>
+        			</del>
+        			<w xml:id="w70300">
+						<choice>
+							<me:facs>&drot;om&slong;</me:facs>
+							<me:dipl>doms</me:dipl>
+							</choice>
+					</w>
+        			<note type="comment" resp="NS">Hreinn Benediktsson mener at skriveren først skrev 'ahine', deretter
+        			ble hi strøket over. De siste bokstavene, n og e, ble deretter omgjort til d og o som første bokstaver
+        			i det neste ordet doms.</note>
+					<lb ed="ms" n="6"/>
+					<w xml:id="w70400">
+						<choice>
+							<me:facs>&drot;ege</me:facs>
+							<me:dipl>dege</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w70500">
+						<choice>
+							<me:facs>&fins;<am>&inodotsup;</am>ı</me:facs>
+							<me:dipl>f<ex>ir</ex>i</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w70600">
+						<choice>
+							<me:facs>re&trot;lę&trot;ı</me:facs>
+							<me:dipl>retlęti</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w70700">
+						<choice>
+							<me:facs>&slong;ı&trot;&trot;</me:facs>
+							<me:dipl>sitt</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w70800">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+        		</p>
+        	</div>
+        	<div>
+        		<head>
+					<w xml:id="w70900">
+						<choice>
+							<me:facs><am>&gscap; &gscap;</am></me:facs>
+							<me:dipl>&gscap;<ex>reg</ex>&gscap;<ex>orius</ex></me:dipl>
+							</choice>
+					</w>
+        		</head>
+        		<p>
+					<w xml:id="w71000">
+						<choice>
+							<me:facs><c type="initial">ð</c>vı</me:facs>
+							<me:dipl>ðvi</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71100">
+						<choice>
+							<me:facs>vex</me:facs>
+							<me:dipl>vex</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71200">
+						<choice>
+							<me:facs>&drot;yrð</me:facs>
+							<me:dipl>dyrð</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71300">
+						<choice>
+							<me:facs>þ<am>&bar;</am>ra</me:facs>
+							<me:dipl>þ<ex>ei</ex>ra</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71400">
+						<choice>
+							<me:facs>ep&trot;<am>&er;</am></me:facs>
+							<me:dipl>ept<ex>ir</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71500">
+						<choice>
+							<me:facs>&drot;o<am>&bar;</am></me:facs>
+							<me:dipl>do<ex>m</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71600">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71700">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71800">
+						<choice>
+							<me:facs>&hrdes;a<lb ed="ms" n="7"/>&fins;a</me:facs>
+							<me:dipl>ha<lb ed="ms" n="7"/>fa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w71900">
+						<choice>
+							<me:facs>nv</me:facs>
+							<me:dipl>nv</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72000">
+						<choice>
+							<me:facs>an&drot;ar</me:facs>
+							<me:dipl>andar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72100">
+						<choice>
+							<me:facs>&slong;ęlo</me:facs>
+							<me:dipl>sęlo</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72200">
+						<choice>
+							<me:facs>eın<am>&bar;</am>ar</me:facs>
+							<me:dipl>ein<ex>n</ex>ar</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w72300">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							</choice>
+					</pc>
+					<w xml:id="w72400">
+						<choice>
+							<me:facs>&escap;n</me:facs>
+							<me:dipl>&escap;n</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72500">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72600">
+						<choice>
+							<me:facs>bæðı</me:facs>
+							<me:dipl>bæði</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72700">
+						<choice>
+							<me:facs>an&drot;ar</me:facs>
+							<me:dipl>andar</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72800">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w72900">
+						<choice>
+							<me:facs>lıca<am>&bar;</am>&slong;</me:facs>
+							<me:dipl>lica<ex>m</ex>s</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w73000">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w73100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							</choice>
+					</w>
+					<w xml:id="w73200">
+						<choice>
+							<me:facs>&fins;ag</me:facs>
+							<me:dipl>fag</me:dipl>
+							</choice>
+					</w>
+					<pc xml:id="w73300">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							</choice>
+					</pc>
+				</p>
+			</div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>N A104 : Bø Old Church, Midt-Telemark, Telemark : A digital edition</title>
+				<editor role="person">
+						<name>
+							<persName>
+								<forename>Aslak</forename>
+								<surname>Liestøl</surname>
+							</persName>
+							<orgName type="affiliation">University of Oslo</orgName>
+						</name>
+					</editor>
+					<editor role="person">
+						<name>
+							<persName>
+								<forename>James</forename>
+								<forename>E.</forename>
+								<surname>Knirk</surname>
+							</persName>
+							<orgName type="affiliation">University of Oslo</orgName>
+						</name>
+					</editor>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Anna</forename>
+							<surname>Vlasova</surname>
+							<surname>Våtvik</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2023-05-02">2 May 2023</date>.</edition>
+			</editionStmt>
+			<extent n="20">20 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">Not in NIyR</idno>
+				<date when="2021-10-21">21 October 2021</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, not published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+					    <settlement>59.411, 9.0563</settlement>
+						<idno>A 104</idno>
+					    <msName>A 104 : Bø gamle kirke, Midt-Telemark, Telemark</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="church-graffiti">
+							<supportDesc>
+								<support>
+									<p><material>wood</material>.</p>
+									<p></p>
+								</support>
+								<condition>Slightly damaged</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+					    <origin><origDate notBefore="1100" notAfter="1500">c. 1100-1500</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="Extant">Found in the repository during restoration work of the church building in 1966, on the south wall of the choir.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2023-05-02</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made a few modifications to the file for greater consistency, and gave it version number 0.9.</change>
+			<change>
+				<date>2022-03-23</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+			<date>2022-02-04</date>
+			<name>Odd Einar Haugen</name>
+			<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+			<change>
+			<date>2021-10-21</date>
+			<name>Odd Einar Haugen</name>
+			<orgName type="affiliation">University of Bergen</orgName>: Made some minor changes to the header.</change>
+			<change>
+				<date>2018-10-13</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Expanded the body of the text.</change>
+			<change>
+				<date>2018-10-12</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+                  	<head>
+                  		<hi rend="bold">Signum</hi>: A 104 ||
+                  	    <hi rend="bold">Sted</hi>: Bø gamle kirke, Midt-Telemark, Telemark ||
+                  		<hi rend="bold">Kart</hi>: På vei ||
+                  		<hi rend="bold">Datering</hi>: ca. 1100–1500<lb/>
+                  		<hi rend="bold">Materiale</hi>: Tre ||
+                  		<hi rend="bold">Status</hi>: Bevart på stedet ||
+                  		<hi rend="bold">Utgave</hi>: Ikke publisert i NIyR || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  		    target="http://kulturarvsdata.se/uu/srdb/14044b9b-d52f-47c4-8d54-284352daa666" type="external">A 104</ref>
+                  	</head>
+			    <p> Runeinnskriften er ristet i repositoriet i korets søndre vegg og kom til syne ved restaureringsarbeider i 1966. Innskriften løper fra venstre mot høyre og linjevis nedenfra og oppover. Jf. Nordby (2018: 307).</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+					<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+						<seg type="nb">
+						<w lemma="svefn" me:msa="xNC gM nS cN sI" >
+								<choice>
+									<me:facs>&sYGS;&uGE;&aeMD;&fGE;&yYG;</me:facs>
+									<me:dipl>suæfn</me:dipl>
+									<me:norm>Svefn</me:norm>
+								</choice>
+							</w>
+					    <w lemma="banna" me:msa="xVB fF tPS mIN p1 nS vA iWK">
+								<choice>
+									<me:facs>&bGE;&aYG;&nYG;&aYG;&rGE;</me:facs>
+									<me:dipl>banar</me:dipl>
+									<me:norm>bannar</me:norm>
+								</choice>
+							</w>
+						</seg>
+					    <pc type="runic">
+					        <choice>
+					            <me:facs>&middotPM;</me:facs>
+					            <me:dipl>&middotPM;</me:dipl>
+					        </choice>
+					    </pc>
+					    <w lemma="ek" me:msa="xAP p1 nS cD">
+					        <choice>
+					            <me:facs>&mYGL;&eMD;&rGE;</me:facs>
+					            <me:dipl>mer</me:dipl>
+					            <me:norm>mér</me:norm>
+					        </choice>
+					    </w>
+					    <pc type="runic">
+					        <choice>
+					            <me:facs>&twodotPM;</me:facs>
+					            <me:dipl>&twodotPM;</me:dipl>
+					            <me:norm>,</me:norm>
+					        </choice>
+					    </pc>
+						<seg type="nb">
+					    <w lemma="sótt" me:msa="xNC gF nS cN sI">
+					        <choice>
+					            <me:facs>&sYGS;&oYG;&tYG;</me:facs>
+					            <me:dipl>sot</me:dipl>
+					            <me:norm>sótt</me:norm>
+					        </choice>
+					    </w>
+					    <w lemma="er" me:msa="xCS">
+					        <choice>
+					            <me:facs>&eMD;&rGE;</me:facs>
+					            <me:dipl>er</me:dipl>
+					            <me:norm>er</me:norm>
+					        </choice>
+					    </w>
+							<w lemma="barn" me:msa="xNC gN nP cG sI"> <!--Her mener jeg at det står &oaMD;&rGE; som ligatur, eller eventuelt &oYG;&rGE;, etter hva jeg kan se på bildet, istedenfor en enkel &nYG;, slik det er oppgitt i SamNord. Det er og mulig at denne o-runen egentlig er en vendt nasal a-rune (mtp hva ordet skal tydes som), men jeg velger en &oeMD; for kodingen for å ikke gå altfor langt i antakelsene. Det er 50/50 om det er &oeMD; eller &oYG; ettersom den er i ligatur med en r-rune (ekstra streken til oe-runen faller sammen med r-bøyen), men jeg ville sette fokus på nasaliteten.-->
+					        <choice>
+					        	<me:facs><unclear reason="damaged">&bGE;</unclear><unclear reason="weathered"><seg type="lig">&oaMD;&#xF538;&rGE;</seg></unclear>&aYG;</me:facs>
+					            <me:dipl><supplied reason="restoration" resp="unknown" source="SamNord">b</supplied><supplied reason="restoration" resp="unknown" source="SamNord">n</supplied>a</me:dipl>
+					            <me:norm><supplied reason="restoration" resp="unknown" source="SamNord">b</supplied><supplied reason="restoration" resp="unknown" source="SamNord">arn</supplied>a</me:norm>
+					        </choice>
+					    </w>
+						</seg>
+					    <lb ed="ms" n="2"/>
+						<seg type="nb">
+					    <w lemma="fjón" me:msa="xNC gF nS cN sI">
+					        <choice>
+					            <me:facs>&fGE;&iGE;&oYG;&nYG;</me:facs>
+					            <me:dipl>fion</me:dipl>
+					            <me:norm>fjón</me:norm>
+					        </choice>
+					    </w>
+					    <w lemma="svinka" me:msa="xVB fP tPS vA gM nS cG sD iWK"> <!--Olga: Her er jeg usikker på genus, som kan være både M og N --> <!-- Odd Einar: Eg trur vi må tolke “svinkanda” som ein substantivert presens partisipp (jf. moderne norsk ”de tapende [folkene] har ingenting å miste”), og det synest rimeleg å rekne med “svinkandi” som oppslagsform, og at “svinkanda” er genitiv singular. Så eg har tillate meg å rette gMN > gM. -->
+					        <choice>
+					            <me:facs>&sYGS;&fGE;&iGE;&nYG;&kYG;&aYG;&tYG;&aYG;</me:facs>
+					            <me:dipl>sfinkata</me:dipl>
+					            <me:norm>svinkanda</me:norm>
+					        </choice>
+					    </w>
+						</seg>
+					    <pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							    <me:dipl>&twodotPM;</me:dipl>
+							    <me:norm>,</me:norm>
+							</choice>
+						</pc>
+						<seg type="nb">
+						<w lemma="fjall" me:msa="xNC gN nS cG sI">
+							<choice>
+								<me:facs>&fGE;&iGE;&aYG;&lGE;&sYGS;</me:facs>
+								<me:dipl>fials</me:dipl>
+								<me:norm>fjalls</me:norm>
+							</choice>
+						</w>
+						<w lemma="íbúi" me:msa="xNC gM nS cN sI">
+							<choice>
+								<me:facs>&iGE;&bGE;&uGE;&iGE;</me:facs>
+								<me:dipl>ibui</me:dipl>
+								<me:norm>íbúi</me:norm>
+							</choice>
+						</w>
+						</seg>
+						<lb ed="ms" n="3"/>
+						<w lemma="hestr" me:msa="xNC gM nS cG sI">
+							<choice>
+								<me:facs>&hYGL;&eMD;&zMD;&tYG;</me:facs>
+								<me:dipl>hezt</me:dipl>
+								<me:norm>hests</me:norm>
+							</choice>
+						</w>
+						<w lemma="erfaði" me:msa="xNC gN nS cN sI">
+							<choice>
+								<me:facs>&aeMD;&rGE;&fGE;&aYG;&thGE;&eMD;</me:facs>
+								<me:dipl>ærfaþe</me:dipl>
+								<me:norm>erfaði</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+								<me:dipl>&twodotPM;</me:dipl>
+								<me:norm>,</me:norm>
+							</choice>
+						</pc>
+						<w lemma="ok" me:msa="xCC">
+							<choice>
+								<me:facs>&oeMD;&uGE;&kYG;</me:facs>
+								<me:dipl>øuk</me:dipl>
+								<me:norm>ok</me:norm>
+							</choice>
+						</w>
+						<w lemma="hey" me:msa="xNC gN nS cG sI">
+							<choice>
+								<me:facs>&hYGL;&uGE;&hYGL;&iGE;&sYGS;</me:facs>
+								<me:dipl>huhis</me:dipl>
+								<me:norm>heys</me:norm>
+							</choice>
+						</w>
+						<w lemma="víti" me:msa="xNC gN nS cN sI">
+							<choice>
+								<me:facs>&hYGL;&uGE;&iGE;<lb ed="ms" n="4"/>&tYG;&iGE;</me:facs> <!-- here, the linebreak happens in the middle of the word, and I do not seem to find the instructions in ch. 18 on how to encode that. Anna-->
+								<me:dipl>hui<lb ed="ms" n="4"/>ti</me:dipl>
+								<me:norm>ví<lb ed="ms" n="4"/>ti</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+								<me:norm>,</me:norm>
+							</choice>
+						</pc>
+						<w lemma="þræll" me:msa="xNC gM nS cG sI">
+							<choice>
+								<me:facs>&thGE;&rGE;<seg type="lig">&aeMD;&#xF538;&lGE;</seg>&sYGS;</me:facs> <!--Her, SamNord og Nordby 2018 ser ut til å tenke at det står &thGE;&rGE;&lGE;&sYGS;, altså þrls. Men på bildet til Nordby 2018 er det en ganske klar strek som går igjennom l-runen, og kan lett forklares som en æl-binderune. Det gir og perfekt mening med tanke på tolkningen av ordet på det normaliserte nivå, da æ-lyden skulle være der uansett. Anna -->
+								<me:dipl>þr<seg type="lig">æ&#xF538;l</seg>s</me:dipl>
+								<me:norm>þræls</me:norm>
+							</choice>
+						</w>
+						<w lemma="van-sæla" me:msa="xNC gF nS cN sI">
+							<choice>
+								<me:facs>&uGE;&nYG;&sYGS;&aeMD;&lGE;&aYG;</me:facs>
+								<me:dipl>unsæla</me:dipl>
+								<me:norm>vansæla</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+								<me:norm>,</me:norm>
+							</choice>
+						</pc>
+						<w lemma="þat" me:msa="xPE p3 gN nS cA"> <!--Olga: står ordet i akkusativ eller nominativ? --> <!-- Odd Einar: Det står i akkusativ, som objekt til “ráða”, der subjektet er utelate. Så det bør stå cA, slik du har valt. -->
+							<choice>
+								<me:facs>&thGE;&tYG;</me:facs>
+								<me:dipl>þt</me:dipl>
+								<me:norm>Þat</me:norm>
+							</choice>
+						</w>
+						<w lemma="skulu" me:msa="xVB fF tPS mIN p3 nP vA iPP">
+							<choice>
+								<me:facs>&sYGS;&kYG;&lGE;&uGE;</me:facs>
+								<me:dipl>sklu</me:dipl>
+								<me:norm>skulu</me:norm>
+							</choice>
+						</w>
+						<w lemma="ráða" me:msa="xVB fI tPS vA iST">
+								<choice>
+									<me:facs>&rGE;&aYG;&thGE;&aYG;</me:facs>
+									<me:dipl>raþa</me:dipl>
+									<me:norm>ráða</me:norm>
+								</choice>
+							</w>
+					</p>			
+			</div>
+		</body>
+		<back>	
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk (Etter Nordby, 2018)</head>
+				<p>Jeg får ikke sove,<lb/>
+					det er barns sykdom = <hi rend="italic">kaun</hi> ‘byll’ = k<lb/>
+					den arbeidendes hat = <hi rend="italic">úr</hi> ‘yr’ = u<lb/>
+					fjellets beboer = <hi rend="italic">þurs</hi> ‘tuss’ = þ<lb/>
+					hestens slit = <hi rend="italic">reið</hi> ‘vogn’ = r<lb/>
+					og høyets skade = <hi rend="italic">úr</hi> ’‘yr’  = u<lb/>
+					trellens ulykke = <hi rend="italic">nauð</hi> ‘nød’  = n<lb/>
+			    dette skal dere tyde.</p>
+			</div>
+		    
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (Runic names taken from Barnes, 2012)</head>
+				<p>I can’t fall asleep,<lb/>
+				it’s the children’s illness     = <hi rend="italic">kauna</hi> ‘boil’      = k<lb/>
+				the workers’ hate               = <hi rend="italic">uruz</hi> ‘drizzle’   = u<lb/>
+				the mountain dweller            = <hi rend="italic">þurisaz</hi> ‘troll’   = þ<lb/>
+				the horse’s labour              = <hi rend="italic">raiðo</hi> ‘ride’      = r<lb/>
+				and the hay’s harm              = <hi rend="italic">uruz</hi> ‘drizzle’    = u<lb/>
+				the slave’s misfortune          = <hi rend="italic">nauðiz</hi> ‘need’     = n<lb/>
+			    This you shall interpret.</p>
+			</div>
+		    
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Innskriften er relativt tydelig og lesningen de fleste steder sikker. Alle <hi rend="bold">æ</hi>-runene (r. 3, 47 og 73) er punktert i hver ende av tverrkvisten. Flere steder er ordene forkortet – i hovedsak ved at vokaler er utelatt: r. 19–21 <hi rend="bold">bna</hi> = <hi rend="bold">barna</hi>, 66–69 <hi rend="bold">þrls</hi> = <hi rend="bold">þræls</hi>, 70–71 <hi rend="bold">un</hi> = <hi rend="bold">van-</hi> og 76–81  <hi rend="bold">þtsklu</hi> = <hi rend="bold">þat skulu</hi>. Forkortelsene er tydelig motivert av at risterens følelse av å ha liten plass (jf. slutten av første linje og siste linje). Jf. Nordby (2018: 308).</p>
+			    <p>Teksten utgjør en strofe i versemålet <hi rend="italic">fornyrðislag</hi>. Seks av verselinjene danner kjenningaktige omskrivninger for runenavn, og til sammen staver disse runenavnene kvinnenavnet Guðrún. Jf. Nordby (2018: 308).</p>
+			    <p>Tolkningen av innskriften er et produkt av mange forskeres iherdige forsøk, som litt etter litt har ledet fram til en overbevisende tolkning. Med en lesning etablert på grunnundersøkelsen av Aslak Liestøl og ham selv henvendte James Knirk seg i 1986 til en rekke forskere i håp om at bidrag til en tolkning ville komme. Stefán Karlsson, Böðvar Guðmundsson, Bjarne Fidjestøl og Ólafur Halldórsson har alle bidratt (korrespondanse i Runearkivet), men det var Jonna Louis-Jensen (brev av 4.8.1986 i Runearkivet; Knirk 1986: 77; Louis-Jensen 1994) som kom fram til den endelige løsningen.. Jf. Nordby (2018: 308).</p>
+			</div>	
+		    
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<figure><graphic url="A104-A.jpg"/></figure>
+				<caption>Fotografi av A104. Fra Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="A104-B.jpg"/></figure>
+				<caption>Avtegning av A104 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+		    
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+			    <bibl>Nordby, 2018 = Avhandling for ph.d.-graden <title>Lønnruner : Kryptografi i runeinnskrifter fra vikingtid og middelalder</title>. Utg. av K. Jonas Nordby. <ref  target="https://www.duo.uio.no/bitstream/handle/10852/66332/1/avhandling-nordby.pdf" type="external"></ref>. Oslo: Universitetet i Oslo.</bibl>
+			    <bibl>Barnes, 2012 = Runes: A Handbook by Michael P. Barnes (2012), 1. utg., Woodbridge: The Boydell Press.</bibl>
+			    <bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+		    
+		    <div type="responsibility">
+		        <head>Redaktør for denne innførselen</head>
+		        <p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p>
+		        <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene. </note>
+		    </div>
+		</back>
+	</text>
+</TEI>

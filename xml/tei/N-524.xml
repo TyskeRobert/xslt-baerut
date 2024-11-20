@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 524 : Ydstines (Skrivarberget), Stjørdal, Trøndelag : A digital edition</title> <!-- OEH 2021-04-06: Stadnamnet blir visst no skrive Ydstines (ikkje Ystines) -->
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 5, pp. 80-95</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Vlasova</surname>
+                            <surname>Våtvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-04-06">6 April 2021</date>.</edition> <!-- OEH 2021-04-06: I denne fila er så godt som alt på plass, så eg synest vi skal setje versjonsnummeret til 0.9 (og så auke til 1.0 når det er lenka til illustrasjonane -->
+            </editionStmt>
+            <extent n="7">7 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">V 80-95</idno>
+                <date when="2021-04-06">6 April 2021</date> <!-- OEH 2021-04-06: Dette er datoen for publiseringa i arkivet, dvs. når underteikna lastar det opp i repositoriet (og så vil det gå nokre dagar før det er synleg på nettet) -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.4609, 11.0073</settlement>
+                        <repository>While the current state of this inscription is unknown, two of the runes were already destroyed due to natural processes at the time of its first transcription in 1956.</repository>
+                        <idno>N 524</idno>
+                        <msName>N 524 : Ydstines (Skrivarberget), Stjørdal, Trøndelag</msName> <!-- OEH 2021-04-06: Stadnamnet blir visst no skrive Ydstines (ikkje Ystines) -->
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                                <condition>Partially destroyed</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1150" notAfter="1200">c. 1150-1200</origDate></origin> <!-- OEH 2021-04-06: Jf. diskusjonen i kommentaren nedanfor -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 80-95.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+          <change>
+            <date>2021-05-10</date>
+            <name>Odd Einar Haugen</name>
+            <orgName type="affiliation">University of Bergen</orgName>: Added a link to a scan of the photo of the inscription in NIyR</change>
+            <change>
+                <date>2021-04-07</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a minor change to the back element.</change>
+            <change>
+                <date>2021-04-06</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few minor changes to the header, reorganised the presentation and commentary, and suggested a more specific dating.</change>
+            <change>
+                <date>2021-04-01</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the front element with additional information.</change>
+            <change>
+                <date>2021-03-25</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the body of the text.</change>
+            <change>
+                <date>2021-03-21</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the front and back elements to the text.</change>
+            <change>
+                <date>2021-03-19</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the header.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 524 ||  
+                    <hi rend="bold">Sted</hi>: Ydstines (Skrivarberget), Stjørdal, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1150–1200<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR V: 80–95 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/9e3a474f-0714-41a1-b04d-344d572fd6c7" type="external">N 524</ref>
+                </head>
+                <p> Denne innskriften var ristet inn i fjellveggen Skrivarberget som befinner seg mellom gårdene Ydstines og Berg. Den er skrevet med venderuner fra høyre mot venstre, men gjengis her i vanlig skriftretning. Den er innholdsmessig lik innskriften N 521, en av de fem andre runeinnskrifter funnet på Skrivarberget. Begge innskriftene indikerer plassering av en gjemt skatt, og det er rimelig å anta at det er den samme skatten som er omtalt i begge, da de er funnet på samme sted. Derimot er det mindre sannsynlig for disse å ha blitt ristet av en og samme person, med tanke på ortografiske og stilistiske forskjeller. </p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <seg type="nb">
+                        <w lemma="hér" me:msa="xAV">
+                            <choice>
+                                <me:facs>&hYGL;&eMD;&rGE;</me:facs>
+                                <me:dipl>her</me:dipl>
+                                <me:norm>Hér</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&eMD;&rGE;</me:facs>
+                                <me:dipl>er</me:dipl>
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="fé" me:msa="xNC gN nS cN sI">
+                            <choice>
+                                <me:facs><seg type="lig">&fGE;&#xF538;&eMD;</seg></me:facs>
+                                <me:dipl>fe</me:dipl>
+                                <me:norm>fé</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="fela" me:msa="xVB fP tPT vA gN nS cA sI iST">
+                            <choice>
+                                <me:facs>&fGE;<seg type="lig">&oYG;&#xF538;&lGE;</seg><unclear reason="eccentric_ductus">&gMD;</unclear>&eMD;&tYG;</me:facs>
+                                <me:dipl>f<seg type="lig">o&#xF538;l</seg><supplied type="restoration" resp="Aslak Liestol" source="NIyR">g</supplied>et</me:dipl>
+                                <me:norm>folgit</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="undir" me:msa="xAP yD">
+                            <choice>
+                                <me:facs>&uGE;&nYG;&tYG;&iGE;&rGE;</me:facs>
+                                <me:dipl>untir</me:dipl>
+                                <me:norm>undir</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="steinn" me:msa="xNC gM nS cD sI">
+                            <choice>
+                                <me:facs>&sYGS;&tYG;<unclear reason="illegible">*</unclear>&nYG;&iGE;</me:facs>
+                                <me:dipl>st<supplied type="restoration" resp="Aslak Liestol" source="NIyR">i</supplied>ni</me:dipl>
+                                <me:norm>steini</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="þessi" me:msa="xDD gM nS cD">
+                        <choice>
+                            <me:facs>&thGE;&eMD;&sYGSdot;&sYGSdot;<unclear reason="weathered">&uGE;</unclear>&mYGL;</me:facs>
+                            <me:dipl>þess<supplied type="restoration" resp="Aslak Liestol" source="NIyR">u</supplied>m</me:dipl>
+                            <me:norm>þessum</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Her er gods skjult under denne steinen.</p>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Wealth is concealed here under these stones.</p>
+            </div>
+            
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p> Den ujevne overflaten av fjellveggen der innskriften var ristet inn skal ha ligget til grunn for de vekslende mellomrom mellom runene, og for at innskriftslinjen gradvis går høyere opp mot jevnere overflate. Avskrevet for første gang i 1956 av Aslak Liestøl, var innskriften for det meste tydelig lesbart, med unntak av noen av runene. Dette omhandlet særlig de to runer som stod på nittende og tjuesjuende plass fra høyre, der den ene allerede var kommet bort ved avskalling av steinen og den andre sterkt skadet, men likevel gjenkjennelig. Også g-runen som står på niende plass er noe utydelig og kan se ut som en f-rune grunnet en uheldig utforming av den øverste streken. Jf. NIyR V: 80-95.</p>
+                <p> Det ser ut til at de to innskriftene på Skrivarberget er ristet over noen tid. For eksempel er det brukt en upunktert t-rune i ordet “undir” i N 524 og en punktert t-rune i det samme ordet i N 521. En annen forskjell er punktering av i-runer for å indikere lydverdien /e/, som i N 521 tar en form av en små sirkel heller enn et punkt. Den relativt lille variasjonen, i tillegg til det samme tematiske innhold og plassering av innskriftene, indikerer gjerne at de kan ha blitt til innenfor et 100-200 års mellomrom. Punktering av runer skal på denne tiden ha vært rimelig godt etablert, da vi finner gjennomført punktering av runene k, s, i, og t for lydverdiene /g/, /s/, /e/ og /d/. Innskriften N 524 kan derimot argumenteres for å være litt eldre enn N 521, da den ikke punkterer alle sine s-runer, og lar være å punktere t-runen i ordet “undir”. Det har i denne sammenhengen vært nevnt av Aslak Liestøl, som var den første til å undersøke innskriften, at bruken av upunktert t-rune og en punktert k-rune for lydverdiene /d/ og /g/ i N 524 minner om innskriften N 148 fra Atrå kirke, som var datert til ca. 1180. Jf. NIyR V: 80-95. På bakgrunn av dette er innskriften her dater til ca. 1150–1200.</p> <!-- OEH 2021-04-06: Det siste avsnittet har eg flytt frå presentasjonen lenger oppe, justert teksten lite grann, og tillate meg å datere til 1150-1200.-->
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N524-A.jpg"/></figure>
+                <caption>Fotografi av N 524. Gjengitt etter NIyR V: plansje VII. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N524-B.jpg"/></figure>
+                <caption>Avtegning av N 524 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+               <p><figure><graphic url="N524-A-flipped.jpg"/></figure></p>
+                <caption>Fotografi av N 524. Gjengitt speilvendt, slik at runene kan leses i sin normale skriftretning.</caption>
+                <p><figure><graphic url="N524-B-flipped.jpg"/></figure></p>
+                <caption>Avtegning av N 524. Gjengitt speilvendt, slik at runene kan leses i sin normale skriftretning.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>
+

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng"> <!-- NYTT: Merk at teksten i <teiHeader xml:lang="eng"> skal vere på engelsk. I elementet <text> nedanfor slår vi over til norsk. -->
+        <fileDesc>
+            <titleStmt>
+                <title>N 128 † : Sylling church, Lier ,Viken</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 2, pp. 141–145</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-11-04">04 November 2021</date>.</edition>
+            </editionStmt>
+            <extent n="10">10 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">II 141–145</idno>
+                <date when="2021-11-04">04 November 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>59.8987, 10.2812</settlement>
+                        <idno>N 128</idno>
+                        <msName>N 128 † : Sylling church, Lier, Viken</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="runestone"> 
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p> <!-- NYTT: Denne er enkel nok - vi brukar termar som “stone”, “tree”, “bone”, “metal” o.l. Opplysninga kjem på nytt lenger nede i <front>, og der nyttar vi   norske termar. Elles er det fullt mogleg å leggje inn litt fritekst her. Då kan ein gjere det i ein ny <p>, t.d. “Etter det som er opplyst i NIyR, er det tale om granitt.”-->
+                                    <p></p>
+                                </support>
+                                <condition>Lost</condition> <!-- NYTT: Dette feltet er ikkje obligatorisk. Men om ønskeleg kan ein leggje inn tekst av typen “Partially damaged” e.l. -->
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1150" notAfter="1200">c. 1150-1200</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="lost">Lost in 1851 during construction work.</note> <!-- NYTT: Det synest ikkje vere nokon opplagd stad for å notere at innskriftsgjenstanden er tapt. Men det er mogleg å leggje det inn som ein <note> i <adminInfo> i elementet <additional>. Med tanke på ekstraksjon av data, kan ein gje <note>-elementet attributtet @type med verdiane ‘extant’ eller ‘lost’. Så kan ein bruke <note>-elementet til å kommentere kvar innskriftsgjenstanden er å finne, om den er bevart, eller korleis vi kjenner til den, dersom den er tapt. Gjer det kortfatta. Status for innskrifta kjem vi tilbake til i <front>-elementet nedanfor, der vi brukar dei norske termane “Bevart” eller “Tapt”. -->
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a project financed by Forskergruppen i Mellomalderfilologi at UiB in Autumn 2021.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 2, pp. 141–145.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+                    <p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-10</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols and reading of the runes
+            </change>
+            <change>
+                <date>2021-11-04</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Created initial version, review pending.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <!-- NYTT: Header er som nemnt ovanfor forfatta på engelsk, men når vi no går over til <text>, er det norsk som gjeld. Du må bestemme deg for om du vil bruke nynorsk eller bokmål, og passe på at all tekst kjem i same målform. Denne malen er utfylt på nynorsk, så om du brukar bokmål, må du merke deg desse endringane i titlar:
+		Stad > Sted, Utgåve > Utgave, Omsetjing til norsk/engelsk > Oversettelse til norsk/engelsk, Kjelder > Kilder -->
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 128 ||  <!-- NYTT: Merk at det skal stå “Signum”. -->
+                    <hi rend="bold">Sted</hi>: Sylling kirke, Lier, Viken || <!-- NYTT: Merk at vi her brukar norsk, t.d. “gard”/“gård”, “kyrkje”/“kirke”. -->
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || <!-- NYTT: Denne lenka kjem seinare. Inntil vidare skriv vi “Lenke kjem her”/“Lenke kommer her”. -->
+                    <hi rend="bold">Datering</hi>: ca. 1150-1200 <lb/>  <!-- NYTT: Vi set inn eit <lb/> for å få oppstillinga over to linjer. -->
+                    <hi rend="bold">Materiale</hi>: Sten ||  <!-- NYTT: Ny kategori, i samsvar med <physDesc> ovanfor, men med norsk terminologi, “stein”, “tre”, “bein”, “metall” m.m. -->
+                    <hi rend="bold">Status</hi>: Tapt i 1851||  <!-- NYTT: Ny kategori i samsvar med <additional> ovanfor, men med norsk tekst. Om innskrifta er tapt, skriv du “Tapt”. Om innskrifta er bevart på staden, skriv du “Bevart på staden”/“Bevart på stedet”. Om innskrifta er flytta til eit museum e.l., kan du nemne dette kortfatta, t.d. “Bevart, no i Bryggens museum”/“Bevart, nå i Bryggens Museum”. Om du har ei meir detaljert referanse, t.d. med nummer frå samlinga, kan du ta det heile med i "p" nedanfor. -->
+                    <hi rend="bold">Utgave</hi>: NIyR II: 141–45 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/7411a04b-c2cd-4b83-895c-f1b4715cff7a" type="external">N 128</ref> <!-- NYTT: Legg inn den referansen du finn i SamNord under “Referera enligt följande” og skriv inn signum akkurat slik det står i Runor, her “N 58”. -->
+                </head>
+                <p>Innskrifta fans på en sten som ble innmurt i Sylling kirke sin vegg sem reiv ned 1851 da stenen gikk tapt. Stenen var sannsynlig en gravsten. Den bevares bare i avtegninger som den som vises nede. Innskrifta hadde tre linjer som Olsen kaller A, B og C. C er øverst, men regnes som siste linjer her og i NIyR fordi det gir bare informasjoner om runeristeren. B er mindre stor og følger direkte under A. Jf. NIyR II 141-45.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>  <!-- NYTT: La denne noten stå akkurat slik. Den lenkar til ei pdf-fil som forklarar oppsettet av runekatalogen. -->
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head> <!-- NYTT: Denne blir vist i same skriftgrad som <head> i <div type="translation"> nedanfor. På bokmål kan du skrive “innskriften”. -->
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="A"/>
+                    <w lemma="Salgerðr" me:msa="xNP nS cN gF sI">
+                        <choice>
+                            <me:facs>&sYGSdot;&aYG;&iGE;&lGE;&gMD;&aeMD;&rGEcv;&thGEcv;&rGEcv;</me:facs>
+                            <me:dipl>sailgærþr</me:dipl>
+                            <me:norm>S<supplied reason="emendation" resp="MagnusOlsen">a</supplied>lgerðr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice> 
+                            <me:facs>&fourdotPM;</me:facs> <!-- The original seems to have included more dots as seperators, but that doesnt seem too relevant here.-->
+                        </choice>
+                    </pc>
+                    <w lemma="hvíla" me:msa="xVB fF nS p3 tPS vA mIN iWK">
+                        <choice>
+                            <me:facs>&hYGL;&yMD;&iGE;&lGE;&iGE;&rGEcv;</me:facs>
+                            <me:dipl>hyilir</me:dipl> <!-- The inscription is most definitely wrong here or follows a unknown standard, but according to the drawing this rune is very clear, so the emendation has been placed only in the normalization -->
+                            <me:norm>h<supplied reason="emendation" resp="MagnusOlsen">v</supplied>ílir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="hér" me:msa="xAV">
+                        <choice>
+                            <me:facs>&hYGL;&eMD;&rGEcv;</me:facs>
+                            <me:dipl>her</me:dipl>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&fourdotPM;</me:facs> <!-- The original seems to have included more dots as seperators, but that doesnt seem too relevant here.-->
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="Guð" me:msa="xNP cN nS gM sI"> <!-- The name of the Christian deity is usually treated as a proper noun, hence xNP instead of xNC.-->
+                            <choice>
+                                <me:facs>&gMD;&uGE;&thGEcv;</me:facs>
+                                <me:dipl>guþ</me:dipl>
+                                <me:norm>Guð</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="gǽta" me:msa="xVB fF nS p3 tPS vA mSU iWK">
+                            <choice>
+                                <me:facs>&gMD;&aeMD;<unclear reason="damaged">&tYG;</unclear>&iGE;&eMD;</me:facs> <!-- Unclear marker might be confusing here, since the unclarity is not the quality of the consonant but rather if it is tYG or tOR. Though it is almost certainly tYG based on the other clearly medieval rune forms. -->
+                                <me:dipl>gætie</me:dipl>
+                                <me:norm>gǽti</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <lb ed="ms" n="B" />
+                    <seg type="enc">
+                        <w lemma="þú" me:msa="xPE p2 nS cG">
+                            <choice>
+                                <me:facs>&thGEcv;&iGE;&nYG;</me:facs>
+                                <me:dipl>þin</me:dipl>
+                                <me:norm>þín</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="-na" me:msa="xUA"> <!--- Olsen posits that this is a meaningless particle, like we see in modern Icelandic, which does seem plausible. -->
+                            <choice>
+                                <me:facs>&aYG;</me:facs>
+                                <me:dipl>a</me:dipl>
+                                <me:norm>-na</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:norm>.</me:norm>
+                            </choice>
+                        </pc>
+                    </seg>
+                    <lb ed="ms" n="C" />
+                    <w lemma="Áslákr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&aYG;&sYGSdot;&lGE;&aYG;&kYG;&rGEcv;</me:facs>
+                            <me:dipl>aslakr</me:dipl>
+                            <me:norm>Áslákr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&fourdotPM;</me:facs> <!-- The original seems to have included more dots as seperators, but that doesnt seem too relevant here.-->
+                        </choice>
+                    </pc>
+                    <w lemma="marka" me:msa="xVB fF nS p3 tPT vA mIN iWK">
+                        <choice>
+                            <me:facs>&mYGLcv;&aYG;&rGEcv;&kYG;&aYG;&thGEcv;&iGE;</me:facs>
+                            <me:dipl>markaþi</me:dipl>
+                            <me:norm>markaði</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="ek" me:msa="xPE p1 nS cA">
+                        <choice>
+                            <me:facs>&mYGL;&iGE;&kYG;</me:facs>
+                            <me:dipl>mik</me:dipl>
+                            <me:norm>mik</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>			
+            </div>
+        </body>
+        <back>	
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head> <!-- NYTT: Her er det naturleg å følgje NIyR, men du kan tilpasse omsetjinga til di eiga målform. -->
+                <p>(A) Salgerd hviler her. Gud vokte (B) deg. - (C) Aslak merket meg.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head> <!-- NYTT: Har lagt til ein parentes med referanse til SamNord. -->
+                <p>(A) Salgerðr rests here. God protect (B) you. - (C) Áslákr marked me.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Avtegninga er godt lesbart, men det ble diskusjon om siste tegn i B. Noe forsker hadde postulert at det skulle bare være en uvanlig form av þinn, men Olsen argumenterer troverdig at det er egentlig en betydningsløs partikkel -na. Den fins f.eks. i moderne islandsk. Jf. NIyR II 143-45.</p><!-- NYTT: Legg merke til korleis runeteikn og translittereringar av desse er koda her. Om ein ikkje kan taste inn runeteikna direkte, må ein bruke entitetar. -->
+            </div>			
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N128-A.jpg"/></figure>
+                <caption>Avtegning ved M.F. Arendt (trolig fra 1804). Fra NIyR II: 142. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head> <!-- NYTT: Vi brukar elementet <bibl> for kvar kjelde. Innførslane for NIyR og SamNord kan kopierast direkte herifrå, berre tilpassa nynorsk eller bokmål. For ein bokmålsversjon, sjå t.d. A53. -->
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2008041600054" type="external">Bd. 1</ref> (1941), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2011110908131" type="external">bd. 2</ref> (1951), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2016010508032" type="external">bd. 3</ref> (1954), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604065" type="external">bd. 5</ref> (1960), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014021748073" type="external">bd. 6:1</ref> (1980), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014052708113" type="external">bd. 6:2</ref> (1990), <ref  target="https://folk.ntnu.no/ivar/filer/Hagland1997-Trondheimsruner.pdf" type="external">bd. 7</ref> (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig bare for norske IP-adresser (utenom bd. 7).</bibl>
+                <bibl>SamNord = Samnordisk runetekstdatabase. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> <!-- NYTT: Vi legg til institusjon og årstal. -->
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> <!-- NYTT: Denne skal kome i grått (ettersom note-elementet har type-attributt med verdien ‘explanation’) Her er teksten på nynorsk. Bokmålsversjonen ser slik ut:
+					Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene. -->
+                <!-- Denne teksten kan tilpassast når det er andre viktige kjelder som kjem i tillegg. Sjå t.d. A74 for døme på dette. -->
+            </div>
+        </back>
+    </text>
+</TEI>

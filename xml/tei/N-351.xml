@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 351 : Borgund stave church, Lærdal, Vestland : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor><editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 147–150</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Hallvard</forename>
+                            <forename>T.</forename> <!-- Trygge -->
+                            <surname>Storvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Saskia</forename>
+                            <forename>J.</forename> <!-- Jamie -->
+                            <surname>Cowan</surname> 
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-05-21">21 May 2021</date>.</edition> <!-- OEH 2021-05-21: Har sett versjonsnummeret til 0.9 og datoen til i dag -->
+            </editionStmt>
+            <extent n="25">25 words</extent> <!-- OEH 2021-03-20: Etter omkodinga har talet på ord stige frå 19 til 25 -->
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 147–150</idno> <!-- OEH 2021-03-20: Bruk omtalen av innskrifta i NIyR -->
+                <date when="2021-03-21">21 March 2021</date> <!-- OEH 2021-03-20: Har sett datoen til i dag -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Two photographs and one drawing. See credits below.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.0472, 7.8123</settlement>
+                        <idno>N 351</idno>
+                        <msName>N 351 : Borgund stave church, Lærdal, Vestland</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p><material>wood</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1150" notAfter="1250">c. 1150-1250</origDate></origin> <!-- OEH 2021-03-21: Vi prøver oss med ei litt snevrare datering, jf. NIyR IV: 150. Runor-databasen har 1100-1500, og det er altfor vidt. -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">In situ</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from NIyR vol. 4, pp. 147–148.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-28</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Minor corrections as part of QA work.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-05-21</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added a photo from NIyR in addition to the one from Holmqvist and Bollaert.</change>
+            <change>
+                <date>2021-05-10</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added a link to the new drawing of the inscription by Saskia J. Cowan.</change>
+            <change>
+            <date>2021-03-21</date>
+            <name>Odd Einar Haugen</name>
+            <orgName type="affiliation">University of Bergen</orgName>: Made a number of changes to the header and particularly to the transcription</change>        
+            <change>
+                <date>2021-03-19</date>
+                <name>Saskia J. Cowan</name> and <name>Hallvard Trygge Storvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first draft of the encoding</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 351 ||  
+                    <hi rend="bold">Stad</hi>: Borgund stavkyrkje, Lærdal, Vestland || 
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || 
+                    <hi rend="bold">Datering</hi>: ca. 1150–1250<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart på staden || 
+                    <hi rend="bold">Utgåve</hi>: NIyR IV: 147–150 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target=" http://kulturarvsdata.se/uu/srdb/cc0470ca-c1da-4f99-90fe-ea87b8c60b0e" type="external">N 351</ref>
+                </head>
+                <p> Innskrifta er rista inn ved ein av inngangsportalene til kyrkja. Runene har svært høge stavar jamført med kvistane og bøylane, og det er omfattande bruk av binderuner. Innhaldet i innskrifta er uvanleg i det at den omtalar norner; heidne gudinner som styrer lagnaden i norrøn mytologi.</p>
+            </div>
+            <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    
+                    <!-- OEH 2021-03-20: Når innskrifta er så komplisert å kode som denne, kan ein koste på seg ei blanklinje mellom kvart element. Det spelar inga rolle om det er eitt eller hundre mellomrom mellom to element. -->
+                    
+                    <w lemma="Þórir" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&thGE;<seg type="lig">&oYG;&#xF538;&rGE;</seg>&iGE;&rGE;</me:facs>
+                            <me:dipl >þ<seg type="lig">o&#xF538;r</seg>ir</me:dipl>
+                            <me:norm>Þórir</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic"> <!-- OEH 2021-03-20: Interpunksjonen legg vi til i eit eige <pc>-element med attributt for at det er rune-interpunksjon. Her og seinare i transkripsjonen har eg flytta det ut av <w>-elementet -->
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="rísta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                        <choice>
+                            <me:facs>&rGE;&aeMD;&iGE;&sYGSdot;&aYG;</me:facs>
+                            <me:dipl >ræist</me:dipl>
+                            <me:norm>reist</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="rún" me:msa="xNC gF nP cA sI">
+                        <choice>
+                            <me:facs>&rGE;&uGE;&nYG;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs>
+                            <me:dipl>run<seg type="lig">a&#xF538;r</seg></me:dipl>
+                            <me:norm>rúnar</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+
+                    <w lemma="þessi" me:msa="xDD gF nP cA"> <!-- OEH 2021-03-20: Trur vi fører opp “þessi” som lemma her -->
+                        <choice>
+                            <me:facs>&thGE;&iGE;&sYGSdot;&sYGSdot;<seg type="nb">&aYG;&rGE;</seg></me:facs>
+                            <me:dipl>þiss<seg type="nb">ar</seg></me:dipl>
+                            <me:norm>þessar</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="sá" me:msa="xDD gM nS cA">
+                        <choice>
+                            <me:facs>&thGE;&aYG;&nYG;</me:facs> <!-- OEH 2021-05-24: Har retta R til Þ -->
+                            <me:dipl>þan</me:dipl>
+                            <me:norm>þann</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="óláfsmessuaftann" me:msa="xNP gM nS cA sI"> <!-- OEH 2021-03-20: Ja, i denne bendelormen av eit ord må ein leggje inn <pc>-elementa innanfor <w>. Hovudgrunnen er at vi ønskjer å annotere dette som eitt ord, slik det er gjort her, og då må vi pakke dei tre grafiske orda inn i eitt <w>-element. --> <!-- OEH 2021-03-20: Her er det fleire binderunar, også frå den siset runa i eitt ord til den første i runa i neste ord; kodinga blir som forklart for  B192 i kap. 18.3.3 --> <!-- OEH 2021-03-20: Om vi held oss til ortografien i ONP, må det bli “óláfsmessuaftann” - dei har bestemt seg for “ft” der Norrøn ordbok har “pt”. -->
+                        <choice>
+                            <me:facs>&oYG;&lGE;&aYG;&uGE;&sYGS; <pc type="runic">&middotPM;</pc> &mYGL;&eMD;&sYGSdot;&sYGSdot;<pc type="runic">&middotPM;</pc> <seg type="lig-initial">&oYG;</seg><seg type="lig-final">&aeMD;</seg>&pMDopen;&thGE;<seg type="lig">&aYG;&#xF538;&nYG;</seg></me:facs>
+                            <me:dipl>olaus <pc type="runic">&middotPM;</pc> mess<seg type="lig-initial">o</seg><pc type="runic">&middotPM;</pc><seg type="lig-final">æ</seg>pþan</me:dipl> <!-- SP 2022-02-28: Deleted whitespaces since the inscription does not feature spaces here. -->
+                            <me:norm>ólafsmessuaftan</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <lb ed="ms" n="2"/> <!-- OEH 2021-03-20: Her byrjar linje 2, så vi legg inn eit <lb/>-element -->
+                    
+                    <seg type="nb"> <!-- OEH 2021-03-20: Vi pakkar inn desse to orda i eit <seg>-element -->
+                        <w lemma="er" me:msa="xRP"> <!-- OEH 2021-03-20: Her klassifisert som relativpartikkel, kunne også ha vore rekna som subjunksjon, xCS -->
+                        <choice>
+                            <me:facs><unclear reason="faded">&eMD;</unclear>&rGE;</me:facs>
+                            <me:dipl><supplied type="restoration">e</supplied>r</me:dipl>
+                            <me:norm>er</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="hann" me:msa="xPE p3 gM nS cN"> <!-- OEH 2021-03-20: Og då blir dette rett fram etter nasen, pronomenet hann, xPE -->
+                            <choice>
+                                <me:facs>&hYGL;&aYG;&nYG;</me:facs>
+                                <me:dipl>han</me:dipl>
+                                <me:norm>hann</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="fara" me:msa="xVB fF tPT mIN p3 nS vA iST"> 
+                        <choice>
+                            <me:facs>&fGE;<seg type="lig">&oYG;&#xF538;&rGE;</seg></me:facs> <!-- OEH 2021-03-20: Eg har lagt til at det er ei binderune mellom dei to siste runene --> <!-- OEH 2021-03-20: Brukar berre standard-entiteten &rGE;, ikkje &rGEcv; (her og andre stader) --> <!-- SP 2022-02-28: Changed the attribute from nb to lig, since this is supposed to be a bindrune.-->
+                            <me:dipl>f<seg type="lig">o&#xF538;r</seg></me:dipl> <!-- OEH 2021-03-20: Vi gløymer attributtet rendition="bold" - det var ein dårleg idé frå mi side (!) -->
+                            <me:norm>fór</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <seg type="nb"> <!-- OEH 2021-03-20: Vi pakkar inn desse to orda i eit <seg>-element -->
+                        <w lemma="hér" me:msa="xAV"> <!-- OEH 2021-03-20: Eg har lagt til at det er ei binderune mellom dei to siste runene --> <!-- SP 2022-02-28: See above.-->
+                        <choice>
+                            <me:facs>&hYGL;<seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+                            <me:dipl>h<seg type="lig">e&#xF538;r</seg></me:dipl> <!-- OEH 2021-03-20: Vi gløymer attributtet rendition="bold" - det var ein dårleg idé frå mi side (!) -->
+                            <me:norm>hér</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="um" me:msa="xAP"> <!-- OEH 2021-03-20: Trur vi tolkar “um” som ein preposisjon, xAP -->
+                            <choice>
+                                <me:facs>&uGE;&mYGL;</me:facs>
+                                <me:dipl>um</me:dipl>
+                                <me:norm>um</me:norm>
+                            </choice>
+                    </w>
+                        <pc type="runic"> <!-- OEH 2021-05-20: Dette pc-elementet er lagt til for å kunen setje inn eit avsluttande punktum på det normaliserte nivået -->
+                            <choice>
+                                <me:facs></me:facs>
+                                <me:dipl></me:dipl>
+                                <me:norm>.</me:norm>
+                            </choice>
+                        </pc>
+                     </seg>
+                    
+                    <lb ed="ms" n="3"/> <!-- OEH 2021-03-20: Her byrjar linje 3, så vi legg inn eit <lb/>-element -->
+ 
+                    <pc type="runic"> 
+                        <choice>
+                            <me:facs>&fivedotpunct;</me:facs>
+                            <me:dipl>&fivedotpunct;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <seg type="nb"> <!-- OEH 2021-03-20: Vi pakkar inn desse tre orda i eit <seg>-element. Denne var ikkje enkel, så her har eg lagt inn det som trengst av <seg>-element, inkl. den typen som spenner over ordskilje, jf. siste versjon av kap. 18.3.3, eksempelet frå B 192. -->
+                        <w lemma="bǽði" me:msa="xCC"> <!-- OEH 2021-03-20: I konstruksjonen bǽði - ok reknar vi begge orda som konjunksjonar -->
+                        <choice>
+                            <me:facs>&bGE;&aeMD;&thGE;<seg type="lig-initial">&eMD;</seg></me:facs>
+                            <me:dipl>bæþ<seg type="lig-initial">e</seg></me:dipl>
+                            <me:norm>Bǽði</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="gera" me:msa="xVB fF tPT mIN p3 nP vA iWK">
+                            <choice>
+                                <me:facs><seg type="lig-final">&gMD;</seg><seg type="lig">&eMD;&#xF538;&rGE;</seg>&thGE;<seg type="lig-initial">&oYG;&#xF53A;</seg></me:facs>
+                                <me:dipl><seg type="lig-final">g</seg><seg type="lig">e&#xF538;r</seg>þ<seg type="lig-initial">o&#xF53A;</seg></me:dipl>
+                                <me:norm>gerðu</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="norn" me:msa="xNC gF nP cN sI">
+                            <choice>
+                                <me:facs><seg type="lig-final">&nYG;&#xF53B;</seg>&oYG;<supplied type="emendation">&rGE;</supplied>&nYG;<seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl><seg type="lig-final">n&#xF539;</seg>o<supplied type="emendation">r</supplied>n<seg type="lig">e&#xF538;r</seg></me:dipl>
+                                <me:norm>nornir</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>   
+                    
+                    <w lemma="vel" me:msa="xAV rP">
+                        <choice>
+                            <me:facs>&uGE;&aeMD;&lGE;</me:facs>
+                            <me:dipl>uæl</me:dipl>
+                            <me:norm>vel</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc> 
+                    
+                    <w lemma="ok" me:msa="xCC"> <!-- OEH 2021-03-20: Dette ordet er ein konjunksjon (saman med bǽði lenger ovanfor) -->
+                        <choice>
+                            <me:facs><seg type="lig">&oYG;&#xF538;&kYG;</seg></me:facs>
+                            <me:dipl><seg type="lig">o&#xF538;k</seg></me:dipl>
+                            <me:norm>ok</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc> 
+                    
+                    <w lemma="illa" me:msa="xAV rP">
+                        <choice>
+                            <me:facs>&iGE;<seg type="lig">&lGE;&#xF538;&lGE;</seg>&aYG;</me:facs>
+                            <me:dipl>i<seg type="lig">l&#xF538;l</seg>a</me:dipl>
+                            <me:norm>illa</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>;</me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="mikill" me:msa="xAJ rP gF nS cA sI"> <!-- OEH 2021-03-20: Dette ordet reknar vi som eit adjektiv -->
+                        <choice>
+                            <me:facs>&mYGL;&iGE;&kYG;&lGE;&aYG;</me:facs>
+                            <me:dipl>mikla</me:dipl>
+                            <me:norm>mikla</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="mǿði" me:msa="xNC gF nS cA sI"> <!-- OEH 2021-03-20: Dette ordet er eit substantiv (fellesnamn) -->
+                        <choice>
+                            <me:facs>&mYGL;&oeMD;&thGE;&eMD;</me:facs>
+                            <me:dipl>møþe</me:dipl>
+                            <me:norm>mǿði</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <lb ed="ms" n="4"/> <!-- OEH 2021-03-20: Her byrjar linje 4, så vi legg inn eit <lb/>-element -->
+                    
+                    <surplus reason="excess">
+                        <choice>
+                            <me:facs>&gMD;</me:facs>
+                            <me:dipl>g</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </surplus>
+                    
+                    <w lemma="skapa" me:msa="xVB fF tPT mIN p3 nP vA iWK"> <!-- OEH 2021-03-20: Dette ordet er eit verb -->
+                        <choice>
+                            <me:facs>&sYGSdot;&kYG;&aYG;&pMDopen;&aYG;&thGE;&uGE;</me:facs>
+                            <me:dipl>skapaþu</me:dipl>
+                            <me:norm>skǫpuðu</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm></me:norm>
+                        </choice>
+                    </pc>
+                    
+                    <seg type="nb"> <!-- OEH 2021-03-20: Vi pakkar inn desse to orda i eit <seg>-element -->
+                        <w lemma="sá" me:msa="xDD gF nP cN"> <!-- OEH 2021-03-20: Denne forma kunne nok ha vore rekna som personleg pronomen, men ettersom den er samanfallande med formene av demonstrativet “sá” reknar vi det som ordklassa xDD -->
+                        <choice>
+                            <me:facs>&thGE;&aeMD;&rGE;</me:facs>
+                            <me:dipl>þær</me:dipl>
+                            <me:norm>þǽr</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="ek" me:msa="xPE p1 gU nS cD"> <!-- OEH 2021-03-20: Dette ordet reknar vi som eit personleg pronomen, dativ av “ek” -->
+                        <choice>
+                            <me:facs>&mYGL;&eMD;&rGE;</me:facs>
+                            <me:dipl>mer</me:dipl>
+                            <me:norm>mér</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>				
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk (ved Magnus Olsen i NIyR IV: 149)</head>
+                <p>Tore ristet disse runer den Olavsmesseaften (28. juli) da han fór her forbi. Både gjorde nornene vel og ille; stor møie ‘skapte’ de mig.</p>
+            </div>
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk (for denne utgåva)</head>
+                <p>Tore rista desse runene den Olavsmesseaftan (28. juli) då han fór her forbi. Nornene gjorde både vel og ille; stor møye skapte dei for meg.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>Þórir carved these runes on the eve of Olaus-mass, when he travelled past here. The norns did both good and evil, great toil they created for me.</p>	
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjonar</head>
+                <figure><graphic url="N351-A.jpg"/></figure>
+                <caption>Fotografi av N 351 (mars 2019). Stilt til disposisjon av Karen Holmqvist og Johan Bollaert. Som ein kan sjå av fotografiet er det sett eit pleksiglas framfor innskrifta.</caption>
+                <figure><graphic url="N351-B.jpg"/></figure>
+                <caption>Fotografi av N351. Attgjeve frå NIyR, bd. IV, plansje VIII (lys frå venstre).</caption>
+                <figure><graphic url="N351-C.jpg"/></figure>
+                <caption>Avteikning av N 351 (april 2021). Utført av Saskia J. Cowan etter sjølvsyn på staden.</caption> <!-- OEH 2021-05-10: Denne avteikninga er verkeleg flott! -->
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet frå Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktørar for denne innførselen</head>
+                <p>Saskia J. Cowan og Hallvard T. Storvik (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>

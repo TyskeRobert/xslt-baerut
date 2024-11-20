@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 297 : Hamre church, Osterøy, Vestland : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 64-65</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katrine</forename>
+                            <surname>Andresen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-03-05">5 March 2021</date>.</edition>
+            </editionStmt>
+            <extent n="12">12 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 64-65</idno>
+                <date when="2021-01-26">26 January 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>60.5447, 5.3519</settlement>
+                        <idno>N 297</idno>
+                        <msName>N 297 : Hamre church, Osterøy, Vestland</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p><material>wood</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1250" notAfter="1350">c. 1300</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">In situ</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 64-65.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="lat">Latin</language>
+                    <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change><date>2021-03-05</date> <name> <persName>Odd Einar Haugen</persName> <orgName type="affiliation">University of Bergen</orgName> </name>: Revised the header, and added a front and back element.
+            </change>
+            <change><date>2021-01-26</date> <name> <persName>Katrine Andresen</persName> <orgName type="affiliation">University of Bergen</orgName> </name>: Made the first draft of this file
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 297 ||  
+                    <hi rend="bold">Stad</hi>: Hamre kyrkje, Osterøy, Vestland || 
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || 
+                    <hi rend="bold">Datering</hi>: ca. 1300<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart på staden || 
+                    <hi rend="bold">Utgåve</hi>: NIyR IV: 64–65 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/908a0617-1d89-46f9-82f8-92941b86d1b0" type="external">N 297</ref>
+                </head> 
+                <p>Denne innskrifta stod på ein planke frå ei eldre kyrkje og vart funnen på undersida av ein veggfast benk i koret i den nye tømmerkyrkja frå 1640. Dette skjedde under restaureringsarbeid i 1948. Jf. NIyR IV: 64.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+                <p>
+                        <pb ed="ms" n="1r"/>
+                        <lb ed="ms" n="1"/>
+                            <w lemma="hér" me:msa="xAV">
+                                <choice>
+                                    <me:facs>&#x16BC;&#x16C2;&#x16B1;</me:facs>
+                                    <me:dipl>her</me:dipl>
+                                    <me:norm>Hér</me:norm>
+                                </choice>
+                            </w>		                  
+                            <w lemma="niðri" me:msa="xAV">
+                                <choice>
+                                    <me:facs>&#x16BF;&#x16C1;&#x16D1;&#x16B1;&#x16C1;</me:facs>
+                                    <me:dipl>nidri</me:dipl>
+                                    <me:norm>niðri</me:norm>
+                                </choice>
+                           </w>
+                           <w lemma="fyrir" me:msa="xAV">
+                                <choice>
+                                    <me:facs>&#x16A0;&#x16C1;&#x16B1;&#x16C1;&#x16B1;</me:facs>
+                                    <me:dipl>firir</me:dipl>
+                                    <me:norm>fyrir</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="hvíla" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+                                <choice>
+                                    <me:facs>&#x16BC;&#x16A2;&#x16C1;&#x16DA;&#x16C1;&#x16B1;</me:facs>
+                                    <me:dipl>huilir</me:dipl>
+                                    <me:norm>hvílir</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="jumfrú" me:msa="xNC gF nS cN sI">
+                                <choice>
+                                    <me:facs>&#x16C1;&#x16A2;&#x16D8;&#x16A0;&#x16B1;&#x16A2;</me:facs>
+                                    <me:dipl>iumfru</me:dipl>
+                                    <me:norm>jumfrú</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="Margréta" me:msa="xNP gF nS cN sI">
+                                <choice>
+                                    <me:facs>&#x16D8;&#x16C6;&#x16B1;&#x16B5;&#x16B1;&#x16C2;&#x16D0;&#x16D0;&#x16C6;</me:facs>
+                                    <me:dipl>margretta</me:dipl>
+                                    <me:norm>Margréta</me:norm>
+                                </choice>
+                            </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                            <w lemma="biðja" me:msa="xVB fF tPS mIP p2 nP vA iST">
+                                <choice>
+                                    <me:facs>&#x16D2;&#x16C1;&#x16D1;&#x16C1;&#x16B1;</me:facs>
+                                    <me:dipl>bidir</me:dipl>
+                                    <me:norm>Biðið</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="Pater" xml:lang="lat"> <!-- Olga: tror ikke det er aktuelt med msa her siden det er et eksempel på kodeveksling --> <!-- Odd Einar: Det er eg samd i. Men vi bør vurdere å leggje inn språkkode for latin i dette og tilsvarande ord, altså xml:lang="lat". Då må vi også utvide <langUsage> i header med <language ident="lat">Latin</language>. -->
+                                <choice>
+                                    <me:facs>&#x16D5;&#x16C6;&#x16D0;&#x16C2;&#x16B1;</me:facs>
+                                    <me:dipl>pater</me:dipl>
+                                    <me:norm>Pater</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="noster" xml:lang="lat">
+                                <choice>
+                                    <me:facs>&#x16BF;&#x16AE;&#x16CD;&#x16D1;&#x16C2;&#x16B1;</me:facs>
+                                    <me:dipl>nosder</me:dipl>
+                                    <me:norm>noster</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="fyrir" me:msa="xAP yA">
+                                <choice>
+                                    <me:facs>&#x16A0;&#x16C1;&#x16B1;&#x16C1;&#x16B1;</me:facs>
+                                    <me:dipl>firir</me:dipl>
+                                    <me:norm>fyrir</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="hon" me:msa="xDP gF nS cG">
+                                <choice>
+                                    <me:facs>&#x16BC;&#x16C2;&#x16BF;&#x16BF;&#x16C6;&#x16B1;</me:facs>
+                                    <me:dipl>hennar</me:dipl>
+                                    <me:norm>hennar</me:norm>
+                                </choice>
+                            </w>
+                            <w lemma="sál" me:msa="xNC gF nS cA sI">
+                                <choice>
+                                    <me:facs>&#x16CD;&#x16C6;&#x16C6;&#x16Da;</me:facs>
+                                    <me:dipl>saal</me:dipl>
+                                    <me:norm>sál</me:norm>
+                                </choice>
+                            </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                    </p>           
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Her nedanfor kviler Jomfru Margreta. Be Pater noster for hennar sjel.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Here below rests the virgin Margréta. Pray Our Father for her soul.</p>	
+            </div>
+ 
+            <div type="illustration">
+                <head>Illustrasjonar</head>
+                <figure><graphic url="N297-B.jpg"/></figure>
+                <caption>Avteikning av heile N 297 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N297-C.jpg"/></figure>
+                <caption>Fotografi av første halvpart av N 297 ved Aslak Liestøl. Frå NIyR IV: 65. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N297-E.jpg"/></figure>
+                <caption>Avteikning av første halvpart av N 297 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N297-D.jpg"/></figure>
+                <caption>Fotografi av andre halvpart av N 297 ved Aslak Liestøl. Frå NIyR IV: 65. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N297-F.jpg"/></figure>
+                <caption>Avteikning av andre halvpart av N 297 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet frå Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katrine Andresen (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> 
+            </div>
+                       
+        </back>
+    </text>
+</TEI>

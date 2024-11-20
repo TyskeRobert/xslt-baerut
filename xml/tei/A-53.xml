@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>A 53 : Eik rectory, Sokndal, Rogaland : A digital edition</title> <!-- OEH 2021-03-23: Har valt engelsk for “prestegård” -->
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt resp="annotation"> <!-- OEH 2021-03-24: La til resp-attributt her, som krevst for vising av namnet i katalogen -->
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Sebastian</forename> <!-- OEH 2021-03-23: Fornamn og etternamn kvar for seg -->
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2023-05-02">2
+                    May 2023</date>
+                </edition>
+            </editionStmt>
+            <extent n="11">11 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno>n/a</idno> <!-- OEH 2021-03-23: Må høyre med Kristel Zilmer om det er eit nummer i runearkivet ein kan vise til -->
+                <date when="2021-03-23">23 March 2021</date> <!-- OEH 2021-03-23: Har sett dagens dato -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photos from the Runic Archives in Oslo.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>58.3437, 6.30923</settlement>
+                        <idno>A 53</idno>
+                        <msName>A 53 : Eik rectory, Sokndal, Rogaland</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1000" notAfter="1050">c. 1000-1050</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook
+                    (3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml"
+                        >https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+                            February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the
+                        rendering and image in RuneSDB https://www.runesdb.eu/find-list/d/fa/q/r/r/1~2/6/f/2818/c/96e1a5e7cb8d61429120355bac182d10/</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic
+                        and normalised, and it has been supplied with a translation as well as
+                        images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the
+                        rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+                
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2023-05-02</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few modifications to the file for greater consistency, and gave it version number 0.9.</change>
+            <change>
+                <date>2022-03-21</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-18</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols
+            </change>
+            <change>
+                <date>2021-08-30</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-04-07</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Reorganised the section on illustrations
+            </change>
+            <change>
+                <date>2021-03-23</date>
+                <name>Odd Einar Haugend</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few changes to the header
+            </change>
+            <change>
+                <date>2021-03-22</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first working draft with full MSA and full dipl, norm and facs levels.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="nor"> <!-- OEH 2021-03-23: Brukar no berre “nor”, supplert med datering -->
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: A 53 ||  
+                    <hi rend="bold">Sted</hi>: Eik prestegård, Sokndal, Rogaland || 
+                    <hi rend="bold">Kart</hi>: På vei || 
+                    <hi rend="bold">Datering</hi>: ca. 1000–1050<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: Ennå ikke i NIyR ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/93fd27be-f4b2-4057-aa5c-896caaa90d70" type="external">A 53</ref>
+                </head>
+                <p>Dette er en stor og tydelig innskrift på en stein, som ble funnet i to omtrent like store stykker. Innskriften er fordelt på tre linjer som går i <q>plogfurevending</q>, slik at runene blir speilvendt i den midterste linjen. I fotografiene nedenfor er linjene gjengitt hver for seg, og den midterste linjen er speilvendt slik at runene står i sin vanlige form.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <w lemma="Saxi" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&sYGS;&aYG;&kYG;<unclear reason="weathered">&sYGS;</unclear>&iGE;</me:facs>
+                            <me:dipl>sak<supplied reason="restoration" resp="Aslak Liestøl">s</supplied>i</me:dipl>
+                            <me:norm>Saxi</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic"> <!-- Har lagt til eit attributt på <pc>-elementet med tanke på visinga i Corpuscle -->
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="gera" me:msa="xVB iWK nS p3 tPT mIN vA fF">
+                            <choice>
+                                <me:facs>&kYG;&iGE;&uGE;&thGEcv;&iGE;</me:facs>
+                                <me:dipl>ki<supplied reason="emendation" resp="Aslak Liestøl">r</supplied>þi</me:dipl> <!-- OEH 2021-03-23: Er ikkje den tredje runa her ei u-rune? Som Liestøl rettar til ei r-rune? -->
+                                <me:norm>ge<supplied reason="emendation" resp="Aslak Liestøl">r</supplied>ði</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <me:norm>,</me:norm>
+                        </pc>
+                        <w lemma="Guð" me:msa="xNP nS gM cG sI">
+                            <choice>
+                                <me:facs>&kYG;&oYG;&uGE;&sYGS;</me:facs>
+                                <me:dipl>kous</me:dipl>
+                                <me:norm>gu<supplied reason="emendation" resp="Aslak Liestøl">ð</supplied>s</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <lb ed="ms" n="2"/>
+                    
+<!-- OEH 2021-03-23: Etter det eg kan sjå, står det “þaka” klart og tydeleg i byrjinga av linje 2, så eg har tillate meg å føre inn denne lesinga                                       
+                    
+                    <w lemma="þakka" me:msa="xVB iWK nS 1p tPS mSU vA fF">
+                        <choice>
+                            <me:facs><unclear reason="weathered">&thGEcv;</unclear>&aYG;&kYG;&aYG;</me:facs>
+                            <me:dipl><supplied reason="restoration" resp="Aslak Liestøl">þ</supplied>aka</me:dipl>
+                            <me:norm><supplied reason="emendation" resp="Aslak Liestøl">þ</supplied>akka</me:norm>
+                        </choice>
+                    </w>
+ -->                   
+                    <w lemma="þǫkk" me:msa="xNC gF nP cG sI"> <!-- OEH 2021-03-23: Som du vil sjå i Liestøls artikkel er dette ordet truleg genitiv fleirtal av substantivet þǫkk -->
+                        <choice>
+                            <me:facs>&thGEcv;&aYG;&kYG;&aYG;</me:facs>
+                            <me:dipl>þaka</me:dipl>
+                            <me:norm>þakka</me:norm>
+                        </choice>
+                    </w>                
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="fyrir" me:msa="xAP yA">
+                        <choice>
+                            <me:facs>&fGEcv;&iGE;&rGE;&iGE;&rGE;</me:facs>
+                            <me:dipl>firir</me:dipl>
+                            <me:norm>fyrir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="sál" me:msa="xNC gF nS cA sI">
+                        <choice>
+                            <me:facs>&sYGS;&aYG;&lGE;<unclear reason="illegible">*</unclear></me:facs> <!-- OEH 2021-03-24: La inn unclear-element, utfylt med asterisk; jf. kap. 18.3.5 -->
+                            <me:dipl>sal<supplied reason="restoration" resp="Aslak Liestøl">o</supplied></me:dipl>
+                            <me:norm>sálu</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="móðir" me:msa="xNC gF nS cG sI">
+                        <choice>
+                            <me:facs>&mYGS;&iGE;&oYG;&uGE;&thGE;&oYG;&rGE;</me:facs>
+                            <me:dipl>mouþor</me:dipl>
+                            <me:norm>móður</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="sinn" me:msa="xDP gF nS cG">
+                        <choice>
+                            <me:facs>&sYGS;&iGE;&nYG;&aYG;&rGE;</me:facs>
+                            <me:dipl>sinar</me:dipl>
+                            <me:norm>sinnar</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <me:norm>,</me:norm>
+                    </pc>
+                    <lb ed="ms" n="3"/>
+                    
+<!-- OEH 2021-03-23: Dette ordet er ei utfordring! Sjå gjerne på det ein gong til! Eg har prøvd meg med ei lesing nedanfor, men er langt frå sikker. Kan ikkje forstå anna enn at den andre runa er ei s-rune, og er ikkje i stand til å sjå “ou” her. Merk for resten at dersom du brukar <sic>, bør det stå eit <corr> på neste nivå                    
+                    
+                    <w lemma="Þorríðr" me:msa="xNP gF nS cA sI">          
+                        <choice>
+                            <me:facs>&thGEcv;<sic>&mYGS;&uGE;</sic><unclear reason="poorly-drawn">&uGE;</unclear>&rGEcv;&iGE;&thGEcv;&iGE;</me:facs>
+                            <me:dipl>þ<supplied reason="emendation" resp="Aslak Liestøl">u</supplied>riþi</me:dipl>
+                            <me:norm>Þorríði</me:norm>
+                        </choice>
+                    </w>
+                    
+  -->                   
+                    <w lemma="Þórríðr" me:msa="xNP gF nS cA sI">          
+                        <choice>
+                            <me:facs>&thGEcv;&sYGS;&uGE;<unclear reason="poorly-drawn">&rGEcv;</unclear>&rGEcv;&iGE;&thGEcv;&iGE;</me:facs>
+                            <me:dipl>þ<surplus reason="excess" resp="Odd Einar Haugen">s</surplus>urriþi</me:dipl>
+                            <me:norm>Þórríði</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="brú" me:msa="xNC gF nS cA sI">
+                        <choice>
+                            <me:facs><unclear reason="damaged">&bGEcv;</unclear><unclear reason="poorly-drawn">&rGE;</unclear>&uGE;</me:facs>
+                            <me:dipl><unclear reason="damaged">b</unclear><unclear reason="poorly-drawn">r</unclear>u</me:dipl>
+                            <me:norm>brú</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="sjá" me:msa="xDD gF cA nS">
+                        <choice>
+                            <me:facs>&thGEcv;&iGE;&sYGS;&aYG;</me:facs>
+                            <me:dipl>þisa</me:dipl>
+                            <me:norm>þessa</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&crosPM;</me:facs>
+                            <me:dipl>+</me:dipl>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Sakse gjorde denne brua for sjela til si mor Turid som takk til gud.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Saxi made this bridge for the soul of his mother Þórríðr as thanks to God.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head> <!-- OEH 2021-03-23: Utkast til kommentar. Det kan stå mykje meir her, sjølvsagt, kan hende om dei orda som er vanskelege å tolke. -->
+                <p>Denne steinen ble først funnet i 1970, etter at det aktuelle bindet av NIyR var utgitt. Den er omtalt og tolket av Aslak Liestøl (1972, s. 67-76).</p>
+            </div>
+              
+            <div type="illustration"> 
+                <head>Illustrasjoner</head>
+                
+                <p><figure><graphic url="A53-A.jpg"/></figure></p>
+                <caption>Fotografi av A 53. Arkeologisk Museum, Stavanger.</caption> 
+                
+                <p><figure><graphic url="A53-A-red.jpg"/></figure></p>
+                <caption>Fotografi av A 53 ved K. Jonas Nordby, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC BY-SA.</caption> 
+                
+                <p><figure><graphic url="A53-A-lb1.jpg"/></figure></p>
+                <caption>Første linje i A53.</caption>
+                
+                <p><figure><graphic url="A53-A-lb2.jpg"/></figure></p>
+                <caption>Andre linje i A53, vendt horisontalt.</caption>
+                
+                <p><figure><graphic url="A53-A-lb3.jpg"/></figure></p>
+                <caption>Tredje linje i A53.</caption>
+                
+                <p><figure><graphic url="A53-B.jpg"/></figure></p>
+                <caption>Avtegning av A 53 ved Saskia J. Cowan (2022). Lisens: CC BY-SA.</caption> 
+                
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>Liestøl, Aslak. 1972. “Innskrifta på Eiksteinen.” <title>Stavanger museums årbok</title>. Stavanger: Museet.
+                </bibl>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+            </div>
+        </back>
+    </text>
+</TEI>
+

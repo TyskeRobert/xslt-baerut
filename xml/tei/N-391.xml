@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng"> 
+        <fileDesc>
+            <titleStmt>
+                <title>N 391 † : Hopperstad church, Vik, Vestlandet : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 202-203</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Olav</forename>
+                            <surname>Rygh</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>MenotaBlitz technology developed by</resp>
+                    <name>
+                        <persName>Robert Kristof Paulsen</persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katrine</forename>
+                            <surname>Andresen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.8">First draft, generated with MenotaBlitz,
+                    <date when="2021-10-23">23 October 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="5">5 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 202-2013</idno>
+                <date when="2021-10-29">29 October 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawing by the editor.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.0775, 6.569</settlement>
+                        <idno>N 391</idno>
+                        <msName>N 391 † : Hopperstad church, Vik, Vestlandet</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                                <condition></condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1100" notAfter="1500">c. 1100-1500</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="lost">Lost in 1830. Now only known in a drawing from 1626.</note> 
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 202-203.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, where the transcriptions on the first two levels have been generated with the help of MenotaBlitz technology, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+                    <p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-28</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Minor changes as part of QA work.
+            </change>
+            <change>
+                <date>2021-10-31</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added a back element.</change>
+            <change>
+                <date>2021-10-29</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the header and added a front element and morphological annotation.</change>
+            <change>
+                <date>2021-10-23</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Created the first draft as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref> "menotaFD"-style transcription.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 391 ||  
+                    <hi rend="bold">Stad</hi>: Hopperstad kyrkje, Lærdal, Vestlandet ||
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || 
+                    <hi rend="bold">Datering</hi>: ca. 1100-1500<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Tapt ||
+                    <hi rend="bold">Utgåve</hi>: NIyR IV: 202-203 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/ae3b6d95-d728-40c0-b5d1-6fbbb5aaae91">N 391</ref> 
+                </head>
+                <p>Steinen var av omtrent same storleik som forrige (jf. N390: 3 alen (1 alen = 0,6275 m) lang og 1,125 alen brei) og låg på kyrkjas austside. Ifølge avteikninga frå 1626 var steinen broten i tre stykke, innskrifta stod vassrett langs den øvste kanten, og eit av brota gjekk skrått over begge innskriftslinjer i deira byrjing. Etter 1830 er steinen ikkje lenger å finna.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head> 
+                <p>
+                    <pb ed="ms" n="1r"/> <!-- SP 2022-02-28: Fixed ligs. -->
+                    <lb ed="ms" n="1"/>
+                    
+                    <pc type="runic"> 
+                        <choice>
+                            <me:facs>&crosPM;</me:facs>
+                        </choice>
+                    </pc>
+                    
+                    <seg type="nb">
+                        <w lemma="hér" me:msa="xAV"> <!-- Odd Einar: Eg har retta Hér > hér. Berre propria bør førast opp med lemma som har stor forbokstav. -->
+                        <choice>
+                            <me:facs>&hYGL;&eMD;&rGE;</me:facs>
+                            <me:dipl>her</me:dipl>
+                            <me:norm>Hér</me:norm>
+                        </choice>
+                    </w>
+                    
+                        <w lemma="hvíla" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+                        <choice>
+                            <me:facs>&hYGL;&uGE;&iGE;&lGE;&iGE;&rGE;</me:facs>
+                            <me:dipl>huilir</me:dipl>
+                            <me:norm>hvílir</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+
+                    <pc type="runic"> 
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="undir" me:msa="xVP"> <!-- Olga: xAP eller xVP? --> <!-- Odd Einar: I utgangspunktet trur eg vi skal rekne “undir” som preposisjon, sjølv om den kan ha adverbiell bruk. Så eg har retta xVP > xPE. Sjå Bells bd. 4:1 (2014), s. 37. -->
+                        <choice>
+                            <me:facs>&uGE;&nYG;&thGE;&iGE;&rGE;</me:facs>
+                            <me:dipl>unþir</me:dipl>
+                            <me:norm>undir</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic"> 
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    
+                    
+                    <w lemma="Arnfinnr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs><seg type="lig">&aYG;&#xF538;&rGE;</seg>&nYG; <lb ed="ms" n="2"/> &fGE;&iGE;&nYG;&thGE;&rGE;</me:facs>
+                            <me:dipl><seg type="lig">a&#xF538;r</seg>n <lb ed="ms" n="2"/>finþr</me:dipl>
+                            <me:norm>Arnfinnr</me:norm>
+                        </choice>
+                    </w>
+                    
+                    <pc type="runic"> 
+                        <choice>
+                            <me:facs>&threedotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    
+                    <w lemma="Jatvarðsson" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&iGE;&aYG;&uGE;<seg type="lig">&aYG;&#xF538;&rGE;</seg>&tYG;&zMD; <pc>&twodotPM;</pc> &sYGScrc;&oYG;&nYG;</me:facs>
+                            <me:dipl>iau<seg type="lig">a&#xF538;r</seg>tz son</me:dipl>
+                            <me:norm>Jatvarðsson</me:norm>
+                        </choice>
+                    </w>
+
+                </p>
+            </div>
+        </body>
+        
+        <back>	
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Her under kviler Arnfinn Jatvardsson.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>Hereunder rests Arnfinnr Jatvarðr's son</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar.</head>
+                <p>Det er mogleg at det stod ordskiljesteikn mellom orda <hi rend="bold">&hYGL;&eMD;&rGE;</hi> <hi rend="bold">her</hi> og <hi rend="bold">&hYGL;&uGE;&iGE;&lGE;&iGE;&rGE;</hi> <hi rend="bold">huilir</hi> som elles mellom ord i innskrifta, men grunna det omtalte brotet har gått tapt.</p>
+                <p>Bruken av runa <hi rend="bold">&thGE;</hi> for lydkvaliteten "d" (i ordet <hi rend="bold">&uGE;&nYG;&thGE;&iGE;&rGE;</hi> <hi rend="bold">unþir</hi>) peiker mot sein middelalder. Like eins gjer engelsk stammande namn <hi rend="cursive">Jatvarðr</hi> som var sjeldent og kjent frå seine kjelder. Det er likevel truleg at innskrifta eigentleg hadde <hi rend="bold">&hYGL;&aYG;&uGE;<seg type="ligature">&aYG;&rGE;</seg>&tYG;&zMD;</hi> <hi rend="bold">hau<seg type="ligature">ar</seg>tz</hi>, der kvistane på <hi rend="bold">&hYGL;</hi> har blitt borte. Ifølge ei sånn tolking står det namnet <hi rend="cursive">Hávarðr</hi>, gen. <hi rend="cursive">Hávar(ð)z</hi>.</p>
+                <p>C. Marstrander (1943) føreslår også lesing "Lauretz" (<hi rend="bold">&lGE;&aYG;&uGE;<seg type="ligature">&aYG;&rGE;</seg>&tYG;&zMD;</hi> <hi rend="bold">lau<seg type="ligature">ar</seg>tz</hi>).</p>
+            </div>			
+            <div type="illustration">
+                <head>Illustrasjonar</head>
+                <figure><graphic url="N391-A.jpg"/></figure>
+                <caption>Avteikning av N 391 ved Paaske (1626). Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 202.</caption>
+            </div>
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957)</bibl>
+                <bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katrine Andresen (Universitetet i Bergen, 2021)</p>
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

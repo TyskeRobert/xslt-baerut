@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 386 : Stedje stone, Sogndal, Vestland  : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 193-197</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-28">28
+                    March 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="6">6 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 193-197</idno>
+                <date when="2021-03-28">28 March 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Historical drawing from NIyR and recent photo of the damaged stone</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Stedje, Sogndal, Vestland</settlement> <!-- OEH 2021-04-08: Her kunne ein ha lagt inn geografiske koordinatorar frå Runor-basen -->
+                        <idno>N 386</idno>
+                        <msName>N 386 : Stedje church, Sogndal, Vestland</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material> Stone type is gneiss.</p>
+                                </support>
+                                <condition>Partially damaged</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1030" notAfter="1066">c. 1030-1066</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">In situ</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook
+                    (3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml"
+                        >https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+                            February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the
+                        rendering and image in NIyR vol. 4, pp. 193-197.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic
+                        and normalised, and it has been supplied with a translation as well as
+                        images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the
+                        rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+                
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-11-23</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Corrected the transcription and annotation of the verb "skaut".</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-03-28">
+                <date>2021-03-28</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>:Made the first working draft with full MSA and full dipl, norm and facs levels.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="non">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 386 ||  
+                    <hi rend="bold">Sted</hi>: Stedje, Sogndal, Vestland || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1030–1066<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart på stedet || 
+                    <hi rend="bold">Utgave</hi>: NIyR IV: 193–197 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/4ebccb3a-8b78-461a-8d05-769df23d6fdc" type="external">N 386</ref>
+                </head>
+                <p>Innskriften befinner seg på en 2 m høy stein som ennå står på stedet. Runene er mellom 9 og 17 cm i høye og kan dateres etter Olav den helliges og før Olav Kyrres styre, ifølge Magnus Olsen. Jf. NIyR IV: 195-197.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <seg type="nb">
+                        <w lemma="Ólafr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&oYG;&lGE;&aYG;&fGE;&rGEcv;</me:facs>
+                                <me:dipl>olafr</me:dipl>
+                                <me:norm>Ólafr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="konungr" me:msa="xNC gM nS cN sI">
+                            <choice>
+                                <me:facs>&kYG;&uGE;&nYG;&uGE;&kYG;&rGEcv;</me:facs>
+                                <me:dipl>kunukr</me:dipl>
+                                <me:norm>konungr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="skjóta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&sYGSdot;&kYG;&aYG;&uGE;&tYG;</me:facs>
+                                <me:dipl>skaut</me:dipl>
+                                <me:norm>skaut</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="milli" me:msa="xAP yG">
+                            <choice>
+                                <me:facs>&mYGL;&iGE;&lGE;&iGE;</me:facs>
+                                <me:dipl>mili</me:dipl>
+                                <me:norm>milli</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="steinn" me:msa="xNC gM nP cG sI">
+                            <choice>
+                                <me:facs>&sYGSdot;&tYG;&aeMD;&iGE;&nYG;&aYG;</me:facs>
+                                <me:dipl>stæina</me:dipl>
+                                <me:norm>steina</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sjá" me:msa="xDD gM nP cG sI"> <!-- OEH 2021-04-08: Eller “þessi” som oppslasgform - vi får vurdere dette etter hvert -->
+                            <choice>
+                                <me:facs>&thGEcv;&eMD;<unclear reason="damaged">&zMDtalbrk;</unclear>&aYG;</me:facs>
+                                <me:dipl>þe<supplied reason="restoration" resp="Aslak Liestøl">s</supplied>a</me:dipl>
+                                <me:norm>þe<supplied reason="restoration" resp="Aslak Liestøl">ss</supplied>a</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <me:norm>.</me:norm>
+                    </pc>    
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Kong Olav skjøt mellom disse steinene.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>King Ólafr shot between those stones.</p>	
+            </div>
+            
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Innskriftens nestsiste rune er skadet og i en merkverdig form. Aslak Liestøl mener at det må være langkvistformer &sYGL; eller &zMDhshp; (NIyR IV: 195), selv om det finnes to s-runer i innskriften som er i vanlig kortkvistform.</p>
+                <p>Under snøryddig vinteren 2012 ble toppen av steinen slått av. Se omtalen i NRK nyheter: <ref target="https://www.nrk.no/vestland/runestein-oydelagd-av-snorydding-1.8045637" type="external">Runesteinen på Stedje</ref> (lest 8. april 2021). </p> <!-- OEH 2021-04-08: Veit ikkje kva som er status no - må undersøkjast! Kan dei ha klart å lime saman steinen? -->
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <figure><graphic url="N386-A.jpg"/></figure>
+                <caption>Avtegning av N 386 ved Niels Paaske (1626). Gjengitt etter NIyR IV: 194. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N386-B.jpg"/></figure>
+                <caption>Avtegning av N 386 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+ 
+ <!-- OEH 2021-08-31: Har kommentert ut dette. Bør ikkje leggje ut dette fotografiet dersom det viser seg at steinen er retta opp  
+                <p>Dette fotografiet ble tatt i 2013:
+                    <figure><graphic url="N386-X.jpg"/></figure>
+                    <caption>Fotografi av N 386 etter at toppen var knekt av (30. august 2013). Odd Einar Haugen. Lisens: CC-BY-SA 4.0.</caption>
+                </p>
+            </div> -->         
+
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+                  
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+
+        </back>
+    </text>
+</TEI>
+

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 121 : Ål church I, Ål, Viken  : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Oluf</forename>
+                            <surname>Rygh</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 2, pp. 115-119</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-21">21
+                    March 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="24">24 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">II 115-119</idno>
+                <date when="2021-03-21">23 March 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawing from NIyR.</bibl> <!-- OEH 2021-04-08: Vi satsar på å få lagt ut illustrasjonar -->
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Ål church, Ål, Viken</settlement> <!-- OEH 2021-04-08: Her kunne ein ha lagt inn geografiske koordinatorar frå Runor-basen -->
+                        <idno>N 121</idno>
+                        <msName>N 121 : Ål church, Ål, Viken</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p><material>Wood</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1170" notAfter="1190">c. 1170-1190</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook
+                    (3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml"
+                        >https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+                            February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the
+                        rendering and image in NIyR vol. 2, pp. 115-119.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic
+                        and normalised, and it has been supplied with a translation as well as
+                        images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the
+                        rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+                
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-18</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-04-10</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-20</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols
+            </change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-03-23">
+                <date>2021-03-23</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>:Made the first working draft with full MSA and full dipl, norm and facs levels.
+            </change>
+            <change when="2021-03-25">
+                <date>2021-03-25</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Corrected MSA lemmata to ONP standard.
+            </change>
+            <change when="2021-04-12">
+                <date>2021-04-12</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Small correction in the tags for the words felakr and Geirsteinn.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="non">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 121 ||  
+                    <hi rend="bold">Sted</hi>: Ål church, Ål, Viken || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1170–1190 <lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR II: 115–119 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/ab07b445-fb1c-4d78-881a-eec23934a392" type="external">N 121</ref>
+                </head>
+                <p>Innskriften befinner seg på treveggen i Ål kirke og er malt. Den er ca. 3,5 m stor og runene selv er opptil 10 cm høye. På grunn av alderen og malingsteknikken er den ikke lenger godt lesbar. Jf. NIyR II: 115–117.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    
+                    <!-- OEH 2021-04-08: Eg synest vi skal prioritere lesinga her, og då må vi rekne med at det tre første orda vart tilføydd etterpå. Eg har flytta dei nederst og gitt dei sin eigen "lb" (som vi må gje ei litt mindre konkret fortolking enn i eit handskrift)-->
+                    
+                    <seg type="nb">
+                        <w lemma="Þorólfr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&thGEcv;&oYG;&rGEcv;&oYG;&lGE;&fGE;&rGEcv;</me:facs>
+                                <me:dipl>þorolfr</me:dipl>
+                                <me:norm>Þorólfr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="gera" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+                            <choice>
+                                <me:facs>&kYG;&aeMD;&rGEcv;&thGEcv;&iGE;</me:facs>
+                                <me:dipl>kærþi</me:dipl>
+                                <me:norm>gerði</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="kirkja" me:msa="xNC gF nS cA sI">
+                            <choice>
+                                <me:facs>&kYG;&iGE;&rGEcv;&kYG;&iGE;&uGE;</me:facs>
+                                <me:dipl>kirkiu</me:dipl>
+                                <me:norm>kirkju</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sjá" me:msa="xDD gF nS cA">
+                            <choice>
+                                <me:facs>&thGEcv;&eMD;&sYGS;&aYG;</me:facs>
+                                <me:dipl>þesa</me:dipl>
+                                <me:norm>þessa</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <me:norm>,</me:norm>
+                        </pc>
+                        <!-- This last word may be classified as spaced from the first sequence but the gap is more pronunced after it so I chose to display it as part of the nb <seg> --> <!-- OEH 2021-04-08: Etter avteikninga å dømme er det nesten ikkje skiljeteikn i denne innskrifta. Trur vi skal ta ein ny gjennomgang er, men inntil vidare kjem eg ikkje med framlegg til endirngar -->
+                        <w lemma="en" me:msa="xCC">
+                            <choice>
+                                <me:facs>&eMD;&nYG;</me:facs>
+                                <me:dipl>en</me:dipl>
+                                <me:norm>en</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <seg type="nb">
+                        <w lemma="Geirsteinn" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&kYG;&aeMD;&rGEcv;&aeMD;&sYGS;&tYG;&aeMD;&iGE;&nYG;</me:facs>
+                                <me:dipl>kæræstæin</me:dipl>
+                                <me:norm>Geirsteinn</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vera" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&uGE;<seg type="ligature">&aYG;&rGEcv;</seg></me:facs>
+                                <me:dipl>u<seg type="ligature">ar</seg></me:dipl>
+                                <me:norm>var</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="félagi" me:msa="xNC gM nS cN sI">
+                            <choice>
+                                <me:facs>&fGE;&iGE;<lb ed="ms" n="2"/>&lGE;&aYG;&kYG;&rGEcv;</me:facs>
+                                <me:dipl>fi<lb ed="ms" n="2"/>lakr</me:dipl> <!-- OEH 2021-04-08: Denne hadde du gløymt --><!--SP 2021-04-12: All levels were wrongly marked as <me:facs>, corrected that. -->
+                                <me:norm>fé<lb ed="ms" n="2"/>lagi</me:norm> <!-- OEH 2021-04-08: Denne hadde du gløymt --><!--SP 2021-04-12: All levels were wrongly marked as <me:facs>, corrected that. -->
+                            </choice>
+                        </w>
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs>&oYG;&kYG;</me:facs>
+                                <me:dipl>ok</me:dipl>
+                                <me:norm>ok</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="hann" me:msa="xPE p3 nP gM cN">
+                            <choice>
+                                <me:facs><unclear reason="faded">&thGE;&aeMD;</unclear>&iGE;&rGEcv;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="Oluf Rygh">þæ</supplied>ir</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="Oluf Rygh">þe</supplied>ir</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="Gunnarr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&kYG;&uGE;&nYG;&aYG;<unclear reason="faded">&rGEcv;</unclear></me:facs>
+                                <me:dipl>kun<supplied reason="emendation" resp="Oluf Rygh"><seg type="ligature">ar</seg></supplied></me:dipl>
+                                <me:norm>Gunn<supplied reason="emendation" resp="Oluf Rygh">arr</supplied></me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="Víðarr" me:msa="xNP gM nS cN sI"> <!-- OEH 2021-04-08: La til aksent over “i” -->
+                        <choice>
+                            <me:facs>&uGE;&iGE;&thGEcv;<seg type="ligature">&aYG;&rGEcv;</seg></me:facs>
+                            <me:dipl>uiþ<seg type="ligature">ar</seg></me:dipl>
+                            <me:norm>Víðarr</me:norm> <!-- OEH 2021-04-08: La til aksent over “i” -->
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="Eyvindr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&aeMD;&yYG;&iGE;&nYG;<seg type="ligature">&tYG;&rGEcv;</seg></me:facs>
+                                <me:dipl>æyin<seg type="ligature">tr</seg></me:dipl>
+                                <me:norm>Eyvindr</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <me:norm>,</me:norm>
+                        </pc>
+                        <w lemma="Eiríkr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&aeMD;&iGE;&rGEcv;&iGE;&kYG;<unclear reason="faded">&rGEcv;</unclear></me:facs>
+                                <me:dipl>æirikr</me:dipl>
+                                <me:norm>Eiríkr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="Gunnarr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs><unclear reason="faded">&kYG;</unclear>&uGE;&nYG;<seg type="ligature">&aYG;&rGEcv;</seg></me:facs>
+                                <me:dipl><supplied reason="emendation" resp="Oluf Rygh">kun</supplied><seg type="ligature">ar</seg></me:dipl>
+                                <me:norm><supplied reason="emendation" resp="Oluf Rygh">Gunn</supplied>arr</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <me:norm>.</me:norm>
+                        </pc>
+                        <w lemma="nú" me:msa="xAV">
+                            <choice>
+                                <me:facs>&nYG;&uGE;</me:facs>
+                                <me:dipl>nu</me:dipl>
+                                <me:norm>Nú</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="hafa" me:msa="xVB fF p1 nS tPS vA mIN iWK">
+                            <choice>
+                                <me:facs>&hYGL;&aeMD;&fGEcv;&iGE;</me:facs>
+                                <me:dipl>hæfi</me:dipl>
+                                <me:norm>hefi</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="ek" me:msa="xPE 1p nS gU cN">
+                            <choice>
+                                <me:facs>&eMD;&kYG;</me:facs>
+                                <me:dipl>ek</me:dipl>
+                                <me:norm>ek</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="rísta" me:msa="xVB fP nS tPT vA gN cA sI iWK">
+                            <choice>
+                                <me:facs>&rGEcv;&iGE;&sYGS;&tYG;&iGE;&tYG;</me:facs>
+                                <me:dipl>ristit</me:dipl>
+                                <me:norm>ristit</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <w lemma="allr" me:msa="xAJ rP gU nP cG sI">
+                        <choice>
+                            <me:facs>&aYG;&lGE;<unclear reason="faded">&rGEcv;&aYG;</unclear></me:facs>
+                            <me:dipl>al<supplied reason="restoration" resp="Oluf Rygh">ra</supplied></me:dipl>
+                            <me:norm>all<supplied reason="restoration" resp="Oluf Rygh">ra</supplied></me:norm>
+                        </choice>
+                    </w>
+                    
+                    <lb ed="ms" n="3"/>  <!-- OEH 2021-04-08: Jf. min innleiande kommentar om bruken av "lb" -->
+                    
+                    <seg type="nb">
+                        <w lemma="Alfr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs><seg type="ligature">&aYG;&lGE;</seg>&fGE;&rGEcv;</me:facs>
+                                <me:dipl><seg type="ligature">al</seg>fr</me:dipl>
+                                <me:norm>Alfr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vera" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&uGE;<unclear reason="faded">&aYG;&rGE;</unclear></me:facs>
+                                <me:dipl>u<supplied reason="restoration" resp="Oluf Rygh">ar</supplied></me:dipl>
+                                <me:norm>v<supplied reason="restoration" resp="Oluf Rygh">ar</supplied></me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs><unclear reason="faded">&oYG;</unclear>&kYG;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="Oluf Rygh">o</supplied>k</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="Oluf Rygh">o</supplied>k</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <me:norm>.</me:norm>
+                    </pc>            
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Torolv gjorde denne kirken, og Geirstein var (hans arbeids)felle, og Gunnar, Vidar, Øivind, Eirik, Gunnar. Nå har jeg ristet alles (navn). Alv var også (arbeidsfelle). </p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Þorólfr made this church and Geirsteinn was (his work) partner and Gunnarr, Víðarr, Eyvindr, Eiríkr, Gunnarr. Now I have carved all. Alfr was also (a work partner). </p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Denne utgaven er basert på en avtegning av et foto av innskriften. Ifølge dette fotoet består innskriften av fire blokker uten punkteringer eller mellomrom, men den diplomatiske transkripsjon av Oluf Rygh viser mellomromer og punkteringer som antakelig ikke finnes. Setningen i begynnelse av innskriften er antakelig et tillegg som skulle ha blitt skrevet på slutten om det fantes plass der. Rygh plaserer det på slutten i sin transkripsjon, og det er også gjort her. Det siste navnet i oppregningen av feller er ikke lenger lesbart, bortsett fra de to siste runetegnene (i form av en binderune); Rygh leser &kYG;&uGE;&nYG;&aYG;&rGEcv;, men det kan ikke bevises.</p> <!-- OEH 2021-04-08: Fint! Eg har berre gjort nokre mindre rettingar her. -->
+            </div>
+            <div type="illustration">
+                <head>Illustrasjon</head> <!-- OEH 2021-04-08: Nytt oppsett. Vi kan godt bruke avteikninga i NIyR -->
+                <figure><graphic url="N121-A.jpg"/></figure>
+                <caption>Avtegning av N 121. Gjengitt etter NIyR II: 117. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>
+

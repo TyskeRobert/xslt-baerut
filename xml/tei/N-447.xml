@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+ <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+ %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 447 : Sunndal church (Hov church), Sunndal, Møre og Romsdal : A digital edition</title>
+                <editor role="person">  
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">  
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. IV, pp. 276-277</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riskantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Saskia</forename>
+                            <forename>J.</forename>
+                            <surname>Cowan</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>MenotaBlitz technology developed by</resp>
+                    <name>
+                        <persName>
+                            <forename>Robert</forename>
+                            <forename>K.</forename>
+                            <surname>Paulsen</surname>
+                        </persName>
+                        <orgName type="affiliation">Universitetet i Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">First draft, generated with MenotaBlitz,
+                    <date when="2021-05-01">01 May 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="8">8 words</extent>
+            <publicationStmt>
+                <distributor>"Medieval Nordic Text Archive"</distributor>
+                <idno type="NIyR">IV 276-277</idno>
+                <date when="2021-05-01">01 May 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR IV: 276-277</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>62.6726, 8.56989</settlement>
+                        <repository>Sunndal church (Hov church), Sunndal, Møre og Romsdal</repository>
+                        <idno>N 447</idno>
+                        <msName>N 447 : Sunndal church (Hov church), Sunndal, Møre og Romsdal</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="key">
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        <material>iron</material>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1100" notAfter="1300" >c. 1000-1350</origDate> <!-- Er det mogleg med ei snevrare datering? -->
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">The key is kept in Bergens museum with museum number 5460.</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in
+                    <title>The Menota Handbook (3.0)</title>,
+                    at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+                    as of <date when="2021-02-13">13 February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from NIyR vol. 4, pp. 276-277.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on three focal levels: facsimile, diplomatic, 
+                        and tentatively normalized (based on the diplomatic transcription).
+                        These transcriptions have been generated with the help of MenotaBlitz technology.</p>
+                </normalization>
+                <interpretation me:morphAnalyzed="completely" me:lemmatized="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added a punctuation mark
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-04-05">
+                <p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref>
+                    "menotaFDT"-style transcription</p>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 447 ||  
+                    <hi rend="bold">Stad</hi>: Sunndal (Hov) kyrkje, Sunndal, Møre og Romsdal  || 
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || 
+                    <hi rend="bold">Datering</hi>: ca. 1100–1300<lb/> 
+                    <hi rend="bold">Materiale</hi>: Metall || 
+                    <hi rend="bold">Status</hi>: Bevart, no i Bergens museum (nr. 5460) || 
+                    <hi rend="bold">Utgåve</hi>: NIyR IV: 276–277 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/15b3ce3c-9d63-4862-9be8-457cc8311704" type="external">N 447</ref>
+                </head>
+                <p>Innskrifta kjem frå ein nøkkel funnen ved Sunndal kyrkje (også kjend som Hov kyrkje). Innskrifta er rista inn i handtaket på nøkkelen. </p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&crosPM;</me:facs>
+                        </choice>
+                    </pc>
+                        <w lemma="Ívarr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs>&iGE;&uGE;&aYG;&rGE;</me:facs>
+                                <me:dipl>iuar</me:dipl>
+                                <me:norm>Ívarr</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="smiðr" me:msa="xNC gM nS cN sI">
+                            <choice>
+                                <me:facs><unclear reason="smudged">&sYGSdot;&mYGL;</unclear><unclear reason="smudged">**</unclear><unclear reason="smudged">&rGE;</unclear></me:facs>
+                                <me:dipl>sm<supplied reason="restoration" resp="AslakLiestol">iþ</supplied>r</me:dipl>
+                                <me:norm>smiðr</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                        <w lemma="gera" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+                            <choice>
+                                <me:facs>&kYG;<seg type="ligature">&eMD;&rGE;</seg>&thGE;&eMD;</me:facs> 
+                                <me:dipl>kerþe</me:dipl>
+                                <me:norm>gerði</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                        <w lemma="mik" me:msa="xPE p1 gU nS cA">
+                            <choice>
+                                <me:facs>&mYGL;&iGE;&kYG;</me:facs>
+                                <me:dipl>mik</me:dipl>
+                                <me:norm>mik</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                            <w lemma="en" me:msa="xCC">
+                                <choice>
+                                    <me:facs>&eMD;&nYG;</me:facs>
+                                    <me:dipl>en</me:dipl>
+                                    <me:norm>en</me:norm>
+                                </choice>
+                            </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                        <w lemma="Maria" me:msa="xNP gF nS cN sI"> 
+                            <choice>
+                                <me:facs>&mYGL;&aYG;&rGE;&iGE;&aYG;</me:facs>
+                                <me:dipl>maria</me:dipl>
+                                <me:norm>Maria</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                        <w lemma="eiga" me:msa="xVB fF tPS mIN p3 nS vA iPP">
+                            <choice>
+                                <me:facs>&aYG;</me:facs>
+                                <me:dipl>a</me:dipl>
+                                <me:norm>á</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                        </choice>
+                    </pc>
+                        <w lemma="mik" me:msa="xPE p1 gU nS cA"> 
+                            <choice>
+                                <me:facs>&mYGL;&iGE;&cMD;</me:facs>
+                                <me:dipl>mic</me:dipl>
+                                <me:norm>mik</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&crosPM;</me:facs>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Smeden Ivar laga meg og Maria eig meg.</p>
+            </div>
+            <div  type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>Ivar the smith made me and Maria owns me.</p>
+            </div>
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <p><figure><graphic url="N447-A.jpg"></graphic></figure></p>
+                <caption>Fotografi av N 447 ved Aslak Liestøl. Frå NIyR IV: 277. Lisens: CC-BY-SA 4.0.</caption>
+                <p><figure><graphic url="N447-B.jpg"></graphic></figure></p>
+                <caption>Avteikning av N 447 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <p><figure><graphic url="N447-C.jpg"></graphic></figure></p>
+                <caption>Detaljar av N 447, etter fotografi av Aslak Liestøl. Frå NIyR IV: 277. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet frå Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Saskia J. Cowan (Universitetet i Bergen, 2021–2022)</p> 
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>

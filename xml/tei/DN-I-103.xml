@@ -1,0 +1,125 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 1:103 = RN 3:141 : [after 1303 Dec 6] : Bergen : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.1">Version 0.8.1, <date when="2023-11-21">21 November 2023</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-11-16">16 November 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <idno>DN 1:103</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 3:141</idno></altIdentifier>
+                  <msName>[after 1303 Dec 6] : Bergen</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="placeholder" defective="false">
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>Bergen</origPlace>
+                     <origDate notBefore="1303" notAfter="1303">1303 Dec 6 : Bergen</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-11-16</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Built this file as a placeholder for the now lost document DN 1:103
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+   
+   <text xml:lang="nor"> 
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: [etter 6. desember 1303] || <hi rend="bold">Stad</hi>: Bergen. </head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er no tapt, men det er kjent gjennom ei avskrift i ein noko yngre vidisse, <ref type="internal" target="DN_bind_01_brevnr_106">DN 1:106</ref>. Den sistnemnde vidissen har også avskrift av eit anna diplom, <ref type="internal" target="DN_bind_01_brevnr_097">DN 1:97</ref>.</p>
+               <p>Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet av avskrifta i vidissen.</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 1, nr. 103</head>
+               <p>Hauk Erlendssön Lagmand og Ivar Lagmand i Bergen bevidne det Forlig, som i deres Overvær sluttedes af Andres Paalsson paa Ringheim og Halle paa Rogn med Hustru Solveig i Buagaard angaaende hendes Fordring paa Gaarden Birkjar paa Voss. (jfr. No. 98-100.).</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 141</head>
+               <p>Vitnebrev fra Hauk lagmann og Ivar lagmann i Bergen om forlik, inngått på kongsgården i Bergen mellom Andres Pålsson på Ringheim og Halle på Rogne på den ene siden og hustru Solveig i Bugården på den andre, på følgende betingelser: Solveig ga opp sitt krav på 11 månedsmatsbol i Byrkjo på Voss. Til gjengjeld lovet Andres og Halle å støtte hennes krav mot arvingene etter sira Peter hvis hun hadde noen rett til de 4 månedsmatsbol i Tøn som det sies at han garanterte for at Einar Pinnung skulle ha fritt for Odd Kægda. Solveig tilsto også at hun hadde betalt Askjell Sakesvein og Sigurd Skjalg for det vitnemål de hadde avlagt for Nikolas lagmann i saken om Byrkjo.</p>           
+                  <p>Følgende var til stede: Benedikt på Hauge, Hallstein Brase, Jørund på Rekve, Arnfinn Trinnung, Erlend på Grjotland, Sigurd Skjalg, Steingrim Askjellsson, Hallvard Sigvaldsson, Orm Jonsson og mange andre gode menn. Beseglet av utstederne.</p>
+            </div>
+         </div>
+      </front>
+      
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty -->
+         <div type="diplom">
+         </div>        
+      </body>          
+   </text>
+</TEI>

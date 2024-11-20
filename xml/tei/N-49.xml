@@ -1,0 +1,312 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+ <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+ %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title>N 49 : Lom stave church, Lom, Innlandet : A digital edition</title> <!-- OEH 2021-04-06: Det er riktig med tilføyingane “municipality” og “county”, men vi nøyer oss utan -->
+    <editor role="person">  <!-- OEH 2021-04-06:  Vi fører opp Magnus Olsen som utgjevar i bd. 1 av NIyR-->
+     <name>
+      <persName>
+       <forename>Magnus</forename>
+       <surname>Olsen</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </editor>
+    <respStmt>
+     <resp>Publishing of the runic inscription in NIyr vol. I, pp. 94-99</resp> <!-- OEH 2021-04-06:  Eg korrigerte sidetala-->
+     <name>
+      <persName>
+       <forename>Magnus</forename>
+       <surname>Olsen</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Provision of the Runor database</resp>
+     <name>
+      <orgName type="affiliation">Swedish National Heritage Board (Riskantikvarieämbetet)</orgName>
+     </name>
+    </respStmt>
+    <respStmt resp="annotation">
+     <!-- OEH 2021-04-06: La til attributtet resp="annotation"; det er dette som utløyser at du blir oppført i katalogen under “Annotation” -->
+     <resp>Digital rendering and annotation</resp>
+     <name>
+      <persName>
+       <forename>Saskia</forename>
+       <forename>J.</forename>
+       <surname>Cowan</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Project overview</resp>
+     <name>
+      <persName>
+       <forename>Odd</forename>
+       <forename>Einar</forename>
+       <surname>Haugen</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>MenotaBlitz technology developed by</resp>
+     <name>
+      <persName>
+       <forename>Robert</forename>
+       <forename>K.</forename>
+       <surname>Paulsen</surname>
+      </persName>
+      <orgName type="affiliation">Universitetet i Bergen</orgName>
+     </name>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition n="0.9">First draft, generated with MenotaBlitz,
+     <date when="2021-04-06">06 April 2021</date> <!-- OEH 2021-04-06:  Har sett datoen til i dag -->
+    </edition>
+   </editionStmt>
+   <extent n="9">8 words</extent>
+   <publicationStmt>
+    <distributor>"Medieval Nordic Text Archive"</distributor>
+    <idno type="NIyR">I 94-99</idno>
+    <date when="2021-04-06">06 April 2021</date> <!-- OEH 2021-04-06:  Har sett datoen til i dag -->
+    <availability status="free">
+     <licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl facs="yes">Photo from NIyR I: 95 and drawing from NIyR I: 96</bibl> <!-- OEH 2021-04-06:  Vi brukar også fotografiet i NIyR, sjølv om det ikkje er så godt -->
+    <msDesc>
+     <msIdentifier>
+      <country key="NO">Norway</country>
+      <settlement>61.8397, 8.56615</settlement>
+      <repository>Lom stave church, Lom, Innlandet</repository>
+      <idno>N 49</idno>
+      <msName>N 49 : Lom stave church, Lom, Innlandet</msName>
+     </msIdentifier>
+     <physDesc>
+      <objectDesc form="wood">
+       <supportDesc>
+        <support>
+         <p>
+          <material>wood</material>
+         </p>
+        </support>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate notBefore="1160" notAfter="1250" >c. 1160-1250</origDate> <!-- OEH 2021-04-06:  Det er lettare å forstå rekkjefølgja notBefore - notAfter -->
+      </origin>
+     </history>
+     <additional>
+      <adminInfo>
+       <note type="extant"></note>
+      </adminInfo>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>This encoding follows the standard set out in
+     <title>The Menota Handbook (3.0)</title>,
+     at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+     as of <date when="2021-02-13">13 February 2021</date>.</p>
+   </projectDesc>
+   <editorialDecl>
+    <correction status="high">
+     <p>This text has been imported from NIyR vol. 1, pp. 94-99.</p>
+    </correction>
+    <normalization me:level="facs dipl norm">
+     <p>This text has been encoded on three focal levels: facsimile, diplomatic, 
+      and tentatively normalized (based on the diplomatic transcription).
+      These transcriptions have been generated with the help of MenotaBlitz technology.</p>
+    </normalization>
+    <interpretation me:morphAnalyzed="completely" me:lemmatized="completely">
+     <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="nor">Norwegian</language>
+    <language ident="eng">English</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>2022-04-08</date>
+    <name>Olga Kalinovskaia</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+   </change>
+   <change>
+    <date>2022-02-20</date>
+    <name>Katrine Andresen</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made some modifications to the reading of the runes
+   </change>
+   <change>
+    <date>2022-02-04</date>
+    <name>Odd Einar Haugen</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+   <change>
+   <date>2021-08-31</date>
+   <name>Odd Einar Haugen</name>
+   <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+   <change when="2021-04-05">
+    <p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref>
+     "menotaFDT"-style transcription</p>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="nor">
+  <front>
+   <div type="abstracts">
+    <head><hi rend="bold">Signum</hi>: N 49 ||  
+     <hi rend="bold">Stad</hi>: Lom stavkyrkje, Lom, Innlandet || 
+     <hi rend="bold">Kart</hi>: Lenke kjem her || 
+     <hi rend="bold">Datering</hi>:  ca. 1160–1250<lb/> 
+     <hi rend="bold">Materiale</hi>: Tre || 
+     <hi rend="bold">Status</hi>: Bevart || 
+     <hi rend="bold">Utgåve</hi>: NIyR I: 94–99 ||
+     <hi rend="bold">SamNord</hi>: <ref
+      target="http://kulturarvsdata.se/uu/srdb/8d64a49e-a9fd-44a1-aaee-d567b48d7431" type="external">N 49</ref>
+    </head>
+    <p>Denne innskrifta frå Lom stavkyrkje er malt med tjøre i det nordaustlege hjørnet av skipet. Innskrifta står ca. 7,8 meter opp frå golvet, og er 146 cm lang. Dei fleste runene er godt synlege, men på grunn av eit lyshol like ved har nokre av runene vore utsette for vêr og vind, så dei er no noko vanskelege å lese. </p>
+    <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+   </div>
+  </front>
+  <body>
+   <div type="runic-inscription">
+    <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+    <p>
+     <pb ed="ms" n="1r"/>
+     <lb ed="ms" n="1"/>
+     <seg type="nb"> <!-- OEH 2021-04-06: Byrjar på ein "seg" her, ettersom resten av innskrifta er utan ordmellomrom -->
+     <w lemma="ek" me:msa="xPE p1 gU nS cN">
+      <choice>
+       <me:facs>&eMD;&kYG;</me:facs>
+       <me:dipl>ek</me:dipl>
+       <me:norm>Ek</me:norm>
+      </choice>
+     </w>
+     <w lemma="hafa" me:msa="xVB fF tPS mIN p1 nS vA iWK">
+      <choice>
+       <me:facs>&hYGL;&aeMD;&fGE;&iGE;</me:facs>
+       <me:dipl>hæfi</me:dipl>
+       <me:norm>hefi</me:norm>
+      </choice>
+     </w>
+     <w lemma="vera" me:msa="xVB fP tPT vA gN nS cA sI iST">
+      <choice>
+       <me:facs>&uGE;<seg type="ligature">&eMD;&aeMD;</seg>&rGE;&iGE;&tYG;</me:facs> <!-- OEH 2021-04-06: Her har eg retta etter lesinga i NIyR, men er ikkje heilt sikker -->
+       <me:dipl><seg type="ligature">uæ</seg>rit</me:dipl> <!-- OEH 2021-04-06: Her har eg retta etter lesinga i NIyR, men er ikkje heilt sikker -->
+       <me:norm>verit</me:norm>
+      </choice>
+     </w>
+     <w lemma="þar" me:msa="xAV">
+      <choice>
+       <me:facs><seg type="ligature">&thGE;&aYG;</seg>&rGE;</me:facs>
+       <me:dipl><seg type="ligature">þa</seg>r</me:dipl>
+       <me:norm>þar</me:norm>
+      </choice>
+     </w>
+      <supplied reason="emendation"> 
+       <w lemma="er" me:msa="xRP">
+        <choice>
+         <me:facs></me:facs>
+         <me:dipl></me:dipl>
+         <me:norm>er</me:norm>
+        </choice>
+       </w>
+      </supplied>
+      <w lemma="munu" me:msa="xVB fF tPS mSU p3 nS vA iPP"> <!-- OEH 2021-04-06: Infinitivsforma er “munu” -->
+      <choice>
+       <me:facs>&mYGL;&aYG;&nYG;&iGE;</me:facs>
+       <me:dipl>mani</me:dipl>
+       <me:norm>muni</me:norm>
+      </choice>
+     </w>
+     <w lemma="ná" me:msa="xVB fI tPS vA iWK">
+      <choice>
+       <me:facs>&nYG;&aYG;</me:facs>
+       <me:dipl>na</me:dipl>
+       <me:norm>ná</me:norm>
+      </choice>
+     </w>
+      <w lemma="krá" me:msa="xNC gF nS cD sD"> <!-- OEH 2021-04-06: Det er helst "krá" f. (krok), i bestemt form dativ, kráinni > kránni -->
+      <choice>
+       <me:facs>&kYG;&rGE;&aYG;&nYG;&nYG;&eMD;</me:facs>
+       <me:dipl>kranne</me:dipl>
+       <me:norm>kránni</me:norm>
+      </choice>
+     </w>
+     </seg> <!-- OEH 2021-04-06: Og her er det slutt på "seg" -->
+     <pc type="runic">
+      <choice>
+       <me:norm>.</me:norm>
+      </choice>
+     </pc>
+     <lb ed="ms" n="2"/> <!-- OEH 2021-04-06: Ja, synest det er riktig å kode med ny "lb" her -->
+     <w lemma="bo" me:msa="xNP"> <!-- Olga: jeg synes at det ikke må stå lemma og morfologisk annotasjon her siden betydningen er usikker. --> <!-- Odd Einar: Det er eg samd i. -->
+      <choice>
+       <me:facs>&bGE;&oYG;</me:facs>
+       <me:dipl>bo</me:dipl>
+       <me:norm> . . . </me:norm>
+      </choice>
+     </w>
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="translation" xml:lang="nor">
+    <head>Omsetjing til norsk</head>
+    <p>Eg har vore der (ein) kan nå (inn i) hjørnet.</p>
+   </div>
+   <div  type="translation" xml:lang="eng">
+    <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+    <p>I have been where (one) could reach (into the) cranny.</p>
+   </div>
+   <div type="comment"> <!-- OEH 2021-04-06: Har flytta ned avsnittet -->
+    <head>Kommentar</head>
+    <p>Denne innskrifta vart malt frå høgre til venstre, og runene er spegelvende. Her er dei attgjevne i den vanlege leseretninga.</p>
+    <p>Den siste delen av innskrifta er ikkje sikkert tolka. For ein diskusjon av ei rekkje andre tolkingra, sjå NIyR I: 97-99. </p> <!-- OEH 2021-04-06: Har lagt til dette avsnittet. -->
+    <p>Lom stavkyrkje er neppe eldre enn ca. 1160, så dette er den bakre grensa for innskrifta. Noko særleg yngre enn ca. 1250 synest ho ikkje  vere, så vi har sett ca. 1160-1250 som ei sannsynleg datering.</p> <!-- OEH 2021-04-06: Har lagt til dette avsnittet. -->
+   </div> 
+    <div type="illustration">
+     <head>Illustrasjonar</head>
+     <p><figure><graphic url="N49-A.jpg"/></figure></p>
+     <caption>Fotografi av N 49. Attgjeve etter NIyR I: 95. Lisens: CC-BY-SA 4.0.</caption>
+     <p><figure><graphic url="N49-A-var1.jpg"/></figure></p>
+     <caption>Fotografi av N 49 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+     <p><figure><graphic url="N49-B.jpg"></graphic></figure></p>
+     <caption>Avteikning av N 49. Attgjeven etter NIyR I: 96. Lisens: CC-BY-SA 4.0.</caption>
+     <p><figure><graphic url="N49-C.jpg"></graphic></figure></p>
+     <caption>Avteikning av N 49 ved Saskia J. Cowan (2022). Lisens: CC-BY-SA 4.0.</caption>
+     <p><figure><graphic url="N49-D.jpg"></graphic></figure></p>
+     <caption>Avteikninga ovanfor attgjeven spegelvend, slik at runene kan lesast frå venstre til høgre, slik som i transkripsjonen. Lisens: CC-BY-SA 4.0.</caption>
+    </div>
+   <div type="links" xml:lang="nor">
+    <head>Kjelder</head>
+    <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet frå Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+    <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+   </div>
+   
+   <div type="responsibility">
+    <head>Redaktør for denne innførselen</head>
+    <p>Saskia J. Cowan (Universitetet i Bergen, 2021)</p> 
+    <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> 
+   </div>  
+
+  </back>
+ </text>
+</TEI>

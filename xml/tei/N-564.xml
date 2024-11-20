@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>N 564 : Høre church, Vang, Innlandet : A digital edition</title>
+				<!-- <editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor> -->
+				<!-- OEH 2021-04-07: Her trur eg vi skal gje Aslak Liestøl heile æra, slik det går fram av NIyR V: 169 -->
+				<editor role="person"> 
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 5, pp. 169-175</resp>
+					<name>
+						<persName>
+							<forename>Aslak</forename> <!-- OEH 2021-04-07: Her trur eg vi skal gje Aslak Liestøl heile æra, slik det går fram av NIyR V: 169 -->
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Erik</forename>
+							<forename>Fæster</forename>
+							<surname>Schancke</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-04-07">07 April 2021</date>.</edition> <!-- OEH 2021-04-07: Oppdatert med dagens dato -->
+			</editionStmt>
+			<extent n="20">20 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">V 169-175</idno>
+				<date when="2021-04-07">07 April 2021</date> <!-- OEH 2021-04-07: Oppdatert med dagens dato -->
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Pictures and drawings from NIyR vol. V 170-172</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>61.09.12,8.48.14</settlement> <!-- NB! Desse koordinatane er truleg feil - dei er for Hurum kyrkje på Hurumlandet. -->
+						<idno>N 564</idno>
+						<msName>N 564 : Høre stave church, Vang, Innlandet</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="wood">
+							<supportDesc>
+								<support>
+									<p><material>wood</material>.</p>
+								</support>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1179" notAfter="1181">c. 1180</origDate></origin> <!-- OEH 2021-04-07: Eg trur vi kan driste oss til ei så presis datering, ettersom vi har ein så klar historisk referanse + dendrokronologi å støtte oss til -->
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant"></note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 170–172.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+					<p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-18</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-04-12</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2021-08-31</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.
+			</change>
+			<change>
+				<date>2021-04-07</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Some changes to the header, the presentation text and the illustration section, and the addition of a comment section and a new literature and link section.</change>
+			<change>
+				<date>2021-03-31</date>
+				<name>Erik Fæster Schancke</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+                  <div type="abstracts">
+                  	<head>
+                  		<hi rend="bold">Signum</hi>: N 564 ||  
+                  		<hi rend="bold">Sted</hi>: Høre kirke, Vang, Innlandet  || 
+                  		<hi rend="bold">Kart</hi>: Lenke kommer her || 
+                  		<hi rend="bold">Datering</hi>: ca. 1180<lb/> 
+                  		<hi rend="bold">Materiale</hi>: Tre || 
+                  		<hi rend="bold">Status</hi>: Bevart || 
+                  		<hi rend="bold">Utgave</hi>: NIyR V: 169–175 || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/5b89e5f5-794c-430c-aae8-45bbe20486c0" type="external">N 564</ref>
+                  	</head>
+                  	<p>En innskrift på tre fra trolig rundt år 1180. Dette er året Erling Skakke faller i slaget på Kalvskinnet i Nidaros. Trolig er dette Jarl Erling det er snakk om i innskriften. En analyse av årringene i treet (dendrokronologi) viser at tømmeret til kirken ble hogget i 1179. Konstruksjon av kirken var neppe det samme året,  da treverket måtte tørke, men det er lite sannsynlig at den er særlig mye yngre. Jf. NIyR V: 174.</p> <!-- OEH 2021-04-07: Eg har tillate meg litt finpussing her -->
+                  	<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+				<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+							<w lemma="Þá" me:msa="xAV">
+								<choice>
+									<me:facs>&thGE;<unclear reason="damaged">&aYG;</unclear></me:facs>
+									<me:dipl>þ<unclear reason="damaged">a</unclear></me:dipl>
+									<me:norm>Þ<supplied reason="restoration">á</supplied></me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs><unclear reason="damaged">&fourdotPM;</unclear></me:facs>
+								<me:norm>,</me:norm>
+							</choice>
+						</pc>
+							<w lemma="um" me:msa="xAP yA">
+								<choice>
+									<me:facs>&uGE;&mYGL;</me:facs>
+									<me:dipl>um</me:dipl>
+									<me:norm>um</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&fourdotPM;</me:facs>
+							</choice>
+						</pc>
+							<w lemma="sá" me:msa="xDD gN nS cA">
+								<choice>
+									<me:facs>&thGE;&aYG;&tYG;</me:facs>
+									<me:dipl>þat</me:dipl>
+									<me:norm>þat</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&fourdotPM;</me:facs>
+							</choice>
+						</pc>
+							<w lemma="sumar" me:msa="xNC gN nS cA sI">
+								<choice>
+									<me:facs>&sYGS;&uGE;<unclear reason="damage">&mYGL;&aYG;&rGE;</unclear></me:facs>
+									<me:dipl>su<supplied reason="restoration" resp="AslakLiestol">mar</supplied></me:dipl>
+									<me:norm>su<supplied reason="restoration" resp="AslakLiestol">mar</supplied></me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs><unclear reason="damage">&threedotPM;</unclear></me:facs>
+							</choice>
+						</pc>
+						<w lemma="láta" me:msa="xVB fP tPT mIN p3 nP vA iPP">
+							<choice>
+								<me:facs><unclear reason="damage">****</unclear></me:facs>
+								<me:dipl><supplied reason="restoration" resp="AslakLiestol">leto</supplied></me:dipl>
+								<me:norm><supplied reason="restoration" resp="AslakLiestol">létu</supplied></me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs><unclear reason="damage">&twodotPM;</unclear></me:facs>
+							</choice>
+						</pc>
+							<w lemma="sá" me:msa="xDD gM nP cN">
+								<choice>
+									<me:facs>&thGE;&aeMD;&iGE;&rGE;</me:facs>
+									<me:dipl>þæir</me:dipl>
+									<me:norm>þeir</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+							<w lemma="bróðir" me:msa="xNC gM nP cN sI">
+								<choice>
+									<me:facs>&bGE;&rGE;&oeMD;&thGE;&rGE;</me:facs>
+									<me:dipl>brøþr</me:dipl>
+									<me:norm>brǿðr</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Erlingr" me:msa="xNP gM nS cN sI">
+							<choice>
+								<me:facs>&aeMD;&lGE;&lGE;&iGE;&nYG;&gMD;&rGE;</me:facs>
+								<me:dipl>ællingr</me:dipl>
+								<me:norm>Erlingr</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs><unclear reason="damage">&twodotPM;</unclear></me:facs>
+							</choice>
+						</pc>
+						<w lemma="ok" me:msa="xCC">
+							<choice>
+								<me:facs><unclear reason="damage">&oYG;</unclear>&kYG;</me:facs>
+								<me:dipl><supplied reason="restoration" resp="AslakLiestol">o</supplied>k</me:dipl>
+								<me:norm><supplied reason="restoration" resp="AslakLiestol">o</supplied>k</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Auðunn" me:msa="xNP gM nS cN sI"> <!-- OEH 2021-04-07: Retta lemma til “Auðunn” -->
+							<choice>
+								<me:facs>&aYG;&uGE;&thGE;&uGE;&nYG;</me:facs>
+								<me:dipl>auþun</me:dipl>
+								<me:norm>Auðunn</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="hǫggva" me:msa="xVB fi tPS vA iST">
+							<choice>
+								<me:facs>&hYGL;&oYG;&kYG;&oYG;&aYG;</me:facs>
+								<me:dipl>hokoa</me:dipl>
+								<me:norm>hǫggva</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="til" me:msa="xAP yG">
+							<choice>
+								<me:facs>&tYG;&iGE;&lGE;</me:facs>
+								<me:dipl>til</me:dipl>
+								<me:norm>til</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="kirkja" me:msa="xNC gF nS cG sI">
+							<choice>
+								<me:facs>&kYG;&iGE;&rGE;&kYG;&iGE;&uGE;</me:facs>
+								<me:dipl>kirkiu</me:dipl>
+								<me:norm>kirkju</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="sjá" me:msa="xDD gF nP cG">
+							<choice>
+								<me:facs>&thGE;&eMD;&sYGSdot;&sYGSdot;&aYG;&rGE;</me:facs>
+								<me:dipl>þessar</me:dipl>
+								<me:norm>þessar</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+								<me:norm>,</me:norm>
+							</choice>
+						</pc>
+						<w lemma="er" me:msa="xCC">
+							<choice>
+								<me:facs>&eMD;&rGE;</me:facs>
+								<me:dipl>er</me:dipl>
+								<me:norm>er</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Erlingr" me:msa="xNP gM nS cN sI">
+							<choice>
+								<me:facs>&aeMD;&rGE;&lGE;&iGE;&nYG;&kYG;&rGE;</me:facs>
+								<me:dipl>ærlinkr</me:dipl>
+								<me:norm>Erlingr</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="jarl" me:msa="xNC gM nS cN sI">
+							<choice>
+								<me:facs>&iGE;<unclear reason="damage">&aYG;</unclear><gap quantity="2" unit="char"/></me:facs>
+								<me:dipl>i<supplied reason="restoration" resp="AslakLiestol">arl</supplied></me:dipl>
+								<me:norm>j<supplied reason="restoration" resp="AslakLiestol">arl</supplied></me:norm>
+							</choice>
+						</w>
+						<w lemma="falla" me:msa="xVB fF tPT mIN p3 nS vA iST">
+							<choice>
+								<me:facs><gap quantity="3" unit="char"/><unclear reason="damage">&lGE;</unclear></me:facs>
+								<me:dipl><supplied reason="restoration" resp="AslakLiestol">fell</supplied></me:dipl>
+								<me:norm><supplied reason="restoration" resp="AslakLiestol">fell</supplied></me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="í" me:msa="xAP yD"> <!-- OEH 2021-04-07: Retta lemma til “í”. Lett å gløyme aksenten!-->
+							<choice>
+								<me:facs>&iGE;</me:facs>
+								<me:dipl>i</me:dipl>
+								<me:norm>í</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&middot;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Niðaróss" me:msa="xNP gM nS cD sI">
+							<choice>
+								<me:facs>&nYG;&iGE;&thGE;&aYG;&rGE;<pc>&twodotPM;</pc>&oYG;&sYGSdot;&eMD;</me:facs>
+								<me:dipl>niþar<pc>:</pc>ose</me:dipl>
+								<me:norm>Niðarósi</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&fourdotPM;</me:facs>
+								<me:norm>.</me:norm>
+							</choice>
+						</pc>
+					</p>		
+			</div>
+		</body>
+		<back>
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Den sommeren lot brødrene Erling og Audun hogge (tømmer) til denne kirken, da Erling jarl falt i Nidaros.</p>
+			</div>
+			
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p>That was the summer the brothers Erling and Audun (had the wood) cut for this church, when earl Erling fell in Nidaros.</p>	
+			</div>
+			
+			<div type="comment" xml:lang="nor"> <!-- OEH 2021-04-07: Nytt kommentarfelt plassert nedanfor omsetjingane. Her er berre eit par framlegg til kommentar - her kan du slå deg litt meri laus, om du vil -->
+				<p>Det er sjelden at man har to så uavhengige dateringer av en innskrift, både etter innholdet (jarl Erlings fall), og en årringsanalyse.</p>
+				<p>I NIyR er stavkirken omtalt som “Hurum kirke”, men vi har valgt den nå brukte navneformen “Høre”. Dermed unngår man forveksling med Hurum kirke på Hurumlandet, sør for Oslo.</p>
+				<p>Årringsdateringen av Høre stavkirke er utført med en nyere fotografisk teknikk, omtalt av Nina Tveter og Kjersti Lunden: <ref
+					target="https://gemini.no/2019/10/stavkirker-i-norge-er-eldre-enn-antatt" type="external">Datering av stavkirker</ref> (lest 7. april 2021).
+				</p>
+			</div>
+			
+			<div type="illustration"> <!-- OEH 2021-04-07: Litt ommøblering her. Vi nøyer oss med avteikninga i første omgang -->
+				<head>Illustrasjon</head>
+				<figure><graphic url="N564-A.jpg"/></figure>
+				<caption>Avtegning av N 564 ved Aslak Liestøl. Gjengitt etter NIyR V: 172. Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+				<bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+			</div>
+			
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Erik Fæster Schancke (Universitetet i Bergen, 2021)</p> 
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+			</div>
+
+		</back>
+	</text>
+</TEI>

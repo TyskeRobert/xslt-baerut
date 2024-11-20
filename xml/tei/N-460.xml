@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 460 : Selbu church, Selbu, Trøndelag : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="person"> <!-- OEH 2021-04-16: Du kan føre opp begge utgjevarane som full <editor> -->
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt> <!-- OEH 2021-04-16: Du kan føre opp begge utgjevarane også her -->
+                    <resp>Publishing of the runic inscription in NIyR vol. 5, pp. 24–26</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                    </name>
+                        <name>
+                            <persName>
+                                <forename>Aslak</forename>
+                                <surname>Liestøl</surname>
+                            </persName>
+                            <orgName type="affiliation">University of Oslo</orgName>
+                        </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katharina</forename>
+                            <forename>Sophie</forename>
+                            <surname>Kühnel</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename> 
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-30">30 March 2021</date>.</edition> 
+            </editionStmt>
+            <extent n="4">4 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">V 24-26</idno>
+                <date when="2021-03-30">30 March 2021</date> 
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR.</bibl> 
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.2163, 11.0425</settlement>
+                        <idno>N 460</idno>
+                        <msName>N 460: Selbu church, Selbu, Trøndelag</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p><material>wood</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1283" notAfter="1400">after 1283</origDate></origin> 
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook</title>
+                    (version 4.0 beta), at <ref target="http://www.menota.org/handbook">
+                        http://www.menota.org/handbook</ref> as of <date>2021-03-14</date>.</p>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 24-26.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a 
+translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-03-30</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: made the first working draft of this file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 460 ||  
+                    <hi rend="bold">Sted</hi>: Selbu kirke, Selbu, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: etter 1283<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR V: 24–26 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/2f2a9beb-3795-47b2-8e61-c366524cca9f" type="external">N 460</ref>
+                </head>
+                <p>Innskriften finnes i kirketårnet på den nordvestre hjørnestolpen i klokkestolen. Den er 30 cm lang og 6,5 cm høy. Jf. NIyR V: 25.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <w lemma="þessi" me:msa="xDD gN nS cA">
+                        <choice>
+                            <me:facs>&thGE;&tYG;&aeMD;</me:facs>
+                            <me:dipl>þtæ</me:dipl>
+                            <me:norm>Þetta</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="skrifa" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+                        <choice>
+                            <me:facs>&sYGSdot;&kYGst;&rGE;&fGEst;<seg type="lig">&aYG;&#xF538;&thGE;</seg>&iGE;</me:facs>
+                            <me:dipl>skrf<seg type="lig">a&#xF538;þ</seg>i</me:dipl>
+                            <me:norm>skrifaði</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Véleifr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&uGE;&lGE;&aeMD;&fGEst;</me:facs>
+                            <me:dipl>ulæf</me:dipl>
+                            <me:norm>Véleifr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Freybjǫrnsson" me:msa="xNP gM nS cN sI"> <!-- OEH 2021-04-07: Vi følgjer standard ortografi og skriv “ey” -->
+                        <choice>
+                            <me:facs>&fGEst;&rGE;&bGE;&yAF;&sYGSdot;&uGE;&nYG;</me:facs>
+                            <me:dipl>frbysun</me:dipl>
+                            <me:norm>Freybjǫrnsson</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p> 
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Dette skrev Veleif Frøybjørnssønn.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>This wrote Véleifr Frøybjǫrnsson.</p>
+            </div>
+            <div type="comment" xml:lang="nor"> 
+                <head>Kommentar</head>
+                <p>Det ser ut til at det ble brukt forkortninger i innskriften. &thGE;&tYG;&aeMD; <hi rend="bold">þetta</hi> er et eksempel på den trøndske vokalreduskjonen -a > -æ; her er “e” ubetegnet, dessuten “i” i &sYGSdot;&kYGst;&rGE;&fGEst;<seg type="lig">&aYG;&#xF538;&thGE;</seg>&iGE; <hi rend="bold">skrifaði</hi> og “e” i &uGE;&lGE;&aeMD;&fGEst; <hi rend="bold">Véleifr</hi>. Det siste ordet er sterkt forkortet. Navnet Véleifr er sjeldent, men &lGE;&aeMD;&fGEst; må være -eif(r) og den eneste mulige forledd med &uGE; må 
+                    være Vé-. Farsnavnet Frøybjǫrn er ellers nesten ukjent i norrønt, men det finnes i Sverige, og “da kan det synes ikke underlig å møte det her i Selbu prestegjeld som grenser til Sverige” (NIyR V: 26). Dessuten er runeformen &yAF; sjelden i Norge. I Runor-databasen finnes en annen fortolkning; her blir a-runene i verbet og farsnavet lest som binderune <seg type="lig">&aYG;&#xF538;&rGE;</seg> <seg type="lig">a&#xF538;r</seg> og navnet &uGE;&lGE;&aeMD;&fGEst; tolket Olafr/Oleifr, så 
+at innskriften er “Þetta skarfaði Olafr/Oleifr Farbjǫrnssonr” (Olafr/Oleifr Farbjǫrnsson joined this together). Magnus Olsen 
+på den andre siden antar at inntrykket av binderuner er “sannsynlig fremkommet derved at kniven under ristningen har glidd fra bøilen nedover et stykke forbi staven” (NIyR V: 25).</p> <!-- OEH 2021-04-07: Fin oppsummering! Har lagt translittereringa inn i bold -->
+                <p>Det er vanskelig å datere en så kort innskrift. I NIyR V: 26 blir det sagt at den kan være fra det 14. århundre  (dvs. 1300-tallet). Karin Fjellhammer Seim (2010: 37) tidfester den til etter 1283, og det er denne dateringen vi har valgt her.</p> <!-- OEH 2021-04-07: Har lagt inn dette i eit nytt avsnitt. Har enno ikkje identifisert Seim 2010 - står ikkje i runebibliografien i Runor-databasen -->
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <p><figure><graphic url="N460-A.jpg"></graphic></figure></p>
+                <caption>Fotografi av N 460. Gjengitt etter NIyR. Lisens: CC-BY-SA 4.0.</caption>
+                <p><figure><graphic url="N460-B.jpg"></graphic></figure></p>
+                <caption>Avtegning av N 460 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+                <bibl>Seim, Karin Fjellhammer. 2010. [Fullstendige opplysninger vil bli lagt til seinere.]</bibl>
+            </div>   
+
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katharina Sophie Kühnel (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR, den Samnordiske runetekstdatabasen og Seim (2010). Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+
+        </back>
+    </text>
+</TEI>

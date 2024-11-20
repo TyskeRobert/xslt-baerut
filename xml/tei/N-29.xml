@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 29 : Nørstebø stone, Dovre, Innlandet  : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Sophus</forename>
+                            <surname>Bugge</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 1, pp. 71-77</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-28">28
+                    March 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="15">15 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">I 71-77</idno>
+                <date when="2021-03-28">28 March 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Nørstebø, Dovre, Innlandet</settlement>
+                        <idno>N 29</idno>
+                        <msName>N 29 : Nørstebø, Dovre, Innlandet</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>Granite stone</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1050" notAfter="1100">c. 1050-1100</origDate> <!-- OEH 2021-04-08: Eg synest vi skal runde av 1099 > 1100 -->
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook
+                    (3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml"
+                        >https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+                            February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the
+                        rendering and image in NIyR vol. 1, pp. 71-77.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic
+                        and normalised, and it has been supplied with a translation as well as
+                        images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the
+                        rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+                
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-06</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-18</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols
+            </change>
+            <change>
+                <date>2021-08-30</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-03-28">
+                <date>2021-03-28</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first working draft with full MSA and full dipl, norm and facs levels.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="non">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 29 ||  
+                    <hi rend="bold">Sted</hi>: Nørstebø, Dovre, Innlandet ||  
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1050–1100 <lb/>
+                    <hi rend="bold">Materiale</hi>: Stein ||  
+                    <hi rend="bold">Status</hi>: Bevart ||  
+                    <hi rend="bold">Utgave</hi>: NIyR I: 71–77 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/2f1408b8-770f-4460-bc49-29c41d46eddd" type="external">N 29</ref>
+                </head>
+                <p>“Nørstebø-stenen er en uregelmessig formet blokk av lys granitt, flathugget på en av langsidene hvor runer er anbragt. Langsiden til høire for innskriftflaten er temmelig jevn, i motsetning til de andre langsider. Stenen, som er uregelmessig tilspisset nedentil, er ca. 60 cm lang; innskriftflatens største bredde er 18 cm. Tykkelsen er størst et stykke fra nederenden, 22-23 cm. Den tilhugne flate har en lengde av 54 cm. Den smalner av i den nederste del, men utgjør forøvrig et nogenlunde regelmessig rektangulært parti, 42 × (18-15) cm, bestemt til innhugning av runer. Innskriften begynner nede til venstre, efter et liggende kors, og følger stenens kant helt op (rune 1-20). Den bøier derpå i rett vinkel tvers over flaten (r. 21-27), og svinger så, med skråstilling av runestavene 25-27, ned langs høire kant (r. 28-56). Til de siste ord (r. 57-66) er der skaffet plass i en smalere linje (som går nedenfra opad, med runetoppene vendt innover), i umiddelbar tilslutning til nederdelen av høire langlinje. [...] Runehøiden er i randlinje 4-5,5 cm, og i den korte slutningslinje ca. 3,5 cm.” NIyR I: 73-74.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                          </choice>
+                    </pc>
+                    <w lemma="sá" me:msa="xDD gM nP cN sI"> <!-- Olga: er litt usikker på lemma her. Tenker at det kan være både xPE "hann" som "de" og xDD. Da blir msa XPE p3 gM nP cN. --> <!-- Odd Einar: Ja, dette er eit prinsipp-spørsmål. Vi har gått for “sá” (xDD) som lemma for “þeir”, så kodinga her er riktig. --> 
+                        <choice>
+                            <me:facs>&thGEcv;&aYG;&iGE;&rGE;</me:facs>
+                            <me:dipl>þair</me:dipl>
+                            <me:norm>Þeir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Finnr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&fGE;&iGE;&nYG;&rGE;</me:facs>
+                            <me:dipl>finr</me:dipl>
+                            <me:norm>Finnr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="ok" me:msa="xCC">
+                        <choice>
+                            <me:facs>&aYG;&uGE;&kYG;</me:facs>
+                            <me:dipl>auk</me:dipl>
+                            <me:norm>ok</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <!-- MSA: Lemma is a bit unclear, since it would be "Skofti" after ONP norms, the ONP does not list the name, but "skopti" as a Byname.-->
+                    <w lemma="Skopti" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&sYGSdot;&kYG;&oYG;&fGE;&tYG;&iGE;</me:facs>
+                            <me:dipl>skofti</me:dipl>
+                            <me:norm>Skopti</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="reisa" me:msa="xVB iWK fF p3 tPT vA mIN nP">
+                        <choice>
+                            <me:facs>&rGEcv;&aYG;&iGE;<lb ed="ms" n="2"/>&sYGSdot;<unclear reason="damaged">&tYG;</unclear>&uGE;</me:facs>
+                            <me:dipl>rai<lb ed="ms" n="2"/>s<supplied reason="emendation" resp="Magnus Olsen">t</supplied>u</me:dipl>
+                            <me:norm>rei<lb ed="ms" n="2"/>s<supplied reason="emendation" resp="Magnus Olsen">t</supplied>u</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="steinn" me:msa="xNC gM nS cA sI">
+                        <choice>
+                            <me:facs>&sYGSdot;<unclear reason="damaged">&tYG;</unclear>&iGE;&nYG;</me:facs>
+                            <me:dipl>s<supplied reason="emendation" resp="Magnus Olsen">t</supplied>in</me:dipl>
+                            <me:norm>s<supplied reason="emendation" resp="Magnus Olsen">te</supplied>in</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <lb ed="ms" n="3"/>
+                    <w lemma="sjá" me:msa="xDD nS cA gM sI">
+                        <choice>
+                            <me:facs>&thGEcv;&eMD;&nYG;&aYG;</me:facs>
+                            <me:dipl>þena</me:dipl>
+                            <me:norm>þenna</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="þá" me:msa="xAV">
+                        <choice>
+                            <me:facs>&thGEcv;&aYG;</me:facs>
+                            <me:dipl>þa</me:dipl>
+                            <me:norm>þá</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="er" me:msa="xRP">
+                        <me:facs>&eMD;&sYGSdot;</me:facs>
+                        <me:dipl>es</me:dipl>
+                        <me:norm>er</me:norm>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="sá" me:msa="xDD gM nP cN sI"> <!-- Olga: samme her. Om lemma er "hann" da blir msa XPE p3 gM nP cN. --> <!-- Odd Einar: Som nemnt ovanfor vel vi den kodinga som står her. -->
+                        <choice>
+                            <me:facs><unclear reason="damaged">&thGE;&aYG;</unclear>&iGE;&rGE;</me:facs>
+                            <me:dipl><supplied reason="restoration" resp="Magnus Olsen">þa</supplied>ir</me:dipl>
+                            <me:norm><supplied reason="restoration" resp="Magnus Olsen">þe</supplied>ir</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="skifta" me:msa="xVB fF iWK p3 nP tPT vA mIN">
+                        <choice>
+                            <me:facs>&sYGSdot;<unclear reason="damaged">&kYG;</unclear>&iGE;&thGEcv;&tYG;&uGE;</me:facs>
+                            <me:dipl>s<supplied reason="restoration" resp="Magnus Olsen">k</supplied>iþtu</me:dipl>
+                            <me:norm>s<supplied reason="restoration" resp="Magnus Olsen">k</supplied>i<supplied reason="emendation" resp="Magnus Olsen">f</supplied>tu</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="land" me:msa="xNC gN nP cD sI">
+                        <choice>
+                            <me:facs>&lGE;&aYG;&nYG;&tYG;&oYG;&mYGL;</me:facs>
+                            <me:dipl>lantom</me:dipl>
+                            <me:norm>lǫndum</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="sinn" me:msa="xDP gN nP cD sI">
+                        <choice>
+                            <me:facs>&sYGSdot;&iGE;&nYG;&uGE;&mYGL;</me:facs>
+                            <me:dipl>sinum</me:dipl>
+                            <me:norm>sínum</me:norm> <!-- OEH 2021-04-08: Eg la til ein aksent over “i”. Lett å gløyme i farten! -->
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <lb ed="ms" n="4" />
+                    <w lemma="sonr" me:msa="xNC gM nP sI cN">
+                        <choice>
+                            <me:facs>&sYGSdot;&aYG;&yYG;&nYG;&eMD;&rGE;</me:facs>
+                            <me:dipl>s<surplus reason="excess" resp="Magnus Olsen">a</surplus>yne<supplied reason="restoration" resp="Magnus Olsen">r</supplied></me:dipl>
+                            <me:norm>syni<supplied reason="restoration" resp="Magnus Olsen">r</supplied></me:norm> <!-- OEH 2021-04-08: Her har eg retta me:dipl > me:norm -->
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Váli" me:msa="xNP gM nS sI gG">
+                        <choice>
+                            <me:facs>&uGE;&aYG;&lGE;&aYG;</me:facs>
+                            <me:dipl>uala</me:dipl>
+                            <me:norm>Vála</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Finn og Skofte reiste denne stein da de skiftet sine land(eiendommer), Våles sønner.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>Finnr and Skopti, Váli’s sons, they raised this stone when they divided their land(ed property).</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Innskriften er forvitret, noe som påvirker kvister på steinkanten mest, f.eks. runen som sannsynlig hadde vært &kYG; i &sYGSdot;<unclear reason="damaged">&iGE;</unclear>&iGE;&thGEcv;&tYG;&uGE;. “Synir” er skrivet på en uvanlig måte. Om vi antar at det egentlig skulle ha vært &sYGS;&eMD;&yYG;&nYG;&iGE;&rGE;, kan vi se gamle formen av vokalen “ø”, “ey”. Jf. NIyR I 74-75.</p>
+</div>
+            
+            <div>
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N29-A.jpg"/></figure>
+                <caption>Fotografi av N 29. Gjengitt etter NIyR I: 74. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N29-B.jpg"/></figure>
+                <caption>Avtegning av N 29. Gjengitt etter NIyR I: 74. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N29-C.jpg"/></figure>
+                <caption>Avtegning av N 29 ved Saskia J. Cowan (2022). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p>
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+            </div>
+
+        </back>
+    </text>
+</TEI>
+

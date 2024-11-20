@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>N 583 : Hesby II, Finnøy, Rogaland : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+			    <editor role="person">
+			        <name>
+			            <persName>
+			                <forename>Aslak</forename>
+			                <surname>Liestøl</surname>
+			            </persName>
+			            <orgName type="affiliation">University of Oslo</orgName>
+			        </name>
+			    </editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 5, pp. 199–201</resp>
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Anna</forename>
+							<surname>Vlasova</surname>
+							<surname>Våtvik</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.2">Version 0.2 <date when="2021-10-27">27 October 2021</date>.</edition>
+			</editionStmt>
+			<extent n="13">13 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">V 199-201</idno>
+				<date when="2018-02-13">13 February 2018</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+					    <settlement>59.1762, 5.81367</settlement>
+						<idno>N 583</idno>
+					    <msName>N 583 : Hesby II, Finnøy, Rogaland</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="stone_wall">
+							<supportDesc>
+								<support>
+									<p><material>stone</material>.</p>
+									<p>The material is ashlar in the wall of the church.</p>
+								</support>
+								<condition>Partially damaged</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1266" notAfter="1299">c. 1266-1299</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Preserved at the place of discovery.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 199–201.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+				<language ident="lat">Latin</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-12</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-28</date>
+				<name>Sebastian Pohland</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor changes as part of QA effort.</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+			<change>
+				<date>2021-10-28</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made smaller updates to the header and the body of the text.</change>
+			<change>
+				<date>2021-10-27</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Filled in additional information to the front and back element of the text.</change>
+			<change>
+				<date>2021-10-26</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+                  	<head><hi rend="bold">Signum</hi>: N 583 ||
+                  		<hi rend="bold">Sted</hi>: Hesby II, Finnøy, Rogaland ||
+                  		<hi rend="bold">Kart</hi>: Lenke kommer her ||
+                  		<hi rend="bold">Datering</hi>: ca. 1266–1299<lb/>
+                  		<hi rend="bold">Materiale</hi>: Stein ||
+                  		<hi rend="bold">Status</hi>: Bevart på stedet ||
+                  		<hi rend="bold">Utgave</hi>: NIyR V: 199–201 || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/c1898d61-d5bf-4029-aeda-c0233c62db8b" type="external">N 583</ref>
+                  	</head>
+                  	<p> Denne innskriften var funnet sammen med en annen innskrift på den gamle steinkirken på Hesby, og står på utsiden av østveggen i koret, på kvaderstein nr. 3 i sørøstre hjørne. Den begynner 6 cm fra hjørnet og har rammestrek over og under. Runene varierer i høyden fra 2 til 3 cm. Innskriften er 57 cm lang. Første del av innskriften er helt tydelig, mens midten og slutten er til dels sterkt ramponert. Mellom rune 23 og 25 er det er stort sår i steinen som ser ut til å være hakket med et sløvt instrument. Etter rune 25, ser runene annerledes ut enn de er i begynnelsen, de er bredere i streken og mer slurvete utført. Det ser nærmest ut som runene her har vært frisket opp. Det må i tilfelle ha vært gjort for lenge siden. De fleste av runene synes dessuten å være streket opp igjen enda en gang, med et fint riss i bunnen av tegnene. Stort sett er runene tydelige. Jf. NIyR V: 199-201.</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+					<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+						<pc type="runic">
+							<choice>
+								<me:facs>&cros5dotsPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="þessi" me:msa="xDD gF nP cA">
+							<choice>
+								<me:facs>&thGE;&aeMD;&sYGSdot;&sYGSdot;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs>
+								<me:dipl>þæss<seg type="lig">a&#xF538;r</seg></me:dipl>
+								<me:norm>Þessar</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="rún" me:msa="xNC gF nP cA sI">
+							<choice>
+								<me:facs>&rGE;&uGE;<seg type="lig">&nYG;&#xF538;&nYG;</seg><seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+								<me:dipl>ru<seg type="lig">n&#xF538;n</seg><seg type="lig">e&#xF538;r</seg></me:dipl>
+								<me:norm>rúnar</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="rísta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+							<choice>
+								<me:facs>&rGE;&eMD;&sYGSdot;&tYG;</me:facs>
+								<me:dipl>rest</me:dipl>
+								<me:norm>reist</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="Eiríkr" me:msa="xNP gM nS cN sI" >
+								<choice>
+									<me:facs>&eMD;&iGE;&rGE;&iGE;&kYG;&eMD;&rGE;</me:facs>
+									<me:dipl>eiriker</me:dipl>
+									<me:norm>Eiríkr</me:norm>
+								</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="prestr" me:msa="xNC gM nS cN sI">
+							<choice>
+								<me:facs>&bGE;<seg type="lig"><unclear reason="eccentric_ductus">&aYG;&#xF538;</unclear>&rGE;</seg><unclear reason="damaged">&eMD;&sYGSdot;&tYG;</unclear>&rGE;</me:facs>
+								<me:dipl>b<seg type="lig"><unclear reason="eccentric_ductus">a&#xF538;</unclear>r</seg><unclear reason="damaged">est</unclear>r</me:dipl>
+								<me:norm>pr<unclear reason="damaged">est</unclear>r</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+								<me:norm>.</me:norm>
+							</choice>
+						</pc>
+						<seg type="nb">
+						<w lemma="faciō" me:msa="xVB fF tPF mIN p3 nS vA" xml:lang="lat">
+							<choice>
+								<me:facs>&fGE;<unclear reason="eccentric_ductus">&eMD;&iGE;</unclear>&tYG;</me:facs>
+								<me:dipl>f<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">ei</supplied>t</me:dipl>
+								<me:norm>f<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">eci</supplied>t</me:norm>
+							</choice>
+						</w>
+						<w lemma="sá" me:msa="xDD gM nS cA" >
+							<choice>
+								<me:facs>&thGE;<seg type="lig">&aYG;&#xF539;&nYG;&nYG;</seg></me:facs>
+								<me:dipl>þ<seg type="lig">a&#xF539;nn</seg></me:dipl>
+								<me:norm>þann</me:norm>
+							</choice>
+						</w>
+						</seg>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="vetr" me:msa="xNC gM nS cA sI">
+							<choice>
+								<me:facs>&uGE;&eMD;&tYG;&eMD;&rGE;</me:facs>
+								<me:dipl>ueter</me:dipl>
+								<me:norm>vetr</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs><unclear reason="damaged">&threedotPM;</unclear></me:facs>
+								<me:dipl><unclear reason="damaged">&threedotPM;</unclear></me:dipl>
+							</choice>
+						</pc>
+						<w lemma="er" me:msa="xCS yIN">
+							<choice>
+								<me:facs>&aeMD;&rGE;</me:facs>
+								<me:dipl>ær</me:dipl>
+								<me:norm>er</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="hon" me:msa="xPE p3 gF nS cN">
+							<choice>
+								<me:facs>&hYGL;<seg type="lig">&oYG;&#xF539;&nYG;&nYG;</seg></me:facs>
+								<me:dipl>h<seg type="lig">o&#xF539;nn</seg></me:dipl>
+								<me:norm>hon</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<seg type="nb">
+							<w lemma="vera" me:msa="xVB fF tPT mIN p3 nS vA iST"> <!--Anna Vlasova Våtvik: Dette verbet er en del av passiv-konstruksjonen "var reist". Skal begge verbene tilskrives "vP", eller bare den andre?-->
+							<choice>
+								<me:facs>&uGE;<unclear reason="damaged"><seg type="lig">&aYG;&#xF538;&rGE;</seg></unclear></me:facs>
+								<me:dipl>u<seg type="lig"><supplied reason="restoration" resp="AslakLiestøl" source="NIyR">a</supplied>r</seg></me:dipl> <!-- SP 2022-02-28: corrected runes in dipl. -->
+								<me:norm>v<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">a</supplied>r</me:norm>
+							</choice>
+						</w>
+						<w lemma="reisa" me:msa="xVB fP tPT vA gN nS cA sI iWK">
+							<choice>
+								<me:facs>&rGE;<unclear reason="eccentric_ductus">&eMD;&iGE;&sYGSdot;&tYG;</unclear></me:facs>
+								<me:dipl>r<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">eist</supplied></me:dipl>
+								<me:norm>r<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">eist</supplied></me:norm>
+							</choice>
+						</w>	
+						</seg>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="valeō" me:msa="xVB fF tPS mIP p2 nP vA" xml:lang="lat">
+							<choice>
+								<me:facs>&uGE;&aYG;&lGE;&lGE;<unclear reason="weathered">&eMD;</unclear><seg type="lig">&tYG;&#xF538;&eMD;</seg></me:facs>
+								<me:dipl>uall<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">e</supplied><seg type="lig">t&#xF538;e</seg></me:dipl>
+								<me:norm>val<supplied reason="restoration" resp="AslakLiestøl" source="NIyR">e</supplied>te</me:norm>
+							</choice>
+						</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+								<me:norm>!</me:norm>
+							</choice>
+						</pc>
+					</p>			
+			</div>
+		</body>
+		<back>	
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Eirik prest ristet disse runene. Han gjorde (dem) den vinteren da hun (kirken) var bygd. Vær hilset!</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p>Eiríkr the priest carved these runes. He made (them) that winter when it (the church) was built. Farewell!</p>	
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Selv om innskriften er hovedsakelig skrevet på norrønt, synes runeskriveren også å ha brukt to latinske ord i innskriften. Det siste ordet av innskriften står ganske tydelig for latinsk hilsen, men det første ordet i innskriften som antas til å ha blitt skrevet på latin er en av de to ordene mellom &eMD;&iGE;&rGE;&iGE;&kYG;&eMD;&rGE; <hi rend="bold">eiriker</hi> og &thGE;<seg type="lig">&aYG;&#xF539;&nYG;&nYG;</seg> <hi rend="bold">þann</hi>. Disse to er vanskelige å lese, og gir ikke mening uten videre. Det er rimelig å lese <hi rend="bold">prestr</hi> i r. 21-25, og det blir mer sannsynlig når vi ser at det til slutt er brukt en latinsk hilsen. Men da ville en ikke vente noe mer framfor <hi rend="bold">þann</hi>. Et nytt tilnavn i tillegg til <hi rend="bold">prestr</hi> er ikke trolig. En kan da tenke seg at innskriften ikke inneholder bare en periode, men begynner på nytt etter <hi rend="bold">prestr</hi>. Eirik kan her, som på slutten, ha tydd til latinen, og brukt den vanlige latinske signaturen <hi rend="bold">fecit</hi>. Jf. NIyR I: 201.</p>
+				<p>I det hele gir innskriften innrykk av å være relativt sein, og dateringa i andre delen sikter vel til ombyggingen av kirken en gang i slutten av 1200-tallet. Jf. NIyR I: 201.</p>
+			</div>			
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<figure><graphic url="N583-B.jpg"/></figure>
+				<caption>Avtegning av N 583 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N583-C.jpg"/></figure>
+				<caption>Fotografi av første del av N 583 ved Aslak Liestøl. Fra NIyR V: 200. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N583-F.jpg"/></figure>
+				<caption>Avtegning av første del av N 583 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+				
+				<figure><graphic url="N583-D.jpg"/></figure>
+				<caption>Fotografi av andre del av N 583 ved Aslak Liestøl. Fra NIyR V: 200. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N583-G.jpg"/></figure>
+				<caption>Avtegning av andre del av N 583 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+				
+				<figure><graphic url="N583-E.jpg"/></figure>
+				<caption>Fotografi av tredje del av N 583 ved Aslak Liestøl. Fra NIyR V: 200. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N583-H.jpg"/></figure>
+				<caption>Avtegning av tredje del av N 583 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+				
+				
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604065" type="external">bd. 5</ref> (1960). Oslo: Kjeldeskriftfondet. – Tilgjengeleg bare for norske IP-adresser.</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p>
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+			</div>
+		</back>
+	</text>
+</TEI>

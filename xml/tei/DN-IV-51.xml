@@ -1,0 +1,126 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 4:51 = RN 3:14 : 1301-07-10 : Sand in Suldal : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.1">Version 0.8.1, <date when="2023-11-21">21 November 2023</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-11-16">16 November 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement> <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository> <!-- Dette kan vi vente med -->
+                  <idno>DN 4:51</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 3:14</idno></altIdentifier>
+                  <msName>1301 July 10 : Sand</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="vidimus" defective="false"> <!-- Her kan vi leggje inn kategorien “vidimus”. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>Sand in Suldal</origPlace>
+                     <origDate notBefore="1301" notAfter="1301">1301 July 10</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-01-31</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Made this file as a place holder for the lost original DN 4:51
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+  
+   <text xml:lang="nor"> 
+       <front>
+                      <div type="abstracts">
+                      <head><hi rend="bold">Dato</hi>: 10. juli 1301 || <hi rend="bold">Stad</hi>: Sand i Suldal. </head>
+                         <div source="intro">
+                            <head>Bakgrunn</head>
+                            <p>Dette diplomet er no tapt, men det er kjent gjennom ei avskrift i ein noko yngre vidisse, <ref type="internal" target="DN_bind_04_brevnr_052">DN 4:52</ref>, utferda i Bergen 13. des. 1301. Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet i avskrifta i denne vidissen.</p>
+                            </div>
+                      <div source="DN">
+                         <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 4, nr. 52</head>
+                         <p>Sigurd, Lagmand paa Randar, og to andre Mænd indmelde til Kong Haakon, at de efter hans Bud have været paa Faxstad og med de andre Mænd undersögt Fisket der, samt paadömt Striden om det övre Fiskekar.</p>
+                      </div>
+                      <div source="RN">
+                         <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 14</head>
+                         <p>Rapport fra Sigurd på Randa, Orm på Valle og Trond i Hundvåg til kong Håkon [Magnusson]: Har i samsvar med instruks (nr 13 ) reist til det vannet striden sto om, i Sand i Suldal, og undersøkt og pådømt saken om fisket på Faxstaðir sammen med tre menn som da var til stede, sira Hallkjell prest, Ogmund på Hebnes og Aslak Bratt: Det øverste karet skal ligge fast til Faxstaðir og kurvfisket slik det hadde vært fra gammelt av. Det nederste karet vil utstederne ikke dømme om, uten kongen mener noe annet er riktigere, men de finner ikke at loven er brutt mot suldølene, selv om fakstadingene har all fiskeredskap utenfor sitt land, fordi der går rikelig med fisk oppover elven.</p>
+                            <p>Beseglet av utstederne.</p>
+                      </div>
+                      </div>
+                   </front>
+     
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty. -->
+   <div type="diplom">
+     </div>        
+   </body>          
+</text>
+</TEI>

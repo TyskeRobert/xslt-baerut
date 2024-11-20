@@ -1,0 +1,1872 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+            	<title>A fragment of Kross saga. Inventio Crucis : NRA norr fragm 75 : A digital edition</title>
+            	<editor>
+            		<name>
+            			<persName>
+            				<forename>Nina</forename>
+            				<surname>Stensaker</surname>
+            			</persName>
+            			<orgName type="affiliation">University of Bergen</orgName>
+            		</name>
+            	</editor>
+            	<respStmt resp="annotation">
+            		<resp>Transcription and annotation</resp>
+            		<name>
+            			<persName>
+            				<forename>Nina</forename>
+            				<surname>Stensaker</surname>
+            			</persName>
+            			<orgName type="affiliation">University of Bergen</orgName>
+            		</name>
+            	</respStmt>
+            	<respStmt>
+            		<resp>Development of menotaBlitz.plx program</resp>
+            		<name>
+            			<persName>
+            				<forename>Robert</forename>
+            				<forename>K.</forename>
+            				<surname>Paulsen</surname>
+            			</persName>
+            			<orgName type="affiliation">University of Bergen</orgName>
+            		</name>
+            	</respStmt>
+            	<respStmt>
+            		<resp>Deleopment of MLA (Menota Lemma Assistant)</resp>
+            		<name>
+            			<persName>
+            				<forename>Paul</forename>
+            				<surname>Meurer</surname>
+            			</persName>
+            			<orgName type="affiliation">University of Bergen</orgName>
+            		</name>
+            	</respStmt>
+            	<respStmt>
+            		<resp>Project overview</resp>
+            		<name>
+            			<persName>
+            				<forename>Odd</forename>
+            				<forename>Einar</forename>
+            				<surname>Haugen</surname>
+            			</persName>
+            			<orgName type="affiliation">University of Bergen</orgName>
+            		</name>
+            	</respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.8">First draft, generated with MenotaBlitz,
+                    <date when="2021-11-04">04 November 2021</date>
+                </edition>
+            </editionStmt>
+        	<extent n="178">178</extent>
+        	<publicationStmt>
+        		<distributor>Medieval Nordic Text Archive</distributor>
+        		<idno type="Menota">Ms. ??</idno>
+        		<date when="2021-11-04">4 November 2021</date>
+        		<availability status="free">
+        			<licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+        			<p>Licence accepted by the editor Nina Stensaker in a meeting with Odd Einar
+        				Haugen, 17 Sep 2018.</p>
+        		</availability>
+        	</publicationStmt>
+        	<notesStmt>
+        		<note>Produced as part of my PhD project at <orgName type="affiliation">University
+        			of Bergen</orgName>.</note>
+        	</notesStmt>
+            <sourceDesc>
+            	<bibl facs="yes">Photographic facsimiles of the whole fragment from the Norwegian
+            		National Archives (Riksarkivet) in Oslo.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Norway</country>
+                        <settlement>Oslo</settlement>
+                        <repository>Riksarkivet</repository>
+                    	<idno>NRA norr fragm 75</idno>
+                    	<msName>A fragment of Kross saga. Inventio Crucis</msName>
+                    </msIdentifier>
+                	<msContents>
+                		<msItem n="1">
+                			<locus from="1r" to="2v">1r–1v</locus>
+                			<title type="main">Kross saga. Inventio Crucis</title>
+                			<title type="abbreviated">KrossInvent</title>
+                			<textLang mainLang="nor">Icelandic</textLang>
+                		</msItem>
+                	</msContents>
+                	<history>
+                		<origin>
+                			<p>Written in <origPlace>Iceland</origPlace>
+                				<origDate notBefore="1200" notAfter="1300">c. 1275</origDate>.</p>
+                		</origin>
+                	</history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in
+                    <title>The Menota Handbook (3.0)</title>,
+                    at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+                    as of <date when="2021-02-13">13 February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+            	<correction status="high">
+            		<p>This text has been transcribed directly from photographic colour facsimiles
+            			of the manuscript.</p>
+            	</correction>
+            	<normalization me:level="facs dipl norm">
+            		<p>This text has been encoded on all two focal levels: facsimile and diplomatic.</p>    
+            	</normalization>
+            	<interpretation me:lemmatized="partly" me:morphAnalyzed="partly">
+            		<p>This text has been partly annotated (POS only) and lemmatised.</p>
+            	</interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            	<langUsage>
+            		<language ident="isl">Icelandic</language>
+            		<language ident="lat">Latin</language>
+            	</langUsage>
+            	<handNotes>
+            		<handNote xml:id="h1"></handNote>
+            	</handNotes>
+        </profileDesc>
+        <revisionDesc>
+        	<change>
+        		<date>2023-09-10</date> <name> <persName>Nina Stensaker</persName>, <orgName type="affiliation">University of Bergen</orgName> 
+        		</name>: 
+        		(1) Flere rettelser etter gjennomgang i MLA.
+        		(2) Mindre rettelser i header.
+        	</change>
+        	<change>
+        		<date>2023-06-13</date> <name> <persName>Nina Stensaker</persName>, <orgName type="affiliation">University of Bergen</orgName> 
+        		</name>: 
+        		(1) Lagt til et front-element som kort presenterer fragmentet.
+        		(2) Mindre rettelser 
+        	</change>
+        	<change>
+        		<date>2022-10-20</date> <name> <persName>Nina Stensaker</persName>, <orgName type="affiliation">University of Bergen</orgName> 
+        		</name>: 
+        		Made several corrections on the normalized level.
+        	</change>
+        	<change when="2021-10-18">
+        		<p>
+        			(1) Expanded the header.
+        		</p>
+        	</change>
+            <change when="2021-10-18">
+                <p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref>
+                    "menotaFDT"-style transcription</p>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+	<text xml:lang="isl">
+		<front>
+			<div type="background">
+				<head>Bakgrunn</head>
+				<p>Dette fragmentet gjengir deler av <title>Kross saga: "Inventio Crucis"</title>.
+				Signaturen NRA norr fragm 75 består i dag av to fragmenter som utgjør ca. 35 % av et blad. 
+				Fragmentet er kuttet slik at ingen linjer er fullstendige og det mangler ca. 10 cm med tekst på
+				hver linje.
+				Håndskriftet er énspaltet og har tilhørt samme kodeks som NRA 71, 72 og 76, samt 
+				AM 921 4to IV. Fragmentene
+				som er rester av denne kodeksen er skrevet at to islandske hender. Den første har skrevet 
+				NRA 71, 75, 76 og blad 1 av 72. Den andre hånden har skrevet blad to av NRA 72.
+				</p>
+				<p>Fragmentene ble funnet i et fogderegnskap fra Ryfylke fra 1627. </p>
+				<p> Det er teksttap i alle linjer, men det er krevende å supplere disse, da den ikke er overlevert i  
+					noen andre norrøne håndskrifter med tilsvarende tekst. Teksten kan gjenfinnes på latin i
+					<title>Bibliotheca Hagiographica Latina 4169</title>. Merk at i 
+				<title>Heilagra manna sögum</title> bd. 1 av C. R. Unger (1877) finnes 
+				Legenden <title>Inventio Crucis</title>, men teksten i fragmentet avviker stort fra denne
+				og handler om funnene av naglene i Jesu kors.</p> 
+					<p>Fragmentene inneholder ingen initaler eller rubrikker.</p>
+			</div>
+		</front>
+        <body>
+			<div>
+				<p>
+					<pb ed="ms" n="1r"/>
+					<lb ed="ms" n="1"/>
+					<note type="explanation">Fragmentet har teksttap i alle linjer og det er krevende å supplere disse.
+						Teksten i fragmentet er ikke overlevert i noe annet norrønt håndskrift, men teksten kan gjenfinnes
+						på latin i <title>Bibliotheca Hagiographica Latina 4169</title>. For å illustere teksttapet er det lagt
+						inn stiplede nuller i denne transkripsjonen på alle fokale nivå.
+					</note>
+					<pc xml:id="w100">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<w lemma="byskup" me:msa="xNC" xml:id="w200">
+						<choice>
+							<me:facs>b<am>&us;</am>cup</me:facs>
+							<me:dipl>b<ex>us</ex>cup</me:dipl>
+							   <me:norm>byskup</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w300">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							   <me:norm>.</me:norm>
+                    </choice>
+					</pc>
+					<w lemma="en" me:msa="xCC" xml:id="w400">
+						<choice>
+							<me:facs>&Eunc;n</me:facs>
+							<me:dipl>En</me:dipl>
+							   <me:norm>En</me:norm>
+                    </choice>
+					</w>
+					<w lemma="síðan" me:msa="xAV" xml:id="w500">
+						<choice>
+							<me:facs>&slong;&inodot;þ<am>&bar;</am></me:facs>
+							<me:dipl>siþ<ex>an</ex></me:dipl>
+							   <me:norm>síðan</me:norm>
+                    </choice>
+					</w>
+					<w lemma="senda" me:msa="xVB" xml:id="w600">
+						<choice>
+							<me:facs>&slong;en&drot;&inodot;</me:facs>
+							<me:dipl>sendi</me:dipl>
+							   <me:norm>sendi</me:norm>
+                    </choice>
+					</w>
+					
+                 <w lemma="" me:msa="" xml:id="w700">
+						<choice>
+							<me:facs>&hrdes;</me:facs>
+							<me:dipl>h</me:dipl>
+							   <me:norm>h</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="2"/>
+					<w lemma="er" me:msa="xCS" xml:id="w900">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="þá" me:msa="xAV" xml:id="w1000">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="vera" me:msa="xVB" xml:id="w1100">
+						<choice>
+							<me:facs>var</me:facs>
+							<me:dipl>var</me:dipl>
+							   <me:norm>var</me:norm>
+                    </choice>
+					</w>
+					<w lemma="í" me:msa="xAP" xml:id="w1200">
+						<choice>
+							<me:facs>&inodot;</me:facs>
+							<me:dipl>i</me:dipl>
+							   <me:norm>í</me:norm>
+                    </choice>
+					</w>
+					<w lemma="rómaborg" me:msa="xNP" xml:id="w1300">
+						<choice>
+							<me:facs>romab<am>&bar;</am>g</me:facs>
+							<me:dipl>romab<ex>or</ex>g</me:dipl>
+							   <me:norm>rómaborg</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w1400">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="3"/>
+                 <w lemma="" me:msa="" xml:id="w1500">
+						<choice>
+							<me:facs>ge&fins;an<am>&bar;</am></me:facs>
+							<me:dipl>gefan<ex>n</ex></me:dipl>
+							<me:norm><hi rend="red">gefann</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Vet ikke om dette er et eget ord eller del av ord. Sjekk med OE.-->
+					<w lemma="gefa" me:msa="xVB" xml:id="w1600">
+						<choice>
+							<me:facs>ge&fins;a</me:facs>
+							<me:dipl>gefa</me:dipl>
+							   <me:norm>gefa</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hinn" me:msa="xDD" xml:id="w1700">
+						<choice>
+							<me:facs>&hrdes;&inodot;<am>&bar;</am>n</me:facs>
+							<me:dipl>hi<ex>n</ex>n</me:dipl>
+							   <me:norm>hinn</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w1800">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							   <me:norm>a</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Trolig del av et ukjen ord.</note>
+					<pc xml:id="w1900">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="4"/>
+					<w lemma="en" me:msa="xCC" xml:id="w2000">
+						<choice>
+							<me:facs><add place="margin">&Eunc;</add>n</me:facs>
+							<me:dipl>En</me:dipl>
+							   <me:norm>En</me:norm>
+                    </choice>
+					</w>
+                 <w lemma="þá" me:msa="xAV" xml:id="w2100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w2200">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hann" me:msa="xPE" xml:id="w2300">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>ann</ex></me:dipl>
+							   <me:norm>hann</me:norm>
+                    </choice>
+					</w>
+					<w lemma="koma" me:msa="xVB" xml:id="w2400">
+						<choice>
+							<me:facs>ko<am>&bar;</am></me:facs>
+							<me:dipl>ko<ex>m</ex></me:dipl>
+							   <me:norm>kom</me:norm>
+                    </choice>
+					</w>
+					<w lemma="heim" me:msa="xAV" xml:id="w2500">
+						<choice>
+							<me:facs>&hrdes;e&inodot;<am>&bar;</am></me:facs>
+							<me:dipl>hei<ex>m</ex></me:dipl>
+							   <me:norm>heim</me:norm>
+                    </choice>
+					</w>
+					<w lemma="til" me:msa="xAP" xml:id="w2600">
+						<choice>
+							<me:facs>&trot;<am>&inodotsup;</am></me:facs>
+							<me:dipl>t<ex>il</ex></me:dipl>
+							   <me:norm>til</me:norm>
+                    </choice>
+					</w>
+                 <w lemma="" me:msa="" xml:id="w2700">
+						<choice>
+							<me:facs>&slongtlig;</me:facs>
+							<me:dipl>st</me:dipl>
+							   <me:norm>st</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="5"/>
+					<w lemma="heilagr" me:msa="xAJ" xml:id="w2900">
+						<choice>
+							<me:facs>he&inodot;lag&slong;</me:facs>
+							<me:dipl>heilags</me:dipl>
+							   <me:norm>heilags</me:norm>
+                    </choice>
+					</w>
+					<w lemma="andi" me:msa="xNC" xml:id="w3000">
+						<choice>
+							<me:facs>an&drot;a</me:facs>
+							<me:dipl>anda</me:dipl>
+							   <me:norm>anda</me:norm>
+                    </choice>
+					</w>
+					
+                 <w lemma="" me:msa="" xml:id="w3100">
+						<choice>
+							<me:facs>van&drot;</me:facs>
+							<me:dipl>vand</me:dipl>
+							   <me:norm>vand</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<pc xml:id="w3200">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="6"/>
+					<w lemma="nagli" me:msa="xNC" xml:id="w3300">
+						<choice>
+							<me:facs>naglar</me:facs>
+							<me:dipl>naglar</me:dipl>
+							   <me:norm>naglar</me:norm>
+                    </choice>
+					</w>
+					<w lemma="sá" me:msa="xDD" xml:id="w3400">
+						<choice>
+							<me:facs>þ<am>&bar;</am>&rscap;</me:facs>
+							<me:dipl>þ<ex>ei</ex>&rscap;</me:dipl>
+							   <me:norm>þeir</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w3500">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="í" me:msa="xAP" xml:id="w3600">
+						<choice>
+							<me:facs>&inodot;</me:facs>
+							<me:dipl>i</me:dipl>
+							   <me:norm>í</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w3700">
+						<choice>
+							<me:facs>l&inodot;ka<am>&bar;</am></me:facs>
+							<me:dipl>lika<ex>m</ex></me:dipl>
+							   <me:norm>líkam</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Kan være del av et ord.</note>
+					<pc xml:id="w3800">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="7"/>
+					<w lemma="þá" me:msa="xAV" xml:id="w3900">
+						<choice>
+							<me:facs><add place="margin">Þ</add>a</me:facs>
+							<me:dipl>Þa</me:dipl>
+							   <me:norm>Þá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="kalla" me:msa="xVB" xml:id="w4000">
+						<choice>
+							<me:facs>kallað&inodot;</me:facs>
+							<me:dipl>kallaði</me:dipl>
+							   <me:norm>kallaði</me:norm>
+                    </choice>
+					</w>
+					<w lemma="helena" me:msa="xNP" xml:id="w4100">
+						<choice>
+							<me:facs>helena</me:facs>
+							<me:dipl>helena</me:dipl>
+							   <me:norm>Helena</me:norm>
+                    </choice>
+					</w>
+                 <w lemma="" me:msa="" xml:id="w4200">
+						<choice>
+							<me:facs>&drot;<am>&osup;</am></me:facs>
+							<me:dipl>d<ex>ro</ex></me:dipl>
+							   <me:norm>dro</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord, trolig en form av dróttinn.</note>
+					<pc xml:id="w4300">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="8"/>
+                 <w lemma="" me:msa="" xml:id="w4400">
+						<choice>
+							<me:facs>&slong;e</me:facs>
+							<me:dipl>se</me:dipl>
+							<me:norm>se</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="ns">Del av ukjent ord.</note>
+					<w lemma="sá" me:msa="xDD" xml:id="w4500">
+						<choice>
+							<me:facs>þe&slong;&slong;</me:facs>
+							<me:dipl>þess</me:dipl>
+							   <me:norm>þess</me:norm>
+                    </choice>
+					</w>
+					<w lemma="lofa" me:msa="xVB" xml:id="w4600">
+						<choice>
+							<me:facs>lo&fins;að&rrot;</me:facs>
+							<me:dipl>lofaðr</me:dipl>
+							   <me:norm>lofaðr</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w4700">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hon" me:msa="xPE" xml:id="w4800">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>on</ex></me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice>
+					</w>
+					<!-- Vet ikke om det er hon eller hann... -->
+					<w lemma="" me:msa="" xml:id="w4900">
+						<choice>
+							<me:facs>&slong;y</me:facs>
+							<me:dipl>sy</me:dipl>
+							   <me:norm>sy</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<pc xml:id="w5000">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="9"/>
+                 <w lemma="vér" me:msa="xPE" xml:id="w5100">
+						<choice>
+							<me:facs>ver</me:facs>
+							<me:dipl>ver</me:dipl>
+							   <me:norm>vér</me:norm>
+                    </choice>
+					</w>
+					<w lemma="finna" me:msa="xVB" xml:id="w5200">
+						<choice>
+							<me:facs>&fins;&inodot;n<am>&bar;</am>o<am>&bar;</am></me:facs>
+							<me:dipl>fin<ex>n</ex>o<ex>m</ex></me:dipl>
+							<me:norm>finnum</me:norm>
+                    </choice>
+					</w>
+					<w lemma="eigi" me:msa="xAV" xml:id="w5300">
+						<choice>
+							<me:facs>e<am></am>g<am>&bar;</am></me:facs>
+							<me:dipl>e<ex>i</ex>g<ex>i</ex></me:dipl>
+							   <me:norm>eigi</me:norm>
+                    </choice>
+					</w>
+					<w lemma="nagli" me:msa="xNC" xml:id="w5400">
+						<choice>
+							<me:facs>nagla</me:facs>
+							<me:dipl>nagla</me:dipl>
+							   <me:norm>nagla</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w5500">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="10"/>
+					<w lemma="krossfesta" me:msa="xVB" xml:id="w5600">
+						<choice>
+							<me:facs>c<am>&osup;</am>&slong;&fins;e&slongtlig;r</me:facs>
+							<me:dipl>c<ex>or</ex>sfestr</me:dipl>
+							<me:norm>krossfestr</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w5700">
+						<choice>
+							<me:facs>e<am>&er;</am>&inodot;&slong;</me:facs>
+							<me:dipl>e<ex>r</ex>is</me:dipl>
+							<me:norm><hi rend="red">eris</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Klarer ikke å lese hva som står eller betydningen. Trenger hjelp av OE. -->
+					<w lemma="sá" me:msa="xPD" xml:id="w5800">
+						<choice>
+							<me:facs>þ<am>&inodotsup;</am></me:facs>
+							<me:dipl>þ<ex>vi</ex></me:dipl>
+							   <me:norm>því</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w5900">
+						<choice>
+							<me:facs>vgleð&inodot;</me:facs>
+							<me:dipl>vgleði</me:dipl>
+							   <me:norm>ógleði</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<pc xml:id="w6000">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="11"/>
+					<w lemma="hon" me:msa="xPE" xml:id="w6100">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>on</ex></me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice><!-- hon eller han? -->
+					</w>
+					<w lemma="synja" me:msa="xVB" xml:id="w6200">
+						<choice>
+							<me:facs>&slong;yn&inodot;</me:facs>
+							<me:dipl>syni</me:dipl>
+							   <me:norm>sýni</me:norm>
+                    </choice>
+					</w>
+					<w lemma="vér" me:msa="xPE" xml:id="w6300">
+						<choice>
+							<me:facs>o&slongdes;&slongdes;</me:facs>
+							<me:dipl>oss</me:dipl>
+							   <me:norm>oss</me:norm>
+                    </choice>
+					</w>
+					<w lemma="nagli" me:msa="xNC" xml:id="w6400">
+						<choice>
+							<me:facs>nagla</me:facs>
+							<me:dipl>nagla</me:dipl>
+							   <me:norm>nagla</me:norm>
+                    </choice>
+					</w>
+					<w lemma="þá" me:msa="xDD" xml:id="w6500">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w6600">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Vet ikke om det er del av ord eller er.</note>
+					<pc xml:id="w6700">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="12"/>
+					<w lemma="" me:msa="" xml:id="w6701">
+						<choice>
+							<me:facs>&trot;<am>&combdot;</am></me:facs>
+							<me:dipl>t<ex>t</ex></me:dipl>
+							<me:norm><hi rend="red">tt</hi></me:norm>
+						</choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<w lemma="til" me:msa="xAP" xml:id="w6800">
+						<choice>
+							<me:facs>&trot;<am>&inodotsup;</am></me:facs>
+							<me:dipl>t<ex>il</ex></me:dipl>
+							<me:norm><hi rend="red">til</hi></me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Usikker på lesemåte her. Sjekk med OE.
+					til eller noe med cross???
+					</note>
+					<w lemma="bót" me:msa="xNC" xml:id="w7000">
+						<choice>
+							<me:facs>bo&trot;ar</me:facs>
+							<me:dipl>botar</me:dipl>
+							   <me:norm>bótar</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w7100">
+						<choice>
+							<me:facs>olle</me:facs>
+							<me:dipl>olle</me:dipl>
+							<me:norm><hi rend="red">olli</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Veldig usikker på lesemåte, normalisering og annotasjon her.
+					Ser ut som olle i håndskriftet, men er det virkelig en form av valda v.? -->
+					<w lemma="" me:msa="" xml:id="w7200">
+						<choice>
+							<me:facs>mank</me:facs>
+							<me:dipl>mank</me:dipl>
+							   <me:norm>mannk</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<pc xml:id="w7300">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="13"/>
+					<w lemma="helena" me:msa="xNP" xml:id="w7400">
+						<choice>
+							<me:facs>&hscap;elena</me:facs>
+							<me:dipl>&hscap;elena</me:dipl>
+							   <me:norm>Helena</me:norm>
+                    </choice>
+					</w>
+					<w lemma="láta" me:msa="xVB" xml:id="w7500">
+						<choice>
+							<me:facs>le&trot;</me:facs>
+							<me:dipl>let</me:dipl>
+							   <me:norm>lét</me:norm>
+                    </choice>
+					</w>
+                 <w lemma="gera" me:msa="xVB" xml:id="w7600">
+						<choice>
+							<me:facs>go&rrot;a</me:facs>
+							<me:dipl>gora</me:dipl>
+							<me:norm><hi rend="red">gera</hi></me:norm>
+                    </choice>
+					</w>
+					
+					<!-- Sjekk normalisering med OE -->
+					<w lemma="með" me:msa="xAP" xml:id="w7700">
+						<choice>
+							<me:facs>m<am>&sem;</am></me:facs>
+							<me:dipl>m<ex>eð</ex></me:dipl>
+							   <me:norm>með</me:norm>
+                    </choice>
+					</w>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="14"/>
+                 <w lemma="" me:msa="" xml:id="w7900">
+						<choice>
+							<me:facs>m<am>&bar;</am>&slong;</me:facs>
+							<me:dipl>m<ex>ann</ex>s</me:dipl>
+							<me:norm><hi rend="red">manns</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Vet ikke om dette er del av et ord eller forkortelse for noe, står m(bar)s i håndskriftet.
+					Sjekk med OE.-->
+					<w lemma="ok" me:msa="xCC" xml:id="w8000">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w8100">
+						<choice>
+							<me:facs>barð&inodot;</me:facs>
+							<me:dipl>barði</me:dipl>
+							<me:norm><hi rend="red">barði</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Forstðr ikke teksten, er dette barði av berja vb? Sjekk med OE. -->
+					<w lemma="á" me:msa="xAP" xml:id="w8200">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							   <me:norm>á</me:norm>
+                    </choice>
+					</w>
+					<w lemma="brjóta" me:msa="xVB" xml:id="w8300">
+						<choice>
+							<me:facs>br&inodot;o&trot;</me:facs>
+							<me:dipl>briot</me:dipl>
+							<me:norm><hi rend="red">brjǫt</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Brott/braut? eller noe helt annet? Sjekk med OE. -->
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="15"/>
+					<w lemma="" me:msa="" xml:id="w8400">
+						<choice>
+							<me:facs>rað&inodot;&zstrok;</me:facs>
+							<me:dipl>raðiz</me:dipl>
+							<me:norm><hi rend="red">raðisk</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Vet ikke om dette er et eget ord eller del av noe. Sjekk med OE. -->
+					<w lemma="synð" me:msa="xNC" xml:id="w8500">
+						<choice>
+							<me:facs>&slong;ynða</me:facs>
+							<me:dipl>synða</me:dipl>
+							   <me:norm>synða</me:norm>
+                    </choice>
+					</w>
+					<w lemma="sinn" me:msa="xDP" xml:id="w8600">
+						<choice>
+							<me:facs>&slong;&inodot;n<am>&bar;</am>a</me:facs>
+							<me:dipl>sin<ex>n</ex>a</me:dipl>
+							   <me:norm>sinna</me:norm>
+                    </choice>
+					</w>
+					<w lemma="ok" me:msa="xCC" xml:id="w8700">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w8800">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="16"/>
+					<w lemma="" me:msa="" xml:id="w8900">
+						<choice>
+							<me:facs>g&inodot;</me:facs>
+							<me:dipl>gi</me:dipl>
+							   <me:norm>gi</me:norm>
+                    </choice>
+					</w>
+					<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<w lemma="sem" me:msa="xCS" xml:id="w9000">
+						<choice>
+							<me:facs>&slong;e<am>&bar;</am></me:facs>
+							<me:dipl>se<ex>m</ex></me:dipl>
+							   <me:norm>sem</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hon" me:msa="xPE" xml:id="w9100">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>on</ex></me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice><!-- hon eller hann? -->
+					</w>
+					<w lemma="hafa" me:msa="xVB" xml:id="w9200">
+						<choice>
+							<me:facs>&hrdes;a&fins;ð&inodot;&trot;</me:facs>
+							<me:dipl>hafðit</me:dipl>
+							   <me:norm>hafðit</me:norm>
+                    </choice>
+					</w>
+					<w lemma="biðja" me:msa="xVB" xml:id="w9300">
+						<choice>
+							<me:facs>beð&inodot;&trot;</me:facs>
+							<me:dipl>beðit</me:dipl>
+							   <me:norm>beðit</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w9400">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="17"/>
+					<w lemma="ok" me:msa="xCC" xml:id="w9500">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w9600">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hon" me:msa="xPE" xml:id="w9700">
+						<choice>
+							<me:facs>&hrdes;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>on</ex></me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice><!-- hon eller hann? -->
+					</w>
+					<w lemma="lúka" me:msa="xVB" xml:id="w9800">
+						<choice>
+							<me:facs>l&avlig;k</me:facs>
+							<me:dipl>lavk</me:dipl>
+							   <me:norm>lauk</me:norm>
+                    </choice>
+					</w>
+					<w lemma="bǿn" me:msa="xNC" xml:id="w9900">
+						<choice>
+							<me:facs>b&avlig;n</me:facs>
+							<me:dipl>bavn</me:dipl>
+							   <me:norm>bǿn</me:norm>
+                    </choice>
+					</w>
+					<w lemma="sinn" me:msa="xPD" xml:id="w10000">
+						<choice>
+							<me:facs>&slong;&inodot;n<am>&bar;</am>e</me:facs>
+							<me:dipl>sin<ex>n</ex>e</me:dipl>
+							   <me:norm>sinni</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w10100">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="18"/>
+                 <w lemma="" me:msa="" xml:id="w10200">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							<me:norm><hi rend="red">er</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Vet ikke om det er del av et ord eller bare er. Sjekk med OE. -->
+					<w lemma="allr" me:msa="xDQ" xml:id="w10300">
+						<choice>
+							<me:facs>all<am>&er;</am></me:facs>
+							<me:dipl>all<ex>ir</ex></me:dipl>
+							<me:norm><hi rend="red">allir</hi></me:norm>
+                    </choice>
+					</w>
+					<!-- Vanskelig å lese ordet, forkortelsen
+					kan også være en us. Sjekk med OE. --> 
+                 <w lemma="sá" me:msa="xDD" xml:id="w10400">
+						<choice>
+							<me:facs>&slong;a</me:facs>
+							<me:dipl>sa</me:dipl>
+							   <me:norm>sá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="sá" me:msa="xDD" xml:id="w10500">
+						<choice>
+							<me:facs>þ<am>&bar;</am>r</me:facs>
+							<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							   <me:norm>þeir</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w10600">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="við" me:msa="xAP" xml:id="w10700">
+						<choice>
+							<me:facs>v&inodot;ð</me:facs>
+							<me:dipl>við</me:dipl>
+							   <me:norm>við</me:norm>
+                    </choice>
+					</w>
+                 <w lemma="" me:msa="" xml:id="w10800">
+						<choice>
+							<me:facs>v<am>&osup;</am></me:facs>
+							<me:dipl>v<ex>o</ex></me:dipl>
+							   <me:norm>vo</me:norm>
+                    </choice>
+					</w>
+					<!-- Vet ikke, voru? Vanseklig å lese. Kan være del av et lengre ord... -->
+					<pc xml:id="w10900">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					
+					<lb ed="ms" n="19"/>
+					<w lemma="kross" me:msa="xNC" xml:id="w11000">
+						<choice>
+							<me:facs>c<am>&osup;</am>&slong;&slong;in<am>&bar;</am></me:facs>
+							<me:dipl>c<ex>ro</ex>ssin<ex>n</ex></me:dipl>
+							   <me:norm>krossinn</me:norm>
+                    </choice>
+					</w>
+					<w lemma="vera" me:msa="xVB" xml:id="w11100">
+						<choice>
+							<me:facs>v<am>&asup;</am></me:facs>
+							<me:dipl>v<ex>ar</ex></me:dipl>
+							   <me:norm>var</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w11200">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							   <me:norm></me:norm>
+                    </choice>
+					</pc>
+					<w lemma="bjartr" me:msa="xAJ" xml:id="w11300">
+						<choice>
+							<me:facs>b&inodot;ar&trot;ara</me:facs>
+							<me:dipl>biartara</me:dipl>
+							   <me:norm>bjartara</me:norm>
+                    </choice>
+					</w>
+					<w lemma="en" me:msa="xCS" xml:id="w11400">
+						<choice>
+							<me:facs>e<gap reason="damage" quantity="1" unit="char"></gap></me:facs>
+							<me:dipl>e<supplied reason="restoration" resp="Jónas_Kristjánsson_1967">n</supplied></me:dipl>
+							<me:norm>e<supplied reason="restoration" resp="Jónas_Kristjánsson_1967">n</supplied></me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w11500">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+					<lb ed="ms" n="20"/>
+				<num type="cardinal" value="3">
+					<w lemma="þrír" me:msa="xDQ" xml:id="w11600">
+						<choice>
+							<me:facs>þr&inodot;r</me:facs>
+							<me:dipl>þrir</me:dipl>
+							   <me:norm>þrír</me:norm>
+                    </choice>
+					</w>
+				</num>
+					<w lemma="nagli" me:msa="xNC" xml:id="w11700">
+						<choice>
+							<me:facs>naglar</me:facs>
+							<me:dipl>naglar</me:dipl>
+							   <me:norm>naglar</me:norm>
+                    </choice>
+					</w>
+					<w lemma="bjartr" me:msa="xAJ" xml:id="w11800">
+						<choice>
+							<me:facs>b&inodot;ar&trot;</me:facs>
+							<me:dipl>biart</me:dipl>
+							   <me:norm>bjart</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w11900">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+					</pc>
+					<gap reason="damage" unit="char" quantity="20"/>
+				</p>
+			</div>
+        	<div>
+					<pb ed="ms" n="1v"/>
+					<lb ed="ms" n="1"/>
+        		<p>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w12000">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="þá" me:msa="xAV" xml:id="w12100">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="taka" me:msa="xVB" xml:id="w12200">
+						<choice>
+							<me:facs>&trot;ok</me:facs>
+							<me:dipl>tok</me:dipl>
+							   <me:norm>tók</me:norm>
+                    </choice>
+					</w>
+					<!-- Navn -->
+                 <w xml:lang="lat" lemma="" me:msa="" xml:id="w12300">
+						<choice>
+							<me:facs>&qscap;<am>&inodotsup;</am>ri<am></am>ac<am>&us;</am></me:facs>
+							<me:dipl>&qscap;<ex>ui</ex>ri<ex>n</ex>ac<ex>us</ex></me:dipl>
+							<me:norm><hi rend="red">Qvinacus</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Trenger hjelp til normalisering og lesemåte/oppløsing av forkortelser.
+        			Sjekk med OE. -->
+					<w lemma="nagli" me:msa="xNC" xml:id="w12400">
+						<choice>
+							<me:facs>nag<gap reason="damage" quantity="2" unit="char"></gap></me:facs>
+							<me:dipl>nag<supplied reason="restoration" resp="Jónas_Kristjánsson_1967">la</supplied></me:dipl>
+							<me:norm>nag<supplied reason="restoration" resp="Jónas_Kristjánsson_1967">la</supplied></me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="2"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w12500">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="þá" me:msa="xAV" xml:id="w12600">
+						<choice>
+							<me:facs>þa</me:facs>
+							<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="fylla" me:msa="xVB" xml:id="w12700">
+						<choice>
+							<me:facs>&fins;yll&drot;&inodot;&zstrok;</me:facs>
+							<me:dipl>fylldiz</me:dipl>
+							   <me:norm>fylldisk</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hon" me:msa="xPE" xml:id="w12800">
+						<choice>
+							<me:facs>hon</me:facs>
+							<me:dipl>hon</me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="3"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w12900">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="skulu" me:msa="xVB" xml:id="w13000">
+						<choice>
+							<me:facs>&slong;kyll&drot;&inodot;</me:facs>
+							<me:dipl>skylldi</me:dipl>
+							   <me:norm>skyldi</me:norm>
+                    </choice>
+					</w>
+					<w lemma="af" me:msa="xAP" xml:id="w13100">
+						<choice>
+							<me:facs>a&fins;</me:facs>
+							<me:dipl>af</me:dipl>
+							   <me:norm>af</me:norm>
+                    </choice>
+					</w>
+					<w lemma="nagli" me:msa="xNC" xml:id="w13200">
+						<choice>
+							<me:facs>n&avlig;glo</me:facs>
+							<me:dipl>navglo</me:dipl>
+							   <me:norm>nǫglum</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="4"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w13300">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			
+                 <w lemma="" me:msa="" xml:id="w13400">
+						<choice>
+							<me:facs>nað&rrot;&inodot;n<am>&bar;</am></me:facs>
+							<me:dipl>naðrin<ex>n</ex></me:dipl>
+							<me:norm><hi rend="red">naðrin</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Kan like godt være i aðr in(n)? Vanskelig å lese, er en bokstav, deretter aðrin(n). Sjekk med OE. -->
+        			<note type="comment" resp="NS">Trolig del av et ord.</note>
+					<w lemma="af" me:msa="xAP" xml:id="w13500">
+						<choice>
+							<me:facs>a&fins;</me:facs>
+							<me:dipl>af</me:dipl>
+							   <me:norm>af</me:norm>
+                    </choice>
+					</w>
+					<!-- kan være del av ord -->
+                 <w lemma="" me:msa="" xml:id="w13600">
+						<choice>
+							<me:facs>m&inodot;n<am>&bar;</am>&inodot;<am>&eng;</am></me:facs>
+							<me:dipl>min<ex>n</ex>i<ex>ng</ex></me:dipl>
+							<me:norm><hi rend="red">minning</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Trenger hjelp til lesemðte, ser ut som min(n)in, men siste n er ng-form. Sjekk med OE. -->
+					<lb ed="ms" n="5"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w13700">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+                 <w lemma="" me:msa="" xml:id="w13800">
+						<choice>
+							<me:facs>a</me:facs>
+							<me:dipl>a</me:dipl>
+							   <me:norm>a</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Trolig del av et ukjent ord.</note>
+					<w lemma="er" me:msa="xCS" xml:id="w13900">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="heilagr" me:msa="xAJ" xml:id="w14000">
+						<choice>
+							<me:facs>&hrdes;e&inodot;lagr</me:facs>
+							<me:dipl>heilagr</me:dipl>
+							   <me:norm>heilagr</me:norm>
+                    </choice>
+					</w>
+					<w lemma="dómr" me:msa="xNC" xml:id="w14100">
+						<choice>
+							<me:facs>&drot;omr</me:facs>
+							<me:dipl>domr</me:dipl>
+							   <me:norm>dómr</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="6"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w14200">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w14300">
+						<choice>
+							<me:facs><am>&eng;</am></me:facs>
+							<me:dipl><ex>ng</ex></me:dipl>
+							   <me:norm>ng</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+                 <w lemma="" me:msa="" xml:id="w14400">
+						<choice>
+							<me:facs>kalla &slong;m&inodot;ð</me:facs>
+							<me:dipl>kalla smið</me:dipl>
+							<me:norm><hi rend="red">kallasmið</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Trenger hjelp til lesemðte, normalisering og annotasjon. -->
+					<w lemma="" me:msa="" xml:id="w14500">
+						<choice>
+							<me:facs>ge</me:facs>
+							<me:dipl>ge</me:dipl>
+							   <me:norm>ge</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<lb ed="ms" n="7"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w14600">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w14700">
+						<choice>
+							<me:facs>v<am>&bar;</am></me:facs>
+							<me:dipl>v<ex>m</ex></me:dipl>
+							   <me:norm>vm</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Trolig del av ukjent ord.</note>
+					<w lemma="nagli" me:msa="xNC" xml:id="w14800">
+						<choice>
+							<me:facs>n&avlig;gl&oogon;no<am>&bar;</am></me:facs>
+							<me:dipl>navgl&oogon;no<ex>m</ex></me:dipl>
+							<me:norm><hi rend="red">nǫglunum</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Sjekk norm med OE. -->
+					<w lemma="ok" me:msa="xCC" xml:id="w14900">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w15000">
+						<choice>
+							<me:facs>&slong;ag</me:facs>
+							<me:dipl>sag</me:dipl>
+							   <me:norm>sag</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<lb ed="ms" n="8"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+			<pc xml:id="w15100">
+				<choice>
+					<me:facs></me:facs>
+					<me:dipl></me:dipl>
+					
+				   <me:norm>&hellip;</me:norm>
+                    </choice>
+			</pc>
+        			<w lemma="" me:msa="" xml:id="w15200">
+						<choice>
+							<me:facs>&trot;</me:facs>
+							<me:dipl>t</me:dipl>
+							   <me:norm>t</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ikjent ord.</note>
+					<w lemma="betr" me:msa="xAV" xml:id="w15300">
+						<choice>
+							<me:facs>be&zstrok;&trot;</me:facs>
+							<me:dipl>bezt</me:dipl>
+							   <me:norm>bezt</me:norm>
+                    </choice>
+					</w>
+					<w lemma="til" me:msa="xAP" xml:id="w15400">
+						<choice>
+							<me:facs>&trot;&inodot;l</me:facs>
+							<me:dipl>til</me:dipl>
+							   <me:norm>til</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hǫnd" me:msa="xNC" xml:id="w15500">
+						<choice>
+							<me:facs>han&drot;a</me:facs>
+							<me:dipl>handa</me:dipl>
+							   <me:norm>handa</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="9"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+			<pc xml:id="w15600">
+				<choice>
+					<me:facs></me:facs>
+					<me:dipl></me:dipl>
+					
+				   <me:norm>&hellip;</me:norm>
+                    </choice>
+			</pc>
+        			<w lemma="" me:msa="" xml:id="w15700">
+						<choice>
+							<me:facs>ma</me:facs>
+							<me:dipl>ma</me:dipl>
+							   <me:norm>ma</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<w lemma="nagli" me:msa="xNC" xml:id="w15800">
+						<choice>
+							<me:facs>nagla</me:facs>
+							<me:dipl>nagla</me:dipl>
+							   <me:norm>nagla</me:norm>
+                    </choice>
+					</w>
+					<w lemma="þessi" me:msa="xDD" xml:id="w15900">
+						<choice>
+							<me:facs>þe&slong;&slong;a</me:facs>
+							<me:dipl>þessa</me:dipl>
+							   <me:norm>þessa</me:norm>
+                    </choice>
+					</w>
+                 <w lemma="" me:msa="" xml:id="w16000">
+						<choice>
+							<me:facs>e<am>&er;</am></me:facs>
+							<me:dipl>e<ex>r</ex></me:dipl>
+							<me:norm><hi rend="red">er</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Vet ikke om det er er eller del av ukjent ord. Sjekk med OE. -->
+					<lb ed="ms" n="10"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w16100">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w16200">
+						<choice>
+							<me:facs>&inodot;alp&inodot;</me:facs>
+							<me:dipl>ialpi</me:dipl>
+							<me:norm><hi rend="red">ialpi</hi></me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Trolig del av et ord, hjalpi?</note>
+        			<!-- Sjekk med OE. -->
+					<w lemma="konungr" me:msa="xNC" xml:id="w16300">
+						<choice>
+							<me:facs>k<am>.</am></me:facs>
+							<me:dipl>k<ex>onung</ex></me:dipl>
+							   <me:norm>konung</me:norm>
+                    </choice>
+					</w>
+					<w lemma="ok" me:msa="xCC" xml:id="w16400">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hestr" me:msa="xNC" xml:id="w16500">
+						<choice>
+							<me:facs>&hrdes;e&slong;&trot;&inodot;</me:facs>
+							<me:dipl>hesti</me:dipl>
+							   <me:norm>hesti</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hann" me:msa="xPE" xml:id="w16600">
+						<choice>
+							<me:facs>&hslonglig;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>an</ex>s</me:dipl>
+							   <me:norm>hans</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="11"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w16800">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w16900">
+						<choice>
+							<me:facs>&slong;&inodot;gr</me:facs>
+							<me:dipl>sigr</me:dipl>
+							   <me:norm>sigr</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Trolig del av ukjent ord.</note>
+        			<w lemma="í mót" me:msa="xAP" xml:id="w17000">
+						<choice>
+							<me:facs>&inodot; mo&trot; &inodot;</me:facs>
+							<me:dipl>i mot i</me:dipl>
+							   <me:norm>í moti</me:norm>
+                    </choice>
+					</w>
+					<w lemma="óvinr" me:msa="xNC" xml:id="w17100">
+						<choice>
+							<me:facs>v v&inodot;no<am>&bar;</am></me:facs>
+							<me:dipl>v vino<ex>m</ex></me:dipl>
+							   <me:norm>óvinum</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="12"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w17200">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="gera" me:msa="xVB" xml:id="w17300">
+						<choice>
+							<me:facs>g<am>&er;</am>þe</me:facs>
+							<me:dipl>g<ex>er</ex>þe</me:dipl>
+							   <me:norm>gerði</me:norm>
+                    </choice>
+					</w>
+					<w lemma="sem" me:msa="xCS" xml:id="w17400">
+						<choice>
+							<me:facs>&slong;em</me:facs>
+							<me:dipl>sem</me:dipl>
+							   <me:norm>sem</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hon" me:msa="xPE" xml:id="w17500">
+						<choice>
+							<me:facs>&hrdes;o<am>&bar;</am></me:facs>
+							<me:dipl>ho<ex>n</ex></me:dipl>
+							<me:norm><hi rend="red">hon</hi></me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Rar forkortelse, er kanskje et helt annet ord?
+        			Ser også ut som h er forkortet. </note>
+        			<!-- Sjekk med OE. -->
+					<w lemma="vera" me:msa="xVB" xml:id="w17600">
+						<choice>
+							<me:facs>var</me:facs>
+							<me:dipl>var</me:dipl>
+							   <me:norm>var</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="13"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+					<pc xml:id="w17601">
+						<choice>
+							<me:facs></me:facs>
+							<me:dipl></me:dipl>
+							<me:norm>&hellip;</me:norm>
+						</choice>
+					</pc>
+        			<w lemma="" me:msa="" xml:id="w17700">
+						<choice>
+							<me:facs>almen<am>&bar;</am>&inodot;l&inodot;g<am>&inodotsup;</am></me:facs>
+							<me:dipl>almen<ex>n</ex>ilig<ex>ir</ex></me:dipl>
+							<me:norm><hi rend="red">almenniligi</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Hva er dette? Finne bare allmenniliga adv. -->
+					<w lemma="trú" me:msa="xNC" xml:id="w17800">
+						<choice>
+							<me:facs>&trot;<am>&vsup;</am></me:facs>
+							<me:dipl>t<ex>rv</ex></me:dipl>
+							   <me:norm>trú</me:norm>
+                    </choice>
+					</w>
+					<pc xml:id="w17900">
+						<choice>
+							<me:facs>.</me:facs>
+							<me:dipl>.</me:dipl>
+							   <me:norm>,</me:norm>
+                    </choice>
+					</pc>
+					<w lemma="hon" me:msa="xPE" xml:id="w18000">
+						<choice>
+							<me:facs>&hrdes;<am>&osup;</am></me:facs>
+							<me:dipl>h<ex>on</ex></me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Usikker på forkortelsen.</note>
+					<w lemma="" me:msa="" xml:id="w18100">
+						<choice>
+							<me:facs>&slongtlig;ęk</me:facs>
+							<me:dipl>stęk</me:dipl>
+							<me:norm>stęk</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<lb ed="ms" n="14"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w18200">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w18300">
+						<choice>
+							<me:facs>&inodot;</me:facs>
+							<me:dipl>i</me:dipl>
+							   <me:norm>í</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Trolig del av ukjent ord.</note>
+					<w lemma="sá" me:msa="xDD" xml:id="w18400">
+						<choice>
+							<me:facs>þe&inodot;<am>&bar;</am></me:facs>
+							<me:dipl>þei<ex>m</ex></me:dipl>
+							   <me:norm>þeim</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w18500">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="eigi" me:msa="xAV" xml:id="w18600">
+						<choice>
+							<me:facs>e<am></am>g<am>&bar;</am></me:facs>
+							<me:dipl>e<ex>i</ex>g<ex>i</ex></me:dipl>
+							   <me:norm>eigi</me:norm>
+                    </choice>
+					</w>
+					<w lemma="vilja" me:msa="xVB" xml:id="w18700">
+						<choice>
+							<me:facs>v&inodot;ll&drot;o</me:facs>
+							<me:dipl>villdo</me:dipl>
+							   <me:norm>vildu</me:norm>
+                    </choice>
+					</w>
+					<w lemma="á" me:msa="xAP" xml:id="w18800">
+						<choice>
+							<me:facs>á</me:facs>
+							<me:dipl>á</me:dipl>
+							   <me:norm>á</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Kan være del av et lengre ord.</note>
+					<lb ed="ms" n="15"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w18900">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="mikill" me:msa="xAJ" xml:id="w19000">
+						<choice>
+							<me:facs>m&inodot;k&inodot;ll</me:facs>
+							<me:dipl>mikill</me:dipl>
+							   <me:norm>mikill</me:norm>
+                    </choice>
+					</w>
+					<w lemma="svá" me:msa="xCS" xml:id="w19100">
+						<choice>
+							<me:facs>&slong;va</me:facs>
+							<me:dipl>sva</me:dipl>
+							   <me:norm>svá</me:norm>
+                    </choice>
+					</w>
+					<w lemma="at" me:msa="xCS" xml:id="w19200">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							   <me:norm>at</me:norm>
+                    </choice>
+					</w>
+					<w lemma="mjǫk" me:msa="xAV" xml:id="w19300">
+						<choice>
+							<me:facs>m&inodot;ok</me:facs>
+							<me:dipl>miok</me:dipl>
+							   <me:norm>mjǫk</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="16"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w19400">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="sá" me:msa="xDD" xml:id="w19500">
+						<choice>
+							<me:facs>þe&inodot;<am>&bar;</am></me:facs>
+							<me:dipl>þei<ex>m</ex></me:dipl>
+							   <me:norm>þeim</me:norm>
+                    </choice>
+					</w>
+					<w lemma="er" me:msa="xCS" xml:id="w19600">
+						<choice>
+							<me:facs>er</me:facs>
+							<me:dipl>er</me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+					</w>
+					<w lemma="á" me:msa="xAP" xml:id="w19700">
+						<choice>
+							<me:facs>á</me:facs>
+							<me:dipl>á</me:dipl>
+							   <me:norm>á</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hann" me:msa="xPE" xml:id="w19800">
+						<choice>
+							<me:facs>&hslonglig;<am>&bar;</am></me:facs>
+							<me:dipl>h<ex>an</ex>s</me:dipl>
+							   <me:norm>hans</me:norm>
+                    </choice>
+					</w>
+					<w lemma="fundr" me:msa="xNC" xml:id="w19900">
+						<choice>
+							<me:facs>&fins;vn&drot;</me:facs>
+							<me:dipl>fvnd</me:dipl>
+							   <me:norm>fund</me:norm>
+                    </choice>
+					</w>
+					<w lemma="" me:msa="" xml:id="w20000">
+						<choice>
+							<me:facs>ko</me:facs>
+							<me:dipl>ko</me:dipl>
+							   <me:norm>ko</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<lb ed="ms" n="17"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w20100">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w20200">
+						<choice>
+							<me:facs>an<am>&bar;</am>e</me:facs>
+							<me:dipl>an<ex>n</ex>e</me:dipl>
+							   <me:norm>anne</me:norm>
+                    </choice>
+						
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<w lemma="at" me:msa="xIM" xml:id="w20300">
+						<choice>
+							<me:facs>a&trot;</me:facs>
+							<me:dipl>at</me:dipl>
+							   <me:norm>at</me:norm>
+                    </choice>
+					</w>
+					<w lemma="halda" me:msa="xVB" xml:id="w20400">
+						<choice>
+							<me:facs>&hrdes;all&drot;a</me:facs>
+							<me:dipl>hallda</me:dipl>
+							   <me:norm>halda</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="18"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w20500">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w20600">
+						<choice>
+							<me:facs>&inodot;n&slong;</me:facs>
+							<me:dipl>ins</me:dipl>
+							   <me:norm>ins</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Kan være del av et ord.</note>
+					<w lemma="" me:msa="" xml:id="w20700">
+						<choice>
+							<me:facs>&fins;an&zstrok;</me:facs>
+							<me:dipl>fanz</me:dipl>
+							<me:norm><hi rend="red">fanz</hi></me:norm>
+                    </choice>
+					</w>
+        			<!-- Trenger hjelp til norm, annotasjon. -->
+        			<num type="cardinal" value="2">
+					<w lemma="tveir" me:msa="xDQ" xml:id="w20800">
+						<choice>
+							<me:facs><pc>.</pc>&inodot;&inodot;<pc>.</pc></me:facs>
+							<me:dipl><pc>.</pc>ii<pc>.</pc></me:dipl>
+							   <me:norm><pc>.</pc>ii<pc>.</pc></me:norm>
+                    </choice>
+					</w>
+        			</num>
+                 <w lemma="nátt" me:msa="xNC" xml:id="w20900">
+						<choice>
+							<me:facs>no&trot;<gap reason="damage" quantity="3" unit="char"></gap></me:facs>
+							<me:dipl>not<supplied reason="restoration" resp="Jónas_Kristjánsson_1967">tom</supplied></me:dipl>
+							   <me:norm>náttum</me:norm>
+                    </choice>
+					</w>
+					<lb ed="ms" n="19"/>
+        			<gap reason="damage" unit="char" quantity="20"/>
+        			<pc xml:id="w21000">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        			<w lemma="" me:msa="" xml:id="w21100">
+						<choice>
+							<me:facs>á&rscap;</me:facs>
+							<me:dipl>á&rscap;</me:dipl>
+							   <me:norm>ár</me:norm>
+                    </choice>
+					</w>
+        			<note type="comment" resp="NS">Del av ukjent ord.</note>
+					<w lemma="ok" me:msa="xCC" xml:id="w21200">
+						<choice>
+							<me:facs><am>&etslash;</am></me:facs>
+							<me:dipl><ex>oc</ex></me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+					</w>
+					<w lemma="hafa" me:msa="xVB" xml:id="w21300">
+						<choice>
+							<me:facs>&hrdes;e&fins;<am>&er;</am></me:facs>
+							<me:dipl>hef<ex>ir</ex></me:dipl>
+							   <me:norm>hefir</me:norm>
+                    </choice>
+					</w>
+					<w lemma="sá" me:msa="xDD" xml:id="w21400">
+						<choice>
+							<me:facs>þ<am>&bar;</am></me:facs>
+							<me:dipl>þ<ex>at</ex></me:dipl>
+							   <me:norm>þat</me:norm>
+                    </choice>
+					</w>
+					<w lemma="heilagr" me:msa="xAJ" xml:id="w21500">
+						<choice>
+							<me:facs>&hrdes;elg&inodot;</me:facs>
+							<me:dipl>helgi</me:dipl>
+							   <me:norm>helgi</me:norm>
+                    </choice>
+					</w>
+        			<pc xml:id="w21600">
+        				<choice>
+        					<me:facs></me:facs>
+        					<me:dipl></me:dipl>
+        					
+        				   <me:norm>&hellip;</me:norm>
+                    </choice>
+        			</pc>
+        		</p>
+			</div>
+        </body>
+    </text>
+</TEI>

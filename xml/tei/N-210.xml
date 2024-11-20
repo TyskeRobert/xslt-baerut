@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 210 : Oddernes II, Kristiansand, Agder : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 3, pp. 80-83</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation"> <!-- OEH 2021-03-19: La til attributtet resp="annotation"; det er dette som utløyser at du blir oppført i katalogen under “Annotation” -->
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName> <!-- OEH 2021-03-19: Corpuscle vil ha oppføring med separate fornamn og etternamn -->
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">Universitetet i Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-19">19
+                    March 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="11">11 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">III 80-83</idno>
+                <date when="2021-03-19">19 March 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Oddernes, Kristiansand, Agder</settlement>
+                        <idno>N 210</idno>
+                        <msName>N 210: Oddernes II, Kristiansand, Agder</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>Stone</material> The type of stone is gneiss.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="0980" notAfter="1015">c. 980-1015</origDate>
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook
+                    (3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml"
+                        >https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+                            February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the
+                        rendering and image in NIyR vol. 4, pp. 7-11.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic
+                        and normalised, and it has been supplied with a translation as well as
+                        images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the
+                        rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+                
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language> <!-- OEH 2021-03-19: Når vi har datering (som her), er det tilstrekkeleg med “nor” som språkform; vi treng ikkje også "non". -->
+                <language ident="eng">English</language>
+                
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the reading of the runes
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-04-12">
+                <date>2021-04-12</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Small corrections.
+            </change>
+            <change when="2021-03-25">
+                <date>2021-03-25</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added comment.
+            </change>
+            <change when="2021-03-19">
+                <date>2021-03-19</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few minor changes to the file.
+            </change>
+            <change when="2021-03-19">
+                <date>2021-03-19</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first working draft with full MSA and full dipl, norm and facs levels.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="non">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 210 ||  
+                    <hi rend="bold">Sted</hi>: Oddernes, Kristiansand, Agder || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 980–1015<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR III: 80–83 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/8bd717c4-51b0-44fc-8fde-24fc696ae26c" type="external">N 210</ref>
+                </head>
+                <p>Innskriften er på smalsiden av runsteinen som står i Oddernes kirkes kirkegård. Bredsiden har også runer på (N 209). Jf. NIyR III 73-83.</p> <!-- OEH 2021-03-19: Dette er fint nok i første omgang, men presentasjonen kan gjerne utvidast litt seinare. -->
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <lb ed="ms" n="1"/>
+                    <pb ed="ms" n="1r"/>
+                    <pc type="runic"> <!-- OEH 2021-03-19: Eg har lagt til eit attributt her, ettersom visinga av <pc> i runeinnskrifter følgjer litt andre reglar enn i handskriftstekstar -->
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Eyvindr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&aYG;&RYGL;&iGE;&nYG;&tYG;&rGEcv;</me:facs>
+                            <me:dipl>ayintr</me:dipl>
+                            <me:norm>Ey<supplied reason="emendation" resp="Magnus Olsen">v</supplied>indr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="gera" me:msa="xVB iWK nS p3 tPT vA mIN fF">
+                        <choice>
+                            <me:facs>&kYG;&aYG;&rGE;&thGEcv;&iGE;</me:facs>
+                            <me:dipl>karþi</me:dipl>
+                            <me:norm>gerði</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="kirkja" me:msa="xNC gF nS cA sI">
+                        <choice>
+                            <me:facs>&kYG;&aYG;&rGEcv;&kYG;&iGE;&uGE;</me:facs>
+                            <me:dipl>kirkiu</me:dipl>
+                            <me:norm>kirkju</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="sjá" me:msa="xDD gF nS cA">
+                        <choice>
+                            <!--zMDfh should be a horizontally flipped zMDhshp-->
+                            <me:facs>&thGE;&iGE;&zMDfh;&aYG;</me:facs>
+                            <me:dipl>þisa</me:dipl>
+                            <me:norm>þessa</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="goðsonr" me:msa="xNC gM nS cN sI">
+                        <choice>
+                            <me:facs>&kYG;&oYG;&zMDfh;&uGE;&nYG;&rGEcv;</me:facs>
+                            <me:dipl>kosunr</me:dipl>
+                            <me:norm>go<supplied reason="emendation" resp="Magnus Olsen">ð</supplied>sonr</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="Ólafr" me:msa="xNP gM nS cG sI">
+                        <choice>
+                            <me:facs>&oYG;&lGE;&aYG;&fGEcv;&sYGL;</me:facs>
+                            <me:dipl>olafs</me:dipl>
+                            <me:norm>Ólafs</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="hinn" me:msa="xDD gM nS cG">
+                        <choice>
+                            <me:facs>&hYGL;&iGE;&nYG;&sYGL;</me:facs>
+                            <me:dipl>hins</me:dipl>
+                            <me:norm>hins</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <!-- It is very unclear the carver was trying to write, Magnus Olsen prefers Olaf the Saint instead of something like Ólafr halli/hála-->
+                    <w lemma="heilagr" me:msa="xAJ gM nS cG sD">
+                        <choice>
+                            <me:facs>&hYGL;<unclear reason="weathered">&aYG;</unclear>&lGE;&aYG;</me:facs>
+                            <me:dipl>h<unclear reason="weathered">a</unclear>la</me:dipl>
+                            <me:norm><supplied reason="emendation" resp="Magnus Olsen">helga</supplied></me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                            <me:norm>,</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="á" me:msa="xAP yD">
+                            <choice>
+                                <me:facs>&aYG;</me:facs>
+                                <me:dipl>a</me:dipl>
+                                <me:norm>á </me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="oðal" me:msa="xNC gN cD nS sI">
+                            <choice>
+                                <me:facs>&oYG;&thGE;&aYG;&lGE;&iGE;</me:facs>
+                                <me:dipl>oþali</me:dipl>
+                                <me:norm>oðali</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="sinn" me:msa="xDP gN nS cD">
+                        <choice>
+                            <me:facs>&zMDfh;&iGE;&nYG;&uGE;</me:facs>
+                            <me:dipl>sinu</me:dipl>
+                            <me:norm>sinu</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>×</me:facs>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Øivind gjorde denne kirke - Olav den Helliges gudsønn - på sin odel(sgård).</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Eyvindr, godson of Ólafr the Holy made this church on his allodial land.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Navnet &hYGL;&aYG;&lGE;&aYG; er uklart, det fins argumenter til at det kan mener Olav den hellige, men det kan også likevel være «Ólafr hinn halli» (Olav den skjeve) eller «Ólafr hinn Háli» (Olav den slibrige). (Jf. NIyR III 83-90). </p>
+            </div>
+
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N210-A.jpg"/></figure>
+                <caption>Fotografi av N 210, fordelt på tre linjer. Gjengitt etter NIyR III: 80. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N210-B.jpg"/></figure>
+                <caption>Avtegning av hele N 210 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N210-C.jpg"/></figure>
+                <caption>Avtegning av første del av N 210 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N210-D.jpg"/></figure>
+                <caption>Avtegning av andre del av N 210 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+
+        </back>
+    </text>
+</TEI>
+

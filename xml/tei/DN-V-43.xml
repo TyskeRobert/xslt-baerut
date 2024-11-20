@@ -1,0 +1,129 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 5:43 = RN 3:70 : 1303, before 03-07 : Jämtland : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.1">Version 0.8.1, <date when="2023-11-21">21 November 2023</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-01-30">9 November 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement> <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository> <!-- Dette kan vi vente med -->
+                  <idno>DN 5:43</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 3:70</idno></altIdentifier>
+                  <msName>[1303, before 03-07] : Jämtland</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="vidimus" defective="false"> <!-- Her kan vi leggje inn kategorien “vidimus”. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>[Oslo]</origPlace>
+                     <origDate notBefore="1303" notAfter="1303">[1303, before 03-07]</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-01-03</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Made this file as a documentation of DN 5:43 (= RN 3:70), even if the actual text has been moved to DN 5:46 (= RN 3:245). The summaries in DN and RN have been added, since they contain more information than the ones in DN 5:46
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+   
+   <text xml:lang="nor"> 
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: [1303, før 7. mars] || <hi rend="bold">Stad</hi>: Jämtland.</head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er no tapt, men det er kjent gjennom ei avskrift i ein noko yngre vidisse, <ref type="internal" target="DN_bind_05_brevnr_046">DN 5:46</ref>. Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet av avskrifta i denne vidissen.</p>
+               <p>DN tidfestar brevet til “efter Jul 1303” og heimfester det til “Uden Sted”. RN 3:7o tidfester det til 1303 (januar – 7. mars) og heimfester det til Jämtland.</p>
+               
+               <!-- <p>DN tidfestar brevet til “efter Jul 1303” og heimfester det til “Uden Sted”. RN 3:7o skriv: “Brevet daterer seg selv til etter jul 1303. Angående term a q, jfr nr 71.” RN 3:71 opplyser vidare: “DN datert til “efter jul 1303”. Term a q gir nr 72 , erkebiskopens gavebrev, som direkte nevner tinget her, og som er utstedt etter at erkebiskopen hadde avsluttet sin visitas i Jämtland. Angående term p q, jfr nr 70 , som viser at erkebiskopen var i Jämtland i begynnelsen av 1303.”</p> -->
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 5, nr. 43</head>
+               <p>Erkebiskop Nikolaus af Upsala og Erlend Styrkarssön paa Kong Haakons Vegne udstede en Anordning om Presteskabets og Almuens indbyrdes Rettigheder i Jæmteland, saaledes som disse ved gammel Sædvane vare
+                  fastsatte.</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 70</head>
+               <p>Vedtekter om forholdet mellom kirken og almuen i Jämtland, utferdiget av erkebiskop Nils av Uppsala og sira Erlend Styrkårsson på vegne av kong Håkon [Magnusson] av Norge: Det blir gitt detaljerte regler for tiendebetaling, avgifter for forskjellige geistlige tjenester, betaling til biskopen for visitas, prestens fravær fra sognet, bruk av kirkestraffer og forholdet mellom kirkelig og verdslig jurisdiksjon og straff for prester som forsømmer kirkens eiendom.</p>
+            </div>
+         </div>
+      </front>
+      
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty -->
+         <div type="diplom">
+         </div>        
+      </body>          
+   </text>
+</TEI>

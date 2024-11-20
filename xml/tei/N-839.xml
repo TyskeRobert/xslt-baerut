@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+			    <title>N 839 (= A 280): Folkebibliotekstomta, Trondheim, Trøndelag : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Jan</forename>
+							<forename>Ragnar</forename>
+							<surname>Hagland</surname>
+						</persName>
+						<orgName type="affiliation">University of Trondheim</orgName>
+					</name>
+				</editor>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>James</forename>
+							<surname>Knirk</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in Manus til NIyR vol. 7, pp. 132-135</resp>
+					<name>
+						<persName>
+							<forename>Jan</forename>
+							<forename>Ragnar</forename>
+							<surname>Hagland</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Anna</forename>
+							<surname>Vlasova</surname>
+							<surname>Våtvik</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9<date when="2021-03-23">2
+					May 2023</date> <!-- OEH 2023-05-02: Har sett dagens dato -->
+				</edition>
+			</editionStmt>
+			<extent n="5">5 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">VII 132-135</idno>
+				<date when="2021-10-09">9 October 2021</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Pictures from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>63.4305, 10.401</settlement>
+						<idno>N 839</idno>
+						<msName>N 839 : Folkebibliotekstomta, Trondheim, Trøndelag</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="bone">
+							<supportDesc>
+								<support>
+									<p><material>bone</material>.</p>
+									<p>Handmade needle</p>
+								</support>
+								<condition>Slightly damaged</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="0966" notAfter="1066">c. 966-1066</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Stored at NTNU University Museum in Trondheim, under inventory number of N-94415.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image provided by Kulturhistorisk museum in Oslo.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+			<date>2023-05-02</date>
+			<name>Odd Einar Haugen</name>
+			<orgName type="affiliation">University of Bergen</orgName>: Made a few modifications to the file for greater consistency, and gave it version number 0.9.</change>
+			<change>
+				<date>2022-04-12</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+			<change>
+				<date>2021-10-21</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some minor changes to the header.</change>
+			<change>
+				<date>2021-10-09</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+                  	<head>
+                  		<hi rend="bold">Signum</hi>: N 839 [A 280] ||
+                  		<hi rend="bold">Sted</hi>: Folkebibliotekstomta, Trondheim, Trøndelag ||
+                  		<hi rend="bold">Kart</hi>: På vei ||
+                  		<hi rend="bold">Datering</hi>: ca. 966–1066<lb/>
+                  		<hi rend="bold">Materiale</hi>: Bein/horn ||
+                  		<hi rend="bold">Status</hi>: Bevart, nå i NTNU Vitenskapsmuseet ||
+                  		<hi rend="bold">Utgave</hi>: NIyR VII: [839] || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/68c05426-a1f0-400f-9edc-adb3ffa09b91" type="external">N 839 [A 280]</ref>
+                  	</head>
+				<p> Innskriften står på en nål av bein, 77 mm lang, 18 mm i bredeste enden og 5–6 mm tykk. Nålen er dekorert med utskjæringer på den ene siden og har runer på den andre. Den har et hull omtrent midt på “bladet”. Dette hullet er gjort før innskriften, ettersom runeristeren har tatt hensyn til den plassen som går vekk på det viset. Funnet var gjort i 1985, felt FU, hovedfase 3. Det tilsier en arkeologisk datering av funnkonteksten til et tidsrom som strekker seg fra slutten av 900-talet til midten av 1000-talet. Jf. Jan Ragnar Haglands manus til NIyR VII: [839].</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+					<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+						<w lemma="Eiríkr" me:msa="xNP gM nS cN sI" >
+								<choice>
+									<me:facs><unclear reason="weathered">&aYG;&iGE;&rGE;</unclear>&iGE;&kYG;&rGE;</me:facs>
+									<me:dipl><supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">air</supplied>íkr</me:dipl>
+									<me:norm><supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">Eir</supplied>íkr</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&middotPM;</me:facs>
+								<me:dipl>&middotPM;</me:dipl>
+							</choice>
+						</pc>
+						<seg type="nb">
+						<w lemma="gera" me:msa="xVB fF tPT mIN p3 nS vA iWK">
+								<choice>
+									<me:facs>&kYG;&eMD;&rGE;<unclear reason="damaged">&thGE;&iGE;</unclear></me:facs>
+									<me:dipl>ker<supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">þi</supplied></me:dipl>
+									<me:norm>ger<supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">ði</supplied></me:norm>
+								</choice>
+							</w>
+						<w lemma="spýta" me:msa="xNC gF nS cA">
+								<choice>
+									<me:facs>&sYGSdot;&bGE;&iGE;&tOR;&uGE;</me:facs>
+									<me:dipl>sbitu</me:dipl>
+									<me:norm>spítu</me:norm>
+								</choice>
+							</w>
+						</seg>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+								<me:dipl>&threedotPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="á" me:msa="xAP yD">
+								<choice>
+									<me:facs>&oYG;</me:facs>
+									<me:dipl>o</me:dipl>
+									<me:norm>á</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+								<me:dipl>&twodotPM;</me:dipl>
+							</choice>
+							</pc>
+						<w lemma="haf" me:msa="xNP gN nS cD sI">
+								<choice>
+									<me:facs>&hYGL;&aYG;&fGE;&iGE;</me:facs>
+									<me:dipl>hafi</me:dipl>
+									<me:norm>hafi</me:norm>
+								</choice>
+							</w>
+					</p>			
+			</div>
+		</body>
+		<back>	
+			
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Eirik gjorde spøta på havet.</p>
+			</div>
+			
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p>Eiríkr made the needle at sea.</p>	
+			</div>
+			
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Den ordboksførte definisjonen til ordet <hi rend="italic">spýta</hi> gir ikke grunnlag for å feste gjenstanden til noe bestemt bruksområde. Det synes derimot til å være sammenheng mellom denne nålen og eldre tiders redskaper til å hekle eller strikke med, med slike teknikker som pjoning, påting og nålbinding. Pjoning var utført med kroknål, påting kunne utføres med nål både med og utan hake. Et moment å ta med er også at nålen fra Trondheim opphavelig synes å ha vært noe lengre enn den er nå, ettersom spissen er tilsmidd på nytt på et viss tidspunkt. Det innbærer også at vi ikke kan se bort fra at den opphavelig og kan ha hatt krok. Jf. manus til NIyR VII: 132–135.</p>
+			</div>
+			
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<!-- Dette fotografiet trengst eigentleg ikkje 
+				<figure><graphic url="N839-A.jpg"/></figure>
+				<caption>Fotografi av N839 ved James Knirk. Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				-->
+				<figure><graphic url="N839-B.jpg"/></figure>
+				<caption>Fotografi av N 839 ved Trond Sverre Kristiansen. Fra NTNU Vitenskapsmuseet i Trondheim [NTNU University Museum]. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N839-C.jpg"/></figure>
+				<caption>Fotografi av N 839 (bakside) ved Trond Sverre Kristiansen. Fra NTNU Vitenskapsmuseet i Trondheim [NTNU University Museum]. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N839-D.jpg"/></figure>
+				<caption>Avtegning av N 839 ved Saskia J. Cowan (2022). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+				<bibl>NIyR VII = <title>Norges innskrifter med de yngre runer</title>, bd. 7. Under utgivelse ved Jan Ragnar Hagland, James Knirk mfl. Oslo: Kjeldeskriftfondet. – Lenke: <ref  target="https://folk.ntnu.no/ivar/filer/Hagland1997-Trondheimsruner.pdf" type="external">Manus til NIyR VII</ref></bibl>
+				<bibl>“Trondheim, Folkebibliotekstomta, needle.” Artikkel i <title>Runes: Forschungprojekt der Akademie der Wissenschaften zu Göttingen</title>, <ref  target="https://www.runesdb.eu/en/find-list/d/fa/q////6/f/3028" type="external">https://www.runesdb.eu/en/find-list/d/fa/q////6/f/3028</ref>. Lest 09. oktober 2021.</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p>
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+			</div>
+			
+		</back>
+	</text>
+</TEI>

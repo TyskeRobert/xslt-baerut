@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+ <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+ %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title>N 291: Bryggen, Bergen, Vestland : a digital edition</title>
+    <editor role="person">
+     <name>
+      <persName>
+       <forename>Aslak</forename>
+       <surname>Liestøl</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </editor>
+    <editor role="person">
+     <name>
+      <persName>
+       <forename>James</forename>
+       <forename>E.</forename>
+       <surname>Knirk</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </editor>
+    <respStmt>
+     <resp>Provision of the Runor database</resp>
+     <name>
+      <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+     </name>
+    </respStmt>
+    <respStmt resp="annotation">
+     <resp>Digital rendering and annotation</resp>
+     <name>
+      <persName>
+       <forename>Tonje</forename>
+       <forename>H.</forename>
+       <surname>Waldersnes</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>MenotaBlitz technology developed by</resp>
+     <name>
+      <persName>
+       <forename>Robert</forename>
+       <forename>Kristof</forename>
+       <surname>Paulsen</surname>
+      </persName>
+      <orgName type="affiliation">Universitetet i Bergen</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Project overview</resp>
+     <name>
+      <persName>
+       <forename>Odd</forename>
+       <forename>Einar</forename>
+       <surname>Haugen</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition n="0.8">First draft, generated with MenotaBlitz, <date when="2021-05-12">12 May
+      2021</date>
+    </edition>
+   </editionStmt>
+   <extent n="19">19 words</extent>
+   <publicationStmt>
+    <distributor>Medieval Nordic Text Archive"</distributor>
+    <idno>Bergens Museum nr. 7097d</idno>
+    <date when="2021-05-12">12 May 2021</date>
+    <availability status="free">
+     <licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl facs="yes">Pictures from Bergens Universitets Oldsaksamling, and detailed photographs by
+     Aslak Liestøl. Published in NIyR volume 4. Drawing by Tonje H. Waldersnes</bibl>
+    <msDesc>
+     <msIdentifier>
+      <country key="NO">Norway</country>
+      <settlement>60.3974, 5.32341</settlement>
+      <repository>Bryggen Museum</repository>
+      <idno>N 291</idno>
+      <msName>N 291 : Bryggen, Bergen, Vestland</msName>
+     </msIdentifier>
+     <physDesc>
+      <objectDesc form="wood">
+       <supportDesc>
+        <support>
+         <p><material>Wooden knife</material></p>
+        </support>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin><origDate notBefore="1150" notAfter="1248">c. 1175-1225</origDate></origin>
+     </history>
+     <additional>
+      <adminInfo>
+       <note type="extant">Kept in Bryggen Museum.</note>
+      </adminInfo>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>This inscription has been encoded as part of a course in Old Norse philology held at the
+     University of Bergen, in the spring term of 2021</p>
+    <p>The encoding follows the standard set out in <title>The Menota Handbook (3.0)</title>, at
+      <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+     as of <date when="2021-02-13">13 February 2021</date>.</p>
+   </projectDesc>
+   <editorialDecl>
+    <correction status="high">
+     <p>This text has been imported from the Runor database and has been checked against the
+      rendering and image in NIyR vol. 4, pp. 54-57.</p>
+    </correction>
+    <normalization me:level="facs dipl norm">
+     <p>This text has been encoded on three focal levels: facsimile, diplomatic and normalised. The
+      two former levels have been generated with the help of MenotaBlitz technology. It has been
+      supplied with a translation as well as images of the inscription.</p>
+    </normalization>
+    <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+     <p>This inscription has been lemmatised and supplied with word classes according to the rules
+      specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="nor">Norwegian</language>
+    <language ident="eng">English</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>2022-04-11</date>
+    <name>Olga Kalinovskaia</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+   </change>
+   <change>
+    <date>2021-10-29</date>
+    <name>Tonje H. Waldersnes</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made a number of changes to the file
+    as a consequence of the new template made in August 2021. </change>
+   <change>
+    <date>2021-05-12</date>
+    <name>Tonje H. Waldersnes</name>
+    <orgName type="affiliation">University of Bergen</orgName>: File was created as a <ref
+     target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref> "menotaFDT"-style
+    transcription </change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="nor">
+  <front>
+   <div type="abstracts">
+    <head>
+     <hi rend="bold">Signum</hi>: N 291 || 
+     <hi rend="bold">Stad</hi>: Bryggen, Bergen, Vestland || 
+     <hi rend="bold">Kart</hi>: Lenke kjem her || 
+     <hi rend="bold">Datering</hi>: ca. 1175-1225<lb/>
+     <hi rend="bold">Materiale</hi>: Tre || 
+     <hi rend="bold">Status</hi>: Bevart || 
+     <hi rend="bold">Utgåve</hi>: NIyR 4: 54-57 ||
+     <hi rend="bold">SamNord</hi>: <ref
+      target="http://kulturarvsdata.se/uu/srdb/01b12a95-4725-4873-8e2d-7f124ddabc5d" type="external">N 291</ref>
+    </head>
+    <p>Hel trestykke formet som ein kniv, antageleg brukt ved bandveving. Gjenstanden er 25,1 cm og har innskrift på begge sider.</p>
+    <note type="explanation"><ref target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet
+      av runeinnskriftene</ref></note>
+   </div>
+  </front>
+  <body>
+   <div type="runic-inscription">
+    <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+    <p>
+     <pb ed="ms" n="1r"/>
+     <lb n="1" ed="ms"/>
+     <seg type="nb">
+      <w lemma="hákon" me:msa="xNP gM nS cN sI">
+       <choice>
+        <me:facs>&hYGL;&aYG;&gMD;&oYG;&nYG;</me:facs>
+        <me:dipl>hagon</me:dipl>
+        <me:norm>Hákon</me:norm>
+       </choice>
+      </w>
+      <w lemma="rísta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+       <choice>
+        <me:facs>&rGE;&aeMD;&iGE;&sYGSdot;&tYG;</me:facs>
+        <me:dipl>ræist</me:dipl>
+        <me:norm>reist</me:norm>
+       </choice>
+      </w>
+      <w lemma="ek" me:msa="xPE p1 nS cA">
+       <choice>
+        <me:facs>&mYGL;&iGE;&gMD;</me:facs>
+        <me:dipl>mig</me:dipl>
+        <me:norm>mik</me:norm>
+       </choice>
+      </w>
+      <w lemma="ok" me:msa="xCC">
+       <choice>
+        <me:facs><del><seg type="lig">&oYG;&#xF538;&gMD;</seg></del></me:facs>
+        <me:dipl><del><seg type="lig">o&#xF538;g</seg></del></me:dipl>
+        <me:norm>ok</me:norm>
+       </choice>
+      </w>
+      <w lemma="en" me:msa="xCS">
+       <choice>
+        <me:facs>&eMD;&nYG;</me:facs>
+        <me:dipl>en</me:dipl>
+        <me:norm>en</me:norm>
+       </choice>
+      </w>
+      <w lemma="sveinn" me:msa="xNC gM nS cN sD">
+       <choice>
+        <me:facs>&iGE;&uGE;&aeMD;&iGE;&nYG;&eMD;&nYG;</me:facs>
+        <me:dipl>suæinen</me:dipl>
+        <me:norm>sveinninn</me:norm>
+       </choice>
+      </w>
+      <w lemma="eiga" me:msa="xVB fF tPS mIN p3 nS vA iPP">
+       <choice>
+        <me:facs>&aYG;</me:facs>
+        <me:dipl>a</me:dipl>
+        <me:norm>á</me:norm>
+       </choice>
+      </w>
+      <w lemma="ek" me:msa="xPE p1 nS cA">
+       <choice>
+        <me:facs>&mYGL;&iGE;&gMD;</me:facs>
+        <me:dipl>mig</me:dipl>
+        <me:norm>mik</me:norm>
+       </choice>
+      </w>
+     </seg>
+     <pc type="runic">
+      <choice>
+       <me:facs/>
+       <me:dipl/>
+       <me:norm>.</me:norm>
+      </choice>
+     </pc>
+     <pb ed="ms" n="2r"/>
+     <lb n="1" ed="ms"/>
+     <seg type="nb">
+      <w lemma="bárðr" me:msa="xNP gM nS cN sI">
+       <choice>
+        <me:facs>&bGE;<seg type="lig">&aYG;&#xF538;&rGE;</seg>&thGE;</me:facs>
+        <me:dipl>barþ</me:dipl>
+        <me:norm>Bárðr</me:norm>
+       </choice>
+      </w>
+      <w lemma="eiga" me:msa="xVB fF tPS mIN p3 nS vA iPP">
+       <choice>
+        <me:facs>&aYG;</me:facs>
+        <me:dipl>a</me:dipl>
+        <me:norm>á</me:norm>
+       </choice>
+      </w>
+      <w lemma="ek" me:msa="xPE p1 nS cA">
+       <choice>
+        <me:facs>&mYGL;&aeMD;&gMD;</me:facs>
+        <me:dipl>mæg</me:dipl>
+        <me:norm>mik</me:norm>
+       </choice>
+      </w>
+     </seg>
+     <pc type="runic">
+      <choice>
+       <me:facs/>
+       <me:dipl/>
+       <me:norm>.</me:norm>
+      </choice>
+     </pc>
+     <seg type="nb">
+      <w lemma="margr" me:msa="xAJ rP gN nS cA sI">
+       <choice>
+        <me:facs>&mYGL;&aYG;&rGE;&tYG;</me:facs>
+        <me:dipl>mart</me:dipl>
+        <me:norm>Mart</me:norm>
+       </choice>
+      </w>
+      <w lemma="at" me:msa="xAP yD">
+       <choice>
+        <me:facs>&aYG;</me:facs>
+        <me:dipl>a</me:dipl>
+        <me:norm>at</me:norm>
+       </choice>
+      </w>
+      <w lemma="finna" me:msa="xVB fF tPT mIN p3 nS vA iST">
+       <choice>
+        <me:facs>&fGE;<seg type="lig">&aYG;&nYG;</seg></me:facs>
+        <me:dipl>fan</me:dipl>
+        <me:norm>fann</me:norm>
+       </choice>
+      </w>
+      <w lemma="hann" me:msa="xPE p3 gM nS cN">
+       <choice>
+        <me:facs>&nYG;</me:facs>
+        <me:dipl>n</me:dipl>
+        <me:norm>hann</me:norm>
+       </choice>
+      </w>
+      <w lemma="sá" me:msa="xDD gM nS cD">
+       <choice>
+        <me:facs>&thGE;&aeMD;&aeMD;&mYGL;</me:facs>
+        <me:dipl>þææm</me:dipl>
+        <me:norm>þeim</me:norm>
+       </choice>
+      </w>
+      <w lemma="er" me:msa="xRP">
+       <choice>
+        <me:facs>&eMD;&rGE;</me:facs>
+        <me:dipl>er</me:dipl>
+        <me:norm>er</me:norm>
+       </choice>
+      </w>
+      <w lemma="rísta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+       <choice>
+        <me:facs>&rGE;&aeMD;&iGE;&sYGSdot;&tYG;</me:facs>
+        <me:dipl>ræist</me:dipl>
+        <me:norm>reist</me:norm>
+       </choice>
+      </w>
+      <w lemma="ek" me:msa="xPE p1 nS cA">
+       <choice>
+        <me:facs>&mYGL;&iGE;&gMD;</me:facs>
+        <me:dipl>mig</me:dipl>
+        <me:norm>mik</me:norm>
+       </choice>
+      </w>
+     </seg>
+     <pc type="runic">
+      <choice>
+       <me:facs/>
+       <me:dipl/>
+       <me:norm>.</me:norm>
+      </choice>
+     </pc>
+    </p>
+   </div>
+  </body>
+  <back>
+   <div type="translation" xml:lang="nor">
+    <head>Omsetjing til norsk (etter NIyR IV: 55)</head>
+    <p>Håkon ristet mig, men 'sveinen' eier mig. – Bård eier mig. Mye fant han å utsette på den som
+     ristet mig.</p>
+   </div>
+   <div type="translation" xml:lang="eng">
+    <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+    <p>Hákon carved me, but the lad owns me. - Bárd owns me. He found much to put upon he whom
+     carved me.</p>
+   </div>
+
+   <div type="comment" xml:lang="nor">
+    <head>Kommentar</head>
+    <p>Innskrifta har vore detaljavbilda av Aslak Liestøl, og skildra av Haakon Shetelig i 1919.</p>
+   </div>
+
+   <div type="illustrasjon">
+    <head>Illustrasjonar</head>
+    <figure><graphic url="N291-A.jpg"/></figure>
+    <caption>Fotografi av N 291 ved Aslak Liestøl. Frå NIyR IV: 56–57. Lisens: CC-BY-SA 4.0.</caption>
+    <figure><graphic url="N291-B.jpg"></graphic></figure>
+    <caption>Avteikning av N 291 ved Tonje H. Waldersnes (2021). Lisens: CC-BY-SA 4.0.</caption>
+   </div>
+   
+   <div type="links" xml:lang="nor">
+    <head>Kjelder</head>
+    <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak
+     Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1
+     (1980), bd. 6:2 (1990), bd. 7 (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på
+     nettet frå Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+    <bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet
+     og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet,
+     https://app.raa.se/open/runor/search.</bibl>
+   </div>
+   <div type="responsibility">
+    <head>Redaktør for denne innførselen</head>
+    <p>Tonje H. Waldersnes (Universitetet i Bergen, 2021–2022)</p>
+    <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den
+     Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML,
+     presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og
+     eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+   </div>
+  </back>
+ </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 4:63 = RN 3:330 : 1306 May 15 : Sand : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.2">Version 0.8.2, <date when="2024-11-09">9 November 2023</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-01-30">9 November 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement> <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository> <!-- Dette kan vi vente med -->
+                  <idno>DN 4:63</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 3:330</idno></altIdentifier>
+                  <msName>1306 May 15 : Sand</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="vidimus" defective="false"> <!-- Her kan vi leggje inn kategorien “vidimus”. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>Sand</origPlace>
+                     <origDate notBefore="1306" notAfter="1306">1306 May 15 : Sand</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-11-09</date> <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Made this file as a documentation of DN 4:63 (= RN 3:330), even if the actual text has been moved to DN 4:67 (= RN 3:354). The summaries in DN and RN have been added, since they contain more information than the ones in DN 4:63
+         </change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+   
+   <text xml:lang="nor"> 
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: 15. mai 1306 || <hi rend="bold">Stad</hi>: Sand. </head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er no tapt, men det er kjent gjennom ei avskrift i ein yngre og udatert vidisse, <ref type="internal" target="DN_bind_04_brevnr_067">DN 4:67</ref>. I denne vidissen er det også ei avskrift av <ref type="internal" target="DN_bind_04_brevnr_065">DN 4:65</ref>, utferda i Konghelle 5. august 1306. Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet av desse avskriftene.</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 4, nr. 63</head>
+               <p>Sigurd Lagmand i Ryfylke og Agder tildömmer Chorsbrödrene i Stavanger Fiskeriet ved Faxstad i Suldal.</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 330</head>
+               <p>Domsbrev fra Sigurd, lagmann i Rygjafylke og Agder, i saken om Faxstaðir-fisket: Kannikene i Stavanger har eid landet her fra gammelt av og har satt opp redskap utenfor sitt land og på sin omkostning, mens leilendingene har satt opp redskap uten eierens tillatelse og uten at landskylden øket. Under henvisning til brev fra biskop Kjetil om tidspunktet for prosessen (nr 236) tildømmer derfor lagmannen med sine oppnevnte meddommere kannikene fiskeretten og all den redskap de har bekostet.</p>
+               <p>Til stede: Bård, prest i Høle, sira Tore i Sand, Orm på Valle, Trond på Leidanger, Torgeir På Faxstaðir, Torgils a Vindæidi og mange andre gode menn. Beseglet av utstederen.</p>
+            </div>
+         </div>
+      </front>
+      
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty -->
+         <div type="diplom">
+         </div>        
+      </body>          
+   </text>
+</TEI>

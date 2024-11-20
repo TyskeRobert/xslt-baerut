@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+
+	<teiHeader xml:lang="eng">
+		<fileDesc> 
+			<titleStmt>
+				<title>B 192 : Bryggen, Bergen, Vestland : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>James</forename>
+							<forename>E.</forename>
+							<surname>Knirk</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>				
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>  
+					<name>
+						<persName>
+							<forename>Tobias</forename>
+							<surname>Scharling-Dahl</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-03-21">21 March 2021</date>.</edition>
+			</editionStmt>
+			<extent n="7">7 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="BRM">BRM 0/21432</idno>
+				<date when="2021-03-21">21 March 2021</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Photograph attested to the database of Nasjonalbibloteket, hosted at arild-hauge.com (arild-hauge.com/nb-no/b192.jpg) .</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>60.398, 5.32</settlement>
+						<idno>B 192</idno>
+						<msName>B 192 : Bryggen, Bergen, Vestland</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="stick">
+							<supportDesc>
+								<support> 
+									<p><material>wood</material> Rectangular wooden stick.</p>
+								</support>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate notBefore="1198" notAfter="1248">c. 1198-1248</origDate> <!-- OEH: 2021-03-21: Sannsynlegvis datert på grunnlag av brannlag, jf. https://web.archive.org/web/20070720050449/http://www.nb.no/baser/runer/fullpost.php?bnr=B192 -->
+						</origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Kept in Bryggens Museum, BRM 0/21432.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This inscription has been imported from the Runor database and checked against a photographic fascimile.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This inscription has been encoded on all three focal levels: facsimile, diplomatic and normalised.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+					<p>This inscription has been partly lemmatised according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc> 
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-05</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the dating and the section on illustrations.</change>
+			<change>
+				<date>2021-08-30</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+			<change>
+				<date>2021-04-07</date>
+				<name type="person">Odd Einar Haugen<orgName type="affiliation">University of Bergen</orgName></name>: Minor reorganisation of the comments and illustration sections towards the end of the file
+			</change>
+			<change>
+				<date>2021-03-21</date>
+				<name type="person">Odd Einar Haugen<orgName type="affiliation">University of Bergen</orgName></name>: Made a few minor changes to the file.
+			</change>
+			<change>
+				<date>2021-03-20</date>
+				<name type="person">Tobias Scharling-Dahl<orgName type="affiliation">University of Bergen</orgName></name>: Analysed, translated, and commented on the inscription, changed runic notations from codepoints to entities, and cleaned up file.
+			</change>
+			<change> 
+				<date>2021-03-15</date>
+				<name type="person">Tobias Scharling-Dahl<orgName type="affiliation">University of Bergen</orgName></name>: Drafted the first version of the N B192 file.
+			</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+				<head><hi rend="bold">Signum</hi>: B 192 ||  
+					<hi rend="bold">Sted</hi>: Bryggen, Bergen, Vestland ||  
+					<hi rend="bold">Kart</hi>: Lenke kommer her || 
+					<hi rend="bold">Datering</hi>: c. 1198-1248 <lb/>
+					<hi rend="bold">Materiale</hi>: Tre ||  
+					<hi rend="bold">Status</hi>: Bevart ||  
+					<hi rend="bold">Utgave</hi>: Ennå ikke i NIyR ||
+					<hi rend="bold">SamNord</hi>: <ref
+						target="http://kulturarvsdata.se/uu/srdb/d832a39a-d425-46c2-93bc-b6886e78c1fe" type="external">B 192</ref>
+				</head>
+				<p>Denne innskriften er omhyggelig skåret i hele funnets lengde, med jevnhøye runer innenfor en topplinje og bunnlinje. Innskriftens tre segmenter er adskilt av en punktet tegnsetting, der foruten å opptre som skilletegn også har ornamental verdi.</p> <!-- OEH: 2021-03-21: Eg tillét meg litt stilistisk finpussing i den siste setninga. -->
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+			</div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+				<p>
+					<pb ed="ms" n="1r"/>
+					<lb ed="ms" n="1"/>
+					
+					<seg type="nb"> <!-- ᛍᛚᛁᚴᛆ^^ᚢᛁᛚᛐᛆ -->
+						<w lemma="slíkr" me:msa="xAJ rP cA gF nS sI"> <!-- OEH: 2021-03-21: Eg rår til å klassifisere “slíkr” som adjektiv. -->
+						<choice>
+							<me:facs>&sYGSdot;&lGE;&iGE;&kYG;<seg type="lig-initial">&aYG;</seg></me:facs>
+							<me:dipl>slik<seg type="lig-initial">a</seg></me:dipl>
+							<me:norm>Slíka</me:norm>
+						</choice>
+					</w>
+					<w lemma="vilja" me:msa="xVB fF p1 nS tPT mIN vA iWK"> <!-- OEH: 2021-03-21: Ser det som mest sannsynleg at denne forma er indikativ -->
+						<choice>
+							<me:facs><seg type="lig-final">&uGE;</seg>&iGE;&lGE;&tYG;&aYG;</me:facs>
+							<me:dipl><seg type="lig-final">u</seg>ilta</me:dipl>
+							<me:norm>vilda</me:norm>
+						</choice>
+					</w>
+					</seg>
+					
+					<pc type="runic">
+						<choice>
+							<me:facs>&middotPM;</me:facs>
+						</choice>
+					</pc>
+					
+					<w lemma="ek" me:msa="xPE 1p cN nS">
+						<choice> <!-- ᛂᚴ -->
+							<me:facs>&eMD;&kYG;</me:facs>
+							<me:dipl>ek</me:dipl>
+							<me:norm>ek</me:norm>
+						</choice>
+					</w>
+					
+					<pc type="runic">
+						<choice>
+							<me:facs>&middotPM;</me:facs>
+						</choice>
+					</pc>
+					
+					<seg type="nb"> <!-- ᛘᛁᚿᛆᛍᛂᛘᚦᚢᛂᛍᛐ -->
+					<w lemma="minn" me:msa="xDP cA gF nS">
+						<choice>
+							<me:facs>&mYGL;&iGE;&nYG;&aYG;</me:facs>
+							<me:dipl>mina</me:dipl>
+							<me:norm>mína</me:norm>
+						</choice>
+					</w>					
+					<w lemma="sem" me:msa="xCS yIN">
+						<choice>
+							<me:facs>&sYGSdot;&eMD;&mYGL;</me:facs>
+							<me:dipl>sem</me:dipl>
+							<me:norm>sem</me:norm>
+						</choice>
+					</w>
+					<w lemma="þú" me:msa="xPE p2 cN nS">
+						<choice>
+							<me:facs>&thGE;&uGE;</me:facs>
+							<me:dipl>þu</me:dipl>
+							<me:norm>þú</me:norm>
+						</choice>
+					</w>
+					<w lemma="vera" me:msa="xVB fF p2 nS tPS mIN vA iST">
+						<choice>
+							<me:facs>&eMD;&sYGSdot;&tYG;</me:facs>
+							<me:dipl>est</me:dipl>
+							<me:norm>est</me:norm>
+						</choice>
+					</w>
+					</seg>
+					<pc type="runic">
+						<choice>
+							<me:norm>.</me:norm>
+						</choice>
+					</pc>
+				</p>
+			</div>
+		</body>
+		<back>
+			
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Jeg ville ønske at min var præcis som du er.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p> Just as you are is how I wanted mine.</p>
+			</div>
+			
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>I denne innskriften er det en binderune som spenner fra den siste runen i det første ordet, ᛍᛚᛁᚴᛆ, til den første runen i det neste ordet, ᚢᛁᛚᛐᛆ. I runeinnskrifter blir ofte to eller flere ord skrevet uten mellomrom, og som en følge av dette kan det legges inn binderuner over ordgrensene.</p>
+			</div>
+		
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<figure><graphic url="B192-A.jpg"/></figure>
+				<caption>Fotografi av B 192 ved Christer Hamp (2016). Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="B192-B.jpg"/></figure>
+				<caption>Avtegning av B 192 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head> <!-- NYTT: Vi brukar elementet <bibl> om kvar kjelde. Innførslane for NIyR og SamNOrd kan kopierast direkte herifrå. -->
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+				<bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Tobias Scharling-Dahl (Universitetet i Bergen, 2021)</p> <!-- NYTT: Vi legg til institusjon og årstal. -->
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+			</div>
+
+		</back>
+	</text>
+</TEI>

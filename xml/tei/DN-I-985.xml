@@ -1,0 +1,603 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns:me="http://www.menota.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>DN 1:985 : 1495 : Trondheim : a digital edition</title>
+                <editor>
+                    <name>
+                        <persName>
+                            <forename>Ivar</forename>
+                            <surname>Berg</surname>
+                        </persName>
+                        <orgName type="affiliation">NTNU</orgName>
+                    </name>
+                </editor>               
+                <respStmt>
+                    <resp>Transcription</resp>
+                    <name>
+                        <persName>
+                            <forename>Ivar</forename>
+                            <surname>Berg</surname>
+                        </persName>
+                        <orgName type="affiliation">NTNU</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>             
+                <edition n="1.0">Version 1.0, <date when="2020-01-29">29 January 2020</date></edition>
+            </editionStmt>
+            <extent n="404">404 words</extent><!-- Må sjekkast!! --> <!-- OEH 2020-01-29: Godt nok for meg! -->
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="Menota">Ms DN 3</idno> <!-- OEH 2020-01-29: Dette er heilt førebels akvisisjonsnummerering. Må kanskje finne på noko betre. -->
+                <date when="2020-01-29">29 January 2020</date> <!-- OEH 2020-01-29: Dette er den dagen då fila er avslutta og klar til publisering (sjølv om den faktiske publiseringa på nettet kjem ein dag elelr to seinare). Versjon 1.0 i <editionStmt> får då same dato. Om du seinare rettar opp noko og teksten og t.d. kallar den nye versjonen for 1.1, skal den få den nye datoen i <edition>, men datoen under <publicationStmt> er uendra. -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photographic facsimile of the diploma from NTNU University Library (NTNU Universitetsbiblioteket)</bibl>
+                <!-- OEH 2020-01-29: Denne innførselen er først og fremst for at det skal stå “yes” i katalogen under “Photo” -->
+                <msDesc>        
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Trondheim</settlement> <!-- OEH 2020-01-29: Eg retta frå Oslo til Trondheim her. Meiner at NTNU ligg der oppe. -->
+                        <repository>NTNU University Library | NTNU Universitetsbiblioteket</repository>
+                        <idno>DN 1:985</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                        <altIdentifier>
+                            <idno>not yet in RN</idno> <!-- Her legg vi inn band ognummer i RN, sålangt det verket er kome -->
+                        </altIdentifier>
+                        <msName>1495 : Trondheim</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+                    </msIdentifier>
+                    <msContents>
+                        <msItem defective="false" class="origBrev"> <!-- Sjekk denne. Hovudskilje mellom originalbrev og vidisse? --> <!-- Diplomet er fullstendig, men seglet vantar; det er ikkje teksttap så defective="false" -->
+                            <title type="uniform">Kunngjering</title> <!-- OEH 2020-01-29: Ja, det verkar rimeleg å kalle dette brevet ei kunngjering -->
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc form="charter">
+                                <supportDesc>
+                                    <support> <p><material>Parchment</material>.</p> </support>
+                                    <extent>1 leaf, ca 146 mm (heigth) by 234 mm (width).</extent>
+                                    <condition>Very good.</condition>
+                                </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="1">
+                            <handNote scribe="unknown" scope="sole">Unknown scribe</handNote> <!-- Sjekk med Vågslids avhandling -->
+                        </handDesc>
+                        <sealDesc>
+                            <seal>
+                                <p>The archbisop’s seal is missing; there is only one hole for a seal.</p>
+                            </seal>
+                        </sealDesc>
+                    </physDesc>
+                    <history>
+                        <origin> 
+                        	<origPlace ref="https://stadnamn.kartverket.no/fakta/558690">Trondheim</origPlace>
+                            <origDate>1495</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>            
+        </fileDesc>       
+        <encodingDesc>       
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The
+                    Menota handbook</title> (version 3.0), at <ref target="http://www.menota.org/handbook.xml">
+                        http://www.menota.org/handbook.xml</ref> as of <date>2019-12-12</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="medium"> <!-- Katalogopplysning: Status -->
+                    <p>This text has been transcribed from a high-quality photo taken by NTNU University Library, but the transcription has not been thoroughly checked.</p>
+                </correction>
+                <normalization me:level="dipl">
+                    <p>This text has been encoded on a diplomatic level.</p>
+                </normalization>
+                <interpretation me:morphAnalyzed="none" me:lemmatized="none">
+                    <p>This text has not been annotated for morphology.</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language><!-- Her treng me fleire språkkodar. Dette er uansett klårt norsk, med mindre dansk påverknad enn dei fleste så seine skriftstykke. -->
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>       
+            <revisionDesc>
+                <change>
+                    <date>5 Jan 2023</date>
+                    <persName>Odd Einar Haugen</persName>: Minor changes to the header and the title for greater consistency</change>
+                <change>
+                    <date>29 January 2020</date>
+                    <persName>Ivar Berg</persName>: Version 1.0 based on DN and a high-quality photo</change>
+            </revisionDesc>
+    </teiHeader>
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Stad</hi>: Trondheim. <hi rend="bold">Dato</hi>: 1495. <hi rend="bold">Utgåve</hi>: DN I 985</head>
+            <div source="DN">
+                <head>From <title>Diplomatarium Norvegicum</title></head>
+                <p><hi rend="bold">Abstract</hi>: 
+                    Erkebiskop <emph>Gaute</emph> kundgjör, at han under sin Visitats paa <emph>Medalhus</emph> lod
+                    <emph>Hervald Olafssön</emph> före forskjellige Vidner angaaende hans Hustru <emph>Aasas</emph>
+                    Odelsret til Gaarden övre <emph>Krokstad</emph> i Skaun i Orkedals-Fylke, der i flere
+                    Ætlægge havde været i hendes Slægts Eie, medens alene Landskyld af en
+                    Öre deri tilkom Presten paa <emph>Gryting</emph>.</p>
+                    <p><hi rend="bold">Source</hi>: Efter Orig. p. Perg. i norske Vidensk. Selsk. Saml. [no: NTNU Universitetsbiblioteket] i Throndhjem.</p>
+                    <p><hi rend="bold">Seal</hi>: Seglet mangler.</p>
+            </div>
+            </div>
+        </front>
+        <body xml:lang="nor">
+            <div type="text">
+                <head>Text of the diploma</head>
+                <p>
+                    <pb n="1r" ed="ms"/>
+                    <lb n="1" ed="ms"/>
+                    <!-- <lb ed="DN" n="1"/> tek ikkje med linebryting frå DN når eg har godt foto -->
+                    <w xml:id="w100"><me:dipl>Wii</me:dipl></w>
+                    <w xml:id="w200"><me:dipl>Gauto</me:dipl></w>
+                    <w xml:id="w300"><me:dipl>medh</me:dipl></w>
+                    <w xml:id="w400"><me:dipl>gudz</me:dipl></w>
+                    <w xml:id="w500"><me:dipl>nadh</me:dipl></w>
+                    <w xml:id="w600"><me:dipl>Erkeb<ex>isko</ex>p</me:dipl></w>
+                    <w xml:id="w700"><me:dipl>j</me:dipl></w>
+                    <w xml:id="w800"><me:dipl>Nidross</me:dipl></w>
+                    <w xml:id="w900"><me:dipl>gøra</me:dipl></w>
+                    <w xml:id="w1000"><me:dipl>with<ex>e</ex>rligit</me:dipl></w>
+                    <w xml:id="w1100"><me:dipl>medh</me:dipl></w>
+                    <w xml:id="w1200"><me:dipl>tesso</me:dipl></w>
+                    <w xml:id="w1300"><me:dipl>woro</me:dipl></w>
+                    <w xml:id="w1400"><me:dipl>opno</me:dipl></w>
+                    <w xml:id="w1500"><me:dipl>b<ex>re</ex>ffue</me:dipl></w>
+                    <lb n="2" ed="ms"/>
+                    <w xml:id="w1600"><me:dipl>at</me:dipl></w>
+                    <w xml:id="w1700" xml:lang="lat"><me:dipl>anno</me:dipl></w>
+                    <w xml:id="w1800" xml:lang="lat"><me:dipl>d<ex>omi</ex>ni</me:dipl></w>
+                    <w xml:id="w1900" xml:lang="lat"><me:dipl>millesimo</me:dipl></w>
+                    <w xml:id="w2000" xml:lang="lat"><me:dipl>quad<ex>ri</ex>ngentesimo</me:dipl></w>
+                    <w xml:id="w2100" xml:lang="lat"><me:dipl>nonagesimo</me:dipl></w>
+                    <w xml:id="w2200" xml:lang="lat"><me:dipl>qui<ex>n</ex>to</me:dipl></w>
+                    <w xml:id="w2300"><me:dipl>Tha</me:dipl></w>
+                    <w xml:id="w2400"><me:dipl>wi</me:dipl></w>
+                    <w xml:id="w2500"><me:dipl>wa<ex>re</ex></me:dipl></w>
+                    <w xml:id="w2600"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w2700"><me:dipl>wor</me:dipl></w>
+                    <w xml:id="w2800"><me:dipl>wiseteru<ex>n</ex>gh</me:dipl></w>
+                    <w xml:id="w2900"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w3000"><me:dipl>medellhws</me:dipl></w>
+                    <w xml:id="w3100"><me:dipl>kom</me:dipl></w>
+                    <w xml:id="w3200"><me:dipl>th<ex>e</ex>r</me:dipl></w>
+                    <lb n="3" ed="ms"/>
+                    <w xml:id="w3300"><me:dipl>for</me:dipl></w>
+                    <w xml:id="w3400"><me:dipl>oss</me:dipl></w>
+                    <w xml:id="w3500"><me:dipl>herwaldh</me:dipl></w>
+                    <w xml:id="w3600"><me:dipl>Olaffson</me:dipl></w>
+                    <w xml:id="w3700"><me:dipl>uppa</me:dipl></w>
+                    <w xml:id="w3800"><me:dipl>syn</me:dipl></w>
+                    <w xml:id="w3900"><me:dipl>hust<ex>ru</ex></me:dipl></w>
+                    <w xml:id="w4000"><me:dipl>wegna</me:dipl></w>
+                    <w xml:id="w4100"><me:dipl>aasa</me:dipl></w>
+                    <w xml:id="w4200"><me:dipl>medh</me:dipl></w>
+                    <w xml:id="w4300"><me:dipl>theim</me:dipl></w>
+                    <w xml:id="w4400"><me:dipl>heffdar</me:dipl></w>
+                    <w xml:id="w4500"><me:dipl>witno<ex>m</ex></me:dipl></w>
+                    <w xml:id="w4600"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w4700"><me:dipl>hær</me:dipl></w>
+                    <w xml:id="w4800"><me:dipl>efft<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w4900"><me:dipl>ne<ex>m</ex><unclear>f</unclear>nis</me:dipl></w>
+                    <w xml:id="w5000"><me:dipl>om</me:dipl></w>
+                    <lb n="4" ed="ms"/>
+                    <w xml:id="w5100"><me:dipl>for<ex>nemp</ex>da</me:dipl></w>
+                    <w xml:id="w5200"><me:dipl>aasa</me:dipl></w>
+                    <w xml:id="w5300"><me:dipl>odalssiord</me:dipl></w>
+                    <w xml:id="w5400"><me:dipl>krokstade</me:dipl></w>
+                    <w xml:id="w5500"><me:dipl>liggiand<ex>is</ex></me:dipl></w>
+                    <w xml:id="w5600"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w5700"><me:dipl>skawn</me:dipl></w>
+                    <w xml:id="w5800"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w5900"><me:dipl>Orkadalls</me:dipl></w>
+                    <w xml:id="w6000"><me:dipl>fylke</me:dipl></w>
+                    <w xml:id="w6100"><me:dipl>efft<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w6200"><me:dipl>ty</me:dipl></w>
+                    <w xml:id="w6300"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w6400"><me:dipl>wi</me:dipl></w>
+                    <w xml:id="w6500"><me:dipl>hade</me:dipl></w>
+                    <w xml:id="w6600"><me:dipl>hono<ex>m</ex></me:dipl></w>
+                    <w xml:id="w6700"><me:dipl>førelactht</me:dipl></w>
+                    <w xml:id="w6800"><me:dipl>ath</me:dipl></w>
+                    <w xml:id="w6900"><me:dipl>han</me:dipl></w>
+                    <lb n="5" ed="ms"/>
+                    <w xml:id="w7000"><me:dipl>skulde</me:dipl></w>
+                    <w xml:id="w7100"><me:dipl>th<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w7200"><me:dipl>ko<ex>m</ex>ma</me:dipl></w>
+                    <w xml:id="w7300"><me:dipl>medh</me:dipl></w>
+                    <w xml:id="w7400"><me:dipl>syno<ex>m</ex></me:dipl></w>
+                    <w xml:id="w7500"><me:dipl>witno<ex>m</ex></me:dipl></w>
+                    <w xml:id="w7600"><me:dipl>om</me:dipl></w>
+                    <w xml:id="w7700"><me:dipl>for<ex>nemp</ex>da</me:dipl></w>
+                    <w xml:id="w7800"><me:dipl>jord</me:dipl></w>
+                    <pc xml:id="w7900">,</pc>
+                    <w xml:id="w8000"><me:dipl>vittnade</me:dipl></w>
+                    <w xml:id="w8100"><me:dipl>tha</me:dipl></w>
+                    <w xml:id="w8200"><me:dipl>Gu<ex>n</ex>nar</me:dipl></w>
+                    <w xml:id="w8300"><me:dipl>magnas<ex>son</ex></me:dipl></w>
+                    <w xml:id="w8400"><me:dipl>a</me:dipl></w>
+                    <w xml:id="w8500"><me:dipl>stokkom</me:dipl></w>
+                    <w xml:id="w8600"><me:dipl>at</me:dipl></w>
+                    <w xml:id="w8700"><me:dipl>ha<ex>n</ex></me:dipl></w>
+                    <w xml:id="w8800"><me:dipl>my<ex>n</ex>nis</me:dipl></w>
+                    <lb n="6" ed="ms"/>
+                    <w xml:id="w8900"><me:dipl>kono</me:dipl></w>
+                    <w xml:id="w9000"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w9100"><me:dipl>aasa</me:dipl></w>
+                    <w xml:id="w9200"><me:dipl>Sigurdzsdott<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w9300"><me:dipl>heit</me:dipl></w>
+                    <w xml:id="w9400"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w9500"><me:dipl>sath</me:dipl></w>
+                    <w xml:id="w9600"><me:dipl>aa</me:dipl></w>
+                    <w xml:id="w9700"><me:dipl>hwale</me:dipl></w>
+                    <pc xml:id="w9800">,</pc>
+                    <w xml:id="w9900"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w10000"><me:dipl>hon</me:dipl></w>
+                    <w xml:id="w10100"><me:dipl>war</me:dipl></w>
+                    <w xml:id="w10200"><me:dipl>odalssma<ex>n</ex></me:dipl></w>
+                    <w xml:id="w10300"><me:dipl>till</me:dipl></w>
+                    <w xml:id="w10400"><me:dipl>krokstade</me:dipl></w>
+                    <w xml:id="w10500"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w10600"><me:dipl>kallas</me:dipl></w>
+                    <w xml:id="w10700"><me:dipl>øffregard<ex>e</ex>n</me:dipl></w>
+                    <lb n="7" ed="ms"/>
+                    <w xml:id="w10800"><me:dipl>Endrid</me:dipl></w>
+                    <w xml:id="w10900"><me:dipl>war</me:dipl></w>
+                    <w xml:id="w11000"><me:dipl>aasa</me:dipl></w>
+                    <w xml:id="w11100"><me:dipl>son</me:dipl></w>
+                    <w xml:id="w11200"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w11300"><me:dipl>erffde</me:dipl></w>
+                    <w xml:id="w11400"><me:dipl>sama</me:dipl></w>
+                    <w xml:id="w11500"><me:dipl>krokstade</me:dipl></w>
+                    <w xml:id="w11600"><me:dipl>efft<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w11700"><me:dipl>syna</me:dipl></w>
+                    <w xml:id="w11800"><me:dipl>mod<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w11900"><me:dipl>Bersuen</me:dipl></w>
+                    <w xml:id="w12000"><me:dipl>war</me:dipl></w>
+                    <w xml:id="w12100"><me:dipl>endrizs<ex>on</ex></me:dipl></w>
+                    <w xml:id="w12200"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w12300"><me:dipl>erffde</me:dipl></w>
+                    <w xml:id="w12400"><me:dipl>th<ex>et</ex></me:dipl></w>
+                    <w xml:id="w12500"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w12600"><me:dipl>effth<ex>e</ex>r</me:dipl></w>
+                    <lb n="8" ed="ms"/>
+                    <w xml:id="w12700"><me:dipl>syn</me:dipl></w>
+                    <w xml:id="w12800"><me:dipl>fad<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w12900"><me:dipl>Tore</me:dipl></w>
+                    <w xml:id="w13000"><me:dipl>war</me:dipl></w>
+                    <w xml:id="w13100"><me:dipl>berswens</me:dipl></w>
+                    <w xml:id="w13200"><me:dipl>brod<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w13300"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w13400"><me:dipl>erffde</me:dipl></w>
+                    <w xml:id="w13500"><me:dipl>th<ex>et</ex></me:dipl></w>
+                    <w xml:id="w13600"><me:dipl>sama</me:dipl></w>
+                    <w xml:id="w13700"><me:dipl>effth<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w13800"><me:dipl>hono<ex>m</ex></me:dipl></w>
+                    <pc xml:id="w13900">,</pc>
+                    <w xml:id="w14000"><me:dipl>Gertrud</me:dipl></w>
+                    <w xml:id="w14100"><me:dipl>war</me:dipl></w>
+                    <w xml:id="w14200"><me:dipl>toriss</me:dipl></w>
+                    <w xml:id="w14300"><me:dipl>syster</me:dipl></w>
+                    <w xml:id="w14400"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w14500"><me:dipl>erffde</me:dipl></w>
+                    <w xml:id="w14600"><me:dipl>hon</me:dipl></w>
+                    <w xml:id="w14700"><me:dipl>sama</me:dipl></w>
+                    <lb n="9" ed="ms"/>
+                    <w xml:id="w14800"><me:dipl>krokstade</me:dipl></w>
+                    <w xml:id="w14900"><me:dipl>Eff<supplied resp="IB" reason="emendation">t</supplied>h<ex>e</ex>r</me:dipl></w>
+                    <!-- OEH 2020-02-10: Fjerna elementet "me:dipl" rundt "supplied" -->
+                    <w xml:id="w15000"><me:dipl>gertrud</me:dipl></w>
+                    <w xml:id="w15100"><me:dipl>wo<ex>re</ex></me:dipl></w>
+                    <w xml:id="w15200"><me:dipl>iij</me:dipl></w>
+                    <w xml:id="w15300"><me:dipl>døth<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w15400"><me:dipl>ij</me:dipl></w>
+                    <w xml:id="w15500"><me:dipl>heita</me:dipl></w>
+                    <w xml:id="w15600"><me:dipl>Jngeborga</me:dipl></w>
+                    <pc xml:id="w15700">,</pc>
+                    <w xml:id="w15800"><me:dipl>t<ex>ri</ex>dia</me:dipl></w>
+                    <w xml:id="w15900"><me:dipl>aasa</me:dipl></w>
+                    <w xml:id="w16000"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w16100"><me:dipl>ær</me:dipl></w>
+                    <w xml:id="w16200"><me:dipl>forne<ex>m</ex>pdz</me:dipl></w>
+                    <w xml:id="w16300"><me:dipl>herwaldzss</me:dipl></w>
+                    <w xml:id="w16400"><me:dipl>hust<ex>ru</ex></me:dipl></w>
+                    <pc xml:id="w16500">,</pc>
+                    <w xml:id="w16600"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w16700"><me:dipl>for<ex>nemp</ex>da</me:dipl></w>
+                    <w xml:id="w16800"><me:dipl>krok<lb n="10" ed="ms"/>stad</me:dipl></w>
+                    <w xml:id="w16900"><me:dipl>kom</me:dipl></w>
+                    <w xml:id="w17000"><me:dipl>uppa</me:dipl></w>
+                    <w xml:id="w17100"><me:dipl>he<ex>n</ex>niss</me:dipl></w>
+                    <w xml:id="w17200"><me:dipl>part</me:dipl></w>
+                    <w xml:id="w17300"><me:dipl>tha</me:dipl></w>
+                    <w xml:id="w17400"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w17500"><me:dipl>byttis</me:dipl></w>
+                    <w xml:id="w17600"><me:dipl>mellom</me:dipl></w>
+                    <w xml:id="w17700"><me:dipl>he<ex>n</ex>ne</me:dipl></w>
+                    <w xml:id="w17800"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w17900"><me:dipl>he<ex>n</ex>nar</me:dipl></w>
+                    <w xml:id="w18000"><me:dipl>twem</me:dipl></w>
+                    <w xml:id="w18100"><me:dipl>systrom</me:dipl></w>
+                    <w xml:id="w18200"><me:dipl>Ped<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w18300"><me:dipl>aa</me:dipl></w>
+                    <w xml:id="w18400"><me:dipl>hwale</me:dipl></w>
+                    <w xml:id="w18500"><me:dipl>haff<unclear>uer</unclear></me:dipl></w>
+                    <w xml:id="w18600"><me:dipl><unclear>ein</unclear></me:dipl></w>
+                    <w xml:id="w18700"><me:dipl>aff</me:dipl></w>
+                    <w xml:id="w18800"><me:dipl>theim</me:dipl></w>
+                    <lb n="11" ed="ms"/>
+                    <w xml:id="w18900"><me:dipl>systrom</me:dipl></w>
+                    <pc xml:id="w19000">,</pc>
+                    <w xml:id="w19100"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w19200"><me:dipl>Jon</me:dipl></w>
+                    <w xml:id="w19300"><me:dipl>aa</me:dipl></w>
+                    <w xml:id="w19400"><me:dipl>hallaseth<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w19500"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w19600"><me:dipl>cleppbo</me:dipl></w>
+                    <w xml:id="w19700"><me:dipl>th<ex>e</ex>n</me:dipl></w>
+                    <w xml:id="w19800"><me:dipl>andra</me:dipl></w>
+                    <w xml:id="w19900" xml:lang="lat"><me:dipl>It<ex>em</ex></me:dipl></w>
+                    <w xml:id="w20000"><me:dipl>Joar</me:dipl></w>
+                    <w xml:id="w20100"><me:dipl>lodenss<ex>on</ex></me:dipl></w>
+                    <w xml:id="w20200"><me:dipl>hermpde</me:dipl></w>
+                    <w xml:id="w20300"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w20400"><me:dipl>synss</me:dipl></w>
+                    <w xml:id="w20500"><me:dipl>fad<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w20600"><me:dipl>ord</me:dipl></w>
+                    <w xml:id="w20700"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w20800"><me:dipl>en</me:dipl></w>
+                    <w xml:id="w20900"><me:dipl>liffuer</me:dipl></w>
+                    <w xml:id="w21000"><me:dipl>at</me:dipl></w>
+                    <w xml:id="w21100"><me:dipl>for<ex>nemp</ex>da</me:dipl></w>
+                    <lb n="12" ed="ms"/>
+                    <w xml:id="w21200"><me:dipl>jord</me:dipl></w>
+                    <w xml:id="w21300"><me:dipl>krokstade</me:dipl></w>
+                    <w xml:id="w21400"><me:dipl>haffu<ex>er</ex></me:dipl></w>
+                    <w xml:id="w21500"><me:dipl>legit</me:dipl></w>
+                    <w xml:id="w21600"><me:dipl>vnder</me:dipl></w>
+                    <w xml:id="w21700"><me:dipl>adh<ex>e</ex>rne<ex>m</ex>pdan</me:dipl></w>
+                    <w xml:id="w21800"><me:dipl>etthlegh</me:dipl></w>
+                    <w xml:id="w21900"><me:dipl>efft<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w22000"><me:dipl>ty</me:dipl></w>
+                    <w xml:id="w22100"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w22200"><me:dipl>for</me:dipl></w>
+                    <w xml:id="w22300"><me:dipl>seigh<ex>e</ex>r</me:dipl></w>
+                    <pc xml:id="w22400">.</pc>
+                    <w xml:id="w22500" xml:lang="lat"><me:dipl>It<ex>em</ex></me:dipl></w>
+                    <w xml:id="w22600"><me:dipl>h<ex>er</ex></me:dipl></w>
+                    <w xml:id="w22700"><me:dipl>haluard</me:dipl></w>
+                    <w xml:id="w22800"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w22900"><me:dipl>medelhws</me:dipl></w>
+                    <w xml:id="w23000"><me:dipl>vitnade</me:dipl></w>
+                    <lb n="13" ed="ms"/>
+                    <w xml:id="w23100"><me:dipl>at</me:dipl></w>
+                    <w xml:id="w23200"><me:dipl>tha</me:dipl></w>
+                    <w xml:id="w23300"><me:dipl>ha<ex>n</ex></me:dipl></w>
+                    <w xml:id="w23400"><me:dipl>kom</me:dipl></w>
+                    <w xml:id="w23500"><me:dipl>till</me:dipl></w>
+                    <w xml:id="w23600"><me:dipl>Medelhvs</me:dipl></w>
+                    <w xml:id="w23700"><me:dipl>liffde</me:dipl></w>
+                    <w xml:id="w23800"><me:dipl>tore</me:dipl></w>
+                    <w xml:id="w23900"><me:dipl>for<ex>nemp</ex>de</me:dipl></w>
+                    <w xml:id="w24000"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w24100"><me:dipl>fylgde</me:dipl></w>
+                    <w xml:id="w24200"><me:dipl>krokstade</me:dipl></w>
+                    <pc xml:id="w24300">,</pc>
+                    <w xml:id="w24400"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w24500"><me:dipl>gert<ex>ru</ex>d</me:dipl></w>
+                    <w xml:id="w24600"><me:dipl>efft<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w24700"><me:dipl>hono<ex>m</ex></me:dipl></w>
+                    <pc xml:id="w24800">,</pc>
+                    <w xml:id="w24900"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w25000"><me:dipl>sydan</me:dipl></w>
+                    <w xml:id="w25100"><me:dipl>the</me:dipl></w>
+                    <w xml:id="w25200"><me:dipl>fleire</me:dipl></w>
+                    <w xml:id="w25300"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w25400"><me:dipl>forsc<ex>ri</ex>ffuat</me:dipl></w>
+                    <lb n="14" ed="ms"/>
+                    <w xml:id="w25500"><me:dipl>star</me:dipl></w>
+                    <w xml:id="w25600" xml:lang="lat"><me:dipl>It<ex>em</ex></me:dipl></w>
+                    <w xml:id="w25700"><me:dipl>vittnade</me:dipl></w>
+                    <w xml:id="w25800"><me:dipl>Sigurd</me:dipl></w>
+                    <w xml:id="w25900"><me:dipl>a</me:dipl></w>
+                    <w xml:id="w26000"><me:dipl>Syolestade</me:dipl></w>
+                    <w xml:id="w26100"><me:dipl>at</me:dipl></w>
+                    <w xml:id="w26200"><me:dipl>ha<ex>n</ex></me:dipl></w>
+                    <w xml:id="w26300"><me:dipl>hørde</me:dipl></w>
+                    <w xml:id="w26400"><me:dipl>aldre</me:dipl></w>
+                    <w xml:id="w26500"><me:dipl>a<ex>n</ex>nat</me:dipl></w>
+                    <w xml:id="w26600"><me:dipl>en</me:dipl></w>
+                    <w xml:id="w26700"><me:dipl>forne<ex>m</ex>pd</me:dipl></w>
+                    <w xml:id="w26800"><me:dipl>jord</me:dipl></w>
+                    <w xml:id="w26900"><me:dipl>log</me:dipl></w>
+                    <w xml:id="w27000"><me:dipl>vnder</me:dipl></w>
+                    <w xml:id="w27100"><me:dipl>for<ex>nemp</ex>de</me:dipl></w>
+                    <w xml:id="w27200"><me:dipl>ettleg</me:dipl></w>
+                    <w xml:id="w27300"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w27400"><me:dipl>nw</me:dipl></w>
+                    <w xml:id="w27500"><me:dipl>sacht</me:dipl></w>
+                    <lb n="15" ed="ms"/>
+                    <w xml:id="w27600"><me:dipl>ær</me:dipl></w>
+                    <w xml:id="w27700" xml:lang="lat"><me:dipl>It<ex>em</ex></me:dipl></w>
+                    <w xml:id="w27800"><me:dipl>anderss</me:dipl></w>
+                    <w xml:id="w27900"><me:dipl>a</me:dipl></w>
+                    <w xml:id="w28000"><me:dipl>Bierghom</me:dipl></w>
+                    <w xml:id="w28100"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w28200"><me:dipl>th<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w28300"><me:dipl>uppfødder</me:dipl></w>
+                    <w xml:id="w28400"><me:dipl>ær</me:dipl></w>
+                    <pc xml:id="w28500">,</pc>
+                    <w xml:id="w28600"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w28700"><me:dipl>hanss</me:dipl></w>
+                    <w xml:id="w28800"><me:dipl>fad<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w28900"><me:dipl>oc</me:dipl></w>
+                    <w xml:id="w29000"><me:dipl>fad<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w29100"><me:dipl>fad<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w29200"><me:dipl>vitnade</me:dipl></w>
+                    <w xml:id="w29300"><me:dipl>at</me:dipl></w>
+                    <w xml:id="w29400"><me:dipl>ha<ex>n</ex></me:dipl></w>
+                    <w xml:id="w29500"><me:dipl>hørde</me:dipl></w>
+                    <w xml:id="w29600"><me:dipl>aldre</me:dipl></w>
+                    <w xml:id="w29700"><me:dipl>a<ex>n</ex>nat</me:dipl></w>
+                    <w xml:id="w29800"><me:dipl>om</me:dipl></w>
+                    <lb n="16" ed="ms"/>
+                    <w xml:id="w29900"><me:dipl>for<ex>nemp</ex>de</me:dipl></w>
+                    <w xml:id="w30000"><me:dipl>krokstade</me:dipl></w>
+                    <w xml:id="w30100"><me:dipl>en</me:dipl></w>
+                    <w xml:id="w30200"><me:dipl>som</me:dipl></w>
+                    <w xml:id="w30300"><me:dipl>nw</me:dipl></w>
+                    <w xml:id="w30400"><me:dipl>sacht</me:dipl></w> 
+                    <w xml:id="w30500"><me:dipl>ær</me:dipl></w> 
+                    <w xml:id="w30600"><me:dipl>Vor<ex>e</ex></me:dipl></w> 
+                    <w xml:id="w30700"><me:dipl>tesse</me:dipl></w> 
+                    <w xml:id="w30800"><me:dipl>for<ex>nemp</ex>de</me:dipl></w> 
+                    <w xml:id="w30900"><me:dipl>vittne</me:dipl></w> 
+                    <w xml:id="w31000"><me:dipl>reidebwne</me:dipl></w> 
+                    <w xml:id="w31100"><me:dipl>at</me:dipl></w> 
+                    <w xml:id="w31200"><me:dipl>swerie</me:dipl></w> 
+                    <w xml:id="w31300"><me:dipl>for<ex>nemp</ex>dan</me:dipl></w> 
+                    <w xml:id="w31400"><me:dipl>vittnisburd</me:dipl></w> 
+                    <w xml:id="w31500"><me:dipl>om</me:dipl></w> 
+                    <w xml:id="w31600"><me:dipl>tess</me:dipl></w>
+                    <w xml:id="w31700"><me:dipl>kan</me:dipl></w> 
+                    <lb n="17" ed="ms"/>
+                    <w xml:id="w31800"><me:dipl>wid<ex>e</ex>rtorffua</me:dipl></w>
+                    <pc xml:id="w31900">.</pc>
+                    <w xml:id="w32000"><me:dipl>Sagde</me:dipl></w> 
+                    <w xml:id="w32100"><me:dipl>the</me:dipl></w>
+                    <w xml:id="w32200"><me:dipl>oc</me:dipl></w> 
+                    <w xml:id="w32300"><me:dipl>at</me:dipl></w> 
+                    <w xml:id="w32400"><me:dipl>th<ex>et</ex></me:dipl></w> 
+                    <w xml:id="w32500"><me:dipl>ær</me:dipl></w> 
+                    <w xml:id="w32600"><me:dipl>flestom</me:dipl></w> 
+                    <w xml:id="w32700"><me:dipl>ku<ex>n</ex>noctht</me:dipl></w> 
+                    <w xml:id="w32800"><me:dipl>at</me:dipl></w> 
+                    <w xml:id="w32900"><me:dipl>aff</me:dipl></w> 
+                    <w xml:id="w33000"><me:dipl>tette</me:dipl></w>
+                    <w xml:id="w33100"><me:dipl>krokstade</me:dipl></w> 
+                    <w xml:id="w33200"><me:dipl>øffre</me:dipl></w> 
+                    <w xml:id="w33300"><me:dipl>gard<ex>e</ex>n</me:dipl></w> 
+                    <w xml:id="w33400"><me:dipl>gar</me:dipl></w> 
+                    <w xml:id="w33500"><me:dipl>eit</me:dipl></w> 
+                    <w xml:id="w33600"><me:dipl>sp<ex>a</ex>n</me:dipl></w> 
+                    <w xml:id="w33700"><me:dipl>aff</me:dipl></w> 
+                    <w xml:id="w33800"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w33900"><me:dipl>landskyld</me:dipl></w> 
+                    <lb n="18" ed="ms"/>
+                    <w xml:id="w34000"><me:dipl>arlige</me:dipl></w> 
+                    <w xml:id="w34100"><me:dipl>som</me:dipl></w> 
+                    <w xml:id="w34200"><me:dipl>the<ex>n</ex>ne</me:dipl></w>
+                    <w xml:id="w34300"><me:dipl>ettleg</me:dipl></w> 
+                    <w xml:id="w34400"><me:dipl>fylgt</me:dipl></w> 
+                    <w xml:id="w34500"><me:dipl>haffu<ex>er</ex></me:dipl></w> 
+                    <w xml:id="w34600"><me:dipl>som</me:dipl></w> 
+                    <w xml:id="w34700"><me:dipl>nw</me:dipl></w> 
+                    <w xml:id="w34800"><me:dipl>ær</me:dipl></w> 
+                    <w xml:id="w34900"><me:dipl>sacht</me:dipl></w>
+                    <pc xml:id="w35000">,</pc>
+                    <w xml:id="w35100"><me:dipl>en</me:dipl></w> 
+                    <w xml:id="w35200"><me:dipl>p<ex>re</ex>sten</me:dipl></w> 
+                    <w xml:id="w35300"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w35400"><me:dipl>gryting</me:dipl></w> 
+                    <w xml:id="w35500"><me:dipl>eigh<ex>e</ex>r</me:dipl></w> 
+                    <w xml:id="w35600"><me:dipl>th<ex>e</ex>r</me:dipl></w>
+                    <w xml:id="w35700"><me:dipl>ɟ</me:dipl></w> 
+                    <w xml:id="w35800"><me:dipl>øre</me:dipl></w> 
+                    <w xml:id="w35900"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w36000"><me:dipl>landskyld</me:dipl></w> 
+                    <w xml:id="w36100"><me:dipl>arlige</me:dipl></w> 
+                    <lb n="19" ed="ms"/>
+                    <w xml:id="w36200"><me:dipl>en</me:dipl></w> 
+                    <w xml:id="w36300"><me:dipl>ingh<ex>e</ex>n</me:dipl></w> 
+                    <w xml:id="w36400"><me:dipl>eigh<ex>e</ex>r</me:dipl></w> 
+                    <w xml:id="w36500"><me:dipl>th<ex>e</ex>r</me:dipl></w> 
+                    <w xml:id="w36600"><me:dipl>meyr</me:dipl></w> 
+                    <w xml:id="w36700"><me:dipl>vthi</me:dipl></w> 
+                    <w xml:id="w36800"><me:dipl>Toke</me:dipl></w> 
+                    <w xml:id="w36900"><me:dipl>wi</me:dipl></w>
+                    <w xml:id="w37000"><me:dipl>forscr<ex>i</ex>ffna</me:dipl></w> 
+                    <w xml:id="w37100"><me:dipl>wittnisburd</me:dipl></w> 
+                    <w xml:id="w37200"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w37300"><me:dipl>wo<ex>re</ex></me:dipl></w> 
+                    <w xml:id="w37400"><me:dipl>viseteri<ex>n</ex><unclear>g</unclear></me:dipl></w> 
+                    <w xml:id="w37500"><me:dipl>som</me:dipl></w> 
+                    <w xml:id="w37600"><me:dipl>for</me:dipl></w> 
+                    <w xml:id="w37700"><me:dipl>seigh<ex>e</ex>r</me:dipl></w> 
+                    <w xml:id="w37800"><me:dipl>oc</me:dipl></w> 
+                    <w xml:id="w37900"><me:dipl>Ransakade</me:dipl></w>
+                    <w xml:id="w38000"><me:dipl>th<ex>et</ex></me:dipl></w> 
+                    <w xml:id="w38100"><me:dipl>yth<ex>e</ex>r<lb n="20" ed="ms"/>lige</me:dipl></w> 
+                    <w xml:id="w38200"><me:dipl>boda</me:dipl></w> 
+                    <w xml:id="w38300"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w38400"><me:dipl>medellhws</me:dipl></w> 
+                    <w xml:id="w38500"><me:dipl>oc</me:dipl></w> 
+                    <w xml:id="w38600"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w38700"><me:dipl>skawn</me:dipl></w> 
+                    <w xml:id="w38800"><me:dipl>oc</me:dipl></w> 
+                    <w xml:id="w38900"><me:dipl>ty</me:dipl></w> 
+                    <w xml:id="w39000"><me:dipl>latha</me:dipl></w> 
+                    <w xml:id="w39100"><me:dipl>wi</me:dipl></w> 
+                    <w xml:id="w39200"><me:dipl>till</me:dipl></w> 
+                    <w xml:id="w39300"><me:dipl>meira</me:dipl></w>
+                    <w xml:id="w39400"><me:dipl>wisso</me:dipl></w> 
+                    <w xml:id="w39500"><me:dipl>hengia</me:dipl></w> 
+                    <w xml:id="w39600"><me:dipl>wort</me:dipl></w> 
+                    <w xml:id="w39700" xml:lang="lat"><me:dipl>Sec<ex>re</ex>t<ex>um</ex></me:dipl></w> 
+                    <w xml:id="w39800"><me:dipl>for</me:dipl></w> 
+                    <w xml:id="w39900"><me:dipl>th<ex>e</ex>tta</me:dipl></w> 
+                    <w xml:id="w40000"><me:dipl>b<ex>re</ex>ff</me:dipl></w> 
+                    <w xml:id="w40100"><me:dipl>giffuit</me:dipl></w> 
+                    <w xml:id="w40200"><me:dipl>i</me:dipl></w> 
+                    <w xml:id="w40300"><me:dipl>Trondheim</me:dipl></w> 
+                    <lb n="21" ed="ms"/>
+                    <w xml:id="w40400"><me:dipl>sama</me:dipl></w>
+                    <w xml:id="w40500"><me:dipl>aar<ex>e</ex></me:dipl></w> 
+                    <w xml:id="w40600"><me:dipl>som</me:dipl></w> 
+                    <w xml:id="w40700"><me:dipl>før</me:dipl></w> 
+                    <w xml:id="w40800"><me:dipl>seigh<ex>e</ex>r</me:dipl></w>
+                </p>
+            </div>
+            <div type="addition">
+                <head>On the back in a contemporary hand, could well be the same scribe</head>
+                <p>
+                    <pb n="1v" ed="ms"/>
+                    <lb n="1" ed="ms"/>
+                    <w xml:id="w40900"><me:dipl>Breff</me:dipl></w>
+                    <w xml:id="w41000"><me:dipl>vm</me:dipl></w>
+                    <w xml:id="w41100"><me:dipl>krokst<unclear>ade</unclear></me:dipl></w>
+                    <lb n="2" ed="ms"/> <!-- OEH 2020-01-29: Du hadde gløymt ein ‘/’ i den avsluttande taggen -->
+                    <w xml:id="w41200"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w41300"><me:dipl>skawn</me:dipl></w>
+                    <w xml:id="w41400"><me:dipl>i</me:dipl></w>
+                    <w xml:id="w41500"><me:dipl>orkæ<unclear>dals</unclear></me:dipl></w> <!-- OEH 2020-01-29: Du hadde gløymt å avslutte med ein </me:dipl></w> -->
+                    <lb n="3" ed="ms"/>
+                    <w xml:id="w41600"><me:dipl>fylke</me:dipl></w>
+                </p>
+            </div>
+        </body>    
+        <back>
+            <div type="image">
+                <head>Analogue colour photograph of DN 1:985. © NTNU University Library, Trondheim.</head>
+                <p><figure>
+                    <graphic url="DN-1495-00-00-Trondheim-1r.jpg"></graphic>
+                </figure>
+                </p>
+            </div>
+         </back>
+    </text>
+</TEI>

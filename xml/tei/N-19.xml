@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>N 19 : St. Mary’s Church, Oslo : A digital edition</title>
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 1, pp. 45–47</resp>
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Olga</forename>
+							<surname>Kalinovskaia</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-10-11">11 October 2021</date>.</edition>
+			</editionStmt>
+			<extent n="13">13 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">I 45–47</idno>
+				<date when="2018-02-13">13 February 2018</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>59.9035, 10.7621</settlement>
+						<idno>N 19</idno>
+						<msName>N 19 : St. Mary's Church, Oslo</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="gravestone">
+							<supportDesc>
+								<support>
+									<p><material>stone</material>.</p>
+									<p>Soapstone.</p>
+								</support>
+								<condition>Partially damaged</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1100" notAfter="1500">c. 1100-1500</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">Museum of Cultural History, University of Oslo (C24286)</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 1, pp. 45–47.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-18</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-04-06</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-27</date>
+				<name>Sebastian Pohland</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor change as part of QA work.</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+			<change>
+				<date>2021-10-28</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file</change>
+			<change>
+				<date>2021-10-11</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file</change>
+		</revisionDesc>
+	</teiHeader>
+	
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+                  	<head><hi rend="bold">Signum</hi>: N 19 ||
+                  		<hi rend="bold">Sted</hi>: Mariakirken, Oslo ||
+                  		<hi rend="bold">Kart</hi>: Lenke kommer her ||
+                  		<hi rend="bold">Datering</hi>: ca. 1100–1500<lb/>
+                  		<hi rend="bold">Materiale</hi>: Stein ||
+                  		<hi rend="bold">Status</hi>: Bevart, nå i Kulturhistorisk museum i Oslo ||
+                  		<hi rend="bold">Utgave</hi>: NIyR I: 45–47 || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/8caafa13-5e74-4814-91d2-566e9997eaa4" type="external">N 19</ref>
+                  	</head>
+					<p>Den 25. juni 1904 ble denne gravsteinen funnet ved gravninger som ble foretatt på Sørengen i anledning av jernbanens utvidelse. Gravsteinen var like utenfor kirkens nye vestfront fra ca. 1300. Samme år kom steinen til Oldsaksamlingen. Steinen er omtrent 155 cm lang, 60-46 cm bredd og 27-31 cm tykk. Typen er kleberstein. Runesteinen er en likstein av en vanlig middelaldersk form, avsmalnende mot fotenden og med avtakende tykkelse. Runene er ristet fra høyre mot venstre, innskriften utfyller helt to av steinens sideflater.</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+					<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="A"/>
+						<pc type="runic">
+							<choice>
+								<me:facs>&crosPM;</me:facs>
+								<me:dipl>&crosPM;</me:dipl>
+							</choice>
+						</pc>
+						<w lemma="steinn" me:msa="xNP gM nS cA sI" >
+								<choice>
+									<me:facs>&sYGSdot;&tYG;&aeMD;&iGE;&nYG;</me:facs>
+									<me:dipl>stæin</me:dipl>
+									<me:norm>Stein</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="sjá" me:msa="xDD gM nS cA">
+								<choice>
+									<me:facs>&thGE;&eMD;&nYG;&aYG;</me:facs>
+									<me:dipl>þena</me:dipl>
+									<me:norm>þenna</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="láta" me:msa="xVB fF tPT mIN p3 nS vA iRD">
+								<choice>
+									<me:facs>&lGE;&eMD;<unclear reason="damage">&tYG;</unclear></me:facs>
+									<me:dipl>le<supplied reason="restoration" resp="MagnusOlsen">t</supplied></me:dipl>
+									<me:norm>lé<supplied reason="restoration" resp="MagnusOlsen">t</supplied></me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Ǫgmundr" me:msa="xNP gM nS cN sI">
+								<choice>
+									<me:facs>&aYG;&uGE;&hYGL;&mYGL;&uGE;&nYG;&tYG;&rGE;</me:facs>
+									<me:dipl>auhmuntr</me:dipl>
+									<me:norm>Ǫgmundr</me:norm>
+								</choice>
+							</w>
+						<w lemma="skjalgr" me:msa="xAJ nS cN gM sD">
+								<choice>
+									<me:facs>&sYGSdot;&kYG;&iGE;&aYG;&lGE;&hYGL;&eMD;</me:facs>
+									<me:dipl>skialhe</me:dipl>
+									<me:norm>skjalgi</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="leggja" me:msa="xVB fI tPS vA iWK">
+								<choice>
+									<me:facs>&lGE;&aeMD;&kYG;&iGE;&aYG;</me:facs>
+									<me:dipl>lækia</me:dipl>
+									<me:norm>leggja</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&threedotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="yfir" me:msa="xAP yD">
+								<choice>
+									<me:facs>&iGE;&fGE;&iGE;&rGE;</me:facs>
+									<me:dipl>ifir</me:dipl>
+									<me:norm>yfir</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Gunna" me:msa="xNP gF nS cD sI">
+								<choice>
+									<me:facs>&kYG;&uGE;&nYG;&uGE;</me:facs>
+									<me:dipl>kunu</me:dipl>
+									<me:norm>Gunnu</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							</choice>
+						</pc>
+						<w lemma="Guðulfsdóttir" me:msa="xNP gF nS cD sI">
+								<choice>
+									<me:facs>&kYG;&uGE;&thGE;&uGE;&sYGSdot;&tYG;&oYG;&tYG;&oYG;&rGE;</me:facs>
+									<me:dipl>kuþustotor</me:dipl>
+									<me:norm>Guðulfsdóttur</me:norm>
+								</choice>
+							</w>
+						<w lemma="en" me:msa="xCC">
+								<choice>
+									<me:facs>&aeMD;&nYG;</me:facs>
+									<me:dipl>æn</me:dipl>
+									<me:norm>en</me:norm>
+								</choice>
+							</w>
+						<w lemma="ártíð" me:msa="xNP gF nS cN sI">
+								<choice>
+									<me:facs>&aYG;&rGE;<unclear reason="damage">&tYG;</unclear>&iGE;&thGE;</me:facs>
+									<me:dipl>ar<supplied reason="restoration" resp="MagnusOlsen">t</supplied>iþ</me:dipl>
+									<me:norm>ár<supplied reason="restoration" resp="MagnusOlsen">t</supplied>íð</me:norm>
+								</choice>
+							</w>
+						<w lemma="hon" me:msa="xDP gF nS cG">
+								<choice>
+									<me:facs>&hYGL;&eMD;</me:facs>
+									<me:dipl>he-</me:dipl> <!-- SP 2022-02-27: Replaced confusing d-rune with stroke to show continuation of the word in the next line. -->
+									<me:norm>he-</me:norm>
+								</choice>
+							</w>
+						<lb ed="ms" n="B"/>
+						<w lemma="hon" me:msa="xDP gF nS cG">
+								<choice>
+									<me:facs>&nYG;&aYG;&rGE;</me:facs>
+									<me:dipl>nar</me:dipl>
+									<me:norm>nnar</me:norm>
+								</choice>
+							</w>
+						<w lemma="Lúkasmessa" me:msa="xNP gF nS cA sI">
+								<choice>
+									<me:facs>&lGE;&yYG;&kYG;&aYG;&sYGSdot;&mYGL;&eMD;&sYGSdot;&oYG;</me:facs>
+									<me:dipl>lykasmeso</me:dipl>
+									<me:norm>Lúkasmessu</me:norm>
+								</choice>
+							</w>
+						<pc type="runic">
+							<choice>
+								<me:norm>.</me:norm>
+							</choice>
+						</pc>
+					</p>			
+			</div>
+		</body>
+		<back>	
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Denne stein lot Ogmund Skjalge ('den skjeløyde') legge over Gunna Gudulvsdatter, og hennes dødsdag [og skjelemessedag] (er) Lukasmesse (18. oktober).</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p>Ǫgmundr the Cross-eyed had this stone laid over Gunna Guðulfr's daughter and her anniversary-of-death is Luke's-mass.</p>	
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Språklig sett er innskriften interessant. Den har regelmessig østlandsk vokalharmoni, og formen <hi rend="bold">-kuþus</hi> er sannsynligvis et eksempel på bortfall av ‹l› foran labiale konsonanter. Bruk av <hi rend="bold">y</hi> i <hi rend="bold">lykas</hi> er også påfallende.
+					Innskriften gir oss ingen informasjon om forhold mellom mannen og kvinnen, men sannsynligvis var Gunna Ogmunds kone.
+					Interessant nok at vi kjenner en Agmund på Hundstad i Hole, som omtales i et diplom fra 1340 (DN X s. 40, nr. 41), og konen hans het Gunna. Men de personsnavnene, som forekommer på runesteinen, er alle veldig allminnelige, og innskriften kan ikke dateres så sen tidsperiode som ca. 1340 av runologiske og språklige grunner. If. NIyR I: 45–47.</p>
+			</div>			
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<figure><graphic url="N19-A.jpg"/></figure>
+				<caption>Fotogrtafi av liksteinen N 19 ved L. Smedstad. Merk at innskriften skal leses frå høyre mot venstre. Fra Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N19-B.jpg"/></figure>
+				<caption>Fotografi av langsiden av N 19 ved L. Smedstad. Fra Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N19-C.jpg"/></figure>
+				<caption>Fotografi av kortsiden av N 19 ved L. Smedstad. Fra Runearkivet, Kulturhistorisk museum, Universitetet i Oslo. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N19-D.jpg"/></figure>
+				<caption>Avtegning av langsiden av N 19 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N19-E.jpg"/></figure>
+				<caption>Avtegning av kortsiden av N 19 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+				<bibl>Haugen, Odd Einar. 2018. “Høgmellomalderen (1050–1350).” Kap. 4 i <title>Tidslinjer</title>, red. av Agnete Nesse, s. 214. Oslo: Novus. <title>Tidslinjer</title> er bd. 4 av <title>Norsk språkhistorie</title>, red. av Helge Sandøy og Agnete Nesse, Oslo: Novus, 2016–2018.</bibl>
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2008041600054" type="external">Bd. 1</ref> (1941), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2011110908131" type="external">bd. 2</ref> (1951), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2016010508032" type="external">bd. 3</ref> (1954), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604065" type="external">bd. 5</ref> (1960), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014021748073" type="external">bd. 6:1</ref> (1980), <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2014052708113" type="external">bd. 6:2</ref> (1990), <ref  target="https://folk.ntnu.no/ivar/filer/Hagland1997-Trondheimsruner.pdf" type="external">bd. 7</ref> (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig bare for norske IP-adresser (utenom bd. 7).</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utviklet ved Uppsala universitet siden 1980-talet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Olga Kalinovskaia (Universitetet i Bergen, 2021)</p>
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+			</div>
+		</back>
+	</text>
+</TEI>

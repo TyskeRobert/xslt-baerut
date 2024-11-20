@@ -1,0 +1,2074 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>A fragment of Stefáns saga : NRA 67 : A digital edition</title>
+				<editor>
+					<name>
+						<persName>
+							<forename>Nina</forename>
+							<surname>Stensaker</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</editor>
+				<respStmt resp="annotation">
+					<resp>Transcription and annotation</resp>
+					<name>
+						<persName>
+							<forename>Nina</forename>
+							<surname>Stensaker</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Development of menotaBlitz.plx program</resp>
+					<name>
+						<persName>
+							<forename>Robert</forename>
+							<forename>K.</forename>
+							<surname>Paulsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Deleopment of MLA (Menota Lemma Assistant)</resp>
+					<name>
+						<persName>
+							<forename>Paul</forename>
+							<surname>Meurer</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.8">First draft, generated with MenotaBlitz, <date when="2021-12-06">6
+						December 2021</date>
+				</edition>
+			</editionStmt>
+			<extent n="161">161 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="Menota">Ms. ??</idno>
+				<!-- Vet ikke hvilket nummer -->
+				<date when="2019-05-07">07 May 2019</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+						4.0</licence>
+					<p>Licence accepted by the editor Nina Stensaker in a meeting with Odd Einar
+						Haugen, 17 Sep 2018.</p>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note>Produced as part of my PhD project at <orgName type="affiliation">University
+						of Bergen</orgName>.</note>
+			</notesStmt>
+			<sourceDesc>
+				<bibl facs="yes">Photographic facsimiles of the whole fragment from the Norwegian
+					National Archives (Riksarkivet) in Oslo.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>Oslo</settlement>
+						<repository>Riksarkivet</repository>
+						<idno>NRA norr fragm 67</idno>
+						<msName>A fragment of Stefáns saga</msName>
+					</msIdentifier>
+					<msContents>
+						<msItem n="1">
+							<locus from="1r" to="1v">1r–1v</locus>
+							<title type="main">Stefáns saga</title>
+							<title type="abbreviated">Steph</title>
+							<textLang mainLang="isl">Icelandic</textLang>
+						</msItem>
+					</msContents>
+					<history>
+						<origin>
+							<p>Written in <origPlace>Iceland</origPlace>
+								<origDate notBefore="1250" notAfter="1350">c. 1300</origDate>.</p>
+						</origin>
+						<!-- ONP har c1300-1325. -->
+					</history>
+				</msDesc>
+			</sourceDesc>
+
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This encoding follows the standard set out in <title>The Menota Handbook
+						(3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+						February 2021</date>.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been transcribed directly from photographic colour facsimiles
+						of the manuscript.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised.</p>
+				</normalization>
+				<interpretation me:morphAnalyzed="partly" me:lemmatized="completely">
+					<p>The whole text has been lemmatised and partly morphologically analysed (POS only).</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="isl">Old Icelandic</language>
+			</langUsage>
+			<handNotes>
+				<handNote xml:id="h1"></handNote>
+			</handNotes>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2023-09-25</date>
+				<name>
+					<persName>Nina Stensaker</persName>
+					<orgName type="affiliation">University of Bergen</orgName>
+				</name>: (1) La til circledot på facs og dipl for bedre visning av gap.
+			</change>
+			<change>
+				<date>2023-09-10</date>
+				<name>
+					<persName>Nina Stensaker</persName>
+					<orgName type="affiliation">University of Bergen</orgName>
+				</name>: (1) Mindre rettelser på facs-nivå etter korrektur mot faksimilen.
+				(2) Mindre rettelser i header. 
+			</change>
+			<change>
+				<date>2023-09-06</date>
+				<name>
+					<persName>Nina Stensaker</persName>
+					<orgName type="affiliation">University of Bergen</orgName>
+				</name>: (1) Vært gjennom MLA.
+			(2) Norm-nivå ca. ok, noen ord må sjekkes med OE.
+			(3) Annotasjon (POS only) ferdig. </change>
+			<change>
+				<date>2021-12-06</date>
+				<name>
+					<persName>Nina Stensaker</persName>
+					<orgName type="affiliation">University of Bergen</orgName>
+				</name>: (1) Utvidet headeren (2) Lagt til gap-element og forsøkt å plassere
+				fragmentbitene i sannsynlig rekkefølge. </change>
+			<change when="2021-12-06">
+				<p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref> "menotaFDT"-style transcription</p>
+			</change>
+		</revisionDesc>
+	</teiHeader>
+	<!-- Status 6. desember 2021
+	Det er ikke gjort noe med transkripsjonen på noen nivåer. Alt må derfor
+	sjekkes og korrekturleses.
+	
+	Det eneste som er gjort er å legge inn gap og linjenummer og forsøke
+	på en dokumentstruktur som plasserer fragmentbitene. Disse har aldri vært
+	plassert slik tidligere!
+	
+	Merk at teksten i andre håndskrifter (codex Holm) varierer i så stor grad at 
+	det ikke er mulig å supplere noe tekst. Jeg har likevel brukt teksten i disse
+	håndskriftene til å gjøre et estimat for hvor det er sannsynlig at fragmentbitene
+	har plassert seg i bladet.
+	-->
+	<!-- 22.12.2021: Kommet hit, egen kommentar ca. midt pð. Normalisering. -->
+	<text xml:lang="isl">
+		<front>
+			<div type="background">
+				<head>Bakgrunn</head>
+				<p>Dette fragmentet gjengir deler av <title>Stefáns saga</title>.</p>
+				<p>Fragmentet består av tre biter som utgjør restene av et blad. </p>
+				<p>Teksten i fragmentet kan gjenfinnes i <title>Heilagra Manna Sögur</title>, kap. 12
+					<title>Stephanus saga</title>,
+				utgitt av C. R. Unger i 1877. Merk at teksten i fragmentet ikke er helt lik teksten i 
+				den utgaven. Lakuner har derfor ikke blitt fylt ut med supplert tekst derfra, men den
+				er blitt brukt til å gjøre et estimat for hvor bitene har tilhørt bladet. 
+				</p>
+				<p>Fragmentet inneholder ingen rubrikker eller initialer. </p>
+				<p>Fragmentet ble funnet i et fogderegnskap fra Sogn fra 1628.</p>
+				<p>Hele NRA norr fragm 67 utgjør totalt 14 biter som sammen utgjør restene
+					av seks blad fordelt på tre ulike tekster: <title>Thomas saga</title>,
+					<title>Stephanus saga</title> og <title>Jóns saga helga</title>. De har alle
+					tilhørt samme kodeks og er skrevet av samme skriver. Kodeksen har vært tospaltet med ca.
+					33 linjer pr. spalte. </p>
+				
+			</div>
+		</front>
+		<body>
+			<div type="text">
+				<div type="chapter" n="12">
+					
+					<p>
+						<pb ed="ms" n="1r"/>
+						<cb ed="ms" n="A"/>
+						<lb ed="ms" n="1"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="2"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="3"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="4"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="5"/>
+						<pc xml:id="w300">
+							<choice>
+								<me:facs></me:facs>
+								<me:dipl></me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<w lemma="" me:msa="" xml:id="w400">
+							<choice>
+								<me:facs>va</me:facs>
+								<me:dipl>va</me:dipl>
+							   <me:norm>va</me:norm>
+                    </choice>
+						</w>
+						<note type="comment" resp="NS">Del av ukjent ord.</note>
+						<w lemma="af" me:msa="xAP" xml:id="w500">
+							<choice>
+								<me:facs>a&fins;</me:facs>
+								<me:dipl>af</me:dipl>
+							   <me:norm>af</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sá" me:msa="xDD" xml:id="w600">
+							<choice>
+								<me:facs>þvı</me:facs>
+								<me:dipl>þvi</me:dipl>
+							   <me:norm>því</me:norm>
+                    </choice>
+						</w>
+						<w lemma="at" me:msa="xCS" xml:id="w700">
+							<choice>
+								<me:facs>a&trot;</me:facs>
+								<me:dipl>at</me:dipl>
+							   <me:norm>at</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hann" me:msa="xPE" xml:id="w800">
+							<choice>
+								<me:facs>&hrdes;<am>&bar;</am></me:facs>
+								<me:dipl>h<ex>ann</ex></me:dipl>
+							   <me:norm>hann</me:norm>
+                    </choice>
+						</w>
+						<w lemma="kveðja" me:msa="xVB" xml:id="w900">
+							<choice>
+								<me:facs>k&vins;<gap reason="damage" quantity="3" unit="char"></gap></me:facs>
+								<me:dipl>kv<supplied reason="restoration" resp="Unger, 1877">edz</supplied></me:dipl>
+								<me:norm>kv<supplied reason="restoration" resp="Unger, 1877">ezk</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w901">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="6"/>
+						<w lemma="stephanus" me:msa="xNP" xml:id="w1000">
+							<choice>
+								<me:facs>&slongdes;&trot;ep&hrdes;anu&slongdes;</me:facs>
+								<me:dipl>stephanus</me:dipl>
+							   <me:norm>Stephanus</me:norm>
+                    </choice>
+						</w>
+						<w lemma="eða" me:msa="xCC" xml:id="w1100">
+							<choice>
+								<me:facs>eða</me:facs>
+								<me:dipl>eða</me:dipl>
+							   <me:norm>eða</me:norm>
+                    </choice>
+						</w>
+						<w lemma="" me:msa="" xml:id="w1200">
+							<choice>
+								<me:facs>b&vins;a</me:facs>
+								<me:dipl>bva</me:dipl>
+							   <me:norm>bua</me:norm>
+                    </choice>
+						</w>
+						<note type="comment" resp="NS">Del av ukjent ord.</note>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w1201">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="7"/>
+						<w lemma="dapr" me:msa="xAJ" xml:id="w1300">
+							<choice>
+								<me:facs>&drot;aup&rrot;</me:facs>
+								<me:dipl>daupr</me:dipl>
+							   <me:norm>dapr</me:norm>
+                    </choice>
+						</w>
+						<!-- I følge ONP er det av dapr adj. "bedrøvet".  -->
+						<w lemma="við" me:msa="xAP" xml:id="w1400">
+							<choice>
+								<me:facs>&vins;ıð</me:facs>
+								<me:dipl>við</me:dipl>
+							   <me:norm>við</me:norm>
+                    </choice>
+						</w>
+						<w lemma="orð" me:msa="xNC" xml:id="w1500">
+							<choice>
+								<me:facs>o&rrot;ð</me:facs>
+								<me:dipl>orð</me:dipl>
+							   <me:norm>orð</me:norm>
+                    </choice>
+						</w>
+						<w lemma="byskup" me:msa="xNC" xml:id="w1600">
+							<choice>
+								<me:facs>b<am>&bar;</am>p&slongdes;</me:facs>
+								<me:dipl>b<ex>isku</ex>ps</me:dipl>
+							   <me:norm>byskups</me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w1601">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="8"/>
+						<w lemma="senda" me:msa="xVB" xml:id="w1700">
+							<choice>
+								<me:facs>&slongdes;en&drot;e</me:facs>
+								<me:dipl>sende</me:dipl>
+							   <me:norm>sendi</me:norm>
+                    </choice>
+						</w>
+						<w lemma="rit" me:msa="xNC" xml:id="w1800">
+							<choice>
+								<me:facs>rı&trot;</me:facs>
+								<me:dipl>rit</me:dipl>
+							   <me:norm>rit</me:norm>
+                    </choice>
+						</w>
+						<w lemma="síðan" me:msa="xAV" xml:id="w1900">
+							<choice>
+								<me:facs>&slongdes;ıðan</me:facs>
+								<me:dipl>siðan</me:dipl>
+							   <me:norm>síðan</me:norm>
+                    </choice>
+						</w>
+						<w lemma="faðir" me:msa="xNC" xml:id="w2000">
+							<choice>
+								<me:facs>&fins;e<gap reason="damage" quantity="2" unit="char"></gap></me:facs>
+								<me:dipl>fe<supplied reason="restoration" resp="Unger, 1877">ðr</supplied></me:dipl>
+								<me:norm>fe<supplied reason="restoration" resp="Unger, 1877">ðr</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w2001">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="9"/>
+						<w lemma="skulu" me:msa="xVB" xml:id="w2100">
+							<choice>
+								<me:facs><unclear>&slongdes;kyll&drot;e</unclear></me:facs>
+								<me:dipl>skyllde</me:dipl>
+							   <me:norm>skyldi</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fara" me:msa="xVB" xml:id="w2200">
+							<choice>
+								<me:facs>&fins;ara</me:facs>
+								<me:dipl>fara</me:dipl>
+							   <me:norm>fara</me:norm>
+                    </choice>
+						</w>
+						<w lemma="á" me:msa="xAP" xml:id="w2300">
+							<choice>
+								<me:facs>á</me:facs>
+								<me:dipl>á</me:dipl>
+							   <me:norm>á</me:norm>
+                    </choice>
+						</w>
+						<w lemma="keisari" me:msa="xNC" xml:id="w2400">
+							<choice>
+								<me:facs>keı&slongdes;</me:facs>
+								<me:dipl>keis<supplied reason="restoration" resp="Unger, 1877">ara</supplied></me:dipl>
+								<me:norm>keis<supplied reason="restoration" resp="Unger, 1877">ara</supplied></me:norm>
+                    </choice>
+						</w>
+						<pc xml:id="w2500">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="10"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="11"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="12"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="13"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="14"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="15"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="16"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="17"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="18"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="19"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="20"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w2600">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<w lemma="hafa" me:msa="xVB" xml:id="w2700">
+							<choice>
+								<me:facs>&hrdes;a&fins;ðı</me:facs>
+								<me:dipl>hafði</me:dipl>
+							   <me:norm>hafði</me:norm>
+                    </choice>
+						</w>
+						<w lemma="koma" me:msa="xVB" xml:id="w2800">
+							<choice>
+								<me:facs>komı&trot;</me:facs>
+								<me:dipl>komit</me:dipl>
+							   <me:norm>komit</me:norm>
+                    </choice>
+						</w>
+						<w lemma="þá" me:msa="xAV" xml:id="w2900">
+							<choice>
+								<me:facs>þa</me:facs>
+								<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="" me:msa="" xml:id="w3000">
+							<choice>
+								<me:facs>&fins;</me:facs>
+								<me:dipl>f</me:dipl>
+							   <me:norm>f</me:norm>
+                    </choice>
+						</w>
+						<note type="comment" resp="NS">Del av ukjent ord.</note>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w3001">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="21"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w3002">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="stephanus" me:msa="xNP" xml:id="w3100" xml:lang="lat">
+							<choice>
+								<me:facs>anu&slongdes;</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">steph</supplied>hanus</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">steph</supplied>anus</me:norm>
+                    </choice>
+						</w>
+						<w lemma="kirkja" me:msa="xNC" xml:id="w3200">
+							<choice>
+								<me:facs>kırkıo</me:facs>
+								<me:dipl>kirkio</me:dipl>
+							   <me:norm>kirkju</me:norm>
+                    </choice>
+						</w>
+						<w lemma="ok" me:msa="xCC" xml:id="w3300">
+							<choice>
+								<me:facs>ok</me:facs>
+								<me:dipl>ok</me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+						</w>
+						<w lemma="taka" me:msa="xVB" xml:id="w3400">
+							<choice>
+								<me:facs>&trot;o<gap reason="damage" quantity="1" unit="char"></gap></me:facs>
+								<me:dipl>to<supplied reason="restoration" resp="Unger, 1877">k</supplied></me:dipl>
+								<me:norm>tó<supplied reason="restoration" resp="Unger, 1877">k</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w3401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="22"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w3402">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="setja" me:msa="xVB" xml:id="w3500">
+							<choice>
+								<me:facs>&slongdes;e&trot;&trot;ır</me:facs>
+								<me:dipl>settir</me:dipl>
+							   <me:norm>settir</me:norm>
+                    </choice>
+						</w>
+						<pc xml:id="w3600">
+							<choice>
+								<me:facs>.</me:facs>
+								<me:dipl>.</me:dipl>
+							   <me:norm></me:norm>
+                    </choice>
+						</pc>
+						<w lemma="þá" me:msa="xAV" xml:id="w3700">
+							<choice>
+								<me:facs>þa</me:facs>
+								<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="finna" me:msa="xVB" xml:id="w3800">
+							<choice>
+								<me:facs>&fins;yn&drot;&oogon;&zstrok;</me:facs>
+								<me:dipl>fynd&oogon;z</me:dipl>
+								<me:norm>fundusk</me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w3801">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="23"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w3802">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="eigi" me:msa="xAV" xml:id="w3900">
+							<choice>
+								<me:facs>&Eunc;ıgı</me:facs>
+								<me:dipl>Eigi</me:dipl>
+							   <me:norm>Eigi</me:norm>
+                    </choice>
+						</w>
+						<w lemma="vita" me:msa="xVB" xml:id="w4000">
+							<choice>
+								<me:facs>veı&trot;</me:facs>
+								<me:dipl>veit</me:dipl>
+							   <me:norm>veit</me:norm>
+                    </choice>
+						</w>
+						<w lemma="ek" me:msa="xPE" xml:id="w4100">
+							<choice>
+								<me:facs>ek</me:facs>
+								<me:dipl>ek</me:dipl>
+							   <me:norm>ek</me:norm>
+                    </choice>
+						</w>
+						<w lemma="nú" me:msa="xAV" xml:id="w4200">
+							<choice>
+								<me:facs>nu</me:facs>
+								<me:dipl>nu</me:dipl>
+							   <me:norm>nú</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hvar" me:msa="xAQ" xml:id="w4300">
+							<choice>
+								<me:facs>&hrdes;va<gap reason="damage" quantity="1" unit="char"></gap></me:facs>
+								<me:dipl>hva<supplied reason="restoration" resp="Unger, 1877">r</supplied></me:dipl>
+								<me:norm>hva<supplied reason="restoration" resp="Unger, 1877">r</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w4301">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="24"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w4302">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="svara" me:msa="xVB" xml:id="w4400">
+							<choice>
+								<me:facs>&slongdes;var<am>&combcurl;</am></me:facs>
+								<me:dipl>svar<ex>ir</ex></me:dipl>
+							   <me:norm>svarir</me:norm>
+                    </choice>
+						</w>
+						<pc xml:id="w4500">
+							<choice>
+								<me:facs>.</me:facs>
+								<me:dipl>.</me:dipl>
+							   <me:norm>.</me:norm>
+                    </choice>
+						</pc>
+						<q>
+							<w lemma="ek" me:msa="xPE" xml:id="w4600">
+								<choice>
+									<me:facs>&Eunc;k</me:facs>
+									<me:dipl>Ek</me:dipl>
+								   <me:norm>Ek</me:norm>
+                    </choice>
+							</w>
+							<w lemma="kenna" me:msa="xVB" xml:id="w4700">
+								<choice>
+									<me:facs>ken<am>&bar;</am>ı</me:facs>
+									<me:dipl>ken<ex>n</ex>i</me:dipl>
+								   <me:norm>kenni</me:norm>
+                    </choice>
+							</w>
+							<w lemma="kista" me:msa="xNC" xml:id="w4800">
+								<choice>
+									<me:facs>kı&slongdes;&trot;<gap reason="damage" quantity="1" unit="char"></gap></me:facs>
+									<me:dipl>kist<supplied reason="restoration" resp="Unger, 1877">u</supplied></me:dipl>
+									<me:norm>kist<supplied reason="restoration" resp="Unger, 1877">u</supplied></me:norm>
+                    </choice>
+							</w>
+							<gap reason="damage" unit="indeterminate"></gap>
+							<pc xml:id="w4801">
+								<choice>
+									<me:facs>&circledot;&circledot;&circledot;</me:facs>
+									<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+									<me:norm>&hellip;</me:norm>
+								</choice>
+							</pc>
+							<lb ed="ms" n="25"/>
+							<gap reason="damage" unit="indeterminate"></gap>
+							<pc xml:id="w4802">
+								<choice>
+									<me:facs></me:facs>
+									<me:dipl></me:dipl>
+									<me:norm>&hellip;</me:norm>
+								</choice>
+							</pc>
+							<w lemma="" me:msa="" xml:id="w4900">
+								<choice>
+									<me:facs>ek</me:facs>
+									<me:dipl>ek</me:dipl>
+								   <me:norm>ek</me:norm>
+                    </choice>
+							</w>
+							<w lemma="láta" me:msa="xVB" xml:id="w5000">
+								<choice>
+									<me:facs>le&trot;</me:facs>
+									<me:dipl>let</me:dipl>
+								   <me:norm>lét</me:norm>
+                    </choice>
+							</w>
+                 <w lemma="gera" me:msa="xVB" xml:id="w5100">
+								<choice>
+									<me:facs>gıo&rrot;a</me:facs>
+									<me:dipl>giora</me:dipl>
+									<me:norm>gera</me:norm>
+                    </choice>
+							</w>
+							<w lemma="sjalfr" me:msa="xDQ" xml:id="w5200">
+								<choice>
+									<me:facs>&slongdes;ıal&fins;</me:facs>
+									<me:dipl>sialf</me:dipl>
+								   <me:norm>sjalf</me:norm>
+                    </choice>
+							</w>
+							<pc xml:id="w5300">
+								<choice>
+									<me:facs>.</me:facs>
+									<me:dipl>.</me:dipl>
+								   <me:norm></me:norm>
+                    </choice>
+							</pc>
+							<pc xml:id="w5301">
+								<choice>
+									<me:facs>&circledot;&circledot;&circledot;</me:facs>
+									<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+									<me:norm>&hellip;</me:norm>
+								</choice>
+							</pc>
+							<gap reason="damage" unit="indeterminate"></gap>
+							<lb ed="ms" n="26"/>
+							<gap reason="damage" unit="indeterminate"></gap>
+							<pc xml:id="w5302">
+								<choice>
+									<me:facs>&circledot;&circledot;&circledot;</me:facs>
+									<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+									<me:norm>&hellip;</me:norm>
+								</choice>
+							</pc>
+							<w lemma="kenna" me:msa="xVB" xml:id="w5400">
+								<choice>
+									<me:facs>ken<am>&bar;</am>ı&rdes;</me:facs>
+									<me:dipl>ken<ex>n</ex>ir</me:dipl>
+								   <me:norm>kennir</me:norm>
+                    </choice>
+							</w>
+							<pc xml:id="w5500">
+								<choice>
+									<me:facs>.</me:facs>
+									<me:dipl>.</me:dipl>
+								   <me:norm>.</me:norm>
+                    </choice>
+							</pc>
+						</q>
+						<w lemma="síðan" me:msa="xAV" xml:id="w5600">
+							<choice>
+								<me:facs>Sıðan</me:facs>
+								<me:dipl>Siðan</me:dipl>
+								<me:norm>Síðan</me:norm>
+                    </choice>
+						</w>
+						<w lemma="taka" me:msa="xVB" xml:id="w5700">
+							<choice>
+								<me:facs>&trot;ok</me:facs>
+								<me:dipl>tok</me:dipl>
+							   <me:norm>tok</me:norm>
+                    </choice>
+						</w>
+						<pc xml:id="w5800">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="27"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="28"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="29"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="30"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="31"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="32"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="33"/><gap reason="damage" quantity="1" unit="line"></gap>
+					</p>
+				</div>
+				<div>
+					<p>
+						<cb ed="ms" n="B"/>
+						<lb ed="ms" n="1"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="2"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="3"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="4"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="5"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w5900">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<w lemma="stephanus" me:msa="xNP" xml:id="w6000">
+							<choice>
+								<me:facs><gap reason="damage" quantity="6" unit="char"></gap>nı</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">stepha</supplied>ni</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">Stepha</supplied>ni</me:norm>
+                    </choice>
+						</w>
+						<w lemma="með" me:msa="xAP" xml:id="w6100">
+							<choice>
+								<me:facs>með</me:facs>
+								<me:dipl>með</me:dipl>
+							   <me:norm>með</me:norm>
+                    </choice>
+						</w>
+						<w lemma="vér" me:msa="xPE" xml:id="w6200">
+							<choice>
+								<me:facs>o&sscap;</me:facs>
+								<me:dipl>o&sscap;</me:dipl>
+							   <me:norm>oss</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="6"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w6201">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="hann" me:msa="xPE" xml:id="w6300">
+							<choice>
+								<me:facs>&hrdes;onu<am>&bar;</am></me:facs>
+								<me:dipl>honu<ex>m</ex></me:dipl>
+							   <me:norm>honum</me:norm>
+                    </choice>
+						</w>
+						<w lemma="lofsǫngr" me:msa="xNC" xml:id="w6400">
+							<choice>
+								<me:facs>lo&fins;&slongdes;&oogon;<lb ed="ms" n="7"/><gap reason="damage" quantity="2" unit="char"></gap></me:facs>
+								<me:dipl>lofs&oogon;<lb ed="ms" n="7"/><supplied reason="restoration" resp="Unger, 1877">ng</supplied></me:dipl>
+								<me:norm>lofsǫ<lb ed="ms" n="7"/><supplied reason="restoration" resp="Unger, 1877">ng</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w6401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="þykkja" me:msa="xVB" xml:id="w6500">
+							<choice>
+								<me:facs><gap reason="damage" quantity="3" unit="char"></gap>kıa&zstrok;</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">þyk</supplied>kiaz</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">þyk</supplied>kjask</me:norm>
+                    </choice>
+						</w>
+						<w lemma="brenna" me:msa="xVB" xml:id="w6600">
+							<choice>
+								<me:facs>b&rrot;en<am>&bar;</am>a</me:facs>
+								<me:dipl>bren<ex>n</ex>a</me:dipl>
+							   <me:norm>brenna</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="8"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w6601">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="tár" me:msa="xNC" xml:id="w6700">
+							<choice>
+								<me:facs>&trot;ár</me:facs>
+								<me:dipl>tár</me:dipl>
+							   <me:norm>tár</me:norm>
+                    </choice>
+						</w>
+						<w lemma="af" me:msa="xAP" xml:id="w6800">
+							<choice>
+								<me:facs>a&fins;</me:facs>
+								<me:dipl>af</me:dipl>
+							   <me:norm>af</me:norm>
+                    </choice>
+						</w>
+						<w lemma="" me:msa="" xml:id="w6900">
+							<choice>
+								<me:facs>þe&slongdes;</me:facs>
+								<me:dipl>þes</me:dipl>
+								<me:norm>þes</me:norm>
+                    </choice>
+						</w>
+						<note type="comment" resp="NS">Kan være þess, eller del av et ukjent ord.</note>
+						<!-- Andre utgaver har: "Juliana felldi taar ok mællti vit sina menn..." -->
+						<lb ed="ms" n="9"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w6901">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="við" me:msa="xAP" xml:id="w7000">
+							<choice>
+								<me:facs><gap reason="damage" quantity="2" unit="char"></gap>ð</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">vi</supplied>ð</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">vi</supplied>ð</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sinn" me:msa="xDP" xml:id="w7100">
+							<choice>
+								<me:facs>&slongdes;ına</me:facs>
+								<me:dipl>sina</me:dipl>
+							   <me:norm>sína</me:norm>
+                    </choice>
+						</w>
+						<w lemma="maðr" me:msa="xNC" xml:id="w7200">
+							<choice>
+								<me:facs>me&nscap;</me:facs>
+								<me:dipl>me&nscap;</me:dipl>
+							   <me:norm>menn</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="10"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w7201">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="hvat" me:msa="xPQ" xml:id="w7300">
+							<choice>
+								<me:facs><gap reason="damage" quantity="1" unit="char"></gap>va&trot;</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">h</supplied>vat</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">h</supplied>vat</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fyrir" me:msa="xAP" xml:id="w7400">
+							<choice>
+								<me:facs>&fins;yrır</me:facs>
+								<me:dipl>fyrir</me:dipl>
+							   <me:norm>fyrir</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="11"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w7401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="ef" me:msa="xCS" xml:id="w7500">
+							<choice>
+								<me:facs>e&fins;</me:facs>
+								<me:dipl>ef</me:dipl>
+							   <me:norm>ef</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sá" me:msa="xDD" xml:id="w7600">
+							<choice>
+								<me:facs><unclear>þ<am>&bar;</am>&rrot;</unclear></me:facs>
+								<me:dipl>þ<ex>ei</ex>r</me:dipl>
+							   <me:norm>þeir</me:norm>
+                    </choice>
+						</w>
+						<w lemma="vera" me:msa="xVB" xml:id="w7700">
+							<choice>
+								<me:facs>vęrı</me:facs>
+								<me:dipl>vęri</me:dipl>
+							   <me:norm>vǽri</me:norm>
+                    </choice>
+						</w>
+						<w lemma="spyrja" me:msa="xVB" xml:id="w7800">
+							<choice>
+								<me:facs>&slongdes;p<pc>-</pc><lb ed="ms" n="12"/><gap reason="damage" quantity="5" unit="char"></gap></me:facs>
+								<me:dipl>sp<pc>-</pc><lb ed="ms" n="12"/><supplied reason="restoration" resp="Unger, 1877">urdir</supplied></me:dipl>
+								<me:norm>sp<pc>-</pc><lb ed="ms" n="12"/><supplied reason="restoration" resp="Unger, 1877">urðir</supplied></me:norm>
+                    </choice>
+						</w>
+						
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w7801">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="bara" me:msa="xNC gF" xml:id="w7900">
+							<choice>
+								<me:facs>b&oogon;&rrot;um</me:facs>
+								<me:dipl>b&oogon;rum</me:dipl>
+							   <me:norm>bǫrum</me:norm>
+                    </choice>
+						</w>
+						<!-- Sjekk lemma og normalisering med OE.
+						Andre utgaver har: "hvers likama þeir bæri i borum -->
+						<w lemma="þá" me:msa="xAV" xml:id="w8000">
+							<choice>
+								<me:facs>þa</me:facs>
+								<me:dipl>þa</me:dipl>
+							   <me:norm>þá</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="" me:msa="" xml:id="w8100">
+							<choice>
+								<me:facs>&slongdes;e</me:facs>
+								<me:dipl>se</me:dipl>
+							   <me:norm>se</me:norm>
+                    </choice>
+						</w>
+						<note type="comment" resp="NS">Del av ukjent ord.</note>
+						<lb ed="ms" n="13"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w8101">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="búandi" me:msa="xNC" xml:id="w8200">
+							<choice>
+								<me:facs>buan&drot;ı</me:facs>
+								<me:dipl>buandi</me:dipl>
+							   <me:norm>búandi</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="dróttning" me:msa="xNC" xml:id="w8300">
+							<choice>
+								<me:facs>&drot;<am>&osup;</am>&trot;&trot;<lb ed="ms" n="14"/><gap reason="damage" unit="char" quantity="6"/></me:facs>
+								<me:dipl>d<ex>ro</ex>tt<lb ed="ms" n="14"/><supplied reason="restoration" resp="Unger, 1877">ningar</supplied></me:dipl>
+								<me:norm>drótt<lb ed="ms" n="14"/><supplied reason="restoration" resp="Unger, 1877">ningar</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w8301">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="vér" me:msa="xPE" xml:id="w8400">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="1"/>er</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">v</supplied>er</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">v</supplied>ér</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fǿra" me:msa="xVB" xml:id="w8500">
+							<choice>
+								<me:facs>&fins;ęra</me:facs>
+								<me:dipl>fęra</me:dipl>
+							   <me:norm>fǿra</me:norm>
+                    </choice>
+						</w>
+						<w lemma="í" me:msa="xAP" xml:id="w8600">
+							<choice>
+								<me:facs>ı</me:facs>
+								<me:dipl>i</me:dipl>
+							   <me:norm>í</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="mikligarðr" me:msa="xNP" xml:id="w8700">
+							<choice>
+								<me:facs>mıc<lb ed="ms" n="15"/><gap reason="damage" unit="char" quantity="6"/></me:facs>
+								<me:dipl>mic<lb ed="ms" n="15"/><supplied reason="restoration" resp="Unger, 1877">ligarð</supplied></me:dipl>
+								<me:norm>Mik<lb ed="ms" n="15"/><supplied reason="restoration" resp="Unger, 1877">ligarð</supplied></me:norm>
+                    </choice>
+						</w>
+						
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w8701">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="heilsugjǫf" me:msa="xNC" xml:id="w8800">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="3"/>lu gıa&fins;arv<am>&inodotsup;</am></me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">hei</supplied>lsu giafarv<ex>ir</ex></me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">hei</supplied>lsugjafir</me:norm>
+                    </choice>
+						</w>
+						<!-- Vanskelig aa lese, andre utgaver har: vurdu heilsugiafir vit siuka menn -->
+						<pc xml:id="w9000">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<lb ed="ms" n="16"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="17"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="18"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="19"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="20"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="21"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="22"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="23"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="24"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="25"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="26"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="27"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="28"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="29"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="30"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="31"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="32"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="33"/><gap reason="damage" quantity="1" unit="line"></gap>
+					</p>
+				</div>
+				<div>
+					<p>
+						<pb ed="ms" n="1v"/>
+						<cb ed="ms" n="A"/>
+						<lb ed="ms" n="1"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="2"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="3"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="4"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="5"/>
+						<pc xml:id="w9100">
+							<choice>
+								<me:facs></me:facs>
+								<me:dipl></me:dipl>
+
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<w lemma="bil" me:msa="xNC" xml:id="w9200">
+							<choice>
+								<me:facs>bılı</me:facs>
+								<me:dipl>bili</me:dipl>
+							   <me:norm>bili</me:norm>
+                    </choice>
+						</w>
+						<w lemma="ok" me:msa="xCC" xml:id="w9300">
+							<choice>
+								<me:facs>ok</me:facs>
+								<me:dipl>ok</me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="mǽla" me:msa="xVB" xml:id="w9400">
+							<choice>
+								<me:facs>m<am></am>l<am>&bar;</am><gap reason="damage" unit="char" quantity="1"/></me:facs>
+								<me:dipl>m<ex>æ</ex>l<ex>t</ex><supplied reason="restoration" resp="Unger, 1877">i</supplied></me:dipl>
+								<me:norm>mǽlt<supplied reason="restoration" resp="Unger, 1877">i</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w9401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="6"/>
+						<w lemma="at" me:msa="xIM" xml:id="w9500">
+							<choice>
+								<me:facs>a&trot;</me:facs>
+								<me:dipl>at</me:dipl>
+							   <me:norm>at</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hrǽða" me:msa="xVB" xml:id="w9600">
+							<choice>
+								<me:facs>&hrdes;reða&zstrok;</me:facs>
+								<me:dipl>hreðaz</me:dipl>
+							   <me:norm>hrǽðask</me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w9601">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						
+                 <w lemma="gera" me:msa="xVB" xml:id="w9700">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="4"/><lb ed="ms" n="3"/>ı&zstrok;</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">gerð</supplied><lb ed="ms" n="3"/>iz</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">gerð</supplied><lb ed="ms" n="3"/>isk</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fara" me:msa="xVB" xml:id="w9800">
+							<choice>
+								<me:facs>&fins;ę&rscap;</me:facs>
+								<me:dipl>fę&rscap;</me:dipl>
+							   <me:norm>ferr</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="kyrr" me:msa="xAJ" xml:id="w9900">
+							<choice>
+								<me:facs>ky&rscap;</me:facs>
+								<me:dipl>ky&rscap;</me:dipl>
+							   <me:norm>kyrr</me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w9901">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="4"/>
+						<w lemma="sá" me:msa="xDD" xml:id="w10000">
+							<choice>
+								<me:facs>þav</me:facs>
+								<me:dipl>þav</me:dipl>
+							   <me:norm>þau</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fara" me:msa="xVB" xml:id="w10100">
+							<choice>
+								<me:facs>&fins;o&rrot;o</me:facs>
+								<me:dipl>foro</me:dipl>
+							   <me:norm>fóru</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="" me:msa="" xml:id="w10200">
+							<choice>
+								<me:facs>þ</me:facs>
+								<me:dipl>þ</me:dipl>
+							   <me:norm>þ</me:norm>
+                    </choice>
+						</w>
+						<note type="comment" resp="NS">Del av ukjent ord</note>
+						<pc xml:id="w10201">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="5"/>
+						<w lemma="ríkr" me:msa="xAJ" xml:id="w10300">
+							<choice>
+								<me:facs>rıkr</me:facs>
+								<me:dipl>rikr</me:dipl>
+							   <me:norm>ríkr</me:norm>
+                    </choice>
+						</w>
+						<w lemma="maðr" me:msa="xNC" xml:id="w10400">
+							<choice>
+								<me:facs>mað&rrot;</me:facs>
+								<me:dipl>maðr</me:dipl>
+							   <me:norm>maðr</me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w10401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						
+                 <w lemma="landskjalfti" me:msa="xNC" xml:id="w10500">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="6"/><lb ed="ms" n="6"/>ıal&fins;&trot;&inodot;</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">landsk</supplied><lb ed="ms" n="6"/>ialfti</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">landsk</supplied><lb ed="ms" n="6"/>ialfti</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="mikill" me:msa="xAJ" xml:id="w10600">
+							<choice>
+								<me:facs>mıkı<gap reason="damage" unit="char" quantity="2"/></me:facs>
+								<me:dipl>miki<supplied reason="restoration" resp="Unger, 1877">ll</supplied></me:dipl>
+								<me:norm>miki<supplied reason="restoration" resp="Unger, 1877">ll</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w10601">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="7"/>
+						<w lemma="falla" me:msa="xVB" xml:id="w10700">
+							<choice>
+								<me:facs>&fins;ell&vins;</me:facs>
+								<me:dipl>fellv</me:dipl>
+							   <me:norm>fellu</me:norm>
+                    </choice>
+						</w>
+						<w lemma="ok" me:msa="xCC" xml:id="w10800">
+							<choice>
+								<me:facs>ok</me:facs>
+								<me:dipl>ok</me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="hús" me:msa="xNC" xml:id="w10900">
+							<choice>
+								<me:facs>&hrdes;v<gap reason="damage" unit="char" quantity="2"/></me:facs>
+								<me:dipl>hv<supplied reason="restoration" resp="Unger, 1877">ss</supplied></me:dipl>
+								<me:norm>hú<supplied reason="restoration" resp="Unger, 1877">ss</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w109001">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="8"/>
+						<w lemma="skip" me:msa="xNC" xml:id="w11000">
+							<choice>
+								<me:facs>&slongdes;kıpı&trot;</me:facs>
+								<me:dipl>skipit</me:dipl>
+							   <me:norm>skipit</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fara" me:msa="xVB" xml:id="w11100">
+							<choice>
+								<me:facs>&fins;o&rrot;</me:facs>
+								<me:dipl>for</me:dipl>
+							   <me:norm>fór</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="þar" me:msa="xAV" xml:id="w11200">
+							<choice>
+								<me:facs>þ<gap reason="damage" unit="char" quantity="2"/></me:facs>
+								<me:dipl>þ<supplied reason="restoration" resp="Unger, 1877">ar</supplied></me:dipl>
+								<me:norm>þ<supplied reason="restoration" resp="Unger, 1877">ar</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w11201">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="9"/>
+						<w lemma="á" me:msa="xAP" xml:id="w11300">
+							<choice>
+								<me:facs>a</me:facs>
+								<me:dipl>a</me:dipl>
+							   <me:norm>á</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hǫfðingi" me:msa="xNC" xml:id="w11400">
+							<choice>
+								<me:facs>&hrdes;o&fins;ðıngıa</me:facs>
+								<me:dipl>hofðingia</me:dipl>
+							   <me:norm>hǫfðingja</me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w11401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						
+                 <w lemma="ómildr" me:msa="xAJ" xml:id="w11500">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="2"/><lb ed="ms" n="10"/>ıll&drot;a&slongdes;&trot;ı</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">om</supplied><lb ed="ms" n="10"/>illdasti</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">óm</supplied><lb ed="ms" n="10"/>ildasti</me:norm>
+							</choice>
+						</w>
+                 <w lemma="hǫfðingi" me:msa="xNC" xml:id="w11600">
+							<choice>
+								<me:facs>&hrdes;&oogon;&fins;&drot;<gap reason="damage" unit="char" quantity="5"/></me:facs>
+								<me:dipl>h&oogon;fd<supplied reason="restoration" resp="Unger, 1877">ingja</supplied></me:dipl>
+								<me:norm>hǫfð<supplied reason="restoration" resp="Unger, 1877">ingja</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w11601">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="11"/>
+						<w lemma="skip" me:msa="xNC gN" xml:id="w116001">
+							<choice>
+								<me:facs><unclear>&slong;k&inodot;p</unclear></me:facs>
+								<me:dipl>skip</me:dipl>
+								<me:norm>skip</me:norm>
+							</choice>
+						</w>
+                 <w lemma="þessi" me:msa="xDD" xml:id="w11700">
+							<choice>
+								<me:facs>þe&trot;&trot;a</me:facs>
+								<me:dipl>þetta</me:dipl>
+							   <me:norm>þetta</me:norm>
+                    </choice>
+						</w>
+						<w lemma="er" me:msa="xCS" xml:id="w11800">
+							<choice>
+								<me:facs>er</me:facs>
+								<me:dipl>er</me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+						</w>
+						<pc xml:id="w11900">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+							   <me:norm>&hellip;</me:norm>
+                    </choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="12"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="13"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="14"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="15"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="16"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="17"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="18"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="19"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="20"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="21"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="22"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="23"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="24"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="25"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="26"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="27"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="28"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="29"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="30"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="31"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="32"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="33"/><gap reason="damage" quantity="1" unit="line"></gap>
+					</p>
+				</div>
+				<div>
+					<p>
+						<cb ed="ms" n="B"/>
+						<lb ed="ms" n="1"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="2"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="3"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="4"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="5"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w12000">
+								<choice>
+									<me:facs>&circledot;&circledot;&circledot;</me:facs>
+									<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+									<me:norm>&hellip;</me:norm>
+								</choice>
+							</pc>
+						<w lemma="at" me:msa="xIM" xml:id="w12100">
+							<choice>
+								<me:facs>a&trot;</me:facs>
+								<me:dipl>at</me:dipl>
+							   <me:norm>at</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sjá" me:msa="xVB" xml:id="w12200">
+							<choice>
+								<me:facs>&slongdes;ıa</me:facs>
+								<me:dipl>sia</me:dipl>
+							   <me:norm>sjá</me:norm>
+                    </choice>
+						</w>
+						<w lemma="kraftr" me:msa="xNC" xml:id="w12300">
+							<choice>
+								<me:facs>krap&trot;</me:facs>
+								<me:dipl>krapt</me:dipl>
+							   <me:norm>kraft</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hinn" me:msa="xDD" xml:id="w12400">
+							<choice>
+								<me:facs>&hrdes;ın&slongdes;</me:facs>
+								<me:dipl>hins</me:dipl>
+							   <me:norm>hins</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="6"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w12401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+                 <w lemma="tíðendi" me:msa="xNC" xml:id="w12500">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="2"/>&drot;ı</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">tiden</supplied>di</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">tíðen</supplied>di</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fregna" me:msa="xVB" xml:id="w12600">
+							<choice>
+								<me:facs>&fins;ra</me:facs>
+								<me:dipl>fra</me:dipl>
+							   <me:norm>frá</me:norm>
+                    </choice>
+						</w>
+						<w lemma="ok" me:msa="xCC" xml:id="w12700">
+							<choice>
+								<me:facs>ok</me:facs>
+								<me:dipl>ok</me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+						</w>
+						
+                 <w xml:lang="lat" lemma="" me:msa="" xml:id="w12800">
+							<choice>
+								<me:facs>ev&slongdes;ebı<am>&us;</am></me:facs>
+								<me:dipl>evsebi<ex>us</ex></me:dipl>
+								<me:norm>Eusebius</me:norm>
+                    </choice>
+                 </w>
+						<!-- Navn, latin -->
+						<lb ed="ms" n="7"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w12801">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="þegar" me:msa="xCS" xml:id="w12900">
+							<choice>
+								<me:facs>þegar</me:facs>
+								<me:dipl>þegar</me:dipl>
+							   <me:norm>þegar</me:norm>
+                    </choice>
+						</w>
+						<w lemma="til" me:msa="xAP" xml:id="w13000">
+							<choice>
+								<me:facs>&trot;ıl</me:facs>
+								<me:dipl>til</me:dipl>
+							   <me:norm>til</me:norm>
+                    </choice>
+						</w>
+						<w lemma="fundr" me:msa="xNC" xml:id="w13100">
+							<choice>
+								<me:facs>&fins;un&drot;ar</me:facs>
+								<me:dipl>fundar</me:dipl>
+							   <me:norm>fundar</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="8"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="ok" me:msa="xCC" xml:id="w13200">
+							<choice>
+								<me:facs>ok</me:facs>
+								<me:dipl>ok</me:dipl>
+							   <me:norm>ok</me:norm>
+                    </choice>
+						</w>
+						<w lemma="segja" me:msa="xVB" xml:id="w13300">
+							<choice>
+								<me:facs>&slongdes;agðı</me:facs>
+								<me:dipl>sagði</me:dipl>
+							   <me:norm>sagði</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hann" me:msa="xPE" xml:id="w13400">
+							<choice>
+								<me:facs>&hrdes;onvm</me:facs>
+								<me:dipl>honvm</me:dipl>
+							   <me:norm>honum</me:norm>
+                    </choice>
+						</w>
+						<w lemma="of" me:msa="xAP" xml:id="w13500">
+							<choice>
+								<me:facs>o&fins;</me:facs>
+								<me:dipl>of</me:dipl>
+							   <me:norm>of</me:norm>
+                    </choice>
+						</w>
+						<lb ed="ms" n="9"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+                 <w lemma="keisari" me:msa="xNC" xml:id="w13600">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="2"/>ı&slongdes;arı</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">ke</supplied>isari</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">ke</supplied>isari</me:norm>
+                    </choice>
+						</w>
+						<w lemma="spyrja" me:msa="xVB" xml:id="w13700">
+							<choice>
+								<me:facs>&slongdes;pvrðı</me:facs>
+								<me:dipl>spvrði</me:dipl>
+							   <me:norm>spurði</me:norm>
+                    </choice>
+						</w>
+						<w lemma="at" me:msa="xAP" xml:id="w13800">
+							<choice>
+								<me:facs>a&trot;</me:facs>
+								<me:dipl>at</me:dipl>
+							   <me:norm>at</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hverr" me:msa="xDQ" xml:id="w13900">
+							<choice>
+								<me:facs>&hrdes;v<am>&er;</am>&rscap;</me:facs>
+								<me:dipl>hv<ex>er</ex>&rscap;</me:dipl>
+							   <me:norm>hverr</me:norm>
+                    </choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="10"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="11"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="12"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="13"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="14"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="15"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="16"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="17"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="18"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="19"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="20"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="stephanus" me:msa="xNP" xml:id="w14000">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="5"/>ano</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">steph</supplied>ano</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">Steph</supplied>anu</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sem" me:msa="xCS" xml:id="w14100">
+							<choice>
+								<me:facs>&slongdes;em</me:facs>
+								<me:dipl>sem</me:dipl>
+							   <me:norm>sem</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hann" me:msa="xPE" xml:id="w14200">
+							<choice>
+								<me:facs>&hrdes;<am>&bar;</am></me:facs>
+								<me:dipl>h<ex>ann</ex></me:dipl>
+							   <me:norm>hann</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hafa" me:msa="xVB" xml:id="w14300">
+							<choice>
+								<me:facs>&hrdes;a&fins;ðı</me:facs>
+								<me:dipl>hafði</me:dipl>
+							   <me:norm>hafði</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="biðja" me:msa="xVB" xml:id="w14400">
+							<choice>
+								<me:facs>be<gap reason="damage" unit="char" quantity="3"/></me:facs>
+								<me:dipl>be<supplied reason="restoration" resp="Unger, 1877">ðit</supplied></me:dipl>
+								<me:norm>bi<supplied reason="restoration" resp="Unger, 1877">ðit</supplied></me:norm>
+                    </choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="17"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="hon" me:msa="xPE" xml:id="w14500">
+							<choice>
+								<me:facs>&hrdes;on</me:facs>
+								<me:dipl>hon</me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sá" me:msa="xDD" xml:id="w14600">
+							<choice>
+								<me:facs>þ<am>&bar;</am></me:facs>
+								<me:dipl>þ<ex>at</ex></me:dipl>
+							   <me:norm>þat</me:norm>
+                    </choice>
+						</w>
+						<w lemma="er" me:msa="xCS" xml:id="w14700">
+							<choice>
+								<me:facs>er</me:facs>
+								<me:dipl>er</me:dipl>
+							   <me:norm>er</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hon" me:msa="xPE" xml:id="w14800">
+							<choice>
+								<me:facs>&hrdes;en<am>&bar;</am>ı</me:facs>
+								<me:dipl>hen<ex>n</ex>i</me:dipl>
+							   <me:norm>henni</me:norm>
+                    </choice>
+						</w>
+						<w lemma="vera" me:msa="xVB" xml:id="w14900">
+							<choice>
+								<me:facs>&vins;ar</me:facs>
+								<me:dipl>var</me:dipl>
+							   <me:norm>var</me:norm>
+                    </choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="18"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="sá" me:msa="xDD" xml:id="w15000">
+							<choice>
+								<me:facs><gap reason="damage" unit="char" quantity="1"/>vı</me:facs>
+								<me:dipl><supplied reason="restoration" resp="Unger, 1877">þ</supplied>vi</me:dipl>
+								<me:norm><supplied reason="restoration" resp="Unger, 1877">þ</supplied>vi</me:norm>
+                    </choice>
+						</w>
+						<w lemma="vilja" me:msa="xVB" xml:id="w15100">
+							<choice>
+								<me:facs>&vins;ıll&drot;ı</me:facs>
+								<me:dipl>villdi</me:dipl>
+							   <me:norm>vildi</me:norm>
+                    </choice>
+						</w>
+						<w lemma="hon" me:msa="xPE" xml:id="w15200">
+							<choice>
+								<me:facs>&hrdes;on</me:facs>
+								<me:dipl>hon</me:dipl>
+							   <me:norm>hon</me:norm>
+                    </choice>
+						</w>
+						<w lemma="til" me:msa="xAP" xml:id="w15300">
+							<choice>
+								<me:facs>&trot;ıl</me:facs>
+								<me:dipl>til</me:dipl>
+							   <me:norm>til</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="mikligarðr" me:msa="xNP" xml:id="w15400">
+							<choice>
+								<me:facs>mıc<gap reason="damage" unit="char" quantity="7"/></me:facs>
+								<me:dipl>mic<supplied reason="restoration" resp="Unger, 1877">lagarðs</supplied></me:dipl>
+								<me:norm>Mik<supplied reason="restoration" resp="Unger, 1877">lagarðs</supplied></me:norm>
+                    </choice>
+						</w>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w15401">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<lb ed="ms" n="19"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w15402">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="búandi" me:msa="xNC" xml:id="w15500">
+							<choice>
+								<me:facs>b&vins;an&drot;a</me:facs>
+								<me:dipl>bvanda</me:dipl>
+							   <me:norm>búanda</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sinn" me:msa="xDP" xml:id="w15600">
+							<choice>
+								<me:facs>&slongdes;ın&slongdes;</me:facs>
+								<me:dipl>sins</me:dipl>
+							   <me:norm>síns</me:norm>
+                    </choice>
+						</w>
+						<w lemma="en" me:msa="xCC" xml:id="w15700">
+							<choice>
+								<me:facs>en</me:facs>
+								<me:dipl>en</me:dipl>
+							   <me:norm>en</me:norm>
+                    </choice>
+						</w>
+						<w lemma="sá" me:msa="xDD" xml:id="w15800">
+							<choice>
+								<me:facs>þa&trot;</me:facs>
+								<me:dipl>þat</me:dipl>
+							   <me:norm>þat</me:norm>
+                    </choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="20"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="koma" me:msa="xVB" xml:id="w15900">
+							<choice>
+								<me:facs>kom</me:facs>
+								<me:dipl>kom</me:dipl>
+							   <me:norm>kom</me:norm>
+                    </choice>
+						</w>
+						<w lemma="til" me:msa="xAP" xml:id="w16000">
+							<choice>
+								<me:facs>&trot;ıl</me:facs>
+								<me:dipl>til</me:dipl>
+							   <me:norm>til</me:norm>
+                    </choice>
+						</w>
+                 <w xml:lang="lat" lemma="" me:msa="" xml:id="w16100">
+							<choice>
+								<me:facs>cırıllu&sscap;</me:facs>
+								<me:dipl>cirillu&sscap;</me:dipl>
+							   <me:norm>Cirillus</me:norm>
+                    </choice>
+						</w>
+						<!-- Navn, latin -->
+						<pc>
+							<choice>
+								<me:facs></me:facs>
+								<me:dipl></me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="22"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						
+                  <seg type="nb">
+                    <w lemma="á" me:msa="xAP" xml:id="w16200">
+							<choice>
+								<me:facs>a</me:facs>
+								<me:dipl>a</me:dipl>
+							   <me:norm>á</me:norm>
+                    </choice>
+						</w>
+                  	<w lemma="náttarþel" me:msa="xNC gN" xml:id="w16210">
+                       <choice>
+                         <me:facs>na&trot;&trot;arþeli</me:facs>
+                         <me:dipl>nattarþeli</me:dipl>
+                         <me:norm>náttarþeli</me:norm>
+                       </choice>
+                     </w>
+                 </seg>
+						<w lemma="" me:msa="" xml:id="w16400">
+							<choice>
+								<me:facs>m<am>&sem;</am></me:facs>
+								<me:dipl>m<ex>eð</ex></me:dipl>
+							   <me:norm>með</me:norm>
+                    </choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="21"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="ek" me:msa="xPE" xml:id="w16600">
+							<choice>
+								<me:facs>mık</me:facs>
+								<me:dipl>mik</me:dipl>
+							   <me:norm>mik</me:norm>
+                    </choice>
+						</w>
+						<w lemma="upp" me:msa="xAV" xml:id="w16700">
+							<choice>
+								<me:facs>&vins;p<am>&combcurl;</am></me:facs>
+								<me:dipl>vp<ex>p</ex></me:dipl>
+							   <me:norm>upp</me:norm>
+                    </choice>
+						</w>
+						<w lemma="taka" me:msa="xVB" xml:id="w16800">
+							<choice>
+								<me:facs>&trot;aka</me:facs>
+								<me:dipl>taka</me:dipl>
+							   <me:norm>taka</me:norm>
+                    </choice>
+						</w>
+						<w lemma="líkamr" me:msa="xNC" xml:id="w16900">
+							<choice>
+								<me:facs>lıkama</me:facs>
+								<me:dipl>likama</me:dipl>
+							   <me:norm>líkama</me:norm>
+                    </choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="23"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="heilagr" me:msa="xAJ" xml:id="w17000">
+							<choice>
+								<me:facs>&hrdes;elgan</me:facs>
+								<me:dipl>helgan</me:dipl>
+							   <me:norm>helgan</me:norm>
+                    </choice>
+						</w>
+						<w lemma="" me:msa="" xml:id="w17100">
+							<choice>
+								<me:facs>&drot;om</me:facs>
+								<me:dipl>dom</me:dipl>
+							   <me:norm>dóm</me:norm>
+                    </choice>
+						</w>
+                 <w lemma="stephanus" me:msa="xNP" xml:id="w17200">
+							<choice>
+								<me:facs>&slongdes;&trot;ep&hrdes;<gap reason="damage" unit="char" quantity="3"/></me:facs>
+								<me:dipl>steph<supplied reason="restoration" resp="Unger, 1877">ani</supplied></me:dipl>
+								<me:norm>Steph<supplied reason="restoration" resp="Unger, 1877">ani</supplied></me:norm>
+							</choice>
+						</w>
+						<pc>
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="24"/>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<pc xml:id="w17201">
+							<choice>
+								<me:facs>&circledot;&circledot;&circledot;</me:facs>
+								<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+								<me:norm>&hellip;</me:norm>
+							</choice>
+						</pc>
+						<w lemma="keisari" me:msa="xNC" xml:id="w17300">
+							<choice>
+								<me:facs>keı&slongdes;aranum</me:facs>
+								<me:dipl>keisaranum</me:dipl>
+							   <me:norm>keisaranum</me:norm>
+                    </choice>
+						</w>
+						<w lemma="bréf" me:msa="xNC" xml:id="w17400">
+							<choice>
+								<me:facs>bre&vins;ı&trot;</me:facs>
+								<me:dipl>brevit</me:dipl>
+							   <me:norm>bréfit</me:norm>
+                    </choice>
+						</w>
+						<pc xml:id="w17500">
+								<choice>
+									<me:facs>&circledot;&circledot;&circledot;</me:facs>
+									<me:dipl>&circledot;&circledot;&circledot;</me:dipl>
+									<me:norm>&hellip;</me:norm>
+								</choice>
+							</pc>
+						<gap reason="damage" unit="indeterminate"></gap>
+						<lb ed="ms" n="25"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="26"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="27"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="28"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="29"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="30"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="31"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="32"/><gap reason="damage" quantity="1" unit="line"></gap>
+						<lb ed="ms" n="33"/><gap reason="damage" quantity="1" unit="line"></gap>
+					</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

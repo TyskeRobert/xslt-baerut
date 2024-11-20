@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 494 : Nidaros Cathedral, Trondheim, Trøndelag : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="person"> <!-- OEH 2021-04-16: Du kan føre opp begge utgjevarane som full <editor> -->
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 5, pp. 56-57</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName> <!-- OEH 2021-04-16: Det er tenkeleg at dei to høyrer til ulike institusjonar, så dette bør fyllast ut for kvar og ein -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katharina</forename>
+                            <forename>Sophie</forename>
+                            <surname>Kühnel</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename> <!-- OEH 2021-03-25: Separate fornamn -->
+                            <forename>Einar</forename>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-25">25 March 2021</date>.</edition> <!-- OEH 2021-03-25: Har sett datoen til i dag -->
+            </editionStmt>
+            <extent n="8">8 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">V 56-57</idno>
+                <date when="2021-03-25">25 March 2021</date> <!-- OEH 2021-03-25: Har sett datoen til i dag -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo and drawing from NIyR.</bibl> 
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.4269, 10.3969</settlement>
+                        <idno>N 494</idno>
+                        <msName>N 494: Nidaros Cathedral, Trondheim, Trøndelag</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1150" notAfter="1200">c. 1150-1200</origDate></origin> <!-- OEH 2021-03-23: Vi vågar oss på ei mykje snevrare datering enn i Runor. Dette bør diskuterast i kommentaren nedanfor -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook</title> 
+                    (version 4.0 beta), at <ref target="http://www.menota.org/handbook"> 
+                        http://www.menota.org/handbook</ref> as of <date>2021-03-14</date>.</p>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 56-57.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> <!-- OEH 2021-03-23: No er annotasjonen fullstendig -->
+                    <p>This text has been lemmatised and morphologically analysed according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a little change in punctuation
+            </change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-03-25</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few changes to the header and transcription.</change>
+            <change>
+                <date>2021-03-17</date>
+                <name>Katharina Sophie Kühnel</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 494 ||  
+                    <hi rend="bold">Sted</hi>: Nidaros domkirke, Trondheim, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1150–1200<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR V: 56–57 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/ba4e0afb-521d-4f9a-910f-15a094278c25" type="external">N 494</ref>
+                </head>
+                <p>Innskriften er 19 cm lang og omtrent 2,5–3,0 cm høy. Runene er helt tydelige. (Jf. NIyR V: 56)</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <seg type="nb"> <!-- OEH 2021-03-25: Ettersom heile innskrifta er utan ordmellomrom, må du pakke den inn i eit seg-element -->
+                    <w lemma="Guð" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&kYGst;&uGE;&thGE;</me:facs>
+                            <me:dipl>kuþ</me:dipl>
+                            <me:norm>Guð</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="gǽta" me:msa="xVB fF tPS mSU p3 nS vA iWK">
+                        <choice>
+                            <me:facs>&kYGst;&aeMD;&tYG;&iGE;</me:facs>
+                            <me:dipl>kæti</me:dipl>
+                            <me:norm>gæti</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="þú" me:msa="xPE p2 gU nS cG">
+                        <choice>
+                            <me:facs>&thGE;&iGE;&nYG;</me:facs>
+                            <me:dipl>þin</me:dipl>
+                            <me:norm>þín</me:norm>
+                        </choice>
+                    </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:norm>.</me:norm>
+                            </choice>
+                        </pc>
+                    <w lemma="Erlingr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&aeMD;&rGE;&lGE;&iGE;&nYG;&gMDst;&rGE;</me:facs>
+                            <me:dipl>ærlingr</me:dipl>
+                            <me:norm>Erlingr</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="Sigmundarson" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&sYGS;&iGE;&kYGst;&mYGLst;&uGE;&nYG;&tYG;&aYG;&rGE;&sYGS;&oYG;&nYG;</me:facs>
+                            <me:dipl>sikmuntarson</me:dipl>
+                            <me:norm>Sigmundarson</me:norm>
+                        </choice>
+                    </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:norm>,</me:norm>
+                            </choice>
+                        </pc>
+                    <w lemma="nú" me:msa="xAV">
+                        <choice>
+                            <me:facs>&nYG;&uGE;</me:facs>
+                            <me:dipl>nu</me:dipl>
+                            <me:norm>nú</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="ok" me:msa="xCC">
+                        <choice>
+                            <me:facs><seg type="lig">&oYG;&#xF538;&kYGst;</seg></me:facs>
+                            <me:dipl><seg type="lig">o&#xF538;k</seg></me:dipl>
+                            <me:norm>ok</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="jafnan" me:msa="xAV">
+                        <choice>
+                            <me:facs>&iGE;&aYG;&fGEst;&nYG;<seg type="lig">&aYG;&#xF538;&nYG;</seg></me:facs>
+                            <me:dipl>iafn<seg type="lig">a&#xF538;n</seg></me:dipl>
+                            <me:norm>jafnan</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Gud beskytte deg, Erlingr Sigmundsson, nå og alltid.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>May God protect you, Erlingr Sigmundsson, now and always.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head> <!-- OEH 2021-03-25: Fin kommentar! Eg har berre retta litt reint stilistisk. Og flytta den under omsetjingane. -->
+                <p>Runene 11-17 &aeMD;&rGE;&lGE;&iGE;&nYG;&gMDst;&rGE; (Erlingr) har en avvikende form fra de andre, så det virker som en annen hånd. Liestøl antar at først ble navnet &aeMD;&rGE;&lGE;&iGE;&nYG;&gMDst;&rGE; (Erlingr) ristet og senere tilføyde en annen runene foran og etter navnet. Tilleggene er den inderlige velsignelsen &kYGst;&uGE;&thGE; &kYGst;&aeMD;&tYG;&iGE; &thGE;&iGE;&nYG; (Guð gǽti þín), farsnavnet &sYGS;&iGE;&kYGst;&mYGLst;&uGE;&nYG;&tYG;&aYG;&rGE;&sYGS;&oYG;&nYG; (Sigmundarson), som individualiserer Erlingr, og den forsterkende &nYG;&uGE; <seg type="lig">&oYG;&#xF538;&kYGst;</seg> &iGE;&aYG;&fGEst;&nYG;<seg type="lig">&aYG;&#xF538;&nYG;</seg> (nú ok jafnan). Innskriften kan leses som en parallell til Lom-innskriften N 42 “Kristr hjalpi Þorsteini Þórissyni, hvargi sem hann ferr,” som begge kan sikte til en pilegrimsreise. Ristningsetappene er sannsynligvis så godt som samtidige. Navnet Erlingr har den yngre punkterte g-runen &gMDst; mens i de andre runene finnes bare ikke-punkterte runer for g og d, som er den eldre skriveskikk. Erlingr, antakelig en ung mann, har da kanskje ristet navnet sitt selv og en eldre person har ristet den varme velsignelsen (jf. NIyR 5, 56-57).</p>
+                <p>Etter det Magnus Olsen opplyser i forbindelse med innskriftene i Nidaros-domen, kan de ikke være eldre enn fra andre halvdel av 1100-tallet. Samtidig tyder den eldre ortografien, f.eks. ᚢᚦ heller enn ᚢᚦ, på at innskriften ikke er vesentlig yngre. Vi har derfor dristet oss til å datere den til c. 1150-1200. Om det generelle grunnlaget for denne dateringen, se NIyR V: 243–244.</p>
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjon</head>
+                <p><figure><graphic url="N494-A.jpg"></graphic></figure></p>
+                <caption>Fotografi og avtegning av N 494. Gjengitt etter NIyR. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katharina Sophie Kühnel (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>

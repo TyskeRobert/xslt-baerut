@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng"> 
+        <fileDesc>
+            <titleStmt>
+                <title>N 358 : Borgund church, Lærdal, Vestlandet : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 4, pp. 164-166</resp>
+                    <name>
+                        <persName>
+                            <forename>Oluf</forename>
+                            <surname>Rygh</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>MenotaBlitz technology developed by</resp>
+                    <name>
+                        <persName>Robert Kristof Paulsen</persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Katrine</forename>
+                            <surname>Andresen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.8">First draft, generated with MenotaBlitz,
+                    <date when="2021-10-23">23 October 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="8">8 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">IV 164-166</idno>
+                <date when="2021-10-28">28 October 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.0472, 7.8123</settlement>
+                        <idno>N 358</idno>
+                        <msName>N 358 : Borgund church, Lærdal, Vestlandet</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="tree">
+                            <supportDesc>
+                                <support>
+                                    <p><material>tree</material>.</p>
+                                </support>
+                                <condition></condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1180" notAfter="1250">c. 1180-1250</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="lost">Extant. In Borgund stave church.</note> 
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 164-166.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, where the transcriptions on the first two levels have been generated with the help of MenotaBlitz technology, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+                    <p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-11</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2021-10-30</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the body element and added a back element.</change>
+            <change>
+                <date>2021-10-28</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the header and added a front element and morphological annotation.</change>
+            <change>
+                <date>2021-10-23</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Created the first draft as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref> "menotaFD"-style transcription.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 358 ||  
+                    <hi rend="bold">Stad</hi>: Borgund kyrkje, Lærdal, Vestlandet ||
+                    <hi rend="bold">Kart</hi>: Lenke kjem her || 
+                    <hi rend="bold">Datering</hi>: ca. 1150–1250<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart på staden ||
+                    <hi rend="bold">Utgåve</hi>: NIyR IV: 164–166 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/e77884e3-95a3-45fd-a750-70c9d2af3b8f" type="external">N 358</ref> 
+                </head>
+                <p>Innskrifta står på den indre sida av svalgangen, på nordsida frå kyrkjas nordvestre hjørne. Ho er 21 cm lang, og runene er rista i mannshøgde og er 2,3-3,5 sm høge.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head> 
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <seg type="nb">
+                        <w lemma="Guð" me:msa="xNP gM nS cN sI">
+					        <choice>
+					            <me:facs>&kYG;<unclear reason="erased">&uGE;</unclear><unclear reason="erased">&thGE;</unclear></me:facs>
+					            <me:dipl>k<supplied reason="restoration">u</supplied><supplied reason="restoration">þ</supplied></me:dipl>
+					            <me:norm>G<supplied reason="restoration">u</supplied><supplied reason="restoration">ð</supplied></me:norm>
+					        </choice>
+					    </w>
+                        <w lemma="styðja" me:msa="xVB fF tPS mSU p3 nS vA iWK">
+                        <choice>
+                            <me:facs>&sYGSdot;<unclear reason="erased">&tYG;</unclear>&yYG;&thGE;&iGE;</me:facs>
+                            <me:dipl>s<supplied reason="restoration">t</supplied>yþi</me:dipl>
+                            <me:norm>s<supplied reason="restoration">t</supplied>yði</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="hverr" me:msa="xDQ gM nS cA">
+                        <choice>
+                            <me:facs>&hYGL;&uGE;&aeMD;&nYG;</me:facs>
+                            <me:dipl>huæn</me:dipl>
+                            <me:norm>hve<supplied reason="emendation" resp="editor">r</supplied>n</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="er" me:msa="xCS yIN">
+                        <choice>
+                            <me:facs>&eMD;&rGE;</me:facs>
+                            <me:dipl>er</me:dipl>
+                            <me:norm>er</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="ek" me:msa="xPE p1 gU nS cA">
+                        <choice>
+                            <me:facs>&mYGL;&iGE;&kYG;</me:facs>
+                            <me:dipl>mik</me:dipl>
+                            <me:norm>mik</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="styðja" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+                        <choice>
+                            <me:facs>&sYGSdot;&tYG;&yYG;&thGE;&eMD;&rGE;</me:facs>
+                            <me:dipl>styþer</me:dipl>
+                            <me:norm>styðr</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="til" me:msa="xAP yG">
+                        <choice>
+                            <me:facs>&tYG;&iGE;&lGE;</me:facs>
+                            <me:dipl>til</me:dipl>
+                            <me:norm>til</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="útferð" me:msa="xNC gF nS cG sI">
+                        <choice>
+                            <me:facs>&uGE;&tYG;&fGE;&aeMD;&rGE;&thGE;&aYG;&rGE;</me:facs>
+                            <me:dipl>utfærþar</me:dipl>
+                            <me:norm>útferðar</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                </p>
+            </div>
+        </body>
+        
+        <back>	
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Gud stødde kvar som stør meg til utferd.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>May God support whosoever supports my expedition.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar.</head>
+                <p>Trass i at nokre få runer er uklare, hjlper konteksten å restituera dei, så innskrifta har tydeleg lesing. Ho var sannsynleg retta mot folk som oppsøkte kyrkja for å samla inn stønad til runeristaren som etla seg til reise. Denne reisa kunne ha vore ei piligrimsreise eller ei reise til Island.</p>
+            </div>			
+            <div type="illustration">
+                <head>Illustrasjonar</head>
+                <figure><graphic url="N358-A.jpg"/></figure>
+                <caption>Avteikning av N 358 ved Oluf Rygh (1895). Frå Runearkivet, Kulturhistorisk museum, Universitetet i Oslo, publisert i NIyR IV: 165.</caption>
+            </div>
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2007042604059" type="external">bd. 4</ref> (1957)</bibl>
+                <bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Katrine Andresen (Universitetet i Bergen, 2021)</p>
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note>
+                
+            </div>
+        </back>
+    </text>
+</TEI>

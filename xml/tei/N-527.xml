@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 527 : Sakshaug church, Inderøy, Trøndelag : A digital edition</title>
+                <!-- OEH 2021-03-16: Ja, Inderøy er framleis ein kommune, og Trøndelag er namnet på det nye, samanslåtte fylket -->
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 5, pp. 100-104</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                    <name>
+                        <persName>
+                            <forename>Aslak</forename>
+                            <surname>Liestøl</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <!-- OEH 2021-03-16: La til attributtet resp="annotation"; det er dette som utløyser at du blir oppført i katalogen under “Annotation” -->
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Vlasova</surname>
+                            <surname>Våtvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <!-- OEH 2021-03-16: Eitt forename-element på kvart av fornamna -->
+                            <forename>Einar</forename>
+                            <!-- OEH 2021-03-16: Eitt forename-element på kvart av fornamna -->
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-03-15">15 March 2021</date>.</edition>
+                <!-- OEH 2021-03-16: I denne fila er så godt som alt på plass, så eg synest vi skal setje versjonsnummeret til 0.9 (og så auke til 1.0 når det er lenka til illustrasjonane -->
+            </editionStmt>
+            <extent n="4">4 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">V 100–104</idno> <!-- OEH 2021-03-19: Retta frå XV til V -->
+                <date when="2021-03-16">16 March 2021</date>
+                <!-- OEH 2021-03-16: Dette er datoen for publiseringa i arkivet, dvs. når underteikna lastar det opp i repositoriet (og så vil det gå nokre dagar før det er synleg på nettet) -->
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">To be announced</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.8751, 11.2681</settlement>
+                        <repository>Partially destroyed due to natural processes in the years after its first transcription in 1922.</repository>
+                        <!-- OEH 2021-03-16: Fin oppsummering -->
+                        <idno>N 527</idno>
+                        <msName>N 527 : Sakshaug church, Inderøy, Trøndelag</msName>
+                        <!-- OEH 2021-03-16: Dette er i samsvar med tittelen lenger oppe, og det er slik innskrifta vil bli oppført i katalogen -->
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="stone">
+                            <supportDesc>
+                                <support>
+                                    <p><material>stone</material>.</p>
+                                </support>
+                                <condition>Partially destroyed</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1184" notAfter="1184">1184</origDate></origin>
+                        <!-- OEH 2021-03-16: Korrekt oppført. Det er uvanleg med så nøyaktig datering, og ofte er det på grunnlag av noko som står i innskrifta, men her er det på bakgrunn av at bygginga av kyrkja er kjend, og at innskrifta er rissa inn medan kalken enno var våt (skriv Magnus Olsen i NIyR V: 100) -->
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 5, pp. 100–104.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised.</p>
+                    <!-- OEH 2021-03-16: Det er tilstrekkeleg å nemne at transkripsjonen er på alle tre nivå -->
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                    <!-- OEH 2021-03-16: Dette er riktig så langt. Når orda også er annoterte for grammatisk form, kan ein endre “partly” til “completely” i det siste attributtet ovanfor. -->
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-04-06</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Reorganised the comments section, and made som changes to the illustrations section.</change>
+            <change>
+                <date>2021-03-16</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few minor changes to the header, and added a number of temporary explanatory comments .</change>
+            <change>
+                <date>2021-03-15</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Additional changes to the header.</change>
+            <change>
+                <date>2021-03-14</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Minor changes to the text, header and the back element.</change>
+            <change>
+                <date>2021-03-07</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the body of the text and the back element.</change>
+            <change>
+                <date>2021-03-06</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the header and added a front element to the text.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 527 ||  
+                    <hi rend="bold">Sted</hi>: Sakshaug kirke, Inderøy, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: 1184<lb/> 
+                    <hi rend="bold">Materiale</hi>: Stein || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR V: 100–104 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/1e00b668-bccd-44e9-b485-2c5202e010c2" type="external">N 527</ref>
+                </head>
+                <p> Denne innskriften fra Sakshaug kirke var ristet i kalkpuss sammen med en figur av et skip. Den ble avtegnet av Magnus Olsen i 1922. Ved en senere undersøkelse i 1939 var skipsfiguren og deler av innskriften allerede forsvunnet grunnet avskalling av kalken. Jf. NIyR V: 100–104.</p> <!-- OEH 2021-03-19: Retta frå XV til V --> <!-- OEH 2021-03-16: Presis presentasjon. -->
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <seg type="nb">
+                        <w lemma="hér" me:msa="xAV">
+                            <choice>
+                                <me:facs>&hYGL;<seg type="lig">&eMD;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>h<seg type="lig">e&#xF538;r</seg></me:dipl>
+                                <me:norm>Hér</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="standa" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&sYGSdot;&tYG;<seg type="lig">&oYG;&#xF538;&thGE;</seg></me:facs>
+                                <me:dipl>st<seg type="lig">o&#xF538;þ</seg></me:dipl>
+                                <me:norm>stóð</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="knǫrr" me:msa="xNC gM nS cN sI">
+                            <choice>
+                                <me:facs><seg type="lig">&kYG;&#xF538;&nYG;</seg><seg type="lig">&oYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl><seg type="lig">k&#xF538;n</seg><seg type="lig">o&#xF538;r</seg></me:dipl>
+                                <me:norm>knǫrr</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="úti" me:msa="xAV">
+                            <choice>
+                                <me:facs>&uGE;&tYG;&iGE;</me:facs>
+                                <me:dipl>uti</me:dipl>
+                                <me:norm>úti</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+           
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head> <!-- OEH 2021-03-16: Det er kanskje smør på flesk å setje til ein slik tittel, men det ser fint ut på sida (synest eg) -->
+                <p>Her stod knarren ute.</p>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head> <!-- OEH 2021-03-16: Same kommentar som ovanfor -->
+                <p>The cargo-ship stood outside here.</p>
+            </div>
+            
+            <div type="comment" xml:lang="nor"> <!-- OEH 2021-04-06: Flytta kommentar under omsetjingane -->
+                <!-- OEH 2021-03-16: Det er ikkje obligatorisk med nokon kommentar, men det er her ein kan skrive om runer som er vanskelege å lese, som kan tolkast på meir enn ein måte, osv. Like eins andre forhold av interesse. I denne innskrifta kunne ein nemne noko om skipsfiguren, særleg med tanke på at avteikninga skal visast. -->
+                <head>Kommentar</head>
+                <p>Da Magnus Olsen undersøkte innskriften i 1922, var skipsfiguren som nevnt godt bevart. Han kommenterer at formen på skipet er i samsvar med det vi vet om knarren, dvs. at den har en sterkt stigende stavn. Jf. NIyR V: 101-102.</p>
+            </div>
+  	
+              <div type="illustration">
+                  <head>Illustrasjon</head>
+                <p><figure><graphic url="N527-A.jpg"/></figure></p>
+                  <caption>Avtegning av N 527 utført i 1922. Gjengitt etter NIyR V: 101. Lisens: CC-BY-SA 4.0.</caption>
+               </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+           
+        </back>
+    </text>
+</TEI>

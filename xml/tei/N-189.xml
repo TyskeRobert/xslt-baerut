@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+<!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+%Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 189 : Rike, Valle, Agder : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 3, pp. 42-44</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation"> <!-- OEH 2021-03-19: La til attributtet resp="annotation"; det er dette som utløyser at du blir oppført i katalogen under “Annotation” -->
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName> <!-- OEH 2021-03-19: Corpuscle vil ha oppføring med separate fornamn og etternamn -->
+                            <forename>Sebastian</forename>
+                            <surname>Pohland</surname>
+                        </persName>
+                        <orgName type="affiliation">Universitetet i Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>MenotaBlitz technology developed by</resp>
+                    <name>
+                        <persName> <!-- OEH 2021-03-19: Corpuscle vil ha oppføring med separate fornamn og etternamn -->
+                            <forename>Robert</forename>
+                            <forename>K.</forename>
+                            <surname>Paulsen</surname>
+                        </persName>
+                        <orgName type="affiliation">Universitetet i Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">
+                    First Version, draft created with MenotaBlitz<date when="2021-03-19">19 March 2021</date>
+                </edition>
+            </editionStmt>
+            <extent n="6">6 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">III 42-44</idno>
+                <date when="2021-03-19">19 March 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA
+                        4.0</licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>Rike, Valle, Agder</settlement>
+                        <idno>N 189</idno>
+                        <msName>N 189: Rike, Valle, Agder</msName>
+                    </msIdentifier>
+                    <physDesc>
+                       <objectDesc form="metal">
+                           <supportDesc>
+                               <support>
+                                   <p><material>metal</material>.</p>
+                               </support>
+                           </supportDesc>
+                       </objectDesc>
+                   </physDesc>
+                   <history>
+                       <origin>
+                           <origDate notBefore="1150" notAfter="1250">c. 1200</origDate> <!-- OEH 2021-03-19: Trur vi kan rekne med +/- 50 år når datoen er “circa” -->
+                       </origin>
+                   </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in <title>The Menota Handbook
+                        (3.0)</title>, at <ref target="https://www.menota.org/HB3_index.xml"
+                        >https://www.menota.org/HB3_index.xml</ref> as of <date when="2021-02-13">13
+                        February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the
+                        rendering and image in NIyR vol. 4, pp. 7-11.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic
+                        and normalised, and it has been supplied with a translation as well as
+                        images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the
+                        rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language> <!-- OEH 2021-03-19: Når vi har datering (som her), er det tilstrekkeleg med “nor” som språkform; vi treng ikkje også "non". -->
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-02-21</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-03-19">
+                <date>2021-03-19</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few minor changes to the file.
+            </change>
+            <change>
+                <date>2021-03-19</date>
+                <p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html"
+                        >MenotaBlitz</ref> "menotaFDT"-style transcription</p>
+            </change>
+            <change when="2021-03-19">
+                <date>2021-03-19</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made the first working draft with full MSA and full dipl, norm and facs levels.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 189 ||  
+                    <hi rend="bold">Sted</hi>: Rike, Valle, Agder || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: ca. 1200<lb/> 
+                    <hi rend="bold">Materiale</hi>: Metall || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgave</hi>: NIyR III: 42–44 || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/f07b080f-031c-4cf3-8929-bd8439bedc4e" type="external">N 189</ref>
+                    
+                </head>
+                <p>Innskriften befinner seg på skjoldbulen av Rike-skjoldet fra Rike i Valle kommune, Agder. Skjoldet ligger i Universitet i Oslos Oldsaksamling (nr. 954) og er gjort fra løvtre, muligens lind, og jern. Det er 51 cm i tverrmål. Innskriften følger skjoldbulens rand i en halvsirkel med runer opp til 2,5 cm i høyde. Jf. NIyR III: 42-44.</p> <!-- OEH 2021-03-19: Fin presentasjon -->
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <lb ed="ms" n="1"/>
+                    <pb ed="ms" n="1r"/>
+                    <w lemma="Gunnar" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&kYG;&uGE;<seg type="lig">&nYG;&#xF538;&nYG;</seg>&aYG;&rGEcv;</me:facs>
+                            <me:dipl>ku<seg type="lig">n&#xF538;n</seg>ar</me:dipl>
+                            <me:norm>Gunnar</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="gera" me:msa="xVB iWK nS p3 tPT vA mIN fF">
+                        <choice>
+                            <me:facs>&gMD;&iGE;&rGEcv;&thGEcv;&iGE;</me:facs>
+                            <me:dipl>girþi</me:dipl>
+                            <me:norm>gerði</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="ek" me:msa="xPE p1 nS cA">
+                        <choice>
+                            <me:facs>&mYGL;&iGE;&kYG;</me:facs>
+                            <me:dipl>mik</me:dipl>
+                            <me:norm>mik</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic"> <!-- OEH 2021-03-19: Eg har lagt til eit attributt her, ettersom visinga av <pc> i runeinnskrifter følgjer litt andre reglar enn i handskriftstekstar -->
+                        <me:norm>.</me:norm>
+                    </pc>
+                    <w lemma="Helgi" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs>&hYGL;&lGE;&hYGL;&iGE;</me:facs>
+                            <me:dipl>hlhi</me:dipl>
+                            <me:norm>H<supplied reason="emendation" resp="Magnus Olsen">elg</supplied>i</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="eiga" me:msa="xVB fF tPS mIN p3 nS vA iPP">
+                        <choice>
+                            <me:facs>&aYG;</me:facs>
+                            <me:dipl>a</me:dipl>
+                            <me:norm>á</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="ek" me:msa="xPE p1 nS cA">
+                        <choice>
+                            <me:facs>&mYGL;&iGE;&kYG;</me:facs>
+                            <me:dipl>mik</me:dipl>
+                            <me:norm>mik</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <me:norm>.</me:norm>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Gunnar gjorde meg. Helgi eier meg.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>Gunnar made me. Helgi owns me.</p>	
+            </div>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p>Navnet &hYGL;&lGE;&hYGL;&iGE; er tydelig lesbart, men det gir ikke mening. Olsen antar at det en skrivefeil og skulle egentlig ha vært &hYGL;&aeMD;&hYGL;&iGE; som skulle tolkes som “Helgi”. (Jf. NIyR III 44). </p>
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N189-A.jpg"/></figure>
+                <caption>Fotografi av N 189. Gjengitt etter NIyR. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N189-B.jpg"/></figure>
+                <caption>Avtegning av N 189 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Sebastian Pohland (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+      
+        </back>
+    </text>
+</TEI>

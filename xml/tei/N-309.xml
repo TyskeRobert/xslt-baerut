@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+				<title>N 309 : Fortun church, Luster, Vestland : A digital edition</title> <!-- OEH 2021-03-21: Eg har hatt ein lengre diskusjon med meg sjølv om eg skal bruke norsk eller engelsk her, men har falle ned på engelsk - derfor “church”.  Fortun ligg i Luster kommune, og fylket har det håplause namnet “Vestland”.-->
+				<editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<editor role="person"> <!-- OEH 2021-03-21: Tek også med Aslak Liestøl for bd. 4 av NIyR, ikkje minst fordi det går klart fram av s. 87 at han var med på lesinga. -->
+					<name>
+						<persName>
+							<forename>Aslak</forename>
+							<surname>Liestøl</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 4, pp. 87</resp>
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Erik</forename>
+							<forename>Fæster</forename>
+							<surname>Schancke</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.9">Version 0.9 <date when="2021-03-21">21 March 2021</date>.</edition> <!-- OEH 2021-03-20: Har sett versjonsnummeret til 0.9 og datoen til i dag -->
+			</editionStmt>
+			<extent n="10">10 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">IV 87</idno>
+				<date when="2021-03-21">21 March 2021</date> <!-- OEH 2021-03-20: Har sett datoen til i dag, då eg lasta opp fila i repositoriet -->
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Photos from NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+						<settlement>61.493,7.687</settlement>
+						<idno>N 309</idno>
+						<msName>N 309 : Fortun church, Luster, Vestland</msName> <!-- OEH 2021-03-20: Same som i tittelen ovanfor -->
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="wood">
+							<supportDesc>
+								<support>
+									<p><material>wood</material>.</p>
+								</support>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+						<origin><origDate notBefore="1150" notAfter="1250">c. 1150-1250</origDate></origin> <!-- OEH 2021-03-20: Fortun stavkyrkje kan vere så gammal som frå 1150, og ortografien (med ei form som “troten” for “dróttinn” tyder på at innskrifta truleg er frå før ca. 1250 -->
+					</history>
+					<additional>
+						<adminInfo>
+							<note type="extant">In situ</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 4, pp. 87.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> <!-- OEH 2021-03-20: Begge delar er no “completely”. -->
+					<p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-11</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+			<change>
+				<date>2021-08-31</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+			<change>
+				<date>2021-03-18</date>
+				<name>Erik Fæster Schancke</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+                  <div type="abstracts">
+                  	<head><hi rend="bold">Signum</hi>: N 309 ||  
+                  		<hi rend="bold">Sted</hi>: Fortun kirke, Fortun, Vestland || 
+                  		<hi rend="bold">Kart</hi>: Lenke kommer her || 
+                  		<hi rend="bold">Datering</hi>: ca. 1150–1250<lb/> 
+                  		<hi rend="bold">Materiale</hi>: Tre || 
+                  		<hi rend="bold">Status</hi>: Bevart på staden || 
+                  		<hi rend="bold">Utgave</hi>: NIyR IV: 87 || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  			target="http://kulturarvsdata.se/uu/srdb/cdd160d0-1b81-4254-b17e-8f7a88cb8751" type="external">N 309</ref>
+                  	</head>
+                  	<p>Ristet inn på den første søylen til høyre innenfor vestportalen til kirken. Innskriften er 12 cm lang og runene er 2–3 cm høye. Innskriften skal leses nedenfra.</p>
+                  	<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskriften</head>
+				<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+						<seg type="nb"> <!-- OEH 2021-03-21: Ettersom innskrifta er utan ordskilje,  kan du pakke inn heile innskrifta i eit <seg>-element -->
+							<w lemma="Dróttinn" me:msa="xNC gM nS cA sI">
+								<choice>
+									<me:facs><unclear reason="damage">&tYG;</unclear>&rGE;<unclear reason="damage">&oYG;</unclear>&tYG;&eMD;&nYG;</me:facs>
+									<me:dipl><supplied reason="restoration" resp="AslakLiestol">t</supplied>r<supplied reason="restoration" resp="AslakLiestol">o</supplied>ten</me:dipl>
+									<me:norm><supplied reason="restoration" resp="AslakLiestol">D</supplied>r<supplied reason="restoration" resp="AslakLiestol">ó</supplied>ttin</me:norm>
+								</choice>
+							</w>
+							<w lemma="minn" me:msa="xDP gM nS cA">
+								<choice>
+									<me:facs>&mYGL;&iGE;&nYG;</me:facs>
+									<me:dipl>min</me:dipl>
+									<me:norm>minn</me:norm>
+								</choice>
+							</w>
+							<w lemma="tjóa" me:msa="xVB nS mIP p2 tPS vA fF iWK"> <!-- OEH 2021-03-21: Eit ganske uvanleg verb, som i ordboka blir oppført med oppslagsforma “tjóa” -->
+								<choice>
+									<me:facs>&tYG;&yYG;</me:facs>
+									<me:dipl>ty</me:dipl>
+									<me:norm>tý</me:norm>
+								</choice>
+							</w>
+							<w lemma="ek" me:msa="xPE p1 nS cD">
+								<choice>
+									<me:facs>&mYGL;&eMD;&rGE;</me:facs>
+									<me:dipl>mer</me:dipl>
+									<me:norm>mér</me:norm>
+								</choice>
+							</w>
+							<w lemma="til" me:msa="xAP yG">
+								<choice>
+									<me:facs>&tYG;&iGE;&lGE;</me:facs>
+									<me:dipl>til</me:dipl>
+									<me:norm>til</me:norm>
+								</choice>
+							</w>
+							<w lemma="sá" me:msa="xDD gN nS cG"> <!-- OEH 2021-03-21: Dette ordet vil eg nok rekne som ei form av demonstrativet “sá” -->
+								<choice>
+									<me:facs>&thGE;&eMD;&sYGSdot;</me:facs>
+									<me:dipl>þes</me:dipl>
+									<me:norm>þess</me:norm>
+								</choice>
+							</w>
+							<w lemma="at" me:msa="xCS"> <!-- OEH 2021-03-21: Dette ordet skal vi rekne som ein subjunksjon - som faktisk har nøyaktig same form i moderne norsk -->
+							<choice>
+								<me:facs>&aYG;&tYG;</me:facs>
+								<me:dipl>at</me:dipl>
+								<me:norm>at</me:norm>
+							</choice>
+						 </w>
+						<w lemma="ek" me:msa="xPE p1 nS cN">
+							<choice>
+								<me:facs>&eMD;&kYG;</me:facs>
+								<me:dipl>ek</me:dipl>
+								<me:norm>ek</me:norm>
+							</choice>
+						</w>
+						<w lemma="fá" me:msa="xVB fF tPS mSU p1 nS vA iST">
+							<choice>
+								<me:facs>&fGE;&aYG;</me:facs>
+								<me:dipl>fa</me:dipl>
+								<me:norm>fá</me:norm>
+							</choice>
+						</w>
+						<w lemma="góðr" me:msa="xAJ rC gN nS cA"> <!-- Olga: er usikker på msa og ordklasse her. Logisk sett må det være et adverb, for det er handlingen som karakteriseres med "betra". Men grammatisk sett er det et adjektiv? Og hva med kasus da? --> <!-- Odd Enar: Eg trur vi skal tolke dette som eit substantivert adjektiv, som står som objekt til verbet “fá”. Då blir kasus akkusativ, så eg har rette cN > cA. Elles er eg samd i kodinga. -->
+							<choice>
+								<me:facs>&bGE;&eMD;<seg type="lig">&tYG;&#xF538;&rGE;</seg>&aYG;</me:facs>
+								<me:dipl>be<seg type="lig">t&#xF538;r</seg>a</me:dipl>
+								<me:norm>betra</me:norm>
+							</choice>
+						</w>
+						</seg>
+					<pc type="runic">
+						<choice>
+							<me:norm>.</me:norm>
+						</choice>
+					</pc>
+						</p>				
+			</div>
+		</body>
+		<back>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Runer er kodet på grunnlag av runene som er opptrukket på side 87 i NIyR bd. 4. Ettersom stavkirken ikke er eldre enn fra ca. 1150, kan den ikke dateres så vidt som i Runor-databasen (c. 1100-1500), og senere enn fra midten av 1200-tallet er den neppe. Fortun stavkirke ble demontert og flyttet til Fantoft utenfor Bergen i 1883. Den brant ned i 1992, så det er ikke lenger mulig å bekrefte lesningene i NIyR.</p> <!-- OEH 2021-03-21: Eg la til litt her om den sørgelege lagnaden til stavkyrkja. -->
+			</div>
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Min herre, hjelp meg så jeg får det bedre.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+				<p>My Lord, assist me so that it gets better for me.</p>	
+			</div>
+			
+			<div type="illustration"> <!-- OEH 2021-04-08: Har lagt til denne seksjonen. -->
+				<head>Illustrasjoner</head>
+				<figure><graphic url="N309-A.jpg"/></figure>
+				<caption>Fotografi av N 309. Gjengitt etter NIyR IV: 86. Lisens: CC-BY-SA 4.0.</caption>
+             <figure><graphic url="N309-B.jpg"/></figure>
+              <caption>Fotografi av N 309 med runene opptrukne av Aslak Liestøl. Gjengitt etter NIyR IV: 87. Lisens: CC-BY-SA 4.0.</caption>
+				<figure><graphic url="N309-C.jpg"/></figure>
+				<caption>Avtegning av N 309 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+				<bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+				<bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+			</div>
+			
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Erik Fæster Schancke (Universitetet i Bergen, 2021)</p> 
+				<note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+			</div>
+			
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,126 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+    <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+    %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+   <teiHeader xml:lang="eng"> 
+      <fileDesc>
+         <titleStmt>
+            <title>DN 4:77 = RN 3:491 : 1308 June 11 : Stavanger : a digital edition</title>
+            <editor role="institution">
+               <orgName>Språksamlingane</orgName>
+            </editor>               
+            <respStmt>
+               <resp>Reorganisation and revising of the XML file</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt resp="proofreading"> 
+               <resp>Proofreading of text</resp> <!-- ### Her kjem namnet på den/dei som i 2022 har lese korrektur og retta opp XML-fila. -->
+               <name>
+                  <persName>
+                     <forename>Nomen</forename>
+                     <surname>Nescio</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Project overview</resp>
+               <name>
+                  <persName>
+                     <forename>Odd</forename>
+                     <forename>Einar</forename>
+                     <surname>Haugen</surname>
+                  </persName>
+                  <orgName type="affiliation">University of Bergen</orgName>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>             
+            <edition n="0.8.2">Version 0.8.2, <date when="2023-11-21">21 November 2023</date></edition>
+         </editionStmt>
+         <publicationStmt>
+            <distributor>Medieval Nordic Text Archive</distributor>
+            <idno type="Menota">t.b.a.</idno>
+            <date when="2023-01-30">9 November 2023</date> 
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence> 
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl facs="no"></bibl>
+            <msDesc>   
+               <msIdentifier> <!-- Hent <idno> og <msName> frå oppføringa under <title> ovanfor og jamfør med <history> nedanfor. -->
+                  <country key="NO">Norway</country>
+                  <settlement>t.b.a</settlement> <!-- Dette kan vi vente med -->
+                  <repository>t.b.a</repository> <!-- Dette kan vi vente med -->
+                  <idno>DN 4:77</idno> <!-- Blir vist slik i “Signature” i katalogen -->
+                  <altIdentifier><idno>RN 3:491</idno></altIdentifier>
+                  <msName>1308 June 11 : Stavanger</msName> <!-- Blir vist slik i “MS or Work Title” i katalogen -->
+               </msIdentifier>
+               <msContents>
+                  <msItem class="vidimus" defective="false"> <!-- Her kan vi leggje inn kategorien “vidimus”. -->
+                     <title type="uniform">t.b.a.</title> <!-- Denne klassifikasjonen kan vi vente med -->
+                  </msItem>
+               </msContents>
+               <history>
+                  <origin> 
+                     <origPlace>Stavanger</origPlace>
+                     <origDate notBefore="1308" notAfter="1308">1308 June 11</origDate>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>            
+      </fileDesc>       
+      <profileDesc>
+         <langUsage>
+            <language ident="nor">Norwegian</language>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>       
+      <revisionDesc>
+         <change>
+            <date>2023-11-10</date>
+            <name><persName><forename>Odd</forename><forename>Einar</forename><surname>Haugen</surname></persName></name>
+            <orgName>Universitetet i Bergen</orgName>: Built this file as a placeholder for the now lost document DN 4:77</change>
+         <change>
+            <date>2022-03-30</date> <name><persName><forename>Tone</forename><forename>Merete</forename><surname>Bruvik</surname></persName></name>
+            <orgName>Universitetsbiblioteket i Bergen</orgName>: Begun the conversion to TEI Menota
+         </change>
+      </revisionDesc>
+   </teiHeader> 
+   
+   <text xml:lang="nor"> 
+      <front>
+         <div type="abstracts">
+            <head><hi rend="bold">Dato</hi>: 11. juni 1308 || <hi rend="bold">Stad</hi>: Stavanger. </head>
+            <div source="intro">
+               <head>Bakgrunn</head>
+               <p>Dette diplomet er no tapt, men det er kjent gjennom avskrift i ein noko yngre vidisse, <ref type="internal" target="DN_bind_04_brevnr_078">DN 4:78</ref> frå 8. oktober 1308. Samandraga nedanfor i <title>Diplomatarium Norvegicum</title> og <title>Regesta Norvegica</title> gjev att innhaldet av avskrifta i vidissen.</p>
+            </div>
+            <div source="DN">
+               <head>Frå <title>Diplomatarium Norvegicum</title>, bd. 4, nr. 77</head>
+               <p>Thorstein Prest paa Fister kundgjör, at han havde ifölge sin Broders Jons Testamente afstaaet 3 Maanedmatsbol i Gaarden Viker til Stavangers Domkirke for 4 Mark brændt, men da Gaarden ei var odelsfri, stiller han nu ligesaameget i Gaarden Nedstyrne til Sikkerhed.</p>
+            </div>
+            <div source="RN">
+               <head>Frå <title>Regesta Norvegica</title>, bd. 3, nr. 491</head>
+               <p>Kunnjøring fra Torstein, prest i Førestrå: Sist palmesøndag ga han i kannikenes gård i testament for sin bror Jons sjel 3 månedsmatbol i Viker til en verdi av 4 mark brent til Stavanger domkirke mot at offisialen sira Eirik betalte ham 1/2 mark brent. Nå har biskopen fått beskjed om at gården kanskje vil bli innløst av odelsmenn. Torstein er derfor blitt enig med sira Eirik om at kirken skal beholde den halve mark i voksverdi, og i tilfelle innløsning ha som erstatning 3 månedsmatbol i Neste. Dette skal kunne innløses av Torstein eller hans arvinger for 4 1/2 mark brent eller tilsvarende i smør (9 lauper pr mark) eller jern (3 hundrer pr mark).</p>     
+                  <p>Beseglet av utstederen, sira Eirik offisial, Bjørn biskopens bror, Valgard Bonde og Aslak Brattsson.</p>
+            </div>
+         </div>
+      </front>
+      
+      <body> <!-- This element is necessary for Corpuscle, even if it is empty -->
+         <div type="diplom">
+         </div>        
+      </body>          
+   </text>
+</TEI>

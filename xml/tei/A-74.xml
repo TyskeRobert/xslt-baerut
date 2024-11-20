@@ -1,0 +1,556 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+ <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+ %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>A 74 : Lom stave church, Lom, Innlandet : A digital edition</title>
+                <editor role="person"> 
+                    <name>
+                        <persName>
+                            <forename>Terje</forename>
+                            <surname>Spurkland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in Terje Spurkland, Norwegian Runes and Runic Inscriptions, Woodbridge, Boydell and Brewer, 2009, pp. 197-199</resp> 
+                    <name>
+                        <persName>
+                            <forename>Terje</forename>
+                            <surname>Spurkland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riskantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Saskia</forename>
+                            <forename>J.</forename> 
+                            <surname>Cowan</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>MenotaBlitz technology developed by</resp>
+                    <name>
+                        <persName>
+                            <forename>Robert</forename>
+                            <forename>K.</forename>
+                            <surname>Paulsen</surname>
+                        </persName>
+                        <orgName type="affiliation">Universitetet i Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9"><date when="2023-05-02">02 May 2023</date> </edition>
+            </editionStmt>
+            <extent n="33">33 words</extent>
+            <publicationStmt>
+                <distributor>"Medieval Nordic Text Archive"</distributor>
+                <idno type="NIyR">VI 7-13</idno>
+                <date when="2021-05-02">02 May 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from the Runor-database</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>61.8397, 8.56615</settlement>
+                        <repository>Lom stave church, Lom, Innlandet</repository>
+                        <idno>A 74</idno>
+                        <msName>A 74 : Lom stave church, Lom, Innlandet</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p>
+                                        <material>wood</material>
+                                    </p>
+                                </support>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origDate notBefore="1190" notAfter="1250" >c. 1190-1250</origDate> 
+                        </origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This encoding follows the standard set out in
+                    <title>The Menota Handbook (3.0)</title>,
+                    at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+                    as of <date when="2021-02-13">13 February 2021</date>.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from Terje Spurkland, Norwegian Runes and Runic Inscriptions, 
+                        Boydell and Brewer 2009, pp. 197-199.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on three focal levels: facsimile, diplomatic, 
+                        and tentatively normalized (based on the diplomatic transcription).
+                        These transcriptions have been generated with the help of MenotaBlitz technology.</p>
+                </normalization>
+                <interpretation me:morphAnalyzed="completely" me:lemmatized="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2023-05-02</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made a few modifications to the file for greater consistency, and gave it version number 0.9.</change>
+            <change>
+                <date>2022-04-21</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-03-23</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-18</date>
+                <name>Katrine Andresen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the reading of the runes
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-30</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change when="2021-06-03">
+                <name>Saskia J. Cowan</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Corrected lemmatisation and added photographic links.
+            </change>
+            <change when="2021-05-01">
+                <name>Saskia J. Cowan</name>
+                <orgName type="affiliation">University of Bergen</orgName>: File was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref>
+                    "menotaFDT"-style transcription.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: A 74 ||  
+                    <hi rend="bold">Stad</hi>: Lom stavkyrkje, Lom, Innlandet || 
+                    <hi rend="bold">Kart</hi>: På veg || 
+                    <hi rend="bold">Datering</hi>: ca. 1190–1250<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgåve</hi>: Spurkland (2009, 197–199) ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/c4709704-686c-41be-a79f-c5786f620e43" type="external">A 74</ref>
+                </head>
+                <p>Innskrifta kjem frå ein runestav funnen under golvet i Lom stavkyrkje. Staven er truleg den nedre delen av ein gåstav. Innskrifta er sterkt skadd, særleg namna, og det ser ut til at ein del av innskrifta er hakka bort med kniv. </p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="A"/>
+                        <w lemma="Hávarðr" me:msa="xNP gM nS cN sI">
+                            <choice>
+                                <me:facs><unclear reason="damage">*</unclear><seg type="ligature">&aYG;&uGE;</seg><seg type="ligature">&aYG;&rGE;</seg>&thGE;&aeMD;&rGE;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="TerjeSpurkland">h</supplied><seg type="ligature">au</seg><seg type="ligature">ar</seg>þær</me:dipl>
+                                <me:norm>Hávarðr</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:facs>&twodotPM;</me:facs>
+                            </choice>
+                        </pc>
+                        <w lemma="senda" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+                            <choice>
+                                <me:facs>&cMD;&eMD;&nYG;&dMD;&eMD;&rGE;</me:facs>
+                                <me:dipl>cender</me:dipl>
+                                <me:norm>sendir</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                            <choice>
+                                <me:facs>&middotPM;</me:facs>
+                            </choice>
+                        </pc>
+                        <w lemma="Guðný" me:msa="xNP gF nS cD sI">
+                            <choice>
+                                <me:facs>&gMD;&uGE;<del rend="erasure">***</del></me:facs>
+                                <me:dipl>gu<del rend="erasure" resp="TerjeSpurkland">þnu</del></me:dipl>
+                                <me:norm>Guðný</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                            <choice>
+                                <me:facs>&threedotpunct;</me:facs>
+                            </choice>
+                        </pc>
+                        <w lemma="Guð" me:msa="xNP gM nS cG sI">
+                            <choice>
+                                <me:facs>&gMD;<del rend="erasure">*</del>&thGE;&aeMD;&rGE;&sYGSdot;</me:facs>
+                                <me:dipl>g<del rend="erasure">u</del>þærs</me:dipl>
+                                <me:norm>Guðs</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="kveðja" me:msa="xNC gF nS cA sI">
+                            <choice>
+                                <me:facs>&kYG;&uGE;&eMD;&thGE;&iGE;&uGE;</me:facs>
+                                <me:dipl>kueþiu</me:dipl>
+                                <me:norm>kveðju</me:norm>
+                            </choice>
+                        </w>
+                    <seg type="nb">
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs>&oYG;&kYG;</me:facs>
+                                <me:dipl>ok</me:dipl>
+                                <me:norm>ok</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="sinn" me:msa="xDP gF nS cA">
+                            <choice>
+                                <me:facs>&sYGSdot;&iGE;&nYG;<seg type="lig-initial">&aYG;</seg></me:facs>
+                                <me:dipl>sin<seg type="lig-initial">a</seg></me:dipl>
+                                <me:norm>sína</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vingan" me:msa="xNC gF nS cA sI">
+                            <choice>
+                                <me:facs><seg type="lig-final">&uGE;</seg>&iGE;&gMD;&aYG;&nYG;</me:facs>
+                                <me:dipl><seg type="lig-final">u</seg>igan</me:dipl>
+                                <me:norm>vingan</me:norm>
+                            </choice>
+                        </w>
+                        <pc type="runic">
+                            <choice>
+                                <me:norm>.</me:norm>
+                            </choice>
+                        </pc>
+                    </seg>
+                    <lb ed="ms" n="B"/>
+                    <seg type="nb">
+                    <w lemma="ok" me:msa="xCC">
+                        <choice>
+                            <me:facs>&oYG;&kYG;</me:facs>
+                            <me:dipl>ok</me:dipl>
+                            <me:norm>Ok</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="nú" me:msa="xAV rP">
+                        <choice>
+                            <me:facs>&nYG;&uGE;</me:facs>
+                            <me:dipl>nu</me:dipl>
+                            <me:norm>nú</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                        <choice>
+                            <me:facs>&eMD;&rGE;</me:facs>
+                            <me:dipl>er</me:dipl>
+                            <me:norm>er</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="minn" me:msa="xDP gM nS cN">
+                        <choice>
+                            <me:facs>&mYGL;&iGE;&nYG;</me:facs>
+                            <me:dipl>min</me:dipl>
+                            <me:norm>minn</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="fullr" me:msa="xAJ rP gM nS cN sI">
+                        <choice>
+                            <me:facs>&fGE;&uGE;&lGE;&eMD;&rGE;</me:facs>
+                            <me:dipl>fuler</me:dipl>
+                            <me:norm>fullr</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="vili" me:msa="xNC gM nS cN sI">
+                        <choice>
+                            <me:facs>&uGE;&iGE;&lGE;&iGE;</me:facs>
+                            <me:dipl>uili</me:dipl>
+                            <me:norm>vili</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="at" me:msa="xIM">
+                        <choice>
+                            <me:facs>&aYG;&tYG;</me:facs>
+                            <me:dipl>at</me:dipl>
+                            <me:norm>at</me:norm>
+                        </choice>
+                    </w>
+                    <seg type="nb">
+                    <w lemma="biðja" me:msa="xVB fI vA iST">
+                        <choice>
+                            <me:facs>&bGE;&iGE;&thGE;&iGE;&aYG;</me:facs>
+                            <me:dipl>biþia</me:dipl>
+                            <me:norm>biðja</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="þú" me:msa="xPE p2 nS cG">
+                        <choice>
+                            <me:facs>&thGE;&iGE;&nYG;</me:facs>
+                            <me:dipl>þin</me:dipl>
+                            <me:norm>þín</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                    <w lemma="ef" me:msa="xCS">
+                        <choice>
+                            <me:facs>&eMD;&fGE;</me:facs>
+                            <me:dipl>ef</me:dipl>
+                            <me:norm>Ef</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="þú" me:msa="xPE p2 nS cN">
+                        <choice>
+                            <me:facs>&thGE;&uGE;</me:facs>
+                            <me:dipl>þu</me:dipl>
+                            <me:norm>þú</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="vilja" me:msa="xVB fF tPS mIN p2 nS vA iPP">
+                        <choice>
+                            <me:facs>&uGE;&iGE;&lGE;&tYG;</me:facs>
+                            <me:dipl>uilt</me:dipl>
+                            <me:norm>vilt</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                    <w lemma="eigi" me:msa="xAV">
+                        <choice>
+                            <me:facs>&aeMD;&iGE;&hYGL;&iGE;</me:facs>
+                            <me:dipl>æihi</me:dipl>
+                            <me:norm>eigi</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="með" me:msa="xAP">
+                        <choice>
+                            <me:facs>&mYGL;&eMD;&thGE;</me:facs>
+                            <me:dipl>meþ</me:dipl>
+                            <me:norm>með</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <lb ed="ms" n="C"/>
+                    <w lemma="Kolbeinn" me:msa="xNP gM nS cD sI">
+                        <choice>
+                            <me:facs><del rend="erasure">***</del>&bGE;&aeMD;&iGE;&nYG;&iGE;</me:facs>
+                            <me:dipl><del rend="erasure">kol</del>bæini</me:dipl>
+                            <me:norm>Kolbeini</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <w lemma="vera" me:msa="xVB fI vA iST">
+                        <choice>
+                            <me:facs>&uGE;&eMD;&rGE;<del rend="erasure">*</del></me:facs>
+                            <me:dipl>uer<del rend="erasure">a</del></me:dipl>
+                            <me:norm>vera</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="huga" me:msa="xVB fF tPS mIP p2 nS vA iWK"> <!-- Olga: ifølge Spurkland er "huga" avledet av "hugr", verbet "huga". Det virker som om ordet må følge det samme mønsteret som "láta" nedenfor: "xVB fF tPS mIP p2 nS vA iST", men jeg er usikker på formen verbet har i imperativ.--> <!-- Odd Einar: Dette er eit svakt verb som går som “kalla”, det står i imperativ og den normaliserte forma er “huga”. -->
+                        <choice>
+                            <me:facs><del rend="erasure">***</del>&aYG;</me:facs>
+                            <me:dipl><del rend="erasure">hug</del>a</me:dipl>
+                            <me:norm>Huga</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                    <w lemma="þinn" me:msa="xDP gN nS cA">
+                        <choice>
+                            <me:facs>&thGE;&iGE;&tYG;</me:facs>
+                            <me:dipl>þit</me:dipl>
+                            <me:norm>þitt</me:norm>
+                        </choice>
+                    </w>
+                        <w lemma="ráð" me:msa="xNC gN nS cA sI">
+                        <choice>
+                            <me:facs>&rGE;<seg type="ligature">&aYG;&thGE;</seg></me:facs>
+                            <me:dipl>r<seg type="ligature">aþ</seg></me:dipl>
+                            <me:norm>ráð</me:norm>
+                        </choice>
+                    </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&twodotPM;</me:facs>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs>&oYG;&kYG;</me:facs>
+                                <me:dipl>ok</me:dipl>
+                                <me:norm>ok</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="láta" me:msa="xVB fF tPS mIP p2 nS vA iST">
+                            <choice>
+                                <me:facs>&lGE;&aYG;&tYG;</me:facs>
+                                <me:dipl>lat</me:dipl>
+                                <me:norm>lát</me:norm>
+                            </choice>
+                        </w> 
+                        <w lemma="segja" me:msa="xVB fI vA iWK">
+                            <choice>
+                                <me:facs>&sYGSdot;&eMD;&hYGL;&iGE;&aYG;</me:facs>
+                                <me:dipl>sehia</me:dipl>
+                                <me:norm>segja</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="ek" me:msa="xPE p1 nS cD">
+                            <choice>
+                                <me:facs>&mYGL;&eMD;&rGE;</me:facs>
+                                <me:dipl>mer</me:dipl>
+                                <me:norm>mér</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <lb ed="ms" n="D"/>
+                    <w lemma="þinn" me:msa="xDP gM nS cA">
+                        <choice>
+                            <me:facs>&thGE;&iGE;&nYG;</me:facs>
+                            <me:dipl>þin</me:dipl>
+                            <me:norm>þinn</me:norm>
+                        </choice>
+                    </w>
+                    <w lemma="vili" me:msa="xNC gM nS cA sI">
+                        <choice>
+                            <me:facs>&uGE;&iGE;&lGE;&iGE;&aYG;</me:facs>
+                            <me:dipl>uilia</me:dipl>
+                            <me:norm>vilja</me:norm>
+                        </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:norm>.</me:norm>
+                        </choice>
+                    </pc>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="translation" xml:lang="nor">
+                <head>Omsetjing til norsk</head>
+                <p>Håvard sender Gudny Guds helsing og hans vennskap. Og no er det min fulle vilje å spørje for deg, om du ikkje ønskjer å vere med Kolbein. Tenk over dette giftarmålet og la meg bli fortald din vilje.</p>
+            </div>
+            <div type="translation" xml:lang="eng">
+                <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+                <p>Hávarðr sends Guðný God’s greetings and his friendship. And now it is my full will to ask for you, if you do not want to be with Kolbeinn. Think this match over and let me be told your will.</p>
+            </div>
+            <div type="illustration">
+                <head>Illustrasjonar</head>
+                <figure><graphic url="A74-A.jpg"/></figure>
+                <caption>Fotografi av dei fire sidene av A 74, A–D. Montert på grunnlag av fotografi utført av Bengt A. Lundberg. Lisens: CC BY 4.0.</caption>
+                <figure><graphic url="A74-B.jpg"/></figure>
+                <caption>Avteikning av dei fire sidene av A 74 ved Saskia J. Cowan (2021). Lisens: CC BY 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kjelder</head> <!-- NYTT: Vi brukar elementet <bibl> om kvar kjelde. Innførslane for NIyR og SamNOrd kan kopierast direkte herifrå. -->
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+                <bibl>Spurkland, Terje. 2009. <title>Norwegian Runes and Runic Inscriptions</title>. Woodbridge: Boydell and Brewer.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Saskia J. Cowan (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg Spurkland (2009) og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> 
+            </div>
+        </back>
+    </text>
+</TEI>
+

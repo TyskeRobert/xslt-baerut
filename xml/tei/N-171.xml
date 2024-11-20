@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 171 : Vinje church II, Vinje, Vestfold og Telemark : A digital edition</title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Oluf</forename>
+                            <surname>Rygh</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="person"> <!-- OEH 2021-05-10: Du kan føre opp både Oluf Rygh og Magnus Olsen som full <editor> -->
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in NIyR vol. 2, pp. 268-322</resp>
+                    <name>
+                        <persName>
+                            <forename>Magnus</forename>
+                            <surname>Olsen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Vlasova</surname>
+                            <surname>Våtvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9 <date when="2021-05-10">10 May 2021</date>.</edition> <!-- OEH 2021-05-10: Made it v. 0.9 with today’s date -->
+            </editionStmt>
+            <extent n="36">36 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">II 268-322</idno>
+                <date when="2021-05-10">10 May 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Photo from NIyR vol 1, p. 271</bibl> <!-- OEH 2021-05-10: The photo is very blurred and not of much help, but better than nothing. Hopefully, there is a better photo in the Runic archives, or one might consider a drawing -->
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>59.6194, 7.8432</settlement>
+                        <repository>Unknown</repository>
+                        <idno>N 171</idno>
+                        <msName>N 171 : Vinje church II, Vinje, Vestfold og Telemark</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood">
+                            <supportDesc>
+                                <support>
+                                    <p><material>wood</material>.</p>
+                                </support>
+                                <condition>Partially damaged</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1197" notAfter="1197">c. June 1197</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant"></note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 2, pp. 268-322.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <date>2022-04-10</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-26</date>
+                <name>Sebastian Pohland</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Minor corrections as part of QA.
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-08-31</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+            <change>
+                <date>2021-05-10</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added a new entity for the 2nd and 5th rune, “acurly”, and linked to a scan of the inscription from NIyR</change>
+            <change>
+                <date>2021-04-28</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the text and the header elements, and made minor changes to the header.</change>
+            <change>
+                <date>2021-04-27</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Updated the text element.</change>
+            <change>
+                <date>2021-04-26</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made updates to the text element.</change>
+            <change>
+                <date>2021-04-25</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made updates to the text element.</change>
+            <change>
+                <date>2021-04-18</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made updates to the front and back element of the text, and added the text element.</change>
+            <change>
+                <date>2021-04-03</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made minor updates to the header and added the front and back element to the text.</change>
+            <change>
+                <date>2021-04-01</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the header.</change>
+        </revisionDesc>
+    </teiHeader>
+    
+    <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head><hi rend="bold">Signum</hi>: N 171 ||  
+                    <hi rend="bold">Stad</hi>: Vinje kirke, Vinje, Vestfold og Telemark || 
+                    <hi rend="bold">Kart</hi>: Lenke kommer her || 
+                    <hi rend="bold">Datering</hi>: juni 1197<lb/> 
+                    <hi rend="bold">Materiale</hi>: Tre || 
+                    <hi rend="bold">Status</hi>: Bevart || 
+                    <hi rend="bold">Utgåve</hi>: NIyR II: 268–322 ||
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/42d702a7-ed91-46e5-a37c-1ddbdc6875b3" type="external">N 171</ref>
+                </head>
+                <p> Innskriften er datert på bakgrunn av sannsynlig innholdsmessig overensstemmelse med innskrift N 170, ettersom denne er skrevet på den samme bjelken som N 171. Hallvard Grenske antas i denne sammenhengen til å ha vært kampfelle med Sigurd Jarlsson, som forfattet innskriften N 170, men det er ellers liten sikkerhet rundt identiteten hans. Jf. NIyR II: 268-322.</p>
+                <p> Deler av innskriften kan se ut til å ha vært skrevet etter at risteren har ført inn flere vertikale streker for å gjøre inskripsjonen enklere ved å tilføye runekvistene oppå de allerede innristede staver. Dette har ført til flere feil ved innristelsen, og noen uteglemte runer. Jf. NIyR II: 274–275. </p>
+                <p> I begynnelsen av innskriften er det flere gjenværende spor etter det som antas til å kunne ha vært omtrent fire eller fem runer rett foran runeristerens navn. Disse har vært så utydelige at det ikke var mulig å tolke dem, og de har heller ingen plass i den velkjente innskriftsformelen der runeristeren presenterer seg. Et annet viktig trekk ved denne innskriften er at runene nummer 2 og 5 har en unik form som vi ellers ikke finner i andre innskrifter - med mulig unntak av N 157 fra Flatdal kirke. Der er det en liknende rune som bare er brukt en gang i innskriften og er en del av ordet s[á]l, som står for sjel. Runen kan her ha betegnet enten en a-lyd eller en o-lyd. I likhet med N 171 som tydelig bruker runen for å betegne en a-lyd, er det ellers brukt en vanlig a-rune i Flatdal-innskriften. Jf. NIyR II: 214-219, 271-275.</p>
+                <p> Utenom innskriftsformelen i begynnelsen, som er skrevet i prosa, er innskriften metrisk ordnet og formet som en strofe i versemålet dróttkvætt. Den andre helmingen av diktet har overflødig rim i de ulike linjer. Dette viser seg i ordene “-brǫgð-”:“flagð-” og “Baldrs”:“halda” som har helrim der en skulle forvente halvrim etter normalmeterets minimumskrav. Den første helmingen er derimot mindre utstyrt. Jf. NIyR II: 274-292.</p>
+                <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                        <gap unit="char" quantity="5" reason="missing"/>
+                    
+ <!-- OEH 2021-05-10: Original encoding
+     
+                        <w lemma="Hallvarðr" me:msa="xNP">
+                            <choice>
+                                <me:facs><unclear reason="weathered">&hYGL;</unclear><unclear reason="eccentric_ductus">*</unclear>&lGE;&uGE;<unclear reason="eccentric_ductus">*</unclear>&rGE;&thGE;&rGE;</me:facs>
+                                <me:dipl><unclear reason="weathered">h</unclear><supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied>lu<supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied>rþr</me:dipl>
+                                <me:norm>H<supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied>llv<supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied>rðr</me:norm>
+                            </choice>
+                        </w>
+-->
+                    <!-- OEH 2010-05-10: Suggested encoding with a new entity for runes 2 and 5, &acurly;: -->
+                    
+                    <w lemma="Hallvarðr" me:msa="xNP gM nS cN sI">
+                        <choice>
+                            <me:facs><unclear reason="weathered">&hYGL;</unclear>&acurly;&lGE;&uGE;&acurly;&rGE;&thGE;&rGE;</me:facs>
+                            <me:dipl><unclear reason="weathered">h</unclear>aluarþr</me:dipl>
+                            <me:norm>H<supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied>llv<supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied>rðr</me:norm>
+                        </choice>
+                    </w>
+                        
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="grenskr" me:msa="xAJ rP gM nS cN sD">
+                            <choice>
+                                <me:facs>&kYG;&rGE;&eMD;<unclear reason="weathered">&nYG;&sYGS;</unclear>&kYG;&eMD;</me:facs>
+                                <me:dipl>kre<unclear reason="weathered">ns</unclear>ke</me:dipl>
+                                <me:norm>Grenski</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs><unclear reason="eccentric_ductus">&middotPM;</unclear></me:facs>
+                            <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">&middotPM;</supplied></me:dipl>
+                            <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">&middotPM;</supplied></me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="rísta" me:msa="xVB fF tPT mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&rGE;<unclear reason="eccentric_ductus">&aeMD;</unclear>&iGE;<unclear reason="eccentric_ductus">&sYGS;</unclear>&tYG;</me:facs>
+                                <me:dipl>r<unclear reason="eccentric_ductus">æ</unclear>i<supplied reason="restoration" resp="OlufRygh" source="NIyR">s</supplied>t</me:dipl>
+                                <me:norm>rei<supplied reason="restoration" resp="OlufRygh" source="NIyR">s</supplied>t</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="rún" me:msa="xNC gF nP cA sI">
+                            <choice>
+                                <me:facs><supplied reason="emendation" resp="MagnusOlsen" source="NIyR">&rGE;</supplied><unclear reason="eccentric_ductus">&uGE;</unclear><surplus reason="excess">&iGE;</surplus>&nYG;<unclear reason="weathered">&aYG;</unclear><surplus reason="excess"><pc type="runic">&middotPM;</pc></surplus>&rGE;</me:facs>
+                                <me:dipl><supplied reason="emendation" resp="MagnusOlsen" source="NIyR">r</supplied><unclear reason="eccentric_ductus">u</unclear><surplus reason="excess">i</surplus>n<unclear reason="weathered">a</unclear>r</me:dipl>
+                                <me:norm>rúnar</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs><supplied reason="emendation" resp="Anna Vlasova Våtvik">&middotPM;</supplied></me:facs>
+                            <me:dipl><supplied reason="emendation" resp="Anna Vlasova Våtvik">&middotPM;</supplied></me:dipl>
+                            <me:norm><supplied reason="emendation" resp="Anna Vlasova Våtvik">&middotPM;</supplied></me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="þessi" me:msa="xDD gF nP cA">
+                            <choice>
+                                <me:facs>&thGE;&eMD;&sYGSdot;&rGE;</me:facs>
+                                <me:dipl>þesr</me:dipl>
+                                <me:norm>þessar</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="sæll" me:msa="xAJ rP gM nS cN sI">
+                            <choice>
+                                <me:facs><unclear reason="eccentric_ductus">&sYGS;</unclear>&aeMD;&lGE;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">s</supplied>æl</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">S</supplied>æll</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs><unclear reason="eccentric_ductus">&eMD;</unclear>&rGE;</me:facs>
+                                <me:dipl><unclear reason="eccentric_ductus">e</unclear>r</me:dipl>
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">    
+                        <w lemma="sá" me:msa="xDD gM nS cN">
+                            <choice>
+                                <me:facs>&sYGS;&aYG;</me:facs>
+                                <me:dipl>sa</me:dipl>
+                                <me:norm>sá</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="er" me:msa="xCS">
+                            <choice>
+                                <me:facs>&eMD;<unclear reason="weathered">&rGE;</unclear></me:facs>
+                                <me:dipl>e<unclear reason="weathered">r</unclear></me:dipl> <!-- SP 2022-02-26: corrected rGE to r in dipl level. -->
+                                <me:norm>er</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="svíkja" me:msa="xVB fF tPS mSU p3 nS vA iST">
+                            <choice>
+                                <me:facs>&sYGS;<unclear reason="eccentric_ductus">&uGE;</unclear>&eMD;<unclear reason="illegible">&kYG;&iGE;</unclear></me:facs>
+                                <me:dipl>s<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">u</supplied>e<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">ki</supplied></me:dipl>
+                                <me:norm>s<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">v</supplied>í<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">ki</supplied></me:norm>
+                            </choice>
+                        </w>
+                    </seg>    
+                    <pc type="runic">
+                            <choice>
+                                <me:facs>&middotPM;</me:facs>
+                                <me:dipl>&middotPM;</me:dipl>
+                                <me:norm>&middotPM;</me:norm>
+                            </choice>
+                    </pc>
+                        <w lemma="fýla" me:msa="xNC gF nS cN sI">
+                            <choice>
+                                <me:facs><surplus reason="excess">&iGE;</surplus> 1|1 &yYG;<unclear reason="weathered">&lGE;</unclear><unclear reason="eccentric_ductus">&aYG;</unclear></me:facs> <!-- GV 2021-04-25: Rune nummer 2 tolkes av Magnus Olsen som en lønnrune (se s. 283-4 i NIyR II) fra 1 ætt og 1 rekke, og rekonstruerer det som betegnelse for en f-rune. Selve tegnet likner en e-rune med sirkel, og skal ha vært brukt andre steder for å bygge lønnruner på. En strek er tilføyd fra hver side av tegnet for å vise til ætt og rekke. Rune nummer 1 tolkes da å ha vært en påbegynt normalskrevet f-rune, som runeristeren har valgt å skrive som en lønnrune istedenfor. -->
+                                <me:dipl><surplus reason="excess">i</surplus>fy<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">l</supplied><supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied></me:dipl>
+                                <me:norm>fý<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">l</supplied><supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied></me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="sorg" me:msa="xNC gF nS cA sI">
+                            <choice>
+                                <me:facs>&sYGS;<seg type="lig">&oYG;&#xF538;&rGE;</seg><unclear reason="weathered">&hYGL;</unclear></me:facs>
+                                <me:dipl>s<seg type="lig">o&#xF538;</seg>r<unclear reason="weathered">h</unclear></me:dipl>
+                                <me:norm>sorg</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                    <seg type="nb">   
+                        <w lemma="á" me:msa="xAP">
+                            <choice>
+                                <me:facs><seg type="lig-initial"><unclear reason="weathered">&aYG;</unclear></seg></me:facs>
+                                <me:dipl><unclear reason="weathered">a</unclear></me:dipl>
+                                <me:norm>á</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="reik" me:msa="xNC gF nS cG sI">
+                            <choice>
+                                <me:facs><seg type="lig-final">&rGE;</seg>&eMD;&iGE;&kYG;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs> <!-- Check lig-final here! May perhaps use a note. -->
+                                <me:dipl>reik<seg type="lig">a&#xF538;r</seg></me:dipl>
+                                <me:norm>reikar</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="torg" me:msa="xNC gN nS cD sI"> <!-- GV 2021-04-26: Når NIyR II er skrevet på 50-tallet, er det uklart for meg om dette ordet faktisk skulle bety torv (altså det man finner i en myr), eller torg, i betydningen "handelsplass" ("torg" jo er nærmere i skrivemåten og ordlyden til "to(r)he" enn torfa er. Men om det skulle faktisk være ordet "torg" det handler om, så er det en feil i Runer-databasen (ihvertfall engelsk-oversettelsen). Problemet er jo at torg i betydningen handelsplass kan i moderne norsk (og kanskje også på 50-tallet?) skrives/uttales som både torg og torv, så langt jeg har opplevd. Her valgte jeg altså å bruke lemmaen som passer til den engelske oversettelsen av diktet tatt fra Runar databasen. Norrøn ordbok sier også at "torfa" kunne bety "hårkledd hud" (på hodet). Men hvorfor normaliseres det som "torgi" da, og ikke "torfi"? -->
+                            <choice>
+                                <me:facs>&tYG;<unclear reason="weathered">&oYG;&hYGL;&eMD;</unclear></me:facs>
+                                <me:dipl>t<unclear reason="weathered"><supplied reason="restoration" resp="MagnusOlsen" source="NIyR"><seg type="lig">o&#xF538;r</seg></supplied>he</unclear></me:dipl>
+                                <me:norm>to<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">r</supplied>gi</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="Grettir" me:msa="xNP gM nS cG sI">
+                            <choice>
+                                <me:facs>&gMD;&rGE;<unclear reason="weathered">&aeMD;</unclear>&iGE;&tYG;&iGE;&sYGS;</me:facs>
+                                <me:dipl>gr<unclear reason="weathered">æ</unclear>itis</me:dipl>
+                                <me:norm>Grettis</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="sótt" me:msa="xNC gF nS cU sI"> <!-- Siden hele frasen uttrykker et verb er det vanskelig å definere substantivets kjønn. Kanskje er det også unødvendig... -->
+                            <choice>
+                                <me:facs>&sYGS;&oYG;&tYG;</me:facs>
+                                <me:dipl>sot</me:dipl>
+                                <me:norm>sótt</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="at" me:msa="xCS">
+                            <choice>
+                                <me:facs>&aYG;&tYG;</me:facs>
+                                <me:dipl>at</me:dipl>
+                                <me:norm>at</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="geta" me:msa="xVB fF tPT mSU p3 nS vA iST">
+                            <choice>
+                                <me:facs>&kYG;<unclear reason="weathered">&aeMD;</unclear>&tYG;&eMD;</me:facs> <!-- SP 2022-02-26: Saskia's tracing reads the first rune as gMD instead of kYG-->
+                                <me:dipl>kæte</me:dipl>
+                                <me:norm>gæti</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs><unclear reason="eccentric_ductus">&middotPM;</unclear></me:facs>
+                            <me:dipl><unclear reason="eccentric_ductus">&middotPM;</unclear></me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="gjalda" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&gMD;<seg type="lig">&eMD;&#xF538;<unclear reason="weathered">&lGE;</unclear></seg><seg type="lig">&tYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>ge<unclear reason="weathered">l</unclear>tr</me:dipl> <!-- Check encoding of ligature -->
+                                <me:norm>geldr</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="eiðr" me:msa="xNC gM nS cG sI">
+                            <choice>
+                                <me:facs><unclear reason="weathered">&aeMD;</unclear>&iGE;&thGE;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl><unclear reason="weathered">æ</unclear>iþ<seg type="lig">a&#xF538;r</seg></me:dipl> <!-- Check -->
+                                <me:norm>eiðar</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="þess" me:msa="xDD gM nS cG">
+                            <choice>
+                                <me:facs>&thGE;&aeMD;<unclear reason="eccentric_ductus">&sYGS;</unclear></me:facs>
+                                <me:dipl>þæ<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">s</supplied></me:dipl>
+                                <me:norm>þe<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">ss</supplied></me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="aldri" me:msa="xAV">
+                            <choice>
+                                <me:facs><seg type="lig"><unclear reason="weathered">&aYG;&#xF538;</unclear>&lGE;</seg><seg type="lig"><unclear reason="weathered">&tYG;&#xF538;</unclear>&rGE;</seg>&iGE;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="MagnusOlsen" source="NIyR">a</supplied>l<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">t</supplied>ri</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="MagnusOlsen" source="NIyR">a</supplied>l<supplied reason="restoration" resp="MagnusOlsen" source="NIyR">d</supplied>ri</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs><unclear reason="eccentric_ductus">&middotPM;</unclear></me:facs>
+                            <me:dipl><unclear reason="eccentric_ductus">&middotPM;</unclear></me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="vera" me:msa="xVB fF tPS mIN p3 nS vA iST">
+                            <choice>
+                                <me:facs>&eMD;&rGE;&aYG;</me:facs>
+                                <me:dipl>era</me:dipl>
+                                <me:norm>Er-a</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="feiknbragð" me:msa="xNC gN nP cD sI"> <!-- GV 2021-04-27: En sammensatt ord, adjektiv feikn + substantiv bragð. --> 
+                            <choice>
+                                <me:facs>&fGE;&eMD;<unclear reason="weathered">&nYG;</unclear>&bGE;&rGE;<seg type="lig">&aYG;&#xF538;&uGE;</seg>&hYGL;&thGE;&uGE;&mYGL;</me:facs>
+                                <me:dipl>fe<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied>brauhþum</me:dipl>
+                                <me:norm>feik<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied>brǫgðum</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="flagð" me:msa="xNC gn nP cG sI">
+                            <choice>
+                                <me:facs>&fGE;&lGE;&aYG;&hYGL;&thGE;&aYG;</me:facs>
+                                <me:dipl>flahþa</me:dipl>
+                                <me:norm>flagða</me:norm>
+                            </choice>
+                    </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="falla" me:msa="xVB fP tPT vA gM nP cN sI iST">
+                            <choice>
+                                <me:facs>&fGE;<seg type="lig"><unclear reason="weathered">&aYG;</unclear>&lGE;</seg><unclear reason="weathered">&nYG;</unclear>&eMD;&rGE;</me:facs>
+                                <me:dipl>f<unclear reason="weathered">a</unclear>l<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied>er</me:dipl>
+                                <me:norm>fall<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied>ir</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="niðr" me:msa="xAV">
+                            <choice>
+                                <me:facs><unclear reason="weathered">&nYG;</unclear>&iGE;&thGE;&rGE;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied>iþr</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied>iðr</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="með" me:msa="xAP">
+                            <choice>
+                                <me:facs>&mYGL;&eMD;&thGE;</me:facs>
+                                <me:dipl>meþ</me:dipl>
+                                <me:norm>með</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="allr" me:msa="xAJ gM nP cN sD">
+                            <choice>
+                                <me:facs><seg type="lig"><unclear reason="weathered">&aYG;&#xF538;</unclear>&uGE;</seg>&lGE;&uGE;</me:facs>
+                                <me:dipl><seg type="lig"><unclear reason="weathered">a&#xF538;</unclear>u</seg>lu</me:dipl>
+                                <me:norm>ǫllu</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="haukr" me:msa="xNC gM nP cN sI">
+                            <choice>
+                                <me:facs>&hYGL;<seg type="lig">&aYG;&#xF538;&uGE;</seg>&kYG;<seg type="lig">&aYG;&#xF538;&rGE;</seg></me:facs>
+                                <me:dipl>h<seg type="lig">a&#xF538;u</seg>k<seg type="lig">a&#xF538;r</seg></me:dipl>
+                                <me:norm>haukar</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="Baldr" me:msa="xNP gM nS cG sI">
+                            <choice>
+                                <me:facs>&bGE;<seg type="lig">&aYG;&#xF538;&lGE;</seg>&tYG;&sYGSdot;</me:facs>
+                                <me:dipl>b<seg type="lig">a&#xF538;l</seg>ts</me:dipl>
+                                <me:norm>Baldrs</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="ok" me:msa="xCC">
+                            <choice>
+                                <me:facs><seg type="lig">&aYG;&#xF538;&uGE;</seg>&kYG;</me:facs>
+                                <me:dipl><seg type="lig">a&#xF538;u</seg>k</me:dipl>
+                                <me:norm>ok</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="halda" me:msa="xVB fF tPS mIN p3 nP vA iST">
+                            <choice>
+                                <me:facs>&hYGL;<seg type="lig">&aYG;&#xF538;&lGE;</seg>&tYG;&aYG;</me:facs>
+                                <me:dipl>h<seg type="lig">a&#xF538;l</seg>ta</me:dipl>
+                                <me:norm>halda</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                        <w lemma="hugstríð" me:msa="xNC gN nS cD sI">
+                            <choice>
+                                <me:facs>&hYGL;&uGE;&hYGL;<unclear reason="eccentric_ductus">&sYGS;</unclear>&tYG;&rGE;&iGE;&thGE;&iGE;</me:facs>
+                                <me:dipl>huh<supplied reason="restoration" resp="OlufRygh" source="NIyR">s</supplied>triþi</me:dipl>
+                                <me:norm>hug<supplied reason="restoration" resp="OlufRygh" source="NIyR">s</supplied>tríði</me:norm>
+                            </choice>
+                        </w>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                            <me:norm>&middotPM;</me:norm>
+                        </choice>
+                    </pc>
+                    <w lemma="byrskíð" me:msa="xNC gN nP cG sI"> <!-- Et sammensatt ord, ifølge Magnus Olsen i NIyR II --> <!-- Olga: er usikker her. --> <!-- Odd Einar: Ja, det er eit samansett ord, “byr + skíð”. Eg trur vi følgjer ONP (og LP) ved å føre opp “byrskíð” n. som lemma, og den morfologiske kodinga blir då “xNC gN nP cG sI”. --> 
+                            <choice> 
+                                <me:facs>&bGE;&yYG;&rGE;<surplus reason="excess"><pc type="runic">&middotPM;</pc></surplus><supplied reason="emendation" resp="MagnusOlsen" source="NIyR">&sYGS;&kYG;&iGE;&thGE;&aYG;</supplied></me:facs>
+                                <me:dipl>byr<surplus reason="excess"><pc type="runic">&middotPM;</pc></surplus><supplied reason="emendation" resp="MagnusOlsen" source="NIyR">skiþa</supplied></me:dipl>
+                                <me:norm>byrskíða</me:norm>
+                            </choice>
+                        </w>
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p> N 171 ble først allminnelig kjent i 1812 fra 1 bind av <title>Antiqvariske Annaler</title> hvor W. H. F. Abrahamson har forsøkt å lese innskriften fra en avtegning. Den første fullstendige tolkningen av den poetiske delen av innskriften var derimot utført betydelig senere av Sophus Bugge i <title>Forhandlinger i Videnskabs-Selskabet i Christiania</title> i 1864. Jf. NIyR II: 268-322.</p>
+                <p>Det har vist seg i oversettelsen av de påfølgende strofene at en av uttrykkene ikke kunne gjengis ordrett. Dette var "Grettis sott", en poetisk omskriving for vinter. Magnus Olsen har i 2. bind av Norges Innskrifter med De Yngre Runer foreslått at i og med at dette ordet sannsynligvis ville uttales som "vætter" av runeristeren, måtte det få en lydlig sammenfall med verbalformen "vætter" av ordet "vætta". Dette tilsa at "Grettis sott" skal ha blitt brukt som ofljost - en såkalt ordspill - for verbet "vente". Hvis denne lesningen stemmer, skal det ifølge Magnus Olsen ha vært det eneste kjente eksempelet i gammelt skaldskap der et verb, og ikke et substantiv, var uttrykt ved ofljost. Jf. NIyR II: 281-292.</p>
+            </div>
+            
+            <div type="translation" xml:lang="nor">
+                <head>Poetisk oversettelse til norsk</head>
+                <p>Hallvard Grenske ristet disse runer. Lykkelig er den som sviker, uslingen, aldri. Sorg på hårskillets torv venter (han) å kunne få, bøte for den ed. Ikke er, ved trollkvinners uhyrlige kunster, bør-skienes Balders høker fullstendig nedfalne, og (de) bevarer hugens strid.</p>
+            </div>
+            
+            <div type="translation" xml:lang="nor">
+                <head>Forenklet oversettelse til norsk</head>
+                <p>Hallvard Grenske ristet disse runer. Lykkelig er den som sviker, uslingen, aldri. Sorg på sitt hode venter (han) å kunne få, bøte for sin svik. Ikke er, ved trollkvinners uhyrlige kunster, sjøkrigere helt falt ned, og (de) bevarer hugens strid.</p>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Poetisk oversettelse til engelsk</head>
+                <p>Hallvarðr from Grenland (lower Telemark) carved these runes. Never is he fortunate, the brute who betrays: (he can) expect to get sorrow on the hair-part's turf; (he will) pay for this (broken) oath. Baldr's hawks of the breeze-blown skis are not all felled through the baleful deeds of ogresses, and (they) keep the minds readiness for battle.</p>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Forenklet oversettelse til engelsk</head>
+                <p>Hallvarðr from Grenland (lower Telemark) carved these runes. Never is he fortunate, the brute who betrays: (he can) expect to get sorrow on his head; (he will) pay for this (broken) oath. The sea-warriors are not all felled through the baleful deeds of ogresses, and (they) keep the mind ready for battle.</p>
+            </div>
+            
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N171-A.jpg"/></figure>
+                <caption>Fotografi av N 171, fordelt på fire linjer. Gjengitt etter NIyR II: 271. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N171-C.jpg"/></figure>
+                <caption>Avtegning av første del av N 171 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N171-D.jpg"/></figure>
+                <caption>Avtegning av andre del av N 171 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N171-E.jpg"/></figure>
+                <caption>Avtegning av tredje del av N 171 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N171-F.jpg"/></figure>
+                <caption>Avtegning av fjerde del av N 171 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N171-B.jpg"/></figure>
+                <caption>Avtegning av hele N 171 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgivelse). Oslo: Kjeldeskriftfondet. – Tilgjengelig på nettet fra Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+                <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utviklet ved Uppsala universitet siden 1980-tallet og i 2020 publisert med søketjeneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+            </div>
+            
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p> 
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivå, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note> 
+            </div>
+            
+        </back>
+    </text>
+</TEI>
+
+

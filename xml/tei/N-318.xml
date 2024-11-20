@@ -1,0 +1,323 @@
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml"?>
+<!DOCTYPE TEI [
+ <!ENTITY % Menota_entities SYSTEM "http://www.menota.org/menota-entities.txt">
+ %Menota_entities;
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+ <teiHeader xml:lang="eng">
+  <fileDesc>
+   <titleStmt>
+    <title>N 318 : Urnes stave church, Luster, Vestland : A digital edition</title>
+    <editor role="person"> 
+     <name>
+      <persName>
+       <forename>Magnus</forename>
+       <surname>Olsen</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </editor>
+    <editor role="person"> 
+     <name>
+      <persName>
+       <forename>Aslak</forename>
+       <surname>Liestøl</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </editor>
+    <respStmt>
+     <resp>Publishing of the runic inscription in NIyR vol. IV, pp. 98-100</resp> 
+     <name>
+      <persName>
+       <forename>Magnus</forename>
+       <surname>Olsen</surname>
+      </persName>
+      <orgName type="affiliation">University of Oslo</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Provision of the Runor database</resp>
+     <name>
+      <orgName type="affiliation">Swedish National Heritage Board (Riskantikvarieämbetet)</orgName>
+     </name>
+    </respStmt>
+    <respStmt resp="annotation">
+     <resp>Digital rendering and annotation</resp>
+     <name>
+      <persName>
+       <forename>Saskia</forename>
+       <forename>J.</forename> 
+       <surname>Cowan</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>MenotaBlitz technology developed by</resp>
+     <name>
+      <persName>
+       <forename>Robert</forename>
+       <forename>K.</forename>
+       <surname>Paulsen</surname>
+      </persName>
+      <orgName type="affiliation">Universitetet i Bergen</orgName>
+     </name>
+    </respStmt>
+    <respStmt>
+     <resp>Project overview</resp>
+     <name>
+      <persName>
+       <forename>Odd</forename>
+       <forename>Einar</forename>
+       <surname>Haugen</surname>
+      </persName>
+      <orgName type="affiliation">University of Bergen</orgName>
+     </name>
+    </respStmt>
+   </titleStmt>
+   <editionStmt>
+    <edition n="0.9">First draft, generated with MenotaBlitz,
+     <date when="2021-05-01">01 May 2021</date> 
+    </edition>
+   </editionStmt>
+   <extent n="8">8 words</extent>
+   <publicationStmt>
+    <distributor>"Medieval Nordic Text Archive"</distributor>
+    <idno type="NIyR">IV 98-100</idno>
+    <date when="2021-05-01">01 May 2021</date>
+    <availability status="free">
+     <licence target="http://creativecommon.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl facs="yes">Photo from NIyR IV: 98</bibl>
+    <msDesc>
+     <msIdentifier>
+      <country key="NO">Norway</country>
+      <settlement>60.139, 10.2716</settlement>
+      <repository>Urnes stave church, Luster, Vestland</repository>
+      <idno>N 318</idno>
+      <msName>N 318 : Urnes stave church, Luster, Vestland</msName>
+     </msIdentifier>
+     <physDesc>
+      <objectDesc form="wood">
+       <supportDesc>
+        <support>
+         <p>
+          <material>wood</material>
+         </p>
+        </support>
+       </supportDesc>
+      </objectDesc>
+     </physDesc>
+     <history>
+      <origin>
+       <origDate notBefore="1130" notAfter="1250" >c. 1130-1250</origDate> 
+      </origin>
+     </history>
+     <additional>
+      <adminInfo>
+       <note type="extant">In situ</note>
+      </adminInfo>
+     </additional>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <projectDesc>
+    <p>This encoding follows the standard set out in
+     <title>The Menota Handbook (3.0)</title>,
+     at <ref target="https://www.menota.org/HB3_index.xml">https://www.menota.org/HB3_index.xml</ref>
+     as of <date when="2021-02-13">13 February 2021</date>.</p>
+   </projectDesc>
+   <editorialDecl>
+    <correction status="high">
+     <p>This text has been imported from NIyR vol. 4, pp. 98-100.</p>
+    </correction>
+    <normalization me:level="facs dipl norm">
+     <p>This text has been encoded on three focal levels: facsimile, diplomatic, 
+      and tentatively normalized (based on the diplomatic transcription).
+      These transcriptions have been generated with the help of MenotaBlitz technology.</p>
+    </normalization>
+    <interpretation me:morphAnalyzed="completely" me:lemmatized="completely">
+     <p>This text has been lemmatised and supplied with word classes according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+    </interpretation>
+   </editorialDecl>
+  </encodingDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="nor">Norwegian</language>
+    <language ident="eng">English</language>
+   </langUsage>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>2022-04-11</date>
+    <name>Olga Kalinovskaia</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+   </change>
+   <change>
+    <date>2022-02-21</date>
+    <name>Katrine Andresen</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the runic symbols and reading of the runes 
+   </change>
+   <change>
+    <date>2022-02-04</date>
+    <name>Odd Einar Haugen</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+   <change>
+    <date>2021-08-31</date>
+    <name>Odd Einar Haugen</name>
+    <orgName type="affiliation">University of Bergen</orgName>: Made some modifications and additions to the file as a consequence of the new template made in August 2021.</change>
+   <change when="2021-05-01">
+    <p>file was created as a <ref target="http://www.emroon.no/MenotaBlitz.html">MenotaBlitz</ref>
+     "menotaFDT"-style transcription</p>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:lang="nor">
+  <front>
+   <div type="abstracts">
+    <head><hi rend="bold">Signum</hi>: N 318 ||  
+     <hi rend="bold">Stad</hi>: Urnes stavkyrkje, Luster, Vestland || 
+     <hi rend="bold">Kart</hi>: Lenke kjem her || 
+     <hi rend="bold">Datering</hi>: ca. 1130–1250<lb/> 
+     <hi rend="bold">Materiale</hi>: Tre || 
+     <hi rend="bold">Status</hi>: Bevart på staden || 
+     <hi rend="bold">Utgåve</hi>: NIyR IV: 112–117 || 
+     <hi rend="bold">SamNord</hi>: <ref
+      target="http://kulturarvsdata.se/uu/srdb/4bbf301e-46cf-41cf-a362-cf5cc38b0785" type="external">N 318</ref>
+    </head>
+    <p>Innskrifta er rista inn i ei åttekanta svalgangssøyle som står ved inngangen til kyrkja. Innskrifta er delvis bevart og delvis øydelagd av bordkledningen som i fleire år har dekt svalgangen utvendig. Runene er rista ovanfrå og nedover, og lengda på innskrifta er ca. 45 cm. </p>
+    <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+   </div>
+  </front>
+  <body>
+   <div type="runic-inscription">
+    <head>Transkripsjon, translitterering og normalisering av innskrifta</head>
+    <p>
+     <pb ed="ms" n="1r"/>
+     <lb ed="ms" n="1"/>
+     <w lemma="" me:msa="">
+      <choice>
+       <me:facs><unclear reason="damaged">**</unclear>&uGE;&kYG;</me:facs>
+       <me:dipl>uk</me:dipl>
+       <me:norm></me:norm>
+      </choice>
+     </w>
+     <w lemma="" me:msa="">
+      <choice>
+       <me:facs><unclear reason="damaged">*</unclear>&oaMD;&mYGL;&rGE;</me:facs>
+       <me:dipl>ømr</me:dipl>
+       <me:norm></me:norm>
+      </choice>
+     </w>
+     <pc type="runic">
+      <choice>
+       <me:facs>&middotPM;</me:facs>
+      </choice>
+     </pc>
+     <w lemma="hugr" me:msa="xNC gU nU cU sU"> <!-- Olga: jeg kan ikke komme på en rimelig morfologisk annotasjon uten kontekst her --> <!-- Odd Einar: Dette er eg samd i. Av og til må vi nøye oss med lemma + ordklasse, men då kan ein fylle ut med verdien “U” (for “Unspecified”), slik eg har gjort her. -->
+      <choice>
+       <me:facs>&hYGL;&uGE;&hYGL;<unclear reason="damaged">&eMD;</unclear>&rGE;</me:facs>
+       <me:dipl>huher</me:dipl>
+       <me:norm></me:norm>
+      </choice>
+     </w>
+     <pc type="runic">
+      <choice>
+       <me:facs>&middotPM;</me:facs>
+      </choice>
+     </pc>
+     <w> <!-- OEH 2021-09-02: Dette er ei førebels løyisng for å vise tre punkt på det normaliserte nivået, der det ikkje er mogleg å gje noka fornuftig normalisering. -->
+      <choice>
+       <me:norm> . . . </me:norm>
+      </choice>
+     </w>
+     <w lemma="senda" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+      <choice>
+       <me:facs>&sYGSdot;&eMD;&nYG;&dMDdot;&iGE;&rGE;</me:facs>
+       <me:dipl>sendir</me:dipl>
+       <me:norm>sendir</me:norm>
+      </choice>
+     </w>
+     <pc type="runic">
+      <choice>
+       <me:facs>&middotPM;</me:facs>
+      </choice>
+     </pc>
+     <seg type="nb">
+     <w lemma="vinr" me:msa="xNC gM nS cD sI">
+      <choice>
+       <me:facs>&uGE;&iGE;&nYG;</me:facs>
+       <me:dipl>uin</me:dipl>
+       <me:norm>vin</me:norm>
+      </choice>
+     </w>
+     <w lemma="sinn" me:msa="xDP gM nS cD">
+      <choice>
+       <me:facs>&sYGSdot;&iGE;&nYG;&uGE;&mYGL;</me:facs>
+       <me:dipl>sinum</me:dipl>
+       <me:norm>sínum</me:norm>
+      </choice>
+     </w>
+     </seg>
+     <seg type="nb">
+     <w lemma="ástsamligr" me:msa="xAJ rP gF nS cA sI">
+      <choice>
+       <me:facs>&aYG;&sYGS;&tYG;&sYGS;&aYG;&mYGL;&lGE;&eMD;&hYGL;&aYG;</me:facs>
+       <me:dipl>astsamleha</me:dipl>
+       <me:norm>ástsamlega</me:norm>
+      </choice>
+     </w>
+     <w lemma="kveðja" me:msa="xNC gF nS cA sI">
+      <choice>
+       <me:facs>&kYG;&uGE;&aeMD;&thGE;&iGE;&uGE;</me:facs>
+       <me:dipl>kuæþiu</me:dipl>
+       <me:norm>kveðju</me:norm>
+      </choice>
+     </w>
+     </seg>
+     <pc type="runic">
+      <choice>
+       <me:norm>.</me:norm>
+      </choice>
+     </pc>
+    </p>
+   </div>
+  </body>
+   <back>
+  <div xml:lang="nor" type="translation">
+   <head>Omsetjing til norsk</head>
+   <p>******** tenkjer å sende venen sin ei kjærleg helsing.</p>
+  </div>
+  <div xml:lang="eng" type="translation">
+   <head>Omsetjing til engelsk (etter innførselen i SamNord)</head>
+   <p>******** thinks to send his friend a loving greeting.</p>
+  </div>
+  <div type="comment">
+   <head>Kommentar</head>
+   <p>Skaden i treverket gjer det vanskeleg å tolke den første delen av innskrifta. Konteksten tyder på at det har vore eit namn.</p>
+   </div>
+    <div type="illustration">
+     <head>Illustrasjon</head>
+     <p><figure><graphic url="N318-A.jpg"/></figure></p>
+     <caption>Fotografi av N 318. Frå NIyR IV: 98. Lisens: CC-BY-SA 4.0</caption>
+     <figure><graphic url="N318-B.jpg"/></figure>
+     <caption>Avteikning av N 318 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+    </div>
+    
+    <div type="links" xml:lang="nor">
+     <head>Kjelder</head>
+     <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. Bd. 1 (1941), bd. 2 (1951), bd. 3 (1954), bd. 4 (1957), bd. 5 (1960), bd. 6:1 (1980), bd. 6:2 (1990), bd. 7 (under utgjeving). Oslo: Kjeldeskriftfondet. – Tilgjengeleg på nettet frå Nasjonalbiblioteket, https://www.nb.no/search.</bibl>
+     <bibl>SamNord = <title>Samnordisk runetekstdatabase</title>. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, https://app.raa.se/open/runor/search.</bibl>
+    </div>
+    <div type="responsibility">
+     <head>Redaktør for denne innførselen</head>
+     <p>Saskia J. Cowan (Universitetet i Bergen, 2021)</p> 
+     <note type="explanation">Innførselen byggjer på publiserte ressursar, særleg NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarleg for kodinga av innførselen i XML, presentasjonen av innskrifta, kodinga av innskrifta på tre nivå, morfologisk annotasjon og eventuelle kommentarar utover det som er å finne i dei publiserte kjeldene.</note> 
+    </div>
+   </back>
+ </text>
+</TEI>

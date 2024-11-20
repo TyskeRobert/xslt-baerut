@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+	<teiHeader xml:lang="eng">
+		<fileDesc>
+			<titleStmt>
+			    <title>N 21 : Aurskog church, Aurskog-Høland, Viken : A digital edition</title>
+				<editor role="person">
+			        <name>
+			            <persName>
+			                <forename>Oluf</forename>
+			                <surname>Rygh</surname>
+			            </persName>
+			        </name>
+			    </editor>
+			    <editor role="person">
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</editor>
+				<respStmt>
+					<resp>Publishing of the runic inscription in NIyR vol. 1, pp. 48-50</resp>
+					<name>
+						<persName>
+							<forename>Magnus</forename>
+							<surname>Olsen</surname>
+						</persName>
+						<orgName type="affiliation">University of Oslo</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Provision of the Runor database</resp>
+					<name>
+						<orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+					</name>
+				</respStmt>
+				<respStmt resp="annotation">
+					<resp>Digital rendering and annotation</resp>
+					<name>
+						<persName>
+							<forename>Anna</forename>
+							<surname>Vlasova</surname>
+							<surname>Våtvik</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+				<respStmt>
+					<resp>Project overview</resp>
+					<name>
+						<persName>
+							<forename>Odd</forename>
+							<forename>Einar</forename>
+							<surname>Haugen</surname>
+						</persName>
+						<orgName type="affiliation">University of Bergen</orgName>
+					</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition n="0.5">Version 0.5 <date when="2021-10-26">26 October 2021</date>.</edition>
+			</editionStmt>
+			<extent n="10">10 words</extent>
+			<publicationStmt>
+				<distributor>Medieval Nordic Text Archive</distributor>
+				<idno type="NIyR">I 48-50</idno>
+				<date when="2018-02-13">13 February 2018</date>
+				<availability status="free">
+					<licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl facs="yes">Drawings from the Runic Archives in Oslo, published in NIyR.</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country key="NO">Norway</country>
+					    <settlement>59.9269, 11.4568</settlement>
+						<idno>N 21</idno>
+					    <msName>N 21 : Aurskog church, Aurskog-Høland, Viken</msName>
+					</msIdentifier>
+					<physDesc>
+						<objectDesc form="memorial-stone">
+							<supportDesc>
+								<support>
+									<p><material>stone</material>.</p>
+									<p>According to SamNord database, the material is limestone.</p>
+								</support>
+								<condition>Slightly damaged</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					<history>
+					    <origin><origDate notBefore="1100" notAfter="1500">c. 1100-1500</origDate></origin>
+					</history>
+					<additional>
+						<adminInfo>
+						    <note type="extant">The inscription was a part of a memorial stone at the graveyard of the church until the stone was broken between the years of 1834-40. The part of the stone with the inscription was since used as a garden table by the priest of the time, but has in 1867 been donated to the Museum of Cultural History in Oslo, where it is stored under the inventory number of C4319.</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<projectDesc>
+				<p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction status="high">
+					<p>This text has been imported from the Runor database and checked against the rendering and image in NIyR vol. 1, pp. 48-50.</p>
+				</correction>
+				<normalization me:level="facs dipl norm">
+					<p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+				</normalization>
+				<interpretation me:lemmatized="completely" me:morphAnalyzed="completely"> 
+					<p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+				</interpretation>
+			</editorialDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="nor">Norwegian</language>
+				<language ident="eng">English</language>
+			</langUsage>
+		</profileDesc>
+		<revisionDesc>
+			<change>
+				<date>2022-04-18</date>
+				<name>Olga Kalinovskaia</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+			</change>
+			<change>
+				<date>2022-02-27</date>
+				<name>Sebastian Pohland</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Minor changes as part of QA work.</change>
+			<change>
+				<date>2022-02-04</date>
+				<name>Odd Einar Haugen</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+		    <change>
+		        <date>2021-10-26</date>
+		        <name>Anna VlasovaVåtvik</name>
+		        <orgName type="affiliation">University of Bergen</orgName>: Made minor corrections to this file.</change>
+		    <change>
+		        <date>2021-10-24</date>
+		        <name>Anna Vlasova Våtvik</name>
+		        <orgName type="affiliation">University of Bergen</orgName>: Made minor corrections of the back element.</change>
+		    <change>
+		        <date>2021-10-23</date>
+		        <name>Anna Vlasova Våtvik</name>
+		        <orgName type="affiliation">University of Bergen</orgName>: Made further updates to the text and back elements.</change>
+		    <change>
+		        <date>2021-10-21</date>
+		        <name>Anna Vlasova Våtvik</name>
+		        <orgName type="affiliation">University of Bergen</orgName>: Updated the text and back elements.</change>
+			<change>
+				<date>2021-10-18</date>
+				<name>Anna Vlasova Våtvik</name>
+				<orgName type="affiliation">University of Bergen</orgName>: Made the first working draft of this file.</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<text xml:lang="nor">
+		<front>
+			<div type="abstracts">
+                  	<head><hi rend="bold">Signum</hi>: N 21 ||
+                  	    <hi rend="bold">Sted</hi>: Aurskog kirke, Aurskog-Høland, Viken ||
+                  		<hi rend="bold">Kart</hi>: Lenke kommer her ||
+                  		<hi rend="bold">Datering</hi>: ca. 1100–1500<lb/>
+                  		<hi rend="bold">Materiale</hi>: Stein ||
+                  		<hi rend="bold">Status</hi>: Bevart, nå i Kulturhistorisk museum i Oslo ||
+                  		<hi rend="bold">Utgave</hi>: NIyR I: 48-50 || 
+                  		<hi rend="bold">SamNord</hi>: <ref
+                  		    target="http://kulturarvsdata.se/uu/srdb/678cf8ba-8705-46ee-8709-132844dc64b2" type="external">N 21</ref>
+                  	</head>
+                  	<p>Denne steinen er et fragment av en middelaldersk likstein, den øvre delen eller hovedenden av den, av vanlig plateform, noe smalere i fotenden enn i hovedenden, ikke avskåret i kantene. Steinarten synes til å være kalkstein. Innskriften står fullstendig på denne delen. Jf. NIyR I: 48-49.</p>
+			          <p>Steinen lå på kirkegården inntil den i presten S. O. Wolffs tid (var sogneprest her i 1834-40) ble slått i stykker. Dette stykket ble da av presten flyttet til prestegårdens hage og der benyttet som hagebord. Det andre stykket, som var uten innskrift, ble lagt utenfor kordøren, hvor det fremdeles ligger, men er ved nedfalne takstein ytterligere sønderslått i fem deler (Heyerdahl, anf. sted). Innskriften ble for første gang offentlig omtalt i "Norske fornl". I 1867 ble steinen av den daværende sogneprest, L. Schønheyder, skjenket til Universitetets Oldsagsamling, hvor den har nummer 4319. Jf. NIyR I: 49.</p>
+				<note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+                  </div>
+		</front>
+		<body>
+			<div type="runic-inscription">
+				<head>Transkripsjon, translitterering og normalisering av innskrifter</head>
+					<p>
+						<pb ed="ms" n="1r"/>
+						<lb ed="ms" n="1"/>
+					    <pc type="runic">
+					        <choice>
+					            <me:facs><unclear reason="weathered">&crosPM;</unclear></me:facs>
+					            <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">&crosPM;</supplied></me:dipl>
+					        </choice>
+					    </pc>
+						<w lemma="Sveinn" me:msa="xNP gM nS cN sI">
+								<choice>
+								    <me:facs>&sYGSdot;&uGE;<unclear reason="weathered">&aeMD;</unclear>&iGE;<unclear reason="weathered">&nYG;</unclear></me:facs>
+								    <me:dipl>su<supplied reason="restoration" resp="OlufRygh" source="NIyR">æ</supplied>i<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied></me:dipl>
+								    <me:norm>Sv<supplied reason="restoration" resp="OlufRygh" source="NIyR">e</supplied>i<supplied reason="restoration" resp="OlufRygh" source="NIyR">nn</supplied></me:norm>
+								</choice>
+							</w>
+						<pc type="runic"> 
+							<choice>
+								<me:facs>&threedotpunct;</me:facs>
+							    <me:dipl>&threedotpunct;</me:dipl>
+							</choice>
+						</pc>
+					    <seg type="nb">
+						<w lemma="eiga" me:msa="xVB fF tPS mIN p3 nS vA iPP">
+								<choice>
+								    <me:facs><unclear reason="eccentric_ductus">&aYG;</unclear></me:facs> <!-- SP 2022-02-27: Adjusted based on tracing by Saskia Cowan.-->
+								    <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied></me:dipl>
+								    <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">á</supplied></me:norm>
+								</choice>
+							</w>
+						<w lemma="ek" me:msa="xPE p1 nS cA">
+						        <choice>
+									<me:facs><unclear reason="weathered">&mYGL;&iGE;&kYG;</unclear></me:facs>
+								    <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">mik</supplied></me:dipl>
+								    <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">mik</supplied></me:norm>
+								</choice>
+							</w>
+					    </seg>
+					    <space unit="char" quantity="1"/>
+					    <seg type="nb">
+					    <w lemma="á" me:msa="xAP yD">
+					        <choice>
+					            <me:facs><unclear reason="eccentric_ductus">&aYG;</unclear></me:facs> <!-- SP 2022-02-27: Adjusted based on tracing by Saskia Cowan.-->
+					            <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied></me:dipl>
+					            <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">á</supplied></me:norm>
+					        </choice>
+					    </w>
+					    <w lemma="jaðarr" me:msa="xNC gM nS cD sI">
+					        <choice>
+					            <me:facs>&iGE;<unclear reason="weathered">&aeMD;</unclear><unclear reason="eccentric_ductus">&thGE;</unclear><unclear reason="weathered">&rGE;</unclear>&iGE;</me:facs>
+					            <me:dipl>i<supplied reason="restoration" resp="OlufRygh" source="NIyR">æþr</supplied>i</me:dipl>
+					            <me:norm>J<supplied reason="restoration" resp="OlufRygh" source="NIyR">aðr</supplied>i</me:norm>
+					        </choice>
+					    </w>
+					    </seg>
+					    <space unit="char" quantity="1"/>
+					    <seg type="nb">
+					    <w lemma="en" me:msa="xCC">
+					        <choice>
+					            <me:facs>&eMD;<unclear reason="eccentric_ductus">&nYG;</unclear></me:facs>
+					            <me:dipl>e<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied></me:dipl>
+					            <me:norm>e<supplied reason="restoration" resp="OlufRygh" source="NIyR">n</supplied></me:norm>
+					        </choice>
+					    </w>
+					    <w lemma="hér" me:msa="xAV">
+					         <choice>
+					            <me:facs><unclear reason="weathered">&hYGL;</unclear>&eMD;<unclear reason="weathered">&rGE;</unclear></me:facs>
+					            <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">h</supplied>e<supplied reason="restoration" resp="OlufRygh" source="NIyR">r</supplied></me:dipl>
+					            <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">h</supplied>é<supplied reason="restoration" resp="OlufRygh" source="NIyR">r</supplied></me:norm>
+					         </choice>
+					    </w>
+					    <w lemma="hvíla" me:msa="xVB fF tPS mIN p3 nS vA iWK">
+					        <choice>
+					            <me:facs><unclear reason="weathered">&hYGL;</unclear>&uGE;&iGE;&lGE;&iGE;<unclear reason="weathered">&rGE;</unclear></me:facs>
+					            <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">h</supplied>uili<supplied reason="restoration" resp="OlufRygh" source="NIyR">r</supplied></me:dipl>
+					            <me:norm><supplied reason="restoration" resp="OlufRygh" source="NIyR">h</supplied>vili<supplied reason="restoration" resp="OlufRygh" source="NIyR">r</supplied></me:norm>
+					        </choice>
+					    </w>
+					    </seg>
+						<pc type="runic">
+							<choice>
+								<me:facs>&twodotPM;</me:facs>
+							    <me:dipl>&twodotPM;</me:dipl>
+							</choice>
+						</pc>
+					    <w lemma="undir" me:msa="xAV">
+					        <choice>
+					            <me:facs>&uGE;&nYG;&dMDdot;&iGE;<unclear reason="weathered">&rGE;</unclear></me:facs>
+					            <me:dipl>undi<supplied reason="restoration" resp="OlufRygh" source="NIyR">r</supplied></me:dipl>
+					            <me:norm>undi<supplied reason="restoration" resp="OlufRygh" source="NIyR">r</supplied></me:norm>
+					        </choice>
+					    </w>
+					    <pc type="runic">
+					        <choice>
+					            <me:facs><unclear reason="weathered">&twodotPM;</unclear></me:facs>
+					            <me:dipl><supplied reason="restoration" resp="OlufRygh" source="NIyR">&twodotPM;</supplied></me:dipl>
+					        </choice>
+					    </pc>
+					    <w lemma="Ása" me:msa="xNP gF nS cN sI">
+					        <choice>
+					            <me:facs>&aYG;&sYGSdot;<unclear reason="weathered">&aeMD;</unclear></me:facs>
+					            <me:dipl>as<supplied reason="restoration" resp="OlufRygh" source="NIyR">æ</supplied></me:dipl>
+					            <me:norm>Ás<supplied reason="restoration" resp="OlufRygh" source="NIyR">a</supplied></me:norm>
+					        </choice>
+					    </w>
+					</p>			
+			</div>
+		</body>
+		<back>	
+			<div type="translation" xml:lang="nor">
+				<head>Oversettelse til norsk</head>
+				<p>Svein på Jar eier meg, og her under hviler Åsa.</p>
+			</div>
+			<div type="translation" xml:lang="eng">
+				<head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+			    <p>Sveinn of Jaðarr owns me and hereunder rests Ása.</p>	
+			</div>
+			<div type="comment" xml:lang="nor">
+				<head>Kommentar</head>
+				<p>Det har vært en stein av betydelig størrelse. Bredden i hovedenden er 90,5 cm, og ved det stedet hvor bruddet finnes, 78,5 cm. Fragmentets lengde, målt i midten, er 82 cm og tykkelsen ca. 8 cm. Runene er ca. 5-6 cm høye, og ser ut til opprinnelig ha vært dypt hugne, men er nå, som følge av det slitet steinen tidligere har vært utsatt for, tildels rett utydelige. Runelinjen strekker seg langs hele steinens øvre endekant og en del av den ene av lengdekantene. Jf. NIyR I: 49.</p>
+			    <p>Basert på inskripsjonen, synes det å måtte være steinen som her taler i første person. Mulig har Åsa vært Sveins hustru. Gården hvor Svein sies å ha bodd, er utvilsomt Jar i Aurskog sogn og herred (gårn-nr. 49; NG II s. 173). Jf. NIyR I: 50.</p>
+			</div>			
+			<div type="illustration">
+				<head>Illustrasjoner</head>
+				<figure><graphic url="N21-A.jpg"/></figure>
+				<caption>Fotografi av N 21. Fra NIyR I: 49. Lisens: CC-BY-SA 4.0.</caption>			
+				<figure><graphic url="N21-B.jpg"/></figure>
+			    <caption>Avtegning av N 21 ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+			</div>
+			<div type="links" xml:lang="nor">
+				<head>Kilder</head>
+			    <bibl>NIyR = <title>Norges innskrifter med de yngre runer</title>. Utg. Magnus Olsen, Aslak Liestøl mfl. <ref  target="https://urn.nb.no/URN:NBN:no-nb_digibok_2008041600054" type="external">Bd. 1</ref> (1941). Oslo: Kjeldeskriftfondet. – Tilgjengeleg bare for norske IP-adresser.</bibl>
+				<bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+			</div>
+			<div type="responsibility">
+				<head>Redaktør for denne innførselen</head>
+				<p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p>
+			    <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene. </note>
+			</div>
+		</back>
+	</text>
+</TEI>

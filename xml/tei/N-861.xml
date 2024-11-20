@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.menota.org/menotaP5.rng" type="xml" ?>
+<!DOCTYPE TEI 
+[
+<!ENTITY % Menota_entities SYSTEM 'http://www.menota.org/menota-entities.txt'>
+%Menota_entities; ]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:me="http://www.menota.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>N 861 (= A 258) : Folkebibliotekstomta, Trondheim, Trøndelag : A digital edition </title>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>Jan</forename>
+                            <forename>Ragnar</forename>
+                            <surname>Hagland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Trondheim</orgName>
+                    </name>
+                </editor>
+                <editor role="person">
+                    <name>
+                        <persName>
+                            <forename>James</forename>
+                            <surname>Knirk</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </editor>
+                <respStmt>
+                    <resp>Publishing of the runic inscription in Manus til NIyR vol. 7, pp. 169-171</resp>
+                    <name>
+                        <persName>
+                            <forename>Jan</forename>
+                            <forename>Ragnar</forename>
+                            <surname>Hagland</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Oslo</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Provision of the Runor database</resp>
+                    <name>
+                        <orgName type="affiliation">Swedish National Heritage Board (Riksantikvarieämbetet)</orgName>
+                    </name>
+                </respStmt>
+                <respStmt resp="annotation">
+                    <resp>Digital rendering and annotation</resp>
+                    <name>
+                        <persName>
+                            <forename>Anna</forename>
+                            <surname>Vlasova</surname>
+                            <surname>Våtvik</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Project overview</resp>
+                    <name>
+                        <persName>
+                            <forename>Odd</forename>
+                            <forename>Einar</forename>
+                            <surname>Haugen</surname>
+                        </persName>
+                        <orgName type="affiliation">University of Bergen</orgName>
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="0.9">Version 0.9<date when="2021-03-23">2
+                    May 2023</date> <!-- OEH 2023-05-02: Har sett dagens dato -->
+                </edition>
+            </editionStmt>
+            <extent n="7">7 words</extent>
+            <publicationStmt>
+                <distributor>Medieval Nordic Text Archive</distributor>
+                <idno type="NIyR">VII 169-171</idno>
+                <date when="2021-04-03">3 April 2021</date>
+                <availability status="free">
+                    <licence target="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl facs="yes">Pictures from the Runic Archives in Oslo</bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country key="NO">Norway</country>
+                        <settlement>63.4305, 10.401</settlement>
+                        <repository>Unknown</repository>
+                        <idno>N 861</idno>
+                        <msName>N 861 : Folkebibliotekstomta, Trondheim, Trøndelag</msName>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc form="wood"> <!-- wooden needle -->
+                            <supportDesc>
+                                <support>
+                                    <p><material>wood</material>.</p>
+                                    <p>Handmade needle</p>
+                                </support>
+                                <condition>Partially damaged</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin><origDate notBefore="1066" notAfter="1099">c. 1066-1099</origDate></origin>
+                    </history>
+                    <additional>
+                        <adminInfo>
+                            <note type="extant">Stored at NTNU University Museum in Trondheim, under inventory number of N78943.</note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This inscription has been encoded as part of a course in Old Norse philology held at the University of Bergen, in the spring term of 2021</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction status="high">
+                    <p>This text has been imported from the Runor database and checked against the rendering and image provided by Kulturhistorisk museum in Oslo.</p>
+                </correction>
+                <normalization me:level="facs dipl norm">
+                    <p>This text has been encoded on all three focal levels: facsimile, diplomatic and normalised, and it has been supplied with a translation as well as images of the inscription.</p>
+                </normalization>
+                <interpretation me:lemmatized="completely" me:morphAnalyzed="completely">
+                    <p>This text has been lemmatised and supplied with word classes and grammatical forms according to the rules specified in ch. 11 of the Menota Handbook, v. 3.0</p>
+                </interpretation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="nor">Norwegian</language>
+                <language ident="eng">English</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change>
+            <date>2023-05-02</date>
+            <name>Odd Einar Haugen</name>
+            <orgName type="affiliation">University of Bergen</orgName>: Made a few modifications to the file for greater consistency, and gave it version number 0.9.</change>
+            <change>
+                <date>2022-04-12</date>
+                <name>Olga Kalinovskaia</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some corrections to the linguistic annotation
+            </change>
+            <change>
+                <date>2022-02-04</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the section on illustrations.</change>
+            <change>
+                <date>2021-10-21</date>
+                <name>Odd Einar Haugen</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made some minor changes to the header.</change>
+            <change>
+                <date>2021-10-13</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Supplied the text with grammatical forms of the words.</change>
+            <change>
+                <date>2021-10-11</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Made minor addditions to the body of the text.</change>
+            <change>
+                <date>2021-10-09</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Revised the header and text element, and made further additions to the back element of the text</change>
+            <change>
+                <date>2021-07-30</date>
+                <name>Anna Vlasova Våtvik</name>
+                <orgName type="affiliation">University of Bergen</orgName>: Added the header, front, body and back element to the text.</change>
+        </revisionDesc>
+    </teiHeader>
+
+ <text xml:lang="nor">
+        <front>
+            <div type="abstracts">
+                <head>
+                    <hi rend="bold">Signum</hi>: N 861 [A 258] ||
+                    <hi rend="bold">Sted</hi>: Folkebibliotekstomta, Trondheim, Trøndelag || 
+                    <hi rend="bold">Kart</hi>: På vei ||
+                    <hi rend="bold">Datering</hi>: c. 1066–1099<lb/>
+                    <hi rend="bold">Materiale</hi>: Tre ||
+                    <hi rend="bold">Status</hi>: Bevart, nå i NTNU Vitenskapsmuseet ||
+                    <hi rend="bold">Utgave</hi>: NIyR VII: [861] || 
+                    <hi rend="bold">SamNord</hi>: <ref
+                        target="http://kulturarvsdata.se/uu/srdb/f3603679-ed04-42b3-a378-684c1a6144c3" type="external">N 861 [A 258]</ref>
+                </head>
+                <p> Innskriften står på en trenål som er 179 mm lang, og har 14 mm som bredeste mål på “bladet”. Selve nålskaftet har en diameter på 6 mm. Gjenstanden var funnet sammen med nålene som inneholder innskriftene N 859 og N 860. Det er runer på begge sider av bladet. På side A er innskriften 44 mm lang og runene 9-13 mm høge. På samme måte som i N 859 må innskriften her ha vært gjort etter at selve nålen var gjort ferdig ettersom det er tatt omsyn til hullet som er laget gjennom nålbladet. Innskriften på side B er bare 12 mm lang og runene der er 9-10 mm høye. På denne siden synes innskriften å være rettet etter at nålen først har vært gjort ferdig. Det fører til at siste rune på denne siden kommer i konflikt med den nevnte hullet i nålen. Jf. Jan Ragnar Haglands manus til NIyR VII: [861].</p>
+            <note type="explanation"><ref  target="pdf/Runekatalog-presentasjon.pdf">Forklaring på oppsettet av runeinnskriftene</ref></note>
+            </div>
+        </front>
+        <body>
+            <div type="runic-inscription">
+                <head>Transkripsjon, translitterering og normalisering av innskriften</head>
+                <p>
+                    <pb ed="ms" n="1r"/>
+                    <lb ed="ms" n="1"/>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs><unclear reason="eccentric_ductus">&middotPM;</unclear></me:facs>
+                            <me:dipl><unclear reason="eccentric_ductus">&middotPM;</unclear></me:dipl>
+                        </choice>
+                    </pc>
+                    <seg type="nb">
+                        <w lemma="unna" me:msa="xVB fF tPS mIN p1 nS vA iPP"> <!-- Olga: tPT mIN eller mSU? --> <!-- Odd Einar: Vi må kunne ta dette som ein påstand, dvs. indikativ, mIN, slik det står her. -->
+                            <choice>
+                                <me:facs>&uGE;&nYG;&aYG;</me:facs>
+                                <me:dipl>una</me:dipl>
+                                <me:norm>Unna</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="ek" me:msa="xPE p1 gU nS cN">
+                            <choice>
+                                <me:facs>&eMD;&kYG;</me:facs>
+                                <me:dipl>ek</me:dipl>
+                                <me:norm>ek</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                        </choice>
+                    </pc>
+                        <w lemma="meyja" me:msa="xNC gF nS cD sI">
+                            <choice>
+                                <me:facs><unclear reason="weathered"><unclear reason="eccentric_ductus">&mYGL;</unclear></unclear><unclear reason="weathered"><del>&nOR;</del><add>&aeMD;</add></unclear>&iGE;&uGE;</me:facs>
+                                <me:dipl><supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">m</supplied><supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">æ</supplied>iu</me:dipl>
+                                <me:norm><supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">m</supplied><supplied reason="restoration" resp="JanRagnarHagland" source="NIyR">ey</supplied>ju</me:norm>
+                            </choice>
+                        </w>
+                    <seg type="nb">
+                        <w lemma="enn" me:msa="xAV">
+                            <choice>
+                                <me:facs>&eMD;&nYG;</me:facs>
+                                <me:dipl>en</me:dipl>
+                                <me:norm>enn</me:norm>
+                            </choice>
+                        </w>
+                        <w lemma="vel" me:msa="xAV rC">
+                            <choice>
+                                <me:facs>&bGE;&eMD;&thGE;&rGE;</me:facs>
+                                <me:dipl>beþr</me:dipl>
+                                <me:norm>betr</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                    <pc type="runic">
+                        <choice>
+                            <me:facs>&middotPM;</me:facs>
+                            <me:dipl>&middotPM;</me:dipl>
+                        </choice>
+                    </pc>
+                    <lb ed="ms" n="2"/>
+                    <seg type="nb">
+                        <w lemma="en" me:msa="xCS">
+                        <choice>
+                            <me:facs>&eMD;&nYG;</me:facs>
+                            <me:dipl>en</me:dipl>
+                            <me:norm>en</me:norm>
+                        </choice>
+                        </w>
+                        <w lemma="ek" me:msa="xPE gU p1 nS cD">
+                            <choice>
+                                <me:facs><del>&bGE;</del><add>&mYGL;</add><unclear reason="weathered">&eMD;</unclear>&rGE;<unclear reason="weathered">&rGE;</unclear></me:facs>
+                                <me:dipl><del>b</del><add>m</add><unclear reason="weathered">e</unclear>r<unclear reason="weathered">r</unclear></me:dipl>
+                                <me:norm>mér</me:norm>
+                            </choice>
+                        </w>
+                    </seg>
+                </p>
+            </div>
+        </body>
+        <back>
+            
+            <div type="translation" xml:lang="nor">
+                <head>Oversettelse til norsk</head>
+                <p>Jeg elsker møya enda bedre enn meg (selv).</p>
+                <note type="variation">En annen mulig lesing er som følgende: Jeg elsker møya enda bedre, enda bedre.</note>
+            </div>
+            
+            <div type="translation" xml:lang="eng">
+                <head>Oversettelse til engelsk (etter innførselen i SamNord)</head>
+                <p>I love the maiden even better than myself.</p>
+                <note type="variation">Another possible reading is as follows: I love the maiden even better! Even better!</note>
+            </div>
+            
+            <div type="comment" xml:lang="nor">
+                <head>Kommentar</head>
+                <p> Spørsmålet om språklig mening står nokså åpent for denne innskriften. Det er likevel nærliggende å sammenligne side A av denne innskriften med N 461 (Trondheim I). Også den innskriften har hatt ulike lesemåter og synes noe uviss på flere punkt, men begynnelsen “unakmæyiu...” er i alle fall påfallande lik det vi synes å ha på denne trenålen. Trondheim I er funnet i ei tomt på hjørnet av Kjøpmannsgata og Frue Stræte, ikke svært langt fra Folkebibliotekstomta. Den har tidligere vært datert til å være “fra omkring Aar 1100 eller fra anden Halvdel af det 11te Aarhundrede” (jf. NIyR V: 26). Om denne dateringen ennå holder, er uklart. En så tidlig datering gjør likevel den mulige parallellen med innskriften på nålen her interessant. Jf. manus til NIyR VII.</p>
+                <p>Det er viktig å nevne en uklarhet i tolkningen av slutten av innskriften, der det synes som skriveren enten har korrigert ordene “en mer(r)” til “en beþr”, eller “en beþr” til “en mer(r)”. Manuset til NIyR 7 følger tankegangen om at “en beþr” skrevet over “en mer(r)”, slik at innskriften da lyder som “§A × una ek · mhiu · en beþr · §B · en beþr”. Basert på bilder av innskriften som var tilgjengelig for arbeidet utført for denne presentasjonen, kan det derimot være mer sannsynlig med den motsatte tolkningen. En av strekene til <hi rend="bold">m</hi>-runen i denne delen av innskriften krysser over streken til <hi rend="bold">b</hi>-runen på en måte som kan indikere at det er <hi rend="bold">m</hi>-runen som var skrevet sist og øverst. Det vil si at streken til <hi rend="bold">m</hi>-runen er uavbrutt, mens streken til <hi rend="bold">b</hi>-runen blir avbrutt av streken til m-runen. Akkurat dette kan derimot også skyldes at <hi rend="bold">m</hi>-runen bare var skåret dypere inn, og ikke nødvendigvis ovenfor <hi rend="bold">b</hi>-runen. Andre ting indikerer derimot også at “en mer” var skrevet øverst som siste korreksjon, slik som <hi rend="bold">þ</hi>-runen, der bøyen av <hi rend="bold">þ</hi> er tydelig plassert lenger ned på staven enn bøyen til alle <hi rend="bold">r</hi>-runene i innskriften, mens streken som gjør den om til en <hi rend="bold">r</hi>-rune likevel er tilstede. Den mest sannsynlige forklaringen på denne omstendigheten er at en <hi rend="bold">þ</hi>-rune var skrevet først, men så rettet om til en <hi rend="bold">r</hi>-rune. En siste ting, som ikke er like sikker, er at den aller siste runen i innskriften kan se ut som den var forsøkt skrapet ned med vilje, men det er vanskelig å si noe om med sikkerhet uten nærmere fysisk undersøkelse av innskriften. Alt i alt kan man likevel regne med større sannsynlighet om at skriveren først har skrevet “en beþr” for å så rette det over til “en mer(r)”, og ikke “en mer” rettet til “en beþr”. Derfor lyder innskriften i lesing av dette innlegget som “§A × una ek · mhiu · en beþr · §B · en mer(r)”.</p>
+            </div>
+
+            <div type="illustration">
+                <head>Illustrasjoner</head>
+                <figure><graphic url="N861-A.jpg"/></figure>
+                <caption>Fotografi av N861 ved Trond Sverre Kristiansen. Fra NTNU Vitenskapsmuseet i Trondheim. Lisens: CC-BY-SA 4.0.</caption>
+                
+                <figure><graphic url="N861-D.jpg"/></figure>
+                <caption>Første linje av innskriften på N 861. Avtegning ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                
+                <figure><graphic url="N861-E.jpg"/></figure>
+                <caption>Andre linje av innskriften på N 861. Avtegning ved Saskia J. Cowan (2021). Lisens: CC-BY-SA 4.0.</caption>
+                
+                <figure><graphic url="N861-B.jpg"/></figure>
+                <caption>Første linje av innskriften på N 861. Fotografi ved Trond Sverre Kristiansen. Fra NTNU Vitenskapsmuseet i Trondheim. Lisens: CC-BY-SA 4.0.</caption>
+                <figure><graphic url="N861-C.jpg"/></figure>
+                <caption>Andre linje av innskriften på N 861. Fotografi ved Trond Sverre Kristiansen. Fra NTNU Vitenskapsmuseet i Trondheim. Lisens: CC-BY-SA 4.0.</caption>
+            </div>
+            
+            <div type="links" xml:lang="nor">
+                <head>Kilder</head>
+                <!-- Odd Einar: Hugs å leggje inn ein referanse til James Knirks artikkel “Love and Eroticism in Medieval Norwegian”, der innskrifta er omtalt. Den ligg på https://www.duo.uio.no/bitstream/handle/10852/64129/Love+and+Eroticism+-+FS+Maroldin+Medieval+Norwegian+Runic+Inscriptions.pdf?sequence=1 -->
+                <bibl>NIyR VII = <title>Norges innskrifter med de yngre runer</title>, bd. 7. Under utgivelse ved Jan Ragnar Hagland, James Knirk mfl. Oslo: Kjeldeskriftfondet. – Lenke: <ref  target="https://folk.ntnu.no/ivar/filer/Hagland1997-Trondheimsruner.pdf" type="external">Manus til NIyR VII</ref></bibl>
+                <bibl>“Trondheim, Folkebibliotekstomta, needle.” Artikkel i <title>Runes: Forschungprojekt der Akademie der Wissenschaften zu Göttingen</title>, <ref  target="https://www.runesdb.eu/en/find-list/d/fa/q////6/f/3008" type="external">https://www.runesdb.eu/en/find-list/d/fa/q////6/f/3008</ref>. Lest 09. oktober 2021.</bibl>
+                <bibl>SamNord = Samnordisk runetekstdatabase. Utvikla ved Uppsala universitet sidan 1980-talet og i 2020 publisert med søkjeteneste på nettsidene til det svenske Riksantikvarieämbetet, <ref  target="https://www.raa.se/hitta-information/runor/" type="external">Om söktjänsten Runor</ref>.</bibl>
+            </div>
+            <div type="responsibility">
+                <head>Redaktør for denne innførselen</head>
+                <p>Anna Vlasova Våtvik (Universitetet i Bergen, 2021)</p>
+                <note type="explanation">Innførselen bygger på publiserte ressurser, særlig NIyR og den Samnordiske runetekstdatabasen. Redaktøren er ansvarlig for kodingen av innførselen i XML, presentasjonen av innskriften, kodingen av innskriften på tre nivåer, morfologisk annotasjon og eventuelle kommentarer utover det som er å finne i de publiserte kildene.</note>
+            </div>
+            
+        </back>
+    </text>
+</TEI>
+
+
