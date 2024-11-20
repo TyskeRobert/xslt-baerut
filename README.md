@@ -31,7 +31,7 @@ Clone the repository and open it with VS Code. Run *Go Live* to open it in your 
   * the same type: `["eenie", "meenie", "minee", "moe"]`
   * mixed: `["one", 1, false, {"age": 25}, ["eins", "zwei", "drei"]]`
 * Object (map) - an unordered collection of key-value pairs ("properties"), separated by comma, delimited by **curly** braces, e.g.
-  * each key and value are separated by a colon
+  * each key and value pair is separated by a colon
   * any key has to be a string
   * each key has to be unique within the object
   * the values can be of any data type, e.g.
@@ -43,6 +43,7 @@ Clone the repository and open it with VS Code. Run *Go Live* to open it in your 
     {
       "name": "Robert",
       "age": 40,
+      "presenting": true,
       "interests": [
         "Historical Linguistics",
         "JSON",
@@ -52,6 +53,7 @@ Clone the repository and open it with VS Code. Run *Go Live* to open it in your 
     {
       "name": "Patrick",
       "age": 32,
+      "presenting": false,
       "interests": [
         "Music",
         "Brasilian Jiu Jitsu",
